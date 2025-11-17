@@ -249,13 +249,17 @@
           "id": "beastie-boys-pauls-boutique-1989",
           "label": "Paul's Boutique (Beastie Boys)",
           "image_url": "/images/music/beastie-boys-pauls-boutique-1989.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "paul-s-boutique-beastie-boys-1989",
+          "cms_image_url": "paul-s-boutique-beastie-boys-1989.jpg"
         },
         {
           "id": "duran-duran-rio-1982",
           "label": "Rio (Duran Duran)",
           "image_url": "/images/music/duran-duran-rio-1982.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "rio-duran-duran-1982",
+          "cms_image_url": "rio-duran-duran-1982.jpg"
         },
         {
           "id": "dont-know",
@@ -299,13 +303,17 @@
           "id": "cat-stevens-tea-for-the-tillerman-1970",
           "label": "Tea for the Tillerman (Cat Stevens)",
           "image_url": "/images/music/cat-stevens-tea-for-the-tillerman-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tea-for-the-tillerman-cat-stevens-1970",
+          "cms_image_url": "tea-for-the-tillerman-cat-stevens-1970.jpg"
         },
         {
           "id": "jamie-xx-in-colour-2015",
           "label": "In Colour (Jamie xx)",
           "image_url": "/images/music/jamie-xx-in-colour-2015.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "in-colour-jamie-xx-2015",
+          "cms_image_url": "in-colour-jamie-xx-2015.jpg"
         },
         {
           "id": "dont-know",
@@ -348,12 +356,16 @@
         {
           "id": "van-morrison-astral-weeks-1968",
           "label": "Astral Weeks (Van Morrison)",
-          "image_url": "/images/music/van-morrison-astral-weeks-1968.jpg"
+          "image_url": "/images/music/van-morrison-astral-weeks-1968.jpg",
+          "cms_slug": "astral-weeks-van-morrison-1968",
+          "cms_image_url": "astral-weeks-van-morrison-1968.jpg"
         },
         {
           "id": "outkast-stankonia-2000",
           "label": "Stankonia (OutKast)",
-          "image_url": "/images/music/outkast-stankonia-2000.jpg"
+          "image_url": "/images/music/outkast-stankonia-2000.jpg",
+          "cms_slug": "stankonia-outkast-2000",
+          "cms_image_url": "stankonia-outkast-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -397,7 +409,9 @@
           "id": "metallica-master-of-puppets-1986",
           "label": "Master of Puppets - Metallica",
           "image_url": "/images/music/metallica-master-of-puppets-1986.jpg",
-          "description": "1986"
+          "description": "1986",
+          "cms_slug": "master-of-puppets-metallica-1986",
+          "cms_image_url": "master-of-puppets-metallica-1986.jpg"
         }
       ]
     }
@@ -414,12 +428,16 @@
         {
           "id": "rem-automatic-for-the-people-1992",
           "label": "Automatic for the People (R.E.M.)",
-          "image_url": "/images/music/rem-automatic-for-the-people-1992.jpg"
+          "image_url": "/images/music/rem-automatic-for-the-people-1992.jpg",
+          "cms_slug": "automatic-for-the-people-r-e-m-1992",
+          "cms_image_url": "automatic-for-the-people-r-e-m-1992.jpg"
         },
         {
           "id": "kanye-west-yeezus-2013",
           "label": "Yeezus (Kanye West)",
-          "image_url": "/images/music/kanye-west-yeezus-2013.jpg"
+          "image_url": "/images/music/kanye-west-yeezus-2013.jpg",
+          "cms_slug": "yeezus-kanye-west-2013",
+          "cms_image_url": "yeezus-kanye-west-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -473,7 +491,9 @@
           "id": "isaac-hayes-hot-buttered-soul-1969",
           "label": "Hot Buttered Soul - Isaac Hayes",
           "image_url": "/images/music/isaac-hayes-hot-buttered-soul-1969.jpg",
-          "description": "1969"
+          "description": "1969",
+          "cms_slug": "hot-buttered-soul-isaac-hayes-1969",
+          "cms_image_url": "hot-buttered-soul-isaac-hayes-1969.jpg"
         }
       ]
     }
@@ -491,7 +511,9 @@
           "id": "218_Marcel_Duchamp_Fountain",
           "label": "Fountain - Marcel Duchamp",
           "image_url": "/images/art/218_Marcel_Duchamp_Fountain.jpg",
-          "description": "1917"
+          "description": "1917",
+          "cms_slug": "fountain-marcel-duchamp-1917",
+          "cms_image_url": "fountain-marcel-duchamp-1917.jpg"
         }
       ]
     }
@@ -508,22 +530,30 @@
         {
           "id": "talking-heads-remain-in-light-1980",
           "label": "Remain in Light (Talking Heads)",
-          "image_url": "/images/music/talking-heads-remain-in-light-1980.jpg"
+          "image_url": "/images/music/talking-heads-remain-in-light-1980.jpg",
+          "cms_slug": "remain-in-light-talking-heads-1980",
+          "cms_image_url": "remain-in-light-talking-heads-1980.jpg"
         },
         {
           "id": "the-police-synchronicity-1983",
           "label": "The Police (Synchronicity)",
-          "image_url": "/images/music/the-police-synchronicity-1983.jpg"
-      },
+          "image_url": "/images/music/the-police-synchronicity-1983.jpg",
+          "cms_slug": "synchronicity-the-police-1983",
+          "cms_image_url": "synchronicity-the-police-1983.jpg"
+        },
         {
           "id": "patti-smith-horses-1975",
           "label": "Horses (Patti Smith)",
-          "image_url": "/images/music/patti-smith-horses-1975.jpg"
+          "image_url": "/images/music/patti-smith-horses-1975.jpg",
+          "cms_slug": "horses-patti-smith-1975",
+          "cms_image_url": "horses-patti-smith-1975.jpg"
         },
         {
           "id": "the-strokes-is-this-it-2001",
           "label": "Is This It (The Strokes)",
-          "image_url": "/images/music/the-strokes-is-this-it-2001.jpg"
+          "image_url": "/images/music/the-strokes-is-this-it-2001.jpg",
+          "cms_slug": "is-this-it-the-strokes-2001",
+          "cms_image_url": "is-this-it-the-strokes-2001.jpg"
         }
       ]
     }
@@ -591,13 +621,17 @@
           "id": "wall-e-2008-andrew-stanton",
           "label": "WALL-E (Andrew Stanton)",
           "image_url": "/images/movies/wall-e-2008-andrew-stanton.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "wall-e-andrew-stanton-2008",
+          "cms_image_url": "wall-e-andrew-stanton-2008.jpg"
         },
         {
           "id": "platoon-1986-oliver-stone",
           "label": "Platoon (Oliver Stone)",
           "image_url": "/images/movies/platoon-1986-oliver-stone.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "platoon-oliver-stone-1986",
+          "cms_image_url": "platoon-oliver-stone-1986.jpg"
         },
         {
           "id": "dont-know",
@@ -631,13 +665,17 @@
           "id": "breathless-1960-jean-luc-godard",
           "label": "Breathless (Jean-Luc Godard)",
           "image_url": "/images/movies/breathless-1960-jean-luc-godard.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "breathless-jean-luc-godard-1960",
+          "cms_image_url": "breathless-jean-luc-godard-1960.jpg"
         },
         {
           "id": "heat-1995-michael-mann",
           "label": "Heat (Michael Mann)",
           "image_url": "/images/movies/heat-1995-michael-mann.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "heat-michael-mann-1995",
+          "cms_image_url": "heat-michael-mann-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -671,13 +709,17 @@
           "id": "a-monster-calls-2016-ja-bayona",
           "label": "A Monster Calls (J.A. Bayona)",
           "image_url": "/images/movies/a-monster-calls-2016-ja-bayona.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "a-monster-calls-j-a-bayona-2016",
+          "cms_image_url": "a-monster-calls-j-a-bayona-2016.jpg"
         },
         {
           "id": "blade-runner-1982-ridley-scott",
           "label": "Blade Runner (Ridley Scott)",
           "image_url": "/images/movies/blade-runner-1982-ridley-scott.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "blade-runner-ridley-scott-1982",
+          "cms_image_url": "blade-runner-ridley-scott-1982.jpg"
         },
         {
           "id": "dont-know",
@@ -716,7 +758,9 @@
           "id": "get-out-2017-jordan-peele",
           "label": "Get Out",
           "image_url": "/images/movies/get-out-2017-jordan-peele.jpg",
-          "description": "2017"
+          "description": "2017",
+          "cms_slug": "get-out-jordan-peele-2017",
+          "cms_image_url": "get-out-jordan-peele-2017.jpg"
         }
       ]
     }
@@ -733,13 +777,17 @@
         {
           "id": "the-sting-1973-george-roy-hill",
           "label": "The Sting (George Roy Hill)",
-          "image_url": "/images/movies/the-sting-1973-george-roy-hill.jpg"
+          "image_url": "/images/movies/the-sting-1973-george-roy-hill.jpg",
+          "cms_slug": "the-sting-george-roy-hill-1973",
+          "cms_image_url": "the-sting-george-roy-hill-1973.jpg"
         },
         {
           "id": "the-big-short-2015-adam-mckay",
           "label": "The Big Short (Adam McKay)",
           "image_url": "/images/movies/the-big-short-2015-adam-mckay.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-big-short-adam-mckay-2015",
+          "cms_image_url": "the-big-short-adam-mckay-2015.jpg"
         },
         {
           "id": "dont-know",
@@ -773,13 +821,17 @@
           "id": "derek-and-the-dominos-layla-and-other-assorted-love-songs-1970",
           "label": "Layla (Derek and the Dominos)",
           "image_url": "/images/music/derek-and-the-dominos-layla-and-other-assorted-love-songs-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "layla-and-other-assorted-love-songs-derek-and-the-dominos-1970",
+          "cms_image_url": "layla-and-other-assorted-love-songs-derek-and-the-dominos-1970.jpg"
         },
         {
           "id": "burial-untrue-2007",
           "label": "Untrue (Burial)",
           "image_url": "/images/music/burial-untrue-2007.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "untrue-burial-2007",
+          "cms_image_url": "untrue-burial-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -843,7 +895,9 @@
           "id": "fifty-shades-of-grey-by-el-james-2011",
           "label": "Fifty Shades of Grey - E.L. James",
           "image_url": "/images/books/fifty-shades-of-grey-by-el-james-2011.jpg",
-          "description": "2011"
+          "description": "2011",
+          "cms_slug": "fifty-shades-of-grey-e-l-james-2011",
+          "cms_image_url": "fifty-shades-of-grey-e-l-james-2011.jpg"
         }
       ]
     }
@@ -861,7 +915,9 @@
           "id": "invisible-man-by-ralph-ellison-1952",
           "label": "Invisible Man - Ralph Ellison",
           "image_url": "/images/books/invisible-man-by-ralph-ellison-1952.jpg",
-          "description": "1952"
+          "description": "1952",
+          "cms_slug": "invisible-man-ralph-ellison-1952",
+          "cms_image_url": "invisible-man-ralph-ellison-1952.jpg"
         }
       ]
     }
@@ -879,13 +935,17 @@
           "id": "janet-jackson-control-1986",
           "label": "Control (Janet Jackson)",
           "image_url": "/images/music/janet-jackson-control-1986.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "control-janet-jackson-1986",
+          "cms_image_url": "control-janet-jackson-1986.jpg"
         },
         {
           "id": "new-order-power-corruption-lies-1983",
           "label": "Power, Corruption & Lies (New Order)",
           "image_url": "/images/music/new-order-power-corruption-lies-1983.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "power-corruption-lies-new-order-1983",
+          "cms_image_url": "power-corruption-lies-new-order-1983.jpg"
         },
         {
           "id": "dont-know",
@@ -919,13 +979,17 @@
           "id": "pixies-surfer-rosa-1988",
           "label": "Surfer Rosa (Pixies)",
           "image_url": "/images/music/pixies-surfer-rosa-1988.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "surfer-rosa-pixies-1988",
+          "cms_image_url": "surfer-rosa-pixies-1988.jpg"
         },
         {
           "id": "the-roots-things-fall-apart-1999",
           "label": "Things Fall Apart (The Roots)",
           "image_url": "/images/music/the-roots-things-fall-apart-1999.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "things-fall-apart-the-roots-1999",
+          "cms_image_url": "things-fall-apart-the-roots-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -958,12 +1022,16 @@
         {
           "id": "the-godfather-1972-francis-ford-coppola",
           "label": "The Godfather (Francis Ford Coppola)",
-          "image_url": "/images/movies/the-godfather-1972-francis-ford-coppola.jpg"
+          "image_url": "/images/movies/the-godfather-1972-francis-ford-coppola.jpg",
+          "cms_slug": "the-godfather-francis-ford-coppola-1972",
+          "cms_image_url": "the-godfather-francis-ford-coppola-1972.jpg"
         },
         {
           "id": "annie-hall-1977-woody-allen",
           "label": "Annie Hall (Woody Allen)",
-          "image_url": "/images/movies/annie-hall-1977-woody-allen.jpg"
+          "image_url": "/images/movies/annie-hall-1977-woody-allen.jpg",
+          "cms_slug": "annie-hall-woody-allen-1977",
+          "cms_image_url": "annie-hall-woody-allen-1977.jpg"
         },
         {
           "id": "dont-know",
@@ -992,13 +1060,17 @@
           "id": "inside-out-2015-pete-docter",
           "label": "Inside Out (Pete Docter)",
           "image_url": "/images/movies/inside-out-2015-pete-docter.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "inside-out-pete-docter-2015",
+          "cms_image_url": "inside-out-pete-docter-2015.jpg"
         },
         {
           "id": "full-metal-jacket-1987-stanley-kubrick",
           "label": "Full Metal Jacket (Stanley Kubrick)",
           "image_url": "/images/movies/full-metal-jacket-1987-stanley-kubrick.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "full-metal-jacket-stanley-kubrick-1987",
+          "cms_image_url": "full-metal-jacket-stanley-kubrick-1987.jpg"
         },
         {
           "id": "dont-know",
@@ -1032,7 +1104,9 @@
           "id": "038_Anish_Kapoor_Sky_Mirror",
           "label": "Sky Mirror - Anish Kapoor",
           "image_url": "/images/art/038_Anish_Kapoor_Sky_Mirror.jpg",
-          "description": "2006"
+          "description": "2006",
+          "cms_slug": "sky-mirror-anish-kapoor-2006",
+          "cms_image_url": "sky-mirror-anish-kapoor-2006.jpg"
         }
       ]
     }
@@ -1050,13 +1124,17 @@
           "id": "etta-james-at-last-1960",
           "label": "At Last! (Etta James)",
           "image_url": "/images/music/etta-james-at-last-1960.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "at-last-etta-james-1960",
+          "cms_image_url": "at-last-etta-james-1960.jpg"
         },
         {
           "id": "kanye-west-my-beautiful-dark-twisted-fantasy-2010",
           "label": "My Beautiful Dark Twisted Fantasy (Kanye West)",
           "image_url": "/images/music/kanye-west-my-beautiful-dark-twisted-fantasy-2010.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "my-beautiful-dark-twisted-fantasy-kanye-west-2010",
+          "cms_image_url": "my-beautiful-dark-twisted-fantasy-kanye-west-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -1090,13 +1168,17 @@
           "id": "the-spirit-of-the-beehive-1973-victor-erice",
           "label": "The Spirit of the Beehive (Víctor Erice)",
           "image_url": "/images/movies/the-spirit-of-the-beehive-1973-victor-erice.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-spirit-of-the-beehive-v-ctor-erice-1973",
+          "cms_image_url": "the-spirit-of-the-beehive-v-ctor-erice-1973.jpg"
         },
         {
           "id": "ex-machina-2014-alex-garland",
           "label": "Ex Machina (Alex Garland)",
           "image_url": "/images/movies/ex-machina-2014-alex-garland.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ex-machina-alex-garland-2014",
+          "cms_image_url": "ex-machina-alex-garland-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -1135,7 +1217,9 @@
           "id": "the-400-blows-1959-francois-truffaut",
           "label": "The 400 Blows",
           "image_url": "/images/movies/the-400-blows-1959-francois-truffaut.jpg",
-          "description": "1959"
+          "description": "1959",
+          "cms_slug": "the-400-blows-fran-ois-truffaut-1959",
+          "cms_image_url": "the-400-blows-fran-ois-truffaut-1959.jpg"
         }
       ]
     }
@@ -1183,13 +1267,17 @@
           "id": "sly-the-family-stone-theres-a-riot-goin-on-1971",
           "label": "There's a Riot Goin' On (Sly & The Family Stone)",
           "image_url": "/images/music/sly-the-family-stone-theres-a-riot-goin-on-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "there-s-a-riot-goin-on-sly-the-family-stone-1971",
+          "cms_image_url": "there-s-a-riot-goin-on-sly-the-family-stone-1971.jpg"
         },
         {
           "id": "interpol-turn-on-the-bright-lights-2002",
           "label": "Turn On the Bright Lights (Interpol)",
           "image_url": "/images/music/interpol-turn-on-the-bright-lights-2002.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "turn-on-the-bright-lights-interpol-2002",
+          "cms_image_url": "turn-on-the-bright-lights-interpol-2002.jpg"
         },
         {
           "id": "dont-know",
@@ -1223,7 +1311,9 @@
           "id": "the-hobbit-by-jrr-tolkien-1937",
           "label": "The Hobbit - J.R.R. Tolkien",
           "image_url": "/images/books/the-hobbit-by-jrr-tolkien-1937.jpg",
-          "description": "1937"
+          "description": "1937",
+          "cms_slug": "the-hobbit-j-r-r-tolkien-1937",
+          "cms_image_url": "the-hobbit-j-r-r-tolkien-1937.jpg"
         }
       ]
     }
@@ -1241,7 +1331,9 @@
           "id": "213_Claude_Monet_Water_Lilies",
           "label": "Water Lilies - Claude Monet",
           "image_url": "/images/art/213_Claude_Monet_Water_Lilies.jpg",
-          "description": "1919"
+          "description": "1919",
+          "cms_slug": "water-lilies-claude-monet-1919",
+          "cms_image_url": "water-lilies-claude-monet-1919.jpg"
         }
       ]
     }
@@ -1268,12 +1360,16 @@
         {
           "id": "the-clash-london-calling-1979",
           "label": "London Calling (The Clash)",
-          "image_url": "/images/music/the-clash-london-calling-1979.jpg"
+          "image_url": "/images/music/the-clash-london-calling-1979.jpg",
+          "cms_slug": "london-calling-the-clash-1979",
+          "cms_image_url": "london-calling-the-clash-1979.jpg"
         },
         {
           "id": "wu-tang-clan-enter-the-wu-tang-36-chambers-1993",
           "label": "Enter the Wu-Tang (36 Chambers) (Wu-Tang Clan)",
-          "image_url": "/images/music/wu-tang-clan-enter-the-wu-tang-36-chambers-1993.jpg"
+          "image_url": "/images/music/wu-tang-clan-enter-the-wu-tang-36-chambers-1993.jpg",
+          "cms_slug": "enter-the-wu-tang-36-chambers-wu-tang-clan-1993",
+          "cms_image_url": "enter-the-wu-tang-36-chambers-wu-tang-clan-1993.jpg"
         },
         {
           "id": "dont-know",
@@ -1307,7 +1403,9 @@
           "id": "do-the-right-thing-1989-spike-lee",
           "label": "Do the Right Thing",
           "image_url": "/images/movies/do-the-right-thing-1989-spike-lee.jpg",
-          "description": "1989"
+          "description": "1989",
+          "cms_slug": "do-the-right-thing-spike-lee-1989",
+          "cms_image_url": "do-the-right-thing-spike-lee-1989.jpg"
         }
       ]
     }
@@ -1325,13 +1423,17 @@
           "id": "alphaville-1965-jean-luc-godard",
           "label": "Alphaville (Jean-Luc Godard)",
           "image_url": "/images/movies/alphaville-1965-jean-luc-godard.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "alphaville-jean-luc-godard-1965",
+          "cms_image_url": "alphaville-jean-luc-godard-1965.jpg"
         },
         {
           "id": "no-country-for-old-men-2007-coen-brothers",
           "label": "No Country for Old Men (Coen Brothers)",
           "image_url": "/images/movies/no-country-for-old-men-2007-coen-brothers.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "no-country-for-old-men-coen-brothers-2007",
+          "cms_image_url": "no-country-for-old-men-coen-brothers-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -1354,22 +1456,30 @@
         {
           "id": "david-bowie-ziggy-stardust-1972",
           "label": "Ziggy Stardust (David Bowie)",
-          "image_url": "/images/music/david-bowie-ziggy-stardust-1972.jpg"
+          "image_url": "/images/music/david-bowie-ziggy-stardust-1972.jpg",
+          "cms_slug": "ziggy-stardust-david-bowie-1972",
+          "cms_image_url": "ziggy-stardust-david-bowie-1972.jpg"
         },
         {
           "id": "the-velvet-underground-the-velvet-underground-nico-1967",
           "label": "The Velvet Underground & Nico (The Velvet Underground)",
-          "image_url": "/images/music/the-velvet-underground-the-velvet-underground-nico-1967.jpg"
+          "image_url": "/images/music/the-velvet-underground-the-velvet-underground-nico-1967.jpg",
+          "cms_slug": "the-velvet-underground-nico-the-velvet-underground-1967",
+          "cms_image_url": "the-velvet-underground-nico-the-velvet-underground-1967.jpg"
         },
         {
           "id": "my-bloody-valentine-loveless-1991",
           "label": "Loveless (My Bloody Valentine)",
-          "image_url": "/images/music/my-bloody-valentine-loveless-1991.jpg"
+          "image_url": "/images/music/my-bloody-valentine-loveless-1991.jpg",
+          "cms_slug": "loveless-my-bloody-valentine-1991",
+          "cms_image_url": "loveless-my-bloody-valentine-1991.jpg"
         },
         {
           "id": "joy-division-unknown-pleasures-1979",
           "label": "Unknown Pleasures (Joy Division)",
-          "image_url": "/images/music/joy-division-unknown-pleasures-1979.jpg"
+          "image_url": "/images/music/joy-division-unknown-pleasures-1979.jpg",
+          "cms_slug": "unknown-pleasures-joy-division-1979",
+          "cms_image_url": "unknown-pleasures-joy-division-1979.jpg"
         }
       ]
     }
@@ -1387,13 +1497,17 @@
           "id": "lost-in-translation-2003-sofia-coppola",
           "label": "Lost in Translation (Sofia Coppola)",
           "image_url": "/images/movies/lost-in-translation-2003-sofia-coppola.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "lost-in-translation-sofia-coppola-2003",
+          "cms_image_url": "lost-in-translation-sofia-coppola-2003.jpg"
         },
         {
           "id": "the-social-network-2010-david-fincher",
           "label": "The Social Network (David Fincher)",
           "image_url": "/images/movies/the-social-network-2010-david-fincher.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-social-network-david-fincher-2010",
+          "cms_image_url": "the-social-network-david-fincher-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -1427,13 +1541,17 @@
           "id": "neil-young-after-the-gold-rush-1970",
           "label": "After the Gold Rush (Neil Young)",
           "image_url": "/images/music/neil-young-after-the-gold-rush-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "after-the-gold-rush-neil-young-1970",
+          "cms_image_url": "after-the-gold-rush-neil-young-1970.jpg"
         },
         {
           "id": "disclosure-settle-2013",
           "label": "Settle (Disclosure)",
           "image_url": "/images/music/disclosure-settle-2013.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "settle-disclosure-2013",
+          "cms_image_url": "settle-disclosure-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -1457,7 +1575,9 @@
           "id": "spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman",
           "label": "Spider-Man: Into the Spider-Verse",
           "image_url": "/images/movies/spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman.jpg",
-          "description": "2018"
+          "description": "2018",
+          "cms_slug": "spider-man-into-the-spider-verse-persichetti-ramsey-rothman-2018",
+          "cms_image_url": "spider-man-into-the-spider-verse-persichetti-ramsey-rothman-2018.jpg"
         }
       ]
     }
@@ -1475,13 +1595,17 @@
           "id": "the-beatles-revolver-1966",
           "label": "Revolver (The Beatles)",
           "image_url": "/images/music/the-beatles-revolver-1966.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "revolver-the-beatles-1966",
+          "cms_image_url": "revolver-the-beatles-1966.jpg"
         },
         {
           "id": "television-marquee-moon-1977",
           "label": "Marquee Moon (Television)",
           "image_url": "/images/music/television-marquee-moon-1977.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "marquee-moon-television-1977",
+          "cms_image_url": "marquee-moon-television-1977.jpg"
         },
         {
           "id": "dont-know",
@@ -1505,7 +1629,9 @@
           "id": "madonna-like-a-virgin-1984",
           "label": "Like a Virgin - Madonna",
           "image_url": "/images/music/madonna-like-a-virgin-1984.jpg",
-          "description": "1984"
+          "description": "1984",
+          "cms_slug": "like-a-virgin-madonna-1984",
+          "cms_image_url": "like-a-virgin-madonna-1984.jpg"
         }
       ]
     }
@@ -1523,13 +1649,17 @@
           "id": "curtis-mayfield-superfly-1972",
           "label": "Superfly (Curtis Mayfield)",
           "image_url": "/images/music/curtis-mayfield-superfly-1972.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "superfly-curtis-mayfield-1972",
+          "cms_image_url": "superfly-curtis-mayfield-1972.jpg"
         },
         {
           "id": "animal-collective-merriweather-post-pavilion-2009",
           "label": "Merriweather Post Pavilion (Animal Collective)",
           "image_url": "/images/music/animal-collective-merriweather-post-pavilion-2009.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "merriweather-post-pavilion-animal-collective-2009",
+          "cms_image_url": "merriweather-post-pavilion-animal-collective-2009.jpg"
         },
         {
           "id": "dont-know",
@@ -1553,7 +1683,9 @@
           "id": "herbie-hancock-head-hunters-1973",
           "label": "Head Hunters - Herbie Hancock",
           "image_url": "/images/music/herbie-hancock-head-hunters-1973.jpg",
-          "description": "1973"
+          "description": "1973",
+          "cms_slug": "head-hunters-herbie-hancock-1973",
+          "cms_image_url": "head-hunters-herbie-hancock-1973.jpg"
         }
       ]
     }
@@ -1571,13 +1703,17 @@
           "id": "alicia-keys-songs-in-a-minor-2001",
           "label": "Songs in A Minor (Alicia Keys)",
           "image_url": "/images/music/alicia-keys-songs-in-a-minor-2001.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "songs-in-a-minor-alicia-keys-2001",
+          "cms_image_url": "songs-in-a-minor-alicia-keys-2001.jpg"
         },
         {
           "id": "justice-cross-2007",
           "label": "Cross (Justice)",
           "image_url": "/images/music/justice-cross-2007.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "cross-justice-2007",
+          "cms_image_url": "cross-justice-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -1601,13 +1737,17 @@
           "id": "bruce-springsteen-born-in-the-usa-1984",
           "label": "Born in the U.S.A. (Bruce Springsteen)",
           "image_url": "/images/music/bruce-springsteen-born-in-the-usa-1984.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "born-in-the-u-s-a-bruce-springsteen-1984",
+          "cms_image_url": "born-in-the-u-s-a-bruce-springsteen-1984.jpg"
         },
         {
           "id": "the-cure-seventeen-seconds-1980",
           "label": "Seventeen Seconds (The Cure)",
           "image_url": "/images/music/the-cure-seventeen-seconds-1980.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "seventeen-seconds-the-cure-1980",
+          "cms_image_url": "seventeen-seconds-the-cure-1980.jpg"
         },
         {
           "id": "dont-know",
@@ -1631,13 +1771,17 @@
           "id": "stalker-1979-andrei-tarkovsky",
           "label": "Stalker (Andrei Tarkovsky)",
           "image_url": "/images/movies/stalker-1979-andrei-tarkovsky.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "stalker-andrei-tarkovsky-1979",
+          "cms_image_url": "stalker-andrei-tarkovsky-1979.jpg"
         },
         {
           "id": "inception-2010-christopher-nolan",
           "label": "Inception (Christopher Nolan)",
           "image_url": "/images/movies/inception-2010-christopher-nolan.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "inception-christopher-nolan-2010",
+          "cms_image_url": "inception-christopher-nolan-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -1661,7 +1805,9 @@
           "id": "225_Gustave_Courbet_A_Burial_at_Ornans",
           "label": "A Burial at Ornans - Gustave Courbet",
           "image_url": "/images/art/225_Gustave_Courbet_A_Burial_at_Ornans.jpg",
-          "description": "1850"
+          "description": "1850",
+          "cms_slug": "a-burial-at-ornans-gustave-courbet-1850",
+          "cms_image_url": "a-burial-at-ornans-gustave-courbet-1850.jpg"
         }
       ]
     }
@@ -1679,13 +1825,17 @@
           "id": "the-stone-roses-the-stone-roses-1989",
           "label": "The Stone Roses (The Stone Roses)",
           "image_url": "/images/music/the-stone-roses-the-stone-roses-1989.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-stone-roses-the-stone-roses-1989",
+          "cms_image_url": "the-stone-roses-the-stone-roses-1989.jpg"
         },
         {
           "id": "mos-def-black-on-both-sides-1999",
           "label": "Black on Both Sides (Mos Def)",
           "image_url": "/images/music/mos-def-black-on-both-sides-1999.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "black-on-both-sides-mos-def-1999",
+          "cms_image_url": "black-on-both-sides-mos-def-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -1708,12 +1858,16 @@
         {
           "id": "fleetwood-mac-rumours-1977",
           "label": "Rumours (Fleetwood Mac)",
-          "image_url": "/images/music/fleetwood-mac-rumours-1977.jpg"
+          "image_url": "/images/music/fleetwood-mac-rumours-1977.jpg",
+          "cms_slug": "rumours-fleetwood-mac-1977",
+          "cms_image_url": "rumours-fleetwood-mac-1977.jpg"
         },
         {
           "id": "frank-ocean-channel-orange-2012",
           "label": "Channel Orange (Frank Ocean)",
-          "image_url": "/images/music/frank-ocean-channel-orange-2012.jpg"
+          "image_url": "/images/music/frank-ocean-channel-orange-2012.jpg",
+          "cms_slug": "channel-orange-frank-ocean-2012",
+          "cms_image_url": "channel-orange-frank-ocean-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -1737,7 +1891,9 @@
           "id": "078_Yayoi_Kusama_Pumpkin",
           "label": "Pumpkin - Yayoi Kusama",
           "image_url": "/images/art/078_Yayoi_Kusama_Pumpkin.jpg",
-          "description": "Various"
+          "description": "Various",
+          "cms_slug": "pumpkin-yayoi-kusama",
+          "cms_image_url": "pumpkin-yayoi-kusama.jpg"
         }
       ]
     }
@@ -1755,7 +1911,9 @@
           "id": "dolly-parton-coat-of-many-colors-1971",
           "label": "Coat of Many Colors - Dolly Parton",
           "image_url": "/images/music/dolly-parton-coat-of-many-colors-1971.jpg",
-          "description": "1971"
+          "description": "1971",
+          "cms_slug": "coat-of-many-colors-dolly-parton-1971",
+          "cms_image_url": "coat-of-many-colors-dolly-parton-1971.jpg"
         }
       ]
     }
@@ -1773,7 +1931,9 @@
           "id": "203_Sandro_Botticelli_The_Birth_of_Venus",
           "label": "The Birth of Venus - Sandro Botticelli",
           "image_url": "/images/art/203_Sandro_Botticelli_The_Birth_of_Venus.jpg",
-          "description": "1485"
+          "description": "1485",
+          "cms_slug": "the-birth-of-venus-sandro-botticelli-1485",
+          "cms_image_url": "the-birth-of-venus-sandro-botticelli-1485.jpg"
         }
       ]
     }
@@ -1791,7 +1951,9 @@
           "id": "beloved-by-toni-morrison-1987",
           "label": "Beloved - Toni Morrison",
           "image_url": "/images/books/beloved-by-toni-morrison-1987.jpg",
-          "description": "1987"
+          "description": "1987",
+          "cms_slug": "beloved-toni-morrison-1987",
+          "cms_image_url": "beloved-toni-morrison-1987.jpg"
         }
       ]
     }
@@ -1809,13 +1971,17 @@
           "id": "coco-2017-lee-unkrich",
           "label": "Coco (Lee Unkrich)",
           "image_url": "/images/movies/coco-2017-lee-unkrich.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "coco-lee-unkrich-2017",
+          "cms_image_url": "coco-lee-unkrich-2017.jpg"
         },
         {
           "id": "saving-private-ryan-1998-steven-spielberg",
           "label": "Saving Private Ryan (Steven Spielberg)",
           "image_url": "/images/movies/saving-private-ryan-1998-steven-spielberg.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "saving-private-ryan-steven-spielberg-1998",
+          "cms_image_url": "saving-private-ryan-steven-spielberg-1998.jpg"
         },
         {
           "id": "dont-know",
@@ -1838,13 +2004,17 @@
         {
           "id": "district-9-2009-neill-blomkamp",
           "label": "District 9 (Neill Blomkamp)",
-          "image_url": "/images/movies/district-9-2009-neill-blomkamp.jpg"
+          "image_url": "/images/movies/district-9-2009-neill-blomkamp.jpg",
+          "cms_slug": "district-9-neill-blomkamp-2009",
+          "cms_image_url": "district-9-neill-blomkamp-2009.jpg"
         },
         {
           "id": "interstellar-2014-christopher-nolan",
           "label": "Interstellar (Christopher Nolan)",
           "image_url": "/images/movies/interstellar-2014-christopher-nolan.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "interstellar-christopher-nolan-2014",
+          "cms_image_url": "interstellar-christopher-nolan-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -1872,12 +2042,16 @@
         {
           "id": "jimi-hendrix-are-you-experienced-1967",
           "label": "Are You Experienced (Jimi Hendrix)",
-          "image_url": "/images/music/jimi-hendrix-are-you-experienced-1967.jpg"
+          "image_url": "/images/music/jimi-hendrix-are-you-experienced-1967.jpg",
+          "cms_slug": "are-you-experienced-jimi-hendrix-1967",
+          "cms_image_url": "are-you-experienced-jimi-hendrix-1967.jpg"
         },
         {
           "id": "kendrick-lamar-to-pimp-a-butterfly-2015",
           "label": "To Pimp a Butterfly (Kendrick Lamar)",
-          "image_url": "/images/music/kendrick-lamar-to-pimp-a-butterfly-2015.jpg"
+          "image_url": "/images/music/kendrick-lamar-to-pimp-a-butterfly-2015.jpg",
+          "cms_slug": "to-pimp-a-butterfly-kendrick-lamar-2015",
+          "cms_image_url": "to-pimp-a-butterfly-kendrick-lamar-2015.jpg"
         },
         {
           "id": "dont-know",
@@ -1900,12 +2074,16 @@
         {
           "id": "bruce-springsteen-born-to-run-1975",
           "label": "Born to Run (Bruce Springsteen)",
-          "image_url": "/images/music/bruce-springsteen-born-to-run-1975.jpg"
+          "image_url": "/images/music/bruce-springsteen-born-to-run-1975.jpg",
+          "cms_slug": "born-to-run-bruce-springsteen-1975",
+          "cms_image_url": "born-to-run-bruce-springsteen-1975.jpg"
         },
         {
           "id": "kendrick-lamar-good-kid-maad-city-2012",
           "label": "good kid, m.A.A.d city (Kendrick Lamar)",
-          "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg"
+          "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg",
+          "cms_slug": "good-kid-m-a-a-d-city-kendrick-lamar-2012",
+          "cms_image_url": "good-kid-m-a-a-d-city-kendrick-lamar-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -1929,13 +2107,17 @@
           "id": "bob-dylan-blood-on-the-tracks-1975",
           "label": "Blood on the Tracks (Bob Dylan)",
           "image_url": "/images/music/bob-dylan-blood-on-the-tracks-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "blood-on-the-tracks-bob-dylan-1975",
+          "cms_image_url": "blood-on-the-tracks-bob-dylan-1975.jpg"
         },
         {
           "id": "run-the-jewels-run-the-jewels-2-2014",
           "label": "Run the Jewels 2 (Run the Jewels)",
           "image_url": "/images/music/run-the-jewels-run-the-jewels-2-2014.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "run-the-jewels-2-run-the-jewels-2014",
+          "cms_image_url": "run-the-jewels-2-run-the-jewels-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -1959,7 +2141,9 @@
           "id": "the-scarlet-letter-by-nathaniel-hawthorne-1850",
           "label": "The Scarlet Letter - Nathaniel Hawthorne",
           "image_url": "/images/books/the-scarlet-letter-by-nathaniel-hawthorne-1850.jpg",
-          "description": "1850"
+          "description": "1850",
+          "cms_slug": "the-scarlet-letter-nathaniel-hawthorne-1850",
+          "cms_image_url": "the-scarlet-letter-nathaniel-hawthorne-1850.jpg"
         }
       ]
     }
@@ -1977,13 +2161,17 @@
           "id": "stevie-wonder-songs-in-the-key-of-life-1976",
           "label": "Songs in the Key of Life (Stevie Wonder)",
           "image_url": "/images/music/stevie-wonder-songs-in-the-key-of-life-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "songs-in-the-key-of-life-stevie-wonder-1976",
+          "cms_image_url": "songs-in-the-key-of-life-stevie-wonder-1976.jpg"
         },
         {
           "id": "arcade-fire-funeral-2004",
           "label": "Funeral (Arcade Fire)",
           "image_url": "/images/music/arcade-fire-funeral-2004.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "funeral-arcade-fire-2004",
+          "cms_image_url": "funeral-arcade-fire-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -2007,13 +2195,17 @@
           "id": "the-who-tommy-1969",
           "label": "Tommy (The Who)",
           "image_url": "/images/music/the-who-tommy-1969.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tommy-the-who-1969",
+          "cms_image_url": "tommy-the-who-1969.jpg"
         },
         {
           "id": "jay-z-4-44-2017",
           "label": "4:44 (Jay-Z)",
           "image_url": "/images/music/jay-z-4-44-2017.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "4-44-jay-z-2017",
+          "cms_image_url": "4-44-jay-z-2017.jpg"
         },
         {
           "id": "dont-know",
@@ -2037,7 +2229,9 @@
           "id": "the-bell-jar-by-sylvia-plath-1963",
           "label": "The Bell Jar - Sylvia Plath",
           "image_url": "/images/books/the-bell-jar-by-sylvia-plath-1963.jpg",
-          "description": "1963"
+          "description": "1963",
+          "cms_slug": "the-bell-jar-sylvia-plath-1963",
+          "cms_image_url": "the-bell-jar-sylvia-plath-1963.jpg"
         }
       ]
     }
@@ -2055,13 +2249,17 @@
           "id": "the-handmaiden-2016-park-chan-wook",
           "label": "The Handmaiden (Park Chan-wook)",
           "image_url": "/images/movies/the-handmaiden-2016-park-chan-wook.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-handmaiden-park-chan-wook-2016",
+          "cms_image_url": "the-handmaiden-park-chan-wook-2016.jpg"
         },
         {
           "id": "zodiac-2007-david-fincher",
           "label": "Zodiac (David Fincher)",
           "image_url": "/images/movies/zodiac-2007-david-fincher.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "zodiac-david-fincher-2007",
+          "cms_image_url": "zodiac-david-fincher-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -2085,7 +2283,9 @@
           "id": "raekwon-only-built-4-cuban-linx-1995",
           "label": "Only Built 4 Cuban Linx - Raekwon",
           "image_url": "/images/music/raekwon-only-built-4-cuban-linx-1995.jpg",
-          "description": "1995"
+          "description": "1995",
+          "cms_slug": "only-built-4-cuban-linx-raekwon-1995",
+          "cms_image_url": "only-built-4-cuban-linx-raekwon-1995.jpg"
         }
       ]
     }
@@ -2102,12 +2302,16 @@
         {
           "id": "robyn-by-robyn-2005.jpeg",
           "label": "Robyn (Robyn)",
-          "image_url": "/images/music/robyn-by-robyn-2005.jpeg"
+          "image_url": "/images/music/robyn-by-robyn-2005.jpeg",
+          "cms_slug": "robyn-robyn-2005",
+          "cms_image_url": "robyn-robyn-2005.jpg"
         },
         {
           "id": "daft-punk-discovery-2001",
           "label": "Discovery (Daft Punk)",
-          "image_url": "/images/music/daft-punk-discovery-2001.jpg"
+          "image_url": "/images/music/daft-punk-discovery-2001.jpg",
+          "cms_slug": "discovery-daft-punk-2001",
+          "cms_image_url": "discovery-daft-punk-2001.jpg"
         },
         {
           "id": "dont-know",
@@ -2131,7 +2335,9 @@
           "id": "taxi-driver-1976-martin-scorsese",
           "label": "Taxi Driver",
           "image_url": "/images/movies/taxi-driver-1976-martin-scorsese.jpg",
-          "description": "1976"
+          "description": "1976",
+          "cms_slug": "taxi-driver-martin-scorsese-1976",
+          "cms_image_url": "taxi-driver-martin-scorsese-1976.jpg"
         }
       ]
     }
@@ -2149,7 +2355,9 @@
           "id": "233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn",
           "label": "Dropping a Han Dynasty Urn - Ai Weiwei",
           "image_url": "/images/art/233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn.jpg",
-          "description": "1995"
+          "description": "1995",
+          "cms_slug": "dropping-a-han-dynasty-urn-ai-weiwei-1995",
+          "cms_image_url": "dropping-a-han-dynasty-urn-ai-weiwei-1995.jpg"
         }
       ]
     }
@@ -2166,12 +2374,16 @@
         {
           "id": "the-big-lebowski-1998-coen-brothers",
           "label": "The Big Lebowski (Coen Brothers)",
-          "image_url": "/images/movies/the-big-lebowski-1998-coen-brothers.jpg"
+          "image_url": "/images/movies/the-big-lebowski-1998-coen-brothers.jpg",
+          "cms_slug": "the-big-lebowski-coen-brothers-1998",
+          "cms_image_url": "the-big-lebowski-coen-brothers-1998.jpg"
         },
         {
           "id": "the-usual-suspects-1995-bryan-singer",
           "label": "The Usual Suspects (Bryan Singer)",
-          "image_url": "/images/movies/the-usual-suspects-1995-bryan-singer.jpg"
+          "image_url": "/images/movies/the-usual-suspects-1995-bryan-singer.jpg",
+          "cms_slug": "the-usual-suspects-bryan-singer-1995",
+          "cms_image_url": "the-usual-suspects-bryan-singer-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -2195,13 +2407,17 @@
           "id": "black-swan-2010-darren-aronofsky",
           "label": "Black Swan (Darren Aronofsky)",
           "image_url": "/images/movies/black-swan-2010-darren-aronofsky.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "black-swan-darren-aronofsky-2010",
+          "cms_image_url": "black-swan-darren-aronofsky-2010.jpg"
         },
         {
           "id": "moneyball-2011-bennett-miller",
           "label": "Moneyball (Bennett Miller)",
           "image_url": "/images/movies/moneyball-2011-bennett-miller.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "moneyball-bennett-miller-2011",
+          "cms_image_url": "moneyball-bennett-miller-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -2224,12 +2440,16 @@
         {
           "id": "grave-of-the-fireflies-1988-isao-takahata",
           "label": "Grave of the Fireflies (Isao Takahata)",
-          "image_url": "/images/movies/grave-of-the-fireflies-1988-isao-takahata.jpg"
+          "image_url": "/images/movies/grave-of-the-fireflies-1988-isao-takahata.jpg",
+          "cms_slug": "grave-of-the-fireflies-isao-takahata-1988",
+          "cms_image_url": "grave-of-the-fireflies-isao-takahata-1988.jpg"
         },
         {
           "id": "the-good-the-bad-and-the-ugly-1966-sergio-leone",
           "label": "The Good, the Bad, and the Ugly (Sergio Leone)",
-          "image_url": "/images/movies/the-good-the-bad-and-the-ugly-1966-sergio-leone.jpg"
+          "image_url": "/images/movies/the-good-the-bad-and-the-ugly-1966-sergio-leone.jpg",
+          "cms_slug": "the-good-the-bad-and-the-ugly-sergio-leone-1966",
+          "cms_image_url": "the-good-the-bad-and-the-ugly-sergio-leone-1966.jpg"
         },
         {
           "id": "dont-know",
@@ -2253,7 +2473,9 @@
           "id": "068_Damien_Hirst_For_the_Love_of_God",
           "label": "For the Love of God - Damien Hirst",
           "image_url": "/images/art/068_Damien_Hirst_For_the_Love_of_God.jpg",
-          "description": "2007"
+          "description": "2007",
+          "cms_slug": "for-the-love-of-god-damien-hirst-2007",
+          "cms_image_url": "for-the-love-of-god-damien-hirst-2007.jpg"
         }
       ]
     }
@@ -2271,7 +2493,9 @@
           "id": "white-teeth-by-zadie-smith-2000",
           "label": "White Teeth - Zadie Smith",
           "image_url": "/images/books/white-teeth-by-zadie-smith-2000.jpg",
-          "description": "2000"
+          "description": "2000",
+          "cms_slug": "white-teeth-zadie-smith-2000",
+          "cms_image_url": "white-teeth-zadie-smith-2000.jpg"
         }
       ]
     }
@@ -2289,7 +2513,9 @@
           "id": "the-beatles-abbey-road-1969",
           "label": "Abbey Road - The Beatles",
           "image_url": "/images/music/the-beatles-abbey-road-1969.jpg",
-          "description": "1969"
+          "description": "1969",
+          "cms_slug": "abbey-road-the-beatles-1969",
+          "cms_image_url": "abbey-road-the-beatles-1969.jpg"
         }
       ]
     }
@@ -2307,13 +2533,17 @@
           "id": "siouxsie-and-the-banshees-juju-1981",
           "label": "Juju (Siouxsie and the Banshees)",
           "image_url": "/images/music/siouxsie-and-the-banshees-juju-1981.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "juju-siouxsie-and-the-banshees-1981",
+          "cms_image_url": "juju-siouxsie-and-the-banshees-1981.jpg"
         },
         {
           "id": "fugees-the-score-1996",
           "label": "The Score (Fugees)",
           "image_url": "/images/music/fugees-the-score-1996.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-score-fugees-1996",
+          "cms_image_url": "the-score-fugees-1996.jpg"
         },
         {
           "id": "dont-know",
@@ -2337,7 +2567,9 @@
           "id": "fela-kuti-africa-70-zombie-1971",
           "label": "Zombie - Fela Kuti & Africa 70",
           "image_url": "/images/music/fela-kuti-africa-70-zombie-1971.jpg",
-          "description": "1971"
+          "description": "1971",
+          "cms_slug": "zombie-fela-kuti-africa-70-1971",
+          "cms_image_url": "zombie-fela-kuti-africa-70-1971.jpg"
         }
       ]
     }
@@ -2354,12 +2586,16 @@
         {
           "id": "the-shawshank-redemption-1994-frank-darabont",
           "label": "The Shawshank Redemption (Frank Darabont)",
-          "image_url": "/images/movies/the-shawshank-redemption-1994-frank-darabont.jpg"
+          "image_url": "/images/movies/the-shawshank-redemption-1994-frank-darabont.jpg",
+          "cms_slug": "the-shawshank-redemption-frank-darabont-1994",
+          "cms_image_url": "the-shawshank-redemption-frank-darabont-1994.jpg"
         },
         {
           "id": "the-godfather-part-ii-1974-francis-ford-coppola",
           "label": "The Godfather: Part II (Francis Ford Coppola)",
-          "image_url": "/images/movies/the-godfather-part-ii-1974-francis-ford-coppola.jpg"
+          "image_url": "/images/movies/the-godfather-part-ii-1974-francis-ford-coppola.jpg",
+          "cms_slug": "the-godfather-part-ii-francis-ford-coppola-1974",
+          "cms_image_url": "the-godfather-part-ii-francis-ford-coppola-1974.jpg"
         },
         {
           "id": "dont-know",
@@ -2383,7 +2619,9 @@
           "id": "percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005",
           "label": "Percy Jackson & The Olympians: The Lightning Thief - Rick Riordan",
           "image_url": "/images/books/percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005.jpg",
-          "description": "2005"
+          "description": "2005",
+          "cms_slug": "percy-jackson-the-olympians-the-lightning-thief-rick-riordan-2005",
+          "cms_image_url": "percy-jackson-the-olympians-the-lightning-thief-rick-riordan-2005.jpg"
         }
       ]
     }
@@ -2401,7 +2639,9 @@
           "id": "045_Mark_Rothko_Orange_and_Yellow",
           "label": "Orange and Yellow - Mark Rothko",
           "image_url": "/images/art/045_Mark_Rothko_Orange_and_Yellow.jpg",
-          "description": "1956"
+          "description": "1956",
+          "cms_slug": "orange-and-yellow-mark-rothko-1956",
+          "cms_image_url": "orange-and-yellow-mark-rothko-1956.jpg"
         }
       ]
     }
@@ -2419,7 +2659,9 @@
           "id": "013_Robert_Smithson_Spiral_Jetty",
           "label": "Spiral Jetty - Robert Smithson",
           "image_url": "/images/art/013_Robert_Smithson_Spiral_Jetty.jpg",
-          "description": "1970"
+          "description": "1970",
+          "cms_slug": "spiral-jetty-robert-smithson-1970",
+          "cms_image_url": "spiral-jetty-robert-smithson-1970.jpg"
         }
       ]
     }
@@ -2437,13 +2679,17 @@
           "id": "charles-mingus-mingus-ah-um-1959",
           "label": "Mingus Ah Um (Charles Mingus)",
           "image_url": "/images/music/charles-mingus-mingus-ah-um-1959.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "mingus-ah-um-charles-mingus-1959",
+          "cms_image_url": "mingus-ah-um-charles-mingus-1959.jpg"
         },
         {
           "id": "ramones-ramones-1976",
           "label": "Ramones (Ramones)",
           "image_url": "/images/music/ramones-ramones-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ramones-ramones-1976",
+          "cms_image_url": "ramones-ramones-1976.jpg"
         },
         {
           "id": "dont-know",
@@ -2467,7 +2713,9 @@
           "id": "the-empire-strikes-back-1980-irvin-kershner",
           "label": "The Empire Strikes Back",
           "image_url": "/images/movies/the-empire-strikes-back-1980-irvin-kershner.jpg",
-          "description": "1980"
+          "description": "1980",
+          "cms_slug": "the-empire-strikes-back-irvin-kershner-1980",
+          "cms_image_url": "the-empire-strikes-back-irvin-kershner-1980.jpg"
         }
       ]
     }
@@ -2484,12 +2732,16 @@
         {
           "id": "steely-dan-aja-1977",
           "label": "Aja (Steely Dan)",
-          "image_url": "/images/music/steely-dan-aja-1977.jpg"
+          "image_url": "/images/music/steely-dan-aja-1977.jpg",
+          "cms_slug": "aja-steely-dan-1977",
+          "cms_image_url": "aja-steely-dan-1977.jpg"
         },
         {
           "id": "a-tribe-called-quest-the-low-end-theory-1991",
           "label": "The Low End Theory (A Tribe Called Quest)",
-          "image_url": "/images/music/a-tribe-called-quest-the-low-end-theory-1991.jpg"
+          "image_url": "/images/music/a-tribe-called-quest-the-low-end-theory-1991.jpg",
+          "cms_slug": "the-low-end-theory-a-tribe-called-quest-1991",
+          "cms_image_url": "the-low-end-theory-a-tribe-called-quest-1991.jpg"
         },
         {
           "id": "dont-know",
@@ -2513,7 +2765,9 @@
           "id": "bridesmaids-2011-paul-feig",
           "label": "Bridesmaids",
           "image_url": "/images/movies/bridesmaids-2011-paul-feig.jpg",
-          "description": "2011"
+          "description": "2011",
+          "cms_slug": "bridesmaids-paul-feig-2011",
+          "cms_image_url": "bridesmaids-paul-feig-2011.jpg"
         }
       ]
     }
@@ -2531,13 +2785,17 @@
           "id": "curtis-mayfield-roots-1971",
           "label": "Roots (Curtis Mayfield)",
           "image_url": "/images/music/curtis-mayfield-roots-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "roots-curtis-mayfield-1971",
+          "cms_image_url": "roots-curtis-mayfield-1971.jpg"
         },
         {
           "id": "pavement-slanted-and-enchanted-1992",
           "label": "Slanted and Enchanted (Pavement)",
           "image_url": "/images/music/pavement-slanted-and-enchanted-1992.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "slanted-and-enchanted-pavement-1992",
+          "cms_image_url": "slanted-and-enchanted-pavement-1992.jpg"
         },
         {
           "id": "dont-know",
@@ -2561,7 +2819,9 @@
           "id": "the-help-by-kathryn-stockett-2009",
           "label": "The Help - Kathryn Stockett",
           "image_url": "/images/books/the-help-by-kathryn-stockett-2009.jpg",
-          "description": "2009"
+          "description": "2009",
+          "cms_slug": "the-help-kathryn-stockett-2009",
+          "cms_image_url": "the-help-kathryn-stockett-2009.jpg"
         }
       ]
     }
@@ -2578,12 +2838,16 @@
         {
           "id": "12-years-a-slave-2013-steve-mcqueen",
           "label": "12 Years a Slave (Steve McQueen)",
-          "image_url": "/images/movies/12-years-a-slave-2013-steve-mcqueen.jpg"
+          "image_url": "/images/movies/12-years-a-slave-2013-steve-mcqueen.jpg",
+          "cms_slug": "12-years-a-slave-steve-mcqueen-2013",
+          "cms_image_url": "12-years-a-slave-steve-mcqueen-2013.jpg"
         },
         {
           "id": "eternal-sunshine-of-the-spotless-mind-2004-michel-gondry",
           "label": "Eternal Sunshine of the Spotless Mind (Michel Gondry)",
-          "image_url": "/images/movies/eternal-sunshine-of-the-spotless-mind-2004-michel-gondry.jpg"
+          "image_url": "/images/movies/eternal-sunshine-of-the-spotless-mind-2004-michel-gondry.jpg",
+          "cms_slug": "eternal-sunshine-of-the-spotless-mind-michel-gondry-2004",
+          "cms_image_url": "eternal-sunshine-of-the-spotless-mind-michel-gondry-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -2607,13 +2871,17 @@
           "id": "812-1963-federico-fellini",
           "label": "8½ (Federico Fellini)",
           "image_url": "/images/movies/812-1963-federico-fellini.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "8-federico-fellini-1963",
+          "cms_image_url": "8-federico-fellini-1963.jpg"
         },
         {
           "id": "the-dark-knight-2008-christopher-nolan",
           "label": "The Dark Knight (Christopher Nolan)",
           "image_url": "/images/movies/the-dark-knight-2008-christopher-nolan.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-dark-knight-christopher-nolan-2008",
+          "cms_image_url": "the-dark-knight-christopher-nolan-2008.jpg"
         },
         {
           "id": "dont-know",
@@ -2637,7 +2905,9 @@
           "id": "top-gun-1986-tony-scott",
           "label": "Top Gun",
           "image_url": "/images/movies/top-gun-1986-tony-scott.jpg",
-          "description": "1986"
+          "description": "1986",
+          "cms_slug": "top-gun-tony-scott-1986",
+          "cms_image_url": "top-gun-tony-scott-1986.jpg"
         }
       ]
     }
@@ -2655,13 +2925,17 @@
           "id": "the-who-whos-next-1971",
           "label": "Who's Next (The Who)",
           "image_url": "/images/music/the-who-whos-next-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "who-s-next-the-who-1971",
+          "cms_image_url": "who-s-next-the-who-1971.jpg"
         },
         {
           "id": "shabazz-palaces-black-up-2011",
           "label": "Black Up (Shabazz Palaces)",
           "image_url": "/images/music/shabazz-palaces-black-up-2011.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "black-up-shabazz-palaces-2011",
+          "cms_image_url": "black-up-shabazz-palaces-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -2684,12 +2958,16 @@
         {
           "id": "there-will-be-blood-2007-paul-thomas-anderson",
           "label": "There Will Be Blood (Paul Thomas Anderson)",
-          "image_url": "/images/movies/there-will-be-blood-2007-paul-thomas-anderson.jpg"
+          "image_url": "/images/movies/there-will-be-blood-2007-paul-thomas-anderson.jpg",
+          "cms_slug": "there-will-be-blood-paul-thomas-anderson-2007",
+          "cms_image_url": "there-will-be-blood-paul-thomas-anderson-2007.jpg"
         },
         {
           "id": "lawrence-of-arabia-1962-david-lean",
           "label": "Lawrence of Arabia (David Lean)",
-          "image_url": "/images/movies/lawrence-of-arabia-1962-david-lean.jpg"
+          "image_url": "/images/movies/lawrence-of-arabia-1962-david-lean.jpg",
+          "cms_slug": "lawrence-of-arabia-david-lean-1962",
+          "cms_image_url": "lawrence-of-arabia-david-lean-1962.jpg"
         },
         {
           "id": "dont-know",

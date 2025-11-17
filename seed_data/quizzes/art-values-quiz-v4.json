@@ -20,12 +20,16 @@
         {
           "id": "starry-night-van-gogh",
           "label": "Starry Night (Vincent van Gogh)",
-          "image_url": "/images/art/202_Vincent_van_Gogh_Starry_Night.jpg"
+          "image_url": "/images/art/202_Vincent_van_Gogh_Starry_Night.jpg",
+          "cms_slug": "starry-night-vincent-van-gogh-1889",
+          "cms_image_url": "starry-night-vincent-van-gogh-1889.jpg"
         },
         {
           "id": "mona-lisa-da-vinci",
           "label": "Mona Lisa (Leonardo da Vinci)",
-          "image_url": "/images/art/201_Leonardo_da_Vinci_Mona_Lisa.jpg"
+          "image_url": "/images/art/201_Leonardo_da_Vinci_Mona_Lisa.jpg",
+          "cms_slug": "mona-lisa-leonardo-da-vinci",
+          "cms_image_url": "mona-lisa-leonardo-da-vinci.jpg"
         },
         {
           "id": "dont-know",
@@ -53,12 +57,16 @@
         {
           "id": "campbells-soup-warhol",
           "label": "Campbell's Soup Cans (Andy Warhol)",
-          "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg"
+          "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg",
+          "cms_slug": "campbell-s-soup-cans-andy-warhol-1962",
+          "cms_image_url": "campbell-s-soup-cans-andy-warhol-1962.jpg"
         },
         {
           "id": "composition-red-blue-yellow-mondrian",
           "label": "Composition with Red, Blue, and Yellow (Mondrian)",
-          "image_url": "/images/art/007_Piet_Mondrian_Composition_with_Red_Blue_and_Yellow.jpg"
+          "image_url": "/images/art/007_Piet_Mondrian_Composition_with_Red_Blue_and_Yellow.jpg",
+          "cms_slug": "composition-with-red-blue-and-yellow-piet-mondrian-1930",
+          "cms_image_url": "composition-with-red-blue-and-yellow-piet-mondrian-1930.jpg"
         },
         {
           "id": "dont-know",
@@ -82,7 +90,9 @@
           "id": "the-scream-munch",
           "label": "The Scream - Edvard Munch",
           "image_url": "/images/art/205_Edvard_Munch_The_Scream.jpg",
-          "description": "1893"
+          "description": "1893",
+          "cms_slug": "the-scream-edvard-munch-1893",
+          "cms_image_url": "the-scream-edvard-munch-1893.jpg"
         }
       ]
     }
@@ -100,7 +110,9 @@
           "id": "american-gothic-wood",
           "label": "American Gothic - Grant Wood",
           "image_url": "/images/art/207_Grant_Wood_American_Gothic.jpg",
-          "description": "1930"
+          "description": "1930",
+          "cms_slug": "american-gothic-grant-wood-1930",
+          "cms_image_url": "american-gothic-grant-wood-1930.jpg"
         }
       ]
     }
@@ -117,12 +129,16 @@
         {
           "id": "no-61-rust-blue-rothko",
           "label": "No. 61 (Rust and Blue) (Mark Rothko)",
-          "image_url": "/images/art/008_Mark_Rothko_No_61_Rust_and_Blue.jpg"
+          "image_url": "/images/art/008_Mark_Rothko_No_61_Rust_and_Blue.jpg",
+          "cms_slug": "no-61-rust-and-blue-mark-rothko-1953",
+          "cms_image_url": "no-61-rust-and-blue-mark-rothko-1953.jpg"
         },
         {
           "id": "crack-is-wack-haring",
           "label": "Crack is Wack (Keith Haring)",
-          "image_url": "/images/art/005_Keith_Haring_Crack_is_Wack.jpg"
+          "image_url": "/images/art/005_Keith_Haring_Crack_is_Wack.jpg",
+          "cms_slug": "crack-is-wack-keith-haring-1986",
+          "cms_image_url": "crack-is-wack-keith-haring-1986.jpg"
         },
         {
           "id": "dont-know",
@@ -151,7 +167,9 @@
           "id": "nighthawks-hopper",
           "label": "Nighthawks - Edward Hopper",
           "image_url": "/images/art/210_Edward_Hopper_Nighthawks.jpg",
-          "description": "1942"
+          "description": "1942",
+          "cms_slug": "nighthawks-edward-hopper-1942",
+          "cms_image_url": "nighthawks-edward-hopper-1942.jpg"
         }
       ]
     }
@@ -169,7 +187,9 @@
           "id": "003_Andy_Warhol_Campbells_Soup_Cans",
           "label": "Campbell's Soup Cans - Andy Warhol",
           "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg",
-          "description": "1962"
+          "description": "1962",
+          "cms_slug": "campbell-s-soup-cans-andy-warhol-1962",
+          "cms_image_url": "campbell-s-soup-cans-andy-warhol-1962.jpg"
         }
       ]
     }
@@ -186,12 +206,16 @@
         {
           "id": "christo-and-jeanne-claude-floating-piers",
           "label": "Floating Piers (Christo and Jeanne-Claude)",
-          "image_url": "/images/art/085_Christo_and_Jeanne-Claude_Floating_Piers.jpg"
-      },
+          "image_url": "/images/art/085_Christo_and_Jeanne-Claude_Floating_Piers.jpg",
+          "cms_slug": "floating-piers-christo-and-jeanne-claude-2016",
+          "cms_image_url": "floating-piers-christo-and-jeanne-claude-2016.jpg"
+        },
         {
           "id": "sunflower-seeds-ai-weiwei",
           "label": "Sunflower Seeds (Ai Weiwei)",
-          "image_url": "/images/art/022_Ai_Weiwei_Sunflower_Seeds.jpg"
+          "image_url": "/images/art/022_Ai_Weiwei_Sunflower_Seeds.jpg",
+          "cms_slug": "sunflower-seeds-ai-weiwei-2010",
+          "cms_image_url": "sunflower-seeds-ai-weiwei-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -215,7 +239,9 @@
           "id": "girl-with-balloon-banksy",
           "label": "Girl with Balloon - Banksy",
           "image_url": "/images/art/006_Banksy_Girl_with_Balloon.jpg",
-          "description": "2002"
+          "description": "2002",
+          "cms_slug": "girl-with-balloon-banksy-2002",
+          "cms_image_url": "girl-with-balloon-banksy-2002.jpg"
         }
       ]
     }
@@ -233,7 +259,9 @@
           "id": "puppy-koons",
           "label": "Puppy - Jeff Koons",
           "image_url": "/images/art/010_Jeff_Koons_Puppy.jpg",
-          "description": "1992"
+          "description": "1992",
+          "cms_slug": "puppy-jeff-koons-1992",
+          "cms_image_url": "puppy-jeff-koons-1992.jpg"
         }
       ]
     }
@@ -250,12 +278,16 @@
         {
           "id": "garden-earthly-delights-bosch",
           "label": "The Garden of Earthly Delights (Hieronymus Bosch)",
-          "image_url": "/images/art/304_Hieronymus_Bosch_The_Garden_of_Earthly_Delights.jpg"
+          "image_url": "/images/art/304_Hieronymus_Bosch_The_Garden_of_Earthly_Delights.jpg",
+          "cms_slug": "the-garden-of-earthly-delights-hieronymus-bosch",
+          "cms_image_url": "the-garden-of-earthly-delights-hieronymus-bosch.jpg"
         },
         {
           "id": "impression-sunrise-monet",
           "label": "Impression, Sunrise (Claude Monet)",
-          "image_url": "/images/art/307_Claude_Monet_Impression_Sunrise.jpg"
+          "image_url": "/images/art/307_Claude_Monet_Impression_Sunrise.jpg",
+          "cms_slug": "impression-sunrise-claude-monet-1872",
+          "cms_image_url": "impression-sunrise-claude-monet-1872.jpg"
         },
         {
           "id": "dont-know",
@@ -284,7 +316,9 @@
           "id": "angel-of-the-north-gormley",
           "label": "Angel of the North - Antony Gormley",
           "image_url": "/images/art/011_Antony_Gormley_Angel_of_the_North.jpg",
-          "description": "1998"
+          "description": "1998",
+          "cms_slug": "angel-of-the-north-antony-gormley-1998",
+          "cms_image_url": "angel-of-the-north-antony-gormley-1998.jpg"
         }
       ]
     }
@@ -302,7 +336,9 @@
           "id": "004_Roy_Lichtenstein_Whaam",
           "label": "Whaam! - Roy Lichtenstein",
           "image_url": "/images/art/004_Roy_Lichtenstein_Whaam.jpg",
-          "description": "1963"
+          "description": "1963",
+          "cms_slug": "whaam-roy-lichtenstein-1963",
+          "cms_image_url": "whaam-roy-lichtenstein-1963.jpg"
         }
       ]
     }
@@ -320,7 +356,9 @@
           "id": "last-supper-da-vinci",
           "label": "The Last Supper - Leonardo da Vinci",
           "image_url": "/images/art/211_Leonardo_da_Vinci_The_Last_Supper.jpg",
-          "description": "1495-1498"
+          "description": "1495-1498",
+          "cms_slug": "the-last-supper-leonardo-da-vinci",
+          "cms_image_url": "the-last-supper-leonardo-da-vinci.jpg"
         }
       ]
     }
@@ -337,12 +375,16 @@
         {
           "id": "untitled-film-stills-sherman",
           "label": "Untitled #96 (Cindy Sherman)",
-          "image_url": "/images/art/017_Cindy_Sherman_Untitled_96.jpg"
+          "image_url": "/images/art/017_Cindy_Sherman_Untitled_96.jpg",
+          "cms_slug": "untitled-96-cindy-sherman-1981",
+          "cms_image_url": "untitled-96-cindy-sherman-1981.jpg"
         },
         {
           "id": "rhythm-0-abramovic",
           "label": "Rhythm 0 (Marina Abramović)",
-          "image_url": "/images/art/064_Marina_Abramović_Rhythm_0.jpg"
+          "image_url": "/images/art/064_Marina_Abramović_Rhythm_0.jpg",
+          "cms_slug": "rhythm-0-marina-abramovi-1974",
+          "cms_image_url": "rhythm-0-marina-abramovi-1974.jpg"
         },
         {
           "id": "dont-know",
@@ -366,7 +408,9 @@
           "id": "creation-of-adam-michelangelo",
           "label": "The Creation of Adam - Michelangelo",
           "image_url": "/images/art/212_Michelangelo_The_Creation_of_Adam.jpg",
-          "description": "1512 (Sistine Chapel)"
+          "description": "1512 (Sistine Chapel)",
+          "cms_slug": "the-creation-of-adam-michelangelo-1512",
+          "cms_image_url": "the-creation-of-adam-michelangelo-1512.jpg"
         }
       ]
     }
@@ -384,7 +428,9 @@
           "id": "sunflowers-van-gogh",
           "label": "Sunflowers - Vincent van Gogh",
           "image_url": "/images/art/215_Vincent_van_Gogh_Sunflowers.jpg",
-          "description": "1888"
+          "description": "1888",
+          "cms_slug": "sunflowers-vincent-van-gogh-1888",
+          "cms_image_url": "sunflowers-vincent-van-gogh-1888.jpg"
         }
       ]
     }
@@ -402,7 +448,9 @@
           "id": "mama-bourgeois",
           "label": "Maman - Louise Bourgeois",
           "image_url": "/images/art/054_Louise_Bourgeois_Mama.jpg",
-          "description": "1999 spider sculpture"
+          "description": "1999 spider sculpture",
+          "cms_slug": "mama-louise-bourgeois-1999",
+          "cms_image_url": "mama-louise-bourgeois-1999.jpg"
         }
       ]
     }
@@ -420,7 +468,9 @@
           "id": "marilyn-diptych-warhol",
           "label": "Marilyn Diptych - Andy Warhol",
           "image_url": "/images/art/032_Andy_Warhol_Marilyn_Diptych.jpg",
-          "description": "1962"
+          "description": "1962",
+          "cms_slug": "marilyn-diptych-andy-warhol-1962",
+          "cms_image_url": "marilyn-diptych-andy-warhol-1962.jpg"
         }
       ]
     }
@@ -438,7 +488,9 @@
           "id": "drowning-girl-lichtenstein",
           "label": "Drowning Girl - Roy Lichtenstein",
           "image_url": "/images/art/031_Roy_Lichtenstein_Drowning_Girl.jpg",
-          "description": "1963"
+          "description": "1963",
+          "cms_slug": "drowning-girl-roy-lichtenstein-1963",
+          "cms_image_url": "drowning-girl-roy-lichtenstein-1963.jpg"
         }
       ]
     }
@@ -456,7 +508,9 @@
           "id": "ophelia-millais",
           "label": "Ophelia - John Everett Millais",
           "image_url": "/images/art/313_John_Everett_Millais_Ophelia.jpg",
-          "description": "1851-1852"
+          "description": "1851-1852",
+          "cms_slug": "ophelia-john-everett-millais",
+          "cms_image_url": "ophelia-john-everett-millais.jpg"
         }
       ]
     }
@@ -474,7 +528,9 @@
           "id": "221_Pablo_Picasso_Les_Demoiselles_dAvignon",
           "label": "Les Demoiselles d'Avignon - Pablo Picasso",
           "image_url": "/images/art/221_Pablo_Picasso_Les_Demoiselles_dAvignon.jpg",
-          "description": "1907"
+          "description": "1907",
+          "cms_slug": "les-demoiselles-d-avignon-pablo-picasso-1907",
+          "cms_image_url": "les-demoiselles-d-avignon-pablo-picasso-1907.jpg"
         }
       ]
     }
@@ -492,7 +548,9 @@
           "id": "the-bedroom-van-gogh",
           "label": "The Bedroom - Vincent van Gogh",
           "image_url": "/images/art/322_Vincent_van_Gogh_The_Bedroom.jpg",
-          "description": "1888"
+          "description": "1888",
+          "cms_slug": "the-bedroom-vincent-van-gogh-1888",
+          "cms_image_url": "the-bedroom-vincent-van-gogh-1888.jpg"
         }
       ]
     }
@@ -510,7 +568,9 @@
           "id": "sunday-afternoon-seurat",
           "label": "A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat",
           "image_url": "/images/art/216_Georges_Seurat_A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte.jpg",
-          "description": "1884-1886 (Pointillism)"
+          "description": "1884-1886 (Pointillism)",
+          "cms_slug": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat",
+          "cms_image_url": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat.jpg"
         }
       ]
     }
@@ -528,7 +588,9 @@
           "id": "the-thinker-rodin",
           "label": "The Thinker - Auguste Rodin",
           "image_url": "/images/art/331_Auguste_Rodin_The_Thinker.jpg",
-          "description": "1904"
+          "description": "1904",
+          "cms_slug": "the-thinker-auguste-rodin-1902",
+          "cms_image_url": "the-thinker-auguste-rodin-1902.jpg"
         }
       ]
     }
@@ -546,7 +608,9 @@
           "id": "saturn-devouring-son-goya",
           "label": "Saturn Devouring His Son - Francisco Goya",
           "image_url": "/images/art/305_Francisco_Goya_Saturn_Devouring_His_Son.jpg",
-          "description": "1819-1823"
+          "description": "1819-1823",
+          "cms_slug": "saturn-devouring-his-son-francisco-goya",
+          "cms_image_url": "saturn-devouring-his-son-francisco-goya.jpg"
         }
       ]
     }
@@ -564,7 +628,9 @@
           "id": "irises-van-gogh",
           "label": "Irises - Vincent van Gogh",
           "image_url": "/images/art/323_Vincent_van_Gogh_Irises.jpg",
-          "description": "1889"
+          "description": "1889",
+          "cms_slug": "irises-vincent-van-gogh-1889",
+          "cms_image_url": "irises-vincent-van-gogh-1889.jpg"
         }
       ]
     }
@@ -582,7 +648,9 @@
           "id": "school-of-athens-raphael",
           "label": "The School of Athens - Raphael",
           "image_url": "/images/art/339_Raphael_The_School_of_Athens.jpg",
-          "description": "1509-1511"
+          "description": "1509-1511",
+          "cms_slug": "the-school-of-athens-raphael",
+          "cms_image_url": "the-school-of-athens-raphael.jpg"
         }
       ]
     }

@@ -20,12 +20,16 @@
         {
           "id": "birdman-alejandro-g-i-rritu",
           "label": "Birdman (Alejandro G. Iñárritu)",
-          "image_url": "/images/movies/birdman-2014-alejandro-g-inarritu.jpg"
+          "image_url": "/images/movies/birdman-2014-alejandro-g-inarritu.jpg",
+          "cms_slug": "birdman-alejandro-g-i-rritu-2014",
+          "cms_image_url": "birdman-alejandro-g-i-rritu-2014.jpg"
         },
         {
           "id": "the-lego-movie-by-phil-lord-christopher-miller",
           "label": "The Lego Movie (Phil Lord & Christopher Miller)",
-          "image_url": "/images/movies/the-lego-movie-2014-phil-lord-christopher-miller.jpg"
+          "image_url": "/images/movies/the-lego-movie-2014-phil-lord-christopher-miller.jpg",
+          "cms_slug": "the-lego-movie-phil-lord-christopher-miller-2014",
+          "cms_image_url": "the-lego-movie-phil-lord-christopher-miller-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -49,13 +53,17 @@
           "id": "bicycle-thieves-vittorio-de-sica",
           "label": "Bicycle Thieves (Vittorio De Sica)",
           "image_url": "/images/movies/bicycle-thieves-1948-vittorio-de-sica.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "bicycle-thieves-vittorio-de-sica-1948",
+          "cms_image_url": "bicycle-thieves-vittorio-de-sica-1948.jpg"
         },
         {
           "id": "the-lego-batman-movie-by-chris-mckay",
           "label": "The Lego Batman Movie (Chris McKay)",
           "image_url": "/images/movies/the-lego-batman-movie-2017-chris-mckay.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-lego-batman-movie-chris-mckay-2017",
+          "cms_image_url": "the-lego-batman-movie-chris-mckay-2017.jpg"
         },
         {
           "id": "dont-know",
@@ -78,12 +86,16 @@
         {
           "id": "la-la-land-2016-damien-chazelle",
           "label": "La La Land (Damien Chazelle)",
-          "image_url": "/images/movies/la-la-land-2016-damien-chazelle.jpg"
+          "image_url": "/images/movies/la-la-land-2016-damien-chazelle.jpg",
+          "cms_slug": "la-la-land-damien-chazelle-2016",
+          "cms_image_url": "la-la-land-damien-chazelle-2016.jpg"
         },
         {
           "id": "everything-everywhere-all-at-once-2022-daniels",
           "label": "Everything Everywhere All at Once (Daniels)",
-          "image_url": "/images/movies/everything-everywhere-all-at-once-2022-daniels.jpg"
+          "image_url": "/images/movies/everything-everywhere-all-at-once-2022-daniels.jpg",
+          "cms_slug": "everything-everywhere-all-at-once-daniels-2022",
+          "cms_image_url": "everything-everywhere-all-at-once-daniels-2022.jpg"
         },
         {
           "id": "dont-know",
@@ -107,13 +119,17 @@
           "id": "before-sunrise-richard-linklater",
           "label": "Before Sunrise (Richard Linklater)",
           "image_url": "/images/movies/before-sunrise-1995-richard-linklater.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "before-sunrise-richard-linklater-1995",
+          "cms_image_url": "before-sunrise-richard-linklater-1995.jpg"
         },
         {
           "id": "cloudy-with-a-chance-of-meatballs-by-phil-lord-christopher-miller",
           "label": "Cloudy with a Chance of Meatballs (Phil Lord & Christopher Miller)",
           "image_url": "/images/movies/cloudy-with-a-chance-of-meatballs-2009-phil-lord-christopher-miller.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "cloudy-with-a-chance-of-meatballs-phil-lord-christopher-miller-2009",
+          "cms_image_url": "cloudy-with-a-chance-of-meatballs-phil-lord-christopher-miller-2009.jpg"
         },
         {
           "id": "dont-know",
@@ -136,12 +152,16 @@
         {
           "id": "the-act-of-killing-by-joshua-oppenheimer",
           "label": "The Act of Killing (Joshua Oppenheimer)",
-          "image_url": "/images/movies/the-act-of-killing-2012-joshua-oppenheimer.jpg"
+          "image_url": "/images/movies/the-act-of-killing-2012-joshua-oppenheimer.jpg",
+          "cms_slug": "the-act-of-killing-joshua-oppenheimer-2012",
+          "cms_image_url": "the-act-of-killing-joshua-oppenheimer-2012.jpg"
         },
         {
           "id": "battle-royale-kinji-fukasaku",
           "label": "Battle Royale (Kinji Fukasaku)",
-          "image_url": "/images/movies/battle-royale-2000-kinji-fukasaku.jpg"
+          "image_url": "/images/movies/battle-royale-2000-kinji-fukasaku.jpg",
+          "cms_slug": "battle-royale-kinji-fukasaku-2000",
+          "cms_image_url": "battle-royale-kinji-fukasaku-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -165,13 +185,17 @@
           "id": "shoah-by-claude-lanzmann",
           "label": "Shoah (Claude Lanzmann)",
           "image_url": "/images/movies/shoah-1985-claude-lanzmann.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "shoah-claude-lanzmann-1985",
+          "cms_image_url": "shoah-claude-lanzmann-1985.jpg"
         },
         {
           "id": "thor-ragnarok-by-taika-waititi",
           "label": "Thor: Ragnarok (Taika Waititi)",
           "image_url": "/images/movies/thor-ragnarok-2017-taika-waititi.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "thor-ragnarok-taika-waititi-2017",
+          "cms_image_url": "thor-ragnarok-taika-waititi-2017.jpg"
         },
         {
           "id": "dont-know",
@@ -195,13 +219,17 @@
           "id": "night-and-fog-by-alain-resnais",
           "label": "Night and Fog (Alain Resnais)",
           "image_url": "/images/movies/night-and-fog-1956-alain-resnais.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "night-and-fog-alain-resnais-1956",
+          "cms_image_url": "night-and-fog-alain-resnais-1956.jpg"
         },
         {
           "id": "deadpool-by-tim-miller",
           "label": "Deadpool (Tim Miller)",
           "image_url": "/images/movies/deadpool-2016-tim-miller.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "deadpool-tim-miller-2016",
+          "cms_image_url": "deadpool-tim-miller-2016.jpg"
         },
         {
           "id": "dont-know",
@@ -225,13 +253,17 @@
           "id": "the-look-of-silence-by-joshua-oppenheimer",
           "label": "The Look of Silence (Joshua Oppenheimer)",
           "image_url": "/images/movies/the-look-of-silence-2014-joshua-oppenheimer.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-look-of-silence-joshua-oppenheimer-2014",
+          "cms_image_url": "the-look-of-silence-joshua-oppenheimer-2014.jpg"
         },
         {
           "id": "the-suicide-squad-by-james-gunn",
           "label": "The Suicide Squad (James Gunn)",
           "image_url": "/images/movies/the-suicide-squad-2021-james-gunn.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-suicide-squad-james-gunn-2021",
+          "cms_image_url": "the-suicide-squad-james-gunn-2021.jpg"
         },
         {
           "id": "dont-know",
@@ -254,22 +286,30 @@
         {
           "id": "children-of-men-alfonso-cuar-n",
           "label": "Children of Men (Alfonso Cuarón)",
-          "image_url": "/images/movies/children-of-men-2006-alfonso-cuaron.jpg"
+          "image_url": "/images/movies/children-of-men-2006-alfonso-cuaron.jpg",
+          "cms_slug": "children-of-men-alfonso-cuar-n-2006",
+          "cms_image_url": "children-of-men-alfonso-cuar-n-2006.jpg"
         },
         {
           "id": "the-40-year-old-virgin-by-judd-apatow",
           "label": "The 40-Year-Old Virgin (Judd Apatow)",
-          "image_url": "/images/movies/the-40-year-old-virgin-2005-judd-apatow.jpg"
+          "image_url": "/images/movies/the-40-year-old-virgin-2005-judd-apatow.jpg",
+          "cms_slug": "the-40-year-old-virgin-judd-apatow-2005",
+          "cms_image_url": "the-40-year-old-virgin-judd-apatow-2005.jpg"
         },
         {
           "id": "come-and-see-by-elem-klimov",
           "label": "Come and See (Elem Klimov)",
-          "image_url": "/images/movies/come-and-see-1985-elem-klimov.jpg"
+          "image_url": "/images/movies/come-and-see-1985-elem-klimov.jpg",
+          "cms_slug": "come-and-see-elem-klimov-1985",
+          "cms_image_url": "come-and-see-elem-klimov-1985.jpg"
         },
         {
           "id": "solaris-by-andrei-tarkovsky",
           "label": "Solaris (Andrei Tarkovsky)",
-          "image_url": "/images/movies/solaris-1972-andrei-tarkovsky.jpg"
+          "image_url": "/images/movies/solaris-1972-andrei-tarkovsky.jpg",
+          "cms_slug": "solaris-andrei-tarkovsky-1972",
+          "cms_image_url": "solaris-andrei-tarkovsky-1972.jpg"
         }
       ]
     }
@@ -286,22 +326,30 @@
         {
           "id": "the-shining-by-stanley-kubrick",
           "label": "The Shining (Stanley Kubrick)",
-          "image_url": "/images/movies/the-shining-1980-stanley-kubrick.jpg"
-        },        
+          "image_url": "/images/movies/the-shining-1980-stanley-kubrick.jpg",
+          "cms_slug": "the-shining-stanley-kubrick-1980",
+          "cms_image_url": "the-shining-stanley-kubrick-1980.jpg"
+        },
         {
           "id": "scarface-by-brian-de-palma",
           "label": "Scarface (Brian De Palma)",
-          "image_url": "/images/movies/scarface-1983-brian-de-palma.jpg"
+          "image_url": "/images/movies/scarface-1983-brian-de-palma.jpg",
+          "cms_slug": "scarface-brian-de-palma-1983",
+          "cms_image_url": "scarface-brian-de-palma-1983.jpg"
         },
         {
           "id": "dune-denis-villeneuve",
           "label": "Dune (Denis Villeneuve)",
-          "image_url": "/images/movies/dune-2021-denis-villeneuve.jpg"
+          "image_url": "/images/movies/dune-2021-denis-villeneuve.jpg",
+          "cms_slug": "dune-denis-villeneuve-2021",
+          "cms_image_url": "dune-denis-villeneuve-2021.jpg"
         },
         {
           "id": "casino-royale-by-martin-campbell",
           "label": "Casino Royale (Martin Campbell)",
-          "image_url": "/images/movies/casino-royale-2006-martin-campbell.jpg"
+          "image_url": "/images/movies/casino-royale-2006-martin-campbell.jpg",
+          "cms_slug": "casino-royale-martin-campbell-2006",
+          "cms_image_url": "casino-royale-martin-campbell-2006.jpg"
         }
       ]
     }
@@ -319,7 +367,9 @@
           "id": "dodgeball-rawson-marshall-thurber",
           "label": "Dodgeball (Rawson Marshall Thurber)",
           "image_url": "/images/movies/dodgeball-2004-rawson-marshall-thurber.jpg",
-          "description": "2002 Brazilian crime drama about favelas"
+          "description": "2002 Brazilian crime drama about favelas",
+          "cms_slug": "dodgeball-rawson-marshall-thurber-2004",
+          "cms_image_url": "dodgeball-rawson-marshall-thurber-2004.jpg"
         }
       ]
     }
@@ -337,7 +387,9 @@
           "id": "moon-by-duncan-jones",
           "label": "Moon (Duncan Jones)",
           "image_url": "/images/movies/moon-2009-duncan-jones.jpg",
-          "description": "2009 Duncan Jones sci-fi isolation drama"
+          "description": "2009 Duncan Jones sci-fi isolation drama",
+          "cms_slug": "moon-duncan-jones-2009",
+          "cms_image_url": "moon-duncan-jones-2009.jpg"
         }
       ]
     }
@@ -355,7 +407,9 @@
           "id": "a-ghost-story-david-lowery",
           "label": "A Ghost Story (David Lowery)",
           "image_url": "/images/movies/a-ghost-story-2017-david-lowery.jpg",
-          "description": "2010 David Fincher Facebook origin story"
+          "description": "2010 David Fincher Facebook origin story",
+          "cms_slug": "a-ghost-story-david-lowery-2017",
+          "cms_image_url": "a-ghost-story-david-lowery-2017.jpg"
         }
       ]
     }
@@ -372,12 +426,16 @@
         {
           "id": "hiroshima-mon-amour-by-alain-resnais",
           "label": "Hiroshima Mon Amour (Alain Resnais)",
-          "image_url": "/images/movies/hiroshima-mon-amour-1959-alain-resnais.jpg"
+          "image_url": "/images/movies/hiroshima-mon-amour-1959-alain-resnais.jpg",
+          "cms_slug": "hiroshima-mon-amour-alain-resnais-1959",
+          "cms_image_url": "hiroshima-mon-amour-alain-resnais-1959.jpg"
         },
         {
           "id": "jurassic-park-by-steven-spielberg",
           "label": "Jurassic Park (Steven Spielberg)",
-          "image_url": "/images/movies/jurassic-park-1993-steven-spielberg.jpg"
+          "image_url": "/images/movies/jurassic-park-1993-steven-spielberg.jpg",
+          "cms_slug": "jurassic-park-steven-spielberg-1993",
+          "cms_image_url": "jurassic-park-steven-spielberg-1993.jpg"
         },
         {
           "id": "dont-know",
@@ -405,13 +463,17 @@
         {
           "id": "days-of-thunder-1990-tony-scott",
           "label": "Days of Thunder (Tony Scott)",
-          "image_url": "/images/movies/days-of-thunder-1990-tony-scott.jpg"
+          "image_url": "/images/movies/days-of-thunder-1990-tony-scott.jpg",
+          "cms_slug": "days-of-thunder-tony-scott-1990",
+          "cms_image_url": "days-of-thunder-tony-scott-1990.jpg"
         },
         {
           "id": "king-kong-by-peter-jackson",
           "label": "King Kong (Peter Jackson)",
           "image_url": "/images/movies/king-kong-2005-peter-jackson.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "king-kong-peter-jackson-2005",
+          "cms_image_url": "king-kong-peter-jackson-2005.jpg"
         },
         {
           "id": "dont-know",
@@ -440,13 +502,17 @@
           "id": "cleo-from-5-to-7-by-agn-s-varda",
           "label": "Cleo from 5 to 7 (Agnès Varda)",
           "image_url": "/images/movies/cleo-from-5-to-7-1962-agnes-varda.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "cleo-from-5-to-7-agn-s-varda-1962",
+          "cms_image_url": "cleo-from-5-to-7-agn-s-varda-1962.jpg"
         },
         {
           "id": "godzilla-by-gareth-edwards",
           "label": "Godzilla (Gareth Edwards)",
           "image_url": "/images/movies/godzilla-2014-gareth-edwards.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "godzilla-gareth-edwards-2014",
+          "cms_image_url": "godzilla-gareth-edwards-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -475,13 +541,17 @@
           "id": "amelie-jean-pierre-jeunet",
           "label": "Amélie (Jean-Pierre Jeunet)",
           "image_url": "/images/movies/amelie-2001-jean-pierre-jeunet.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "am-lie-jean-pierre-jeunet-2001",
+          "cms_image_url": "am-lie-jean-pierre-jeunet-2001.jpg"
         },
         {
           "id": "war-of-the-worlds-by-steven-spielberg",
           "label": "War of the Worlds (Steven Spielberg)",
           "image_url": "/images/movies/war-of-the-worlds-2005-steven-spielberg.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "war-of-the-worlds-steven-spielberg-2005",
+          "cms_image_url": "war-of-the-worlds-steven-spielberg-2005.jpg"
         },
         {
           "id": "dont-know",
@@ -510,7 +580,9 @@
           "id": "the-white-ribbon-by-michael-haneke",
           "label": "The White Ribbon (Michael Haneke)",
           "image_url": "/images/movies/the-white-ribbon-2009-michael-haneke.jpg",
-          "description": "2009 Michael Haneke pre-WWI German drama"
+          "description": "2009 Michael Haneke pre-WWI German drama",
+          "cms_slug": "the-white-ribbon-michael-haneke-2009",
+          "cms_image_url": "the-white-ribbon-michael-haneke-2009.jpg"
         }
       ]
     }
@@ -527,12 +599,16 @@
         {
           "id": "rashomon-by-akira-kurosawa",
           "label": "Rashomon (Akira Kurosawa)",
-          "image_url": "/images/movies/rashomon-1950-akira-kurosawa.jpg"
+          "image_url": "/images/movies/rashomon-1950-akira-kurosawa.jpg",
+          "cms_slug": "rashomon-akira-kurosawa-1950",
+          "cms_image_url": "rashomon-akira-kurosawa-1950.jpg"
         },
         {
           "id": "mean-girls-by-mark-waters",
           "label": "Mean Girls (Mark Waters)",
-          "image_url": "/images/movies/mean-girls-2004-mark-waters.jpg"
+          "image_url": "/images/movies/mean-girls-2004-mark-waters.jpg",
+          "cms_slug": "mean-girls-mark-waters-2004",
+          "cms_image_url": "mean-girls-mark-waters-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -556,13 +632,17 @@
           "id": "the-hidden-fortress-by-akira-kurosawa",
           "label": "The Hidden Fortress (Akira Kurosawa)",
           "image_url": "/images/movies/the-hidden-fortress-1958-akira-kurosawa.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-hidden-fortress-akira-kurosawa-1958",
+          "cms_image_url": "the-hidden-fortress-akira-kurosawa-1958.jpg"
         },
         {
           "id": "clueless-by-amy-heckerling",
           "label": "Clueless (Amy Heckerling)",
           "image_url": "/images/movies/clueless-1995-amy-heckerling.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "clueless-amy-heckerling-1995",
+          "cms_image_url": "clueless-amy-heckerling-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -586,13 +666,17 @@
           "id": "ugetsu-by-kenji-mizoguchi",
           "label": "Ugetsu (Kenji Mizoguchi)",
           "image_url": "/images/movies/ugetsu-1953-kenji-mizoguchi.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ugetsu-kenji-mizoguchi-1953",
+          "cms_image_url": "ugetsu-kenji-mizoguchi-1953.jpg"
         },
         {
           "id": "legally-blonde-by-robert-luketic",
           "label": "Legally Blonde (Robert Luketic)",
           "image_url": "/images/movies/legally-blonde-2001-robert-luketic.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "legally-blonde-robert-luketic-2001",
+          "cms_image_url": "legally-blonde-robert-luketic-2001.jpg"
         },
         {
           "id": "dont-know",
@@ -616,13 +700,17 @@
           "id": "harakiri-by-masaki-kobayashi",
           "label": "Harakiri (Masaki Kobayashi)",
           "image_url": "/images/movies/harakiri-1962-masaki-kobayashi.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "harakiri-masaki-kobayashi-1962",
+          "cms_image_url": "harakiri-masaki-kobayashi-1962.jpg"
         },
         {
           "id": "easy-a-by-will-gluck",
           "label": "Easy A (Will Gluck)",
           "image_url": "/images/movies/easy-a-2010-will-gluck.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "easy-a-will-gluck-2010",
+          "cms_image_url": "easy-a-will-gluck-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -646,7 +734,9 @@
           "id": "captain-marvel-boden-fleck",
           "label": "Captain Marvel (Boden & Fleck)",
           "image_url": "/images/movies/captain-marvel-2019-boden-fleck.jpg",
-          "description": "2007 Coen Brothers neo-western"
+          "description": "2007 Coen Brothers neo-western",
+          "cms_slug": "captain-marvel-boden-fleck-2019",
+          "cms_image_url": "captain-marvel-boden-fleck-2019.jpg"
         }
       ]
     }
@@ -663,12 +753,16 @@
         {
           "id": "amour-by-michael-haneke",
           "label": "Amour (Michael Haneke)",
-          "image_url": "/images/movies/amour-2012-michael-haneke.jpg"
+          "image_url": "/images/movies/amour-2012-michael-haneke.jpg",
+          "cms_slug": "amour-michael-haneke-2012",
+          "cms_image_url": "amour-michael-haneke-2012.jpg"
         },
         {
           "id": "fast-five-by-justin-lin",
           "label": "Fast Five (Justin Lin)",
-          "image_url": "/images/movies/fast-five-2011-justin-lin.jpg"
+          "image_url": "/images/movies/fast-five-2011-justin-lin.jpg",
+          "cms_slug": "fast-five-justin-lin-2011",
+          "cms_image_url": "fast-five-justin-lin-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -692,13 +786,17 @@
           "id": "45-years-by-andrew-haigh",
           "label": "45 Years (Andrew Haigh)",
           "image_url": "/images/movies/45-years-2015-andrew-haigh.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "45-years-andrew-haigh-2015",
+          "cms_image_url": "45-years-andrew-haigh-2015.jpg"
         },
         {
           "id": "dr-strangelove-stanley-kubrick",
           "label": "Dr. Strangelove (Stanley Kubrick)",
           "image_url": "/images/movies/dr-strangelove-1964-stanley-kubrick.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "dr-strangelove-stanley-kubrick-1964",
+          "cms_image_url": "dr-strangelove-stanley-kubrick-1964.jpg"
         },
         {
           "id": "dont-know",
@@ -722,13 +820,17 @@
           "id": "a-separation-by-asghar-farhadi",
           "label": "A Separation (Asghar Farhadi)",
           "image_url": "/images/movies/a-separation-2011-asghar-farhadi.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "a-separation-asghar-farhadi-2011",
+          "cms_image_url": "a-separation-asghar-farhadi-2011.jpg"
         },
         {
           "id": "drive-by-nicolas-winding-refn",
           "label": "Drive (Nicolas Winding Refn)",
           "image_url": "/images/movies/drive-2011-nicolas-winding-refn.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "drive-nicolas-winding-refn-2011",
+          "cms_image_url": "drive-nicolas-winding-refn-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -752,13 +854,17 @@
           "id": "still-alice-by-richard-glatzer-wash-westmoreland",
           "label": "Still Alice (Richard Glatzer & Wash Westmoreland)",
           "image_url": "/images/movies/still-alice-2014-glatzer-westmoreland.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "still-alice-glatzer-westmoreland-2014",
+          "cms_image_url": "still-alice-glatzer-westmoreland-2014.jpg"
         },
         {
           "id": "rush-by-ron-howard",
           "label": "Rush (Ron Howard)",
           "image_url": "/images/movies/rush-2013-ron-howard.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "rush-ron-howard-2013",
+          "cms_image_url": "rush-ron-howard-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -781,12 +887,16 @@
         {
           "id": "persona-by-ingmar-bergman",
           "label": "Persona (Ingmar Bergman)",
-          "image_url": "/images/movies/persona-1966-ingmar-bergman.jpg"
+          "image_url": "/images/movies/persona-1966-ingmar-bergman.jpg",
+          "cms_slug": "persona-ingmar-bergman-1966",
+          "cms_image_url": "persona-ingmar-bergman-1966.jpg"
         },
         {
           "id": "spider-man-by-sam-raimi",
           "label": "Spider-Man (Sam Raimi)",
-          "image_url": "/images/movies/spider-man-2002-sam-raimi.jpg"
+          "image_url": "/images/movies/spider-man-2002-sam-raimi.jpg",
+          "cms_slug": "spider-man-sam-raimi-2002",
+          "cms_image_url": "spider-man-sam-raimi-2002.jpg"
         },
         {
           "id": "dont-know",
@@ -815,13 +925,17 @@
           "id": "anchorman-adam-mckay",
           "label": "Anchorman (Adam McKay)",
           "image_url": "/images/movies/anchorman-2004-adam-mckay.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "anchorman-adam-mckay-2004",
+          "cms_image_url": "anchorman-adam-mckay-2004.jpg"
         },
         {
           "id": "batman-begins-by-christopher-nolan",
           "label": "Batman Begins (Christopher Nolan)",
           "image_url": "/images/movies/batman-begins-2005-christopher-nolan.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "batman-begins-christopher-nolan-2005",
+          "cms_image_url": "batman-begins-christopher-nolan-2005.jpg"
         },
         {
           "id": "dont-know",
@@ -850,13 +964,17 @@
           "id": "the-mirror-by-andrei-tarkovsky",
           "label": "The Mirror (Andrei Tarkovsky)",
           "image_url": "/images/movies/the-mirror-1975-andrei-tarkovsky.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-mirror-andrei-tarkovsky-1975",
+          "cms_image_url": "the-mirror-andrei-tarkovsky-1975.jpg"
         },
         {
           "id": "x-men-by-bryan-singer",
           "label": "X-Men (Bryan Singer)",
           "image_url": "/images/movies/x-men-2000-bryan-singer.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "x-men-bryan-singer-2000",
+          "cms_image_url": "x-men-bryan-singer-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -885,13 +1003,17 @@
           "id": "back-to-the-future-robert-zemeckis",
           "label": "Back to the Future (Robert Zemeckis)",
           "image_url": "/images/movies/back-to-the-future-1985-robert-zemeckis.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "back-to-the-future-robert-zemeckis-1985",
+          "cms_image_url": "back-to-the-future-robert-zemeckis-1985.jpg"
         },
         {
           "id": "superman-by-richard-donner",
           "label": "Superman (Richard Donner)",
           "image_url": "/images/movies/superman-1978-richard-donner.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "superman-richard-donner-1978",
+          "cms_image_url": "superman-richard-donner-1978.jpg"
         },
         {
           "id": "dont-know",
@@ -919,12 +1041,16 @@
         {
           "id": "arrival-denis-villeneuve",
           "label": "Arrival (Denis Villeneuve)",
-          "image_url": "/images/movies/arrival-2016-denis-villeneuve.jpg"
+          "image_url": "/images/movies/arrival-2016-denis-villeneuve.jpg",
+          "cms_slug": "arrival-denis-villeneuve-2016",
+          "cms_image_url": "arrival-denis-villeneuve-2016.jpg"
         },
         {
           "id": "magic-mike-by-steven-soderbergh",
           "label": "Magic Mike (Steven Soderbergh)",
-          "image_url": "/images/movies/magic-mike-2012-steven-soderbergh.jpg"
+          "image_url": "/images/movies/magic-mike-2012-steven-soderbergh.jpg",
+          "cms_slug": "magic-mike-steven-soderbergh-2012",
+          "cms_image_url": "magic-mike-steven-soderbergh-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -948,13 +1074,17 @@
           "id": "avengers-endgame-russo-brothers",
           "label": "Avengers: Endgame (Russo Brothers)",
           "image_url": "/images/movies/avengers-endgame-2019-russo-brothers.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "avengers-endgame-russo-brothers-2019",
+          "cms_image_url": "avengers-endgame-russo-brothers-2019.jpg"
         },
         {
           "id": "the-full-monty-by-peter-cattaneo",
           "label": "The Full Monty (Peter Cattaneo)",
           "image_url": "/images/movies/the-full-monty-1997-peter-cattaneo.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-full-monty-peter-cattaneo-1997",
+          "cms_image_url": "the-full-monty-peter-cattaneo-1997.jpg"
         },
         {
           "id": "dont-know",
@@ -978,13 +1108,17 @@
           "id": "baby-driver-edgar-wright",
           "label": "Baby Driver (Edgar Wright)",
           "image_url": "/images/movies/baby-driver-2017-edgar-wright.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "baby-driver-edgar-wright-2017",
+          "cms_image_url": "baby-driver-edgar-wright-2017.jpg"
         },
         {
           "id": "hustlers-by-lorene-scafaria",
           "label": "Hustlers (Lorene Scafaria)",
           "image_url": "/images/movies/hustlers-2019-lorene-scafaria.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "hustlers-lorene-scafaria-2019",
+          "cms_image_url": "hustlers-lorene-scafaria-2019.jpg"
         },
         {
           "id": "dont-know",
@@ -1008,13 +1142,17 @@
           "id": "avatar-james-cameron",
           "label": "Avatar (James Cameron)",
           "image_url": "/images/movies/avatar-2009-james-cameron.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "avatar-james-cameron-2009",
+          "cms_image_url": "avatar-james-cameron-2009.jpg"
         },
         {
           "id": "boogie-nights-by-paul-thomas-anderson",
           "label": "Boogie Nights (Paul Thomas Anderson)",
           "image_url": "/images/movies/boogie-nights-1997-paul-thomas-anderson.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "boogie-nights-paul-thomas-anderson-1997",
+          "cms_image_url": "boogie-nights-paul-thomas-anderson-1997.jpg"
         },
         {
           "id": "dont-know",
@@ -1038,7 +1176,9 @@
           "id": "the-hurt-locker-by-kathryn-bigelow",
           "label": "The Hurt Locker (Kathryn Bigelow)",
           "image_url": "/images/movies/the-hurt-locker-2008-kathryn-bigelow.jpg",
-          "description": "2009 Kathryn Bigelow war thriller"
+          "description": "2009 Kathryn Bigelow war thriller",
+          "cms_slug": "the-hurt-locker-kathryn-bigelow-2008",
+          "cms_image_url": "the-hurt-locker-kathryn-bigelow-2008.jpg"
         }
       ]
     }
@@ -1055,12 +1195,16 @@
         {
           "id": "phoenix-by-christian-petzold",
           "label": "Phoenix (Christian Petzold)",
-          "image_url": "/images/movies/phoenix-2014-christian-petzold.jpg"
+          "image_url": "/images/movies/phoenix-2014-christian-petzold.jpg",
+          "cms_slug": "phoenix-christian-petzold-2014",
+          "cms_image_url": "phoenix-christian-petzold-2014.jpg"
         },
         {
           "id": "crazy-rich-asians-by-jon-m-chu",
           "label": "Crazy Rich Asians (Jon M. Chu)",
-          "image_url": "/images/movies/crazy-rich-asians-2018-jon-m-chu.jpg"
+          "image_url": "/images/movies/crazy-rich-asians-2018-jon-m-chu.jpg",
+          "cms_slug": "crazy-rich-asians-jon-m-chu-2018",
+          "cms_image_url": "crazy-rich-asians-jon-m-chu-2018.jpg"
         },
         {
           "id": "dont-know",
@@ -1084,13 +1228,17 @@
           "id": "son-of-saul-by-l-szl-nemes",
           "label": "Son of Saul (László Nemes)",
           "image_url": "/images/movies/son-of-saul-2015-laszlo-nemes.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "son-of-saul-l-szl-nemes-2015",
+          "cms_image_url": "son-of-saul-l-szl-nemes-2015.jpg"
         },
         {
           "id": "the-proposal-by-anne-fletcher",
           "label": "The Proposal (Anne Fletcher)",
           "image_url": "/images/movies/the-proposal-2009-anne-fletcher.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-proposal-anne-fletcher-2009",
+          "cms_image_url": "the-proposal-anne-fletcher-2009.jpg"
         },
         {
           "id": "dont-know",
@@ -1114,13 +1262,17 @@
           "id": "ida-by-pawe-pawlikowski",
           "label": "Ida (Paweł Pawlikowski)",
           "image_url": "/images/movies/ida-2013-pawe-pawlikowski.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ida-pawe-pawlikowski-2013",
+          "cms_image_url": "ida-pawe-pawlikowski-2013.jpg"
         },
         {
           "id": "love-actually-by-richard-curtis",
           "label": "Love Actually (Richard Curtis)",
           "image_url": "/images/movies/love-actually-2003-richard-curtis.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "love-actually-richard-curtis-2003",
+          "cms_image_url": "love-actually-richard-curtis-2003.jpg"
         },
         {
           "id": "dont-know",
@@ -1144,13 +1296,17 @@
           "id": "the-zone-of-interest-by-jonathan-glazer",
           "label": "The Zone of Interest (Jonathan Glazer)",
           "image_url": "/images/movies/the-zone-of-interest-2023-jonathan-glazer.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-zone-of-interest-jonathan-glazer-2023",
+          "cms_image_url": "the-zone-of-interest-jonathan-glazer-2023.jpg"
         },
         {
           "id": "the-big-sick-by-michael-showalter",
           "label": "The Big Sick (Michael Showalter)",
           "image_url": "/images/movies/the-big-sick-2017-michael-showalter.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-big-sick-michael-showalter-2017",
+          "cms_image_url": "the-big-sick-michael-showalter-2017.jpg"
         },
         {
           "id": "dont-know",
@@ -1174,7 +1330,9 @@
           "id": "the-secret-in-their-eyes-by-juan-jos-campanella",
           "label": "The Secret in Their Eyes (Juan José Campanella)",
           "image_url": "/images/movies/the-secret-in-their-eyes-2009-juan-jose-campanella.jpg",
-          "description": "2009 Argentine thriller"
+          "description": "2009 Argentine thriller",
+          "cms_slug": "the-secret-in-their-eyes-juan-jos-campanella-2009",
+          "cms_image_url": "the-secret-in-their-eyes-juan-jos-campanella-2009.jpg"
         }
       ]
     }
@@ -1191,12 +1349,16 @@
         {
           "id": "1917-sam-mendes",
           "label": "1917 (Sam Mendes)",
-          "image_url": "/images/movies/1917-2019-sam-mendes.jpg"
+          "image_url": "/images/movies/1917-2019-sam-mendes.jpg",
+          "cms_slug": "1917-sam-mendes-2019",
+          "cms_image_url": "1917-sam-mendes-2019.jpg"
         },
         {
           "id": "the-notebook-by-nick-cassavetes",
           "label": "The Notebook (Nick Cassavetes)",
-          "image_url": "/images/movies/the-notebook-2004-nick-cassavetes.jpg"
+          "image_url": "/images/movies/the-notebook-2004-nick-cassavetes.jpg",
+          "cms_slug": "the-notebook-nick-cassavetes-2004",
+          "cms_image_url": "the-notebook-nick-cassavetes-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -1220,13 +1382,17 @@
           "id": "decision-to-leave-by-park-chan-wook",
           "label": "Decision to Leave (Park Chan-wook)",
           "image_url": "/images/movies/decision-to-leave-2022-park-chan-wook.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "decision-to-leave-park-chan-wook-2022",
+          "cms_image_url": "decision-to-leave-park-chan-wook-2022.jpg"
         },
         {
           "id": "the-vow-by-michael-sucsy",
           "label": "The Vow (Michael Sucsy)",
           "image_url": "/images/movies/the-vow-2012-michael-sucsy.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-vow-michael-sucsy-2012",
+          "cms_image_url": "the-vow-michael-sucsy-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -1250,13 +1416,17 @@
           "id": "captain-america-joe-johnston",
           "label": "Captain America (Joe Johnston)",
           "image_url": "/images/movies/captain-america-2011-joe-johnston.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "captain-america-joe-johnston-2011",
+          "cms_image_url": "captain-america-joe-johnston-2011.jpg"
         },
         {
           "id": "dear-john-by-lasse-hallstr-m",
           "label": "Dear John (Lasse Hallström)",
           "image_url": "/images/movies/dear-john-2010-lasse-hallstrom.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "dear-john-lasse-hallstr-m-2010",
+          "cms_image_url": "dear-john-lasse-hallstr-m-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -1280,13 +1450,17 @@
           "id": "the-lobster-yorgos-lanthimos",
           "label": "The Lobster (Yorgos Lanthimos)",
           "image_url": "/images/movies/the-lobster-2015-yorgos-lanthimos.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-lobster-yorgos-lanthimos-2015",
+          "cms_image_url": "the-lobster-yorgos-lanthimos-2015.jpg"
         },
         {
           "id": "cold-war-pawe-pawlikowski",
           "label": "Cold War (Paweł Pawlikowski)",
           "image_url": "/images/movies/cold-war-2018-pawe-pawlikowski.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "cold-war-pawe-pawlikowski-2018",
+          "cms_image_url": "cold-war-pawe-pawlikowski-2018.jpg"
         },
         {
           "id": "dont-know",
@@ -1310,7 +1484,9 @@
           "id": "winter-s-bone-by-debra-granik",
           "label": "Winter's Bone (Debra Granik)",
           "image_url": "/images/movies/winters-bone-2010-debra-granik.jpg",
-          "description": "2010 Debra Granik Ozarks noir"
+          "description": "2010 Debra Granik Ozarks noir",
+          "cms_slug": "winter-s-bone-debra-granik-2010",
+          "cms_image_url": "winter-s-bone-debra-granik-2010.jpg"
         }
       ]
     }
@@ -1327,12 +1503,16 @@
         {
           "id": "elf-jon-favreau",
           "label": "Elf (Jon Favreau)",
-          "image_url": "/images/movies/elf-2003-jon-favreau.jpg"
+          "image_url": "/images/movies/elf-2003-jon-favreau.jpg",
+          "cms_slug": "elf-jon-favreau-2003",
+          "cms_image_url": "elf-jon-favreau-2003.jpg"
         },
         {
           "id": "shrek-by-andrew-adamson",
           "label": "Shrek (Andrew Adamson)",
-          "image_url": "/images/movies/shrek-2001-andrew-adamson.jpg"
+          "image_url": "/images/movies/shrek-2001-andrew-adamson.jpg",
+          "cms_slug": "shrek-andrew-adamson-2001",
+          "cms_image_url": "shrek-andrew-adamson-2001.jpg"
         },
         {
           "id": "dont-know",
@@ -1356,13 +1536,17 @@
           "id": "the-ascent-by-larisa-shepitko",
           "label": "The Ascent (Larisa Shepitko)",
           "image_url": "/images/movies/the-ascent-1977-larisa-shepitko.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-ascent-larisa-shepitko-1977",
+          "cms_image_url": "the-ascent-larisa-shepitko-1977.jpg"
         },
         {
           "id": "toy-story-by-john-lasseter",
           "label": "Toy Story (John Lasseter)",
           "image_url": "/images/movies/toy-story-1995-john-lasseter.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "toy-story-john-lasseter-1995",
+          "cms_image_url": "toy-story-john-lasseter-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -1386,13 +1570,17 @@
           "id": "ivan-s-childhood-by-andrei-tarkovsky",
           "label": "Ivan's Childhood (Andrei Tarkovsky)",
           "image_url": "/images/movies/ivans-childhood-1962-andrei-tarkovsky.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ivan-s-childhood-andrei-tarkovsky-1962",
+          "cms_image_url": "ivan-s-childhood-andrei-tarkovsky-1962.jpg"
         },
         {
           "id": "the-incredibles-by-brad-bird",
           "label": "The Incredibles (Brad Bird)",
           "image_url": "/images/movies/the-incredibles-2004-brad-bird.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-incredibles-brad-bird-2004",
+          "cms_image_url": "the-incredibles-brad-bird-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -1416,13 +1604,17 @@
           "id": "the-cranes-are-flying-by-mikhail-kalatozov",
           "label": "The Cranes Are Flying (Mikhail Kalatozov)",
           "image_url": "/images/movies/the-cranes-are-flying-1957-mikhail-kalatozov.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-cranes-are-flying-mikhail-kalatozov-1957",
+          "cms_image_url": "the-cranes-are-flying-mikhail-kalatozov-1957.jpg"
         },
         {
           "id": "finding-nemo-by-andrew-stanton",
           "label": "Finding Nemo (Andrew Stanton)",
           "image_url": "/images/movies/finding-nemo-2003-andrew-stanton.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "finding-nemo-andrew-stanton-2003",
+          "cms_image_url": "finding-nemo-andrew-stanton-2003.jpg"
         },
         {
           "id": "dont-know",
@@ -1445,12 +1637,16 @@
         {
           "id": "certified-copy-by-abbas-kiarostami",
           "label": "Certified Copy (Abbas Kiarostami)",
-          "image_url": "/images/movies/certified-copy-2010-abbas-kiarostami.jpg"
+          "image_url": "/images/movies/certified-copy-2010-abbas-kiarostami.jpg",
+          "cms_slug": "certified-copy-abbas-kiarostami-2010",
+          "cms_image_url": "certified-copy-abbas-kiarostami-2010.jpg"
         },
         {
           "id": "zombieland-by-ruben-fleischer",
           "label": "Zombieland (Ruben Fleischer)",
-          "image_url": "/images/movies/zombieland-2009-ruben-fleischer.jpg"
+          "image_url": "/images/movies/zombieland-2009-ruben-fleischer.jpg",
+          "cms_slug": "zombieland-ruben-fleischer-2009",
+          "cms_image_url": "zombieland-ruben-fleischer-2009.jpg"
         },
         {
           "id": "dont-know",
@@ -1474,13 +1670,17 @@
           "id": "crouching-tiger-hidden-dragon-ang-lee",
           "label": "Crouching Tiger Hidden Dragon (Ang Lee)",
           "image_url": "/images/movies/crouching-tiger-hidden-dragon-2000-ang-lee.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "crouching-tiger-hidden-dragon-ang-lee-2000",
+          "cms_image_url": "crouching-tiger-hidden-dragon-ang-lee-2000.jpg"
         },
         {
           "id": "shaun-of-the-dead-by-edgar-wright",
           "label": "Shaun of the Dead (Edgar Wright)",
           "image_url": "/images/movies/shaun-of-the-dead-2004-edgar-wright.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "shaun-of-the-dead-edgar-wright-2004",
+          "cms_image_url": "shaun-of-the-dead-edgar-wright-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -1504,13 +1704,17 @@
           "id": "once-upon-a-time-in-anatolia-by-nuri-bilge-ceylan",
           "label": "Once Upon a Time in Anatolia (Nuri Bilge Ceylan)",
           "image_url": "/images/movies/once-upon-a-time-in-anatolia-2011-nuri-bilge-ceylan.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "once-upon-a-time-in-anatolia-nuri-bilge-ceylan-2011",
+          "cms_image_url": "once-upon-a-time-in-anatolia-nuri-bilge-ceylan-2011.jpg"
         },
         {
           "id": "warm-bodies-by-jonathan-levine",
           "label": "Warm Bodies (Jonathan Levine)",
           "image_url": "/images/movies/warm-bodies-2013-jonathan-levine.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "warm-bodies-jonathan-levine-2013",
+          "cms_image_url": "warm-bodies-jonathan-levine-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -1534,13 +1738,17 @@
           "id": "like-someone-in-love-by-abbas-kiarostami",
           "label": "Like Someone in Love (Abbas Kiarostami)",
           "image_url": "/images/movies/like-someone-in-love-2012-abbas-kiarostami.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "like-someone-in-love-abbas-kiarostami-2012",
+          "cms_image_url": "like-someone-in-love-abbas-kiarostami-2012.jpg"
         },
         {
           "id": "world-war-z-by-marc-forster",
           "label": "World War Z (Marc Forster)",
           "image_url": "/images/movies/world-war-z-2013-marc-forster.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "world-war-z-marc-forster-2013",
+          "cms_image_url": "world-war-z-marc-forster-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -1564,7 +1772,9 @@
           "id": "alien-ridley-scott",
           "label": "Alien (Ridley Scott)",
           "image_url": "/images/movies/alien-1979-ridley-scott.jpg",
-          "description": "2011 Terrence Malick cosmic family drama"
+          "description": "2011 Terrence Malick cosmic family drama",
+          "cms_slug": "alien-ridley-scott-1979",
+          "cms_image_url": "alien-ridley-scott-1979.jpg"
         }
       ]
     }
@@ -1581,12 +1791,16 @@
         {
           "id": "winter-sleep-by-nuri-bilge-ceylan",
           "label": "Winter Sleep (Nuri Bilge Ceylan)",
-          "image_url": "/images/movies/winter-sleep-2014-nuri-bilge-ceylan.jpg"
+          "image_url": "/images/movies/winter-sleep-2014-nuri-bilge-ceylan.jpg",
+          "cms_slug": "winter-sleep-nuri-bilge-ceylan-2014",
+          "cms_image_url": "winter-sleep-nuri-bilge-ceylan-2014.jpg"
         },
         {
           "id": "beautiful-creatures-richard-lagravenese",
           "label": "Beautiful Creatures (Richard LaGravenese)",
-          "image_url": "/images/movies/beautiful-creatures-2013-richard-lagravenese.jpg"
+          "image_url": "/images/movies/beautiful-creatures-2013-richard-lagravenese.jpg",
+          "cms_slug": "beautiful-creatures-richard-lagravenese-2013",
+          "cms_image_url": "beautiful-creatures-richard-lagravenese-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -1610,13 +1824,17 @@
           "id": "the-death-of-mr-lazarescu-by-cristi-puiu",
           "label": "The Death of Mr. Lazarescu (Cristi Puiu)",
           "image_url": "/images/movies/the-death-of-mr-lazarescu-2005-cristi-puiu.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-death-of-mr-lazarescu-cristi-puiu-2005",
+          "cms_image_url": "the-death-of-mr-lazarescu-cristi-puiu-2005.jpg"
         },
         {
           "id": "kick-ass-by-matthew-vaughn",
           "label": "Kick-Ass (Matthew Vaughn)",
           "image_url": "/images/movies/kick-ass-2010-matthew-vaughn.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "kick-ass-matthew-vaughn-2010",
+          "cms_image_url": "kick-ass-matthew-vaughn-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -1640,13 +1858,17 @@
           "id": "3-weeks-and-2-days-by-cristian-mungiu",
           "label": "3 Weeks and 2 Days (Cristian Mungiu)",
           "image_url": "/images/movies/4-months-3-weeks-and-2-days-2007-cristian-mungiu.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "4-months-3-weeks-and-2-days-cristian-mungiu-2007",
+          "cms_image_url": "4-months-3-weeks-and-2-days-cristian-mungiu-2007.jpg"
         },
         {
           "id": "the-nice-guys-by-shane-black",
           "label": "The Nice Guys (Shane Black)",
           "image_url": "/images/movies/the-nice-guys-2016-shane-black.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-nice-guys-shane-black-2016",
+          "cms_image_url": "the-nice-guys-shane-black-2016.jpg"
         },
         {
           "id": "dont-know",
@@ -1670,13 +1892,17 @@
           "id": "leviathan-by-andrey-zvyagintsev",
           "label": "Leviathan (Andrey Zvyagintsev)",
           "image_url": "/images/movies/leviathan-2014-andrey-zvyagintsev.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "leviathan-andrey-zvyagintsev-2014",
+          "cms_image_url": "leviathan-andrey-zvyagintsev-2014.jpg"
         },
         {
           "id": "free-guy-by-shawn-levy",
           "label": "Free Guy (Shawn Levy)",
           "image_url": "/images/movies/free-guy-2021-shawn-levy.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "free-guy-shawn-levy-2021",
+          "cms_image_url": "free-guy-shawn-levy-2021.jpg"
         },
         {
           "id": "dont-know",
@@ -1699,12 +1925,16 @@
         {
           "id": "the-thin-red-line-by-terrence-malick",
           "label": "The Thin Red Line (Terrence Malick)",
-          "image_url": "/images/movies/the-thin-red-line-1998-terrence-malick.jpg"
+          "image_url": "/images/movies/the-thin-red-line-1998-terrence-malick.jpg",
+          "cms_slug": "the-thin-red-line-terrence-malick-1998",
+          "cms_image_url": "the-thin-red-line-terrence-malick-1998.jpg"
         },
         {
           "id": "superbad-by-greg-mottola",
           "label": "Superbad (Greg Mottola)",
-          "image_url": "/images/movies/superbad-2007-greg-mottola.jpg"
+          "image_url": "/images/movies/superbad-2007-greg-mottola.jpg",
+          "cms_slug": "superbad-greg-mottola-2007",
+          "cms_image_url": "superbad-greg-mottola-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -1728,13 +1958,17 @@
           "id": "a-moment-of-innocence-mohsen-makhmalbaf",
           "label": "A Moment of Innocence (Mohsen Makhmalbaf)",
           "image_url": "/images/movies/a-moment-of-innocence-1996-mohsen-makhmalbaf.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "a-moment-of-innocence-mohsen-makhmalbaf-1996",
+          "cms_image_url": "a-moment-of-innocence-mohsen-makhmalbaf-1996.jpg"
         },
         {
           "id": "american-pie-by-paul-weitz",
           "label": "American Pie (Paul Weitz)",
           "image_url": "/images/movies/american-pie-1999-paul-weitz.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "american-pie-paul-weitz-1999",
+          "cms_image_url": "american-pie-paul-weitz-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -1758,13 +1992,17 @@
           "id": "the-deer-hunter-by-michael-cimino",
           "label": "The Deer Hunter (Michael Cimino)",
           "image_url": "/images/movies/the-deer-hunter-1978-michael-cimino.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-deer-hunter-michael-cimino-1978",
+          "cms_image_url": "the-deer-hunter-michael-cimino-1978.jpg"
         },
         {
           "id": "knocked-up-by-judd-apatow",
           "label": "Knocked Up (Judd Apatow)",
           "image_url": "/images/movies/knocked-up-2007-judd-apatow.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "knocked-up-judd-apatow-2007",
+          "cms_image_url": "knocked-up-judd-apatow-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -1788,13 +2026,17 @@
           "id": "capernaum-nadine-labaki",
           "label": "Capernaum (Nadine Labaki)",
           "image_url": "/images/movies/capernaum-2018-nadine-labaki.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "capernaum-nadine-labaki-2018",
+          "cms_image_url": "capernaum-nadine-labaki-2018.jpg"
         },
         {
           "id": "step-brothers-by-adam-mckay",
           "label": "Step Brothers (Adam McKay)",
           "image_url": "/images/movies/step-brothers-2008-adam-mckay.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "step-brothers-adam-mckay-2008",
+          "cms_image_url": "step-brothers-adam-mckay-2008.jpg"
         },
         {
           "id": "dont-know",
@@ -1817,12 +2059,16 @@
         {
           "id": "yi-yi-by-edward-yang",
           "label": "Yi Yi (Edward Yang)",
-          "image_url": "/images/movies/yi-yi-2000-edward-yang.jpg"
+          "image_url": "/images/movies/yi-yi-2000-edward-yang.jpg",
+          "cms_slug": "yi-yi-edward-yang-2000",
+          "cms_image_url": "yi-yi-edward-yang-2000.jpg"
         },
         {
           "id": "the-avengers-by-joss-whedon",
           "label": "The Avengers (Joss Whedon)",
-          "image_url": "/images/movies/the-avengers-2012-joss-whedon.jpg"
+          "image_url": "/images/movies/the-avengers-2012-joss-whedon.jpg",
+          "cms_slug": "the-avengers-joss-whedon-2012",
+          "cms_image_url": "the-avengers-joss-whedon-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -1846,13 +2092,17 @@
           "id": "still-walking-by-hirokazu-kore-eda",
           "label": "Still Walking (Hirokazu Kore-eda)",
           "image_url": "/images/movies/still-walking-2008-hirokazu-kore-eda.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "still-walking-hirokazu-kore-eda-2008",
+          "cms_image_url": "still-walking-hirokazu-kore-eda-2008.jpg"
         },
         {
           "id": "iron-man-by-jon-favreau",
           "label": "Iron Man (Jon Favreau)",
           "image_url": "/images/movies/iron-man-2008-jon-favreau.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "iron-man-jon-favreau-2008",
+          "cms_image_url": "iron-man-jon-favreau-2008.jpg"
         },
         {
           "id": "dont-know",
@@ -1876,13 +2126,17 @@
           "id": "tokyo-story-by-yasujir-ozu",
           "label": "Tokyo Story (Yasujirō Ozu)",
           "image_url": "/images/movies/tokyo-story-1953-yasujiro-ozu.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tokyo-story-yasujir-ozu-1953",
+          "cms_image_url": "tokyo-story-yasujir-ozu-1953.jpg"
         },
         {
           "id": "guardians-of-the-galaxy-by-james-gunn",
           "label": "Guardians of the Galaxy (James Gunn)",
           "image_url": "/images/movies/guardians-of-the-galaxy-2014-james-gunn.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "guardians-of-the-galaxy-james-gunn-2014",
+          "cms_image_url": "guardians-of-the-galaxy-james-gunn-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -1906,13 +2160,17 @@
           "id": "city-of-god-fernando-meirelles",
           "label": "City of God (Fernando Meirelles)",
           "image_url": "/images/movies/city-of-god-2002-fernando-meirelles.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "city-of-god-fernando-meirelles-2002",
+          "cms_image_url": "city-of-god-fernando-meirelles-2002.jpg"
         },
         {
           "id": "black-panther-by-ryan-coogler",
           "label": "Black Panther (Ryan Coogler)",
           "image_url": "/images/movies/black-panther-2018-ryan-coogler.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "black-panther-ryan-coogler-2018",
+          "cms_image_url": "black-panther-ryan-coogler-2018.jpg"
         },
         {
           "id": "dont-know",
@@ -1935,42 +2193,58 @@
         {
           "id": "birds-of-prey-cathy-yan",
           "label": "Birds of Prey (Cathy Yan)",
-          "image_url": "/images/movies/birds-of-prey-2020-cathy-yan.jpg"
+          "image_url": "/images/movies/birds-of-prey-2020-cathy-yan.jpg",
+          "cms_slug": "birds-of-prey-cathy-yan-2020",
+          "cms_image_url": "birds-of-prey-cathy-yan-2020.jpg"
         },
         {
           "id": "bohemian-rhapsody-bryan-singer",
           "label": "Bohemian Rhapsody (Bryan Singer)",
-          "image_url": "/images/movies/bohemian-rhapsody-2018-bryan-singer.jpg"
+          "image_url": "/images/movies/bohemian-rhapsody-2018-bryan-singer.jpg",
+          "cms_slug": "bohemian-rhapsody-bryan-singer-2018",
+          "cms_image_url": "bohemian-rhapsody-bryan-singer-2018.jpg"
         },
         {
           "id": "a-star-is-born-bradley-cooper",
           "label": "A Star Is Born (Bradley Cooper)",
-          "image_url": "/images/movies/a-star-is-born-2018-bradley-cooper.jpg"
+          "image_url": "/images/movies/a-star-is-born-2018-bradley-cooper.jpg",
+          "cms_slug": "a-star-is-born-bradley-cooper-2018",
+          "cms_image_url": "a-star-is-born-bradley-cooper-2018.jpg"
         },
         {
           "id": "the-princess-bride-by-rob-reiner",
           "label": "The Princess Bride (Rob Reiner)",
-          "image_url": "/images/movies/the-princess-bride-1987-rob-reiner.jpg"
+          "image_url": "/images/movies/the-princess-bride-1987-rob-reiner.jpg",
+          "cms_slug": "the-princess-bride-rob-reiner-1987",
+          "cms_image_url": "the-princess-bride-rob-reiner-1987.jpg"
         },
         {
           "id": "borat-larry-charles",
           "label": "Borat (Larry Charles)",
-          "image_url": "/images/movies/borat-2006-larry-charles.jpg"
+          "image_url": "/images/movies/borat-2006-larry-charles.jpg",
+          "cms_slug": "borat-larry-charles-2006",
+          "cms_image_url": "borat-larry-charles-2006.jpg"
         },
         {
           "id": "close-up-abbas-kiarostami",
           "label": "Close-Up (Abbas Kiarostami)",
-          "image_url": "/images/movies/close-up-1990-abbas-kiarostami.jpg"
+          "image_url": "/images/movies/close-up-1990-abbas-kiarostami.jpg",
+          "cms_slug": "close-up-abbas-kiarostami-1990",
+          "cms_image_url": "close-up-abbas-kiarostami-1990.jpg"
         },
         {
           "id": "sunset-boulevard-by-billy-wilder",
           "label": "Sunset Boulevard (Billy Wilder)",
-          "image_url": "/images/movies/sunset-boulevard-1950-billy-wilder.jpg"
+          "image_url": "/images/movies/sunset-boulevard-1950-billy-wilder.jpg",
+          "cms_slug": "sunset-boulevard-billy-wilder-1950",
+          "cms_image_url": "sunset-boulevard-billy-wilder-1950.jpg"
         },
         {
           "id": "the-hunger-games-by-gary-ross",
           "label": "The Hunger Games (Gary Ross)",
-          "image_url": "/images/movies/the-hunger-games-2012-gary-ross.jpg"
+          "image_url": "/images/movies/the-hunger-games-2012-gary-ross.jpg",
+          "cms_slug": "the-hunger-games-gary-ross-2012",
+          "cms_image_url": "the-hunger-games-gary-ross-2012.jpg"
         }
       ]
     }
@@ -1988,7 +2262,9 @@
           "id": "eastern-promises-by-david-cronenberg",
           "label": "Eastern Promises (David Cronenberg)",
           "image_url": "/images/movies/eastern-promises-2007-david-cronenberg.jpg",
-          "description": "2007 David Cronenberg Russian mafia thriller"
+          "description": "2007 David Cronenberg Russian mafia thriller",
+          "cms_slug": "eastern-promises-david-cronenberg-2007",
+          "cms_image_url": "eastern-promises-david-cronenberg-2007.jpg"
         }
       ]
     }
@@ -2005,12 +2281,16 @@
         {
           "id": "whiplash-2014-damien-chazelle",
           "label": "Whiplash (Damien Chazelle)",
-          "image_url": "/images/movies/whiplash-2014-damien-chazelle.jpg"
+          "image_url": "/images/movies/whiplash-2014-damien-chazelle.jpg",
+          "cms_slug": "whiplash-damien-chazelle-2014",
+          "cms_image_url": "whiplash-damien-chazelle-2014.jpg"
         },
         {
           "id": "the-grand-budapest-hotel-2014-wes-anderson",
           "label": "The Grand Budapest Hotel (Wes Anderson)",
-          "image_url": "/images/movies/the-grand-budapest-hotel-2014-wes-anderson.jpg"
+          "image_url": "/images/movies/the-grand-budapest-hotel-2014-wes-anderson.jpg",
+          "cms_slug": "the-grand-budapest-hotel-wes-anderson-2014",
+          "cms_image_url": "the-grand-budapest-hotel-wes-anderson-2014.jpg"
         },
         {
           "id": "dont-know",
@@ -2039,13 +2319,17 @@
           "id": "divergent-neil-burger",
           "label": "Divergent (Neil Burger)",
           "image_url": "/images/movies/divergent-2014-neil-burger.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "divergent-neil-burger-2014",
+          "cms_image_url": "divergent-neil-burger-2014.jpg"
         },
         {
           "id": "pitch-perfect-by-jason-moore",
           "label": "Pitch Perfect (Jason Moore)",
           "image_url": "/images/movies/pitch-perfect-2012-jason-moore.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "pitch-perfect-jason-moore-2012",
+          "cms_image_url": "pitch-perfect-jason-moore-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -2074,13 +2358,17 @@
           "id": "winter-light-by-ingmar-bergman",
           "label": "Winter Light (Ingmar Bergman)",
           "image_url": "/images/movies/winter-light-1963-ingmar-bergman.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "winter-light-ingmar-bergman-1963",
+          "cms_image_url": "winter-light-ingmar-bergman-1963.jpg"
         },
         {
           "id": "girls-trip-by-malcolm-d-lee",
           "label": "Girls Trip (Malcolm D. Lee)",
           "image_url": "/images/movies/girls-trip-2017-malcolm-d-lee.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "girls-trip-malcolm-d-lee-2017",
+          "cms_image_url": "girls-trip-malcolm-d-lee-2017.jpg"
         },
         {
           "id": "dont-know",
@@ -2109,13 +2397,17 @@
           "id": "the-tree-of-life-by-terrence-malick",
           "label": "The Tree of Life (Terrence Malick)",
           "image_url": "/images/movies/the-tree-of-life-2011-terrence-malick.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-tree-of-life-terrence-malick-2011",
+          "cms_image_url": "the-tree-of-life-terrence-malick-2011.jpg"
         },
         {
           "id": "booksmart-by-olivia-wilde",
           "label": "Booksmart (Olivia Wilde)",
           "image_url": "/images/movies/booksmart-2019-olivia-wilde.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "booksmart-olivia-wilde-2019",
+          "cms_image_url": "booksmart-olivia-wilde-2019.jpg"
         },
         {
           "id": "dont-know",

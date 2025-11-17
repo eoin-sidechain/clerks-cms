@@ -35,12 +35,16 @@
         {
           "id": "automatic-for-the-people-by-r-e-m",
           "label": "Automatic for the People (R.E.M.)",
-          "image_url": "/images/music/rem-automatic-for-the-people-1992.jpg"
+          "image_url": "/images/music/rem-automatic-for-the-people-1992.jpg",
+          "cms_slug": "automatic-for-the-people-r-e-m-1992",
+          "cms_image_url": "automatic-for-the-people-r-e-m-1992.jpg"
         },
         {
           "id": "the-money-store-by-death-grips",
           "label": "The Money Store (Death Grips)",
-          "image_url": "/images/music/death-grips-the-money-store-2012.jpg"
+          "image_url": "/images/music/death-grips-the-money-store-2012.jpg",
+          "cms_slug": "the-money-store-death-grips-2012",
+          "cms_image_url": "the-money-store-death-grips-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -64,13 +68,17 @@
           "id": "air-moon-safari",
           "label": "Moon Safari (Air)",
           "image_url": "/images/music/air-moon-safari-1998.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "moon-safari-air-1998",
+          "cms_image_url": "moon-safari-air-1998.jpg"
         },
         {
           "id": "kanye-west-the-college-dropout",
           "label": "The College Dropout (Kanye West)",
           "image_url": "/images/music/kanye-west-the-college-dropout-2004.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-college-dropout-kanye-west-2004",
+          "cms_image_url": "the-college-dropout-kanye-west-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -94,13 +102,17 @@
           "id": "beastie-boys-check-your-head",
           "label": "Check Your Head (Beastie Boys)",
           "image_url": "/images/music/beastie-boys-check-your-head-1992.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "check-your-head-beastie-boys-1992",
+          "cms_image_url": "check-your-head-beastie-boys-1992.jpg"
         },
         {
           "id": "armand-hammer-we-buy-diabetic-test-strips",
           "label": "We Buy Diabetic Test Strips (Armand Hammer)",
           "image_url": "/images/music/armand-hammer-we-buy-diabetic-test-strips-2023.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "we-buy-diabetic-test-strips-armand-hammer-2023",
+          "cms_image_url": "we-buy-diabetic-test-strips-armand-hammer-2023.jpg"
         },
         {
           "id": "dont-know",
@@ -123,22 +135,30 @@
         {
           "id": "horses-by-patti-smith",
           "label": "Horses (Patti Smith)",
-          "image_url": "/images/music/patti-smith-horses-1975.jpg"
+          "image_url": "/images/music/patti-smith-horses-1975.jpg",
+          "cms_slug": "horses-patti-smith-1975",
+          "cms_image_url": "horses-patti-smith-1975.jpg"
         },
         {
           "id": "appetite-for-destruction-by-guns-n-roses",
           "label": "Appetite for Destruction (Guns N' Roses)",
-          "image_url": "/images/music/guns-n-roses-appetite-for-destruction-1987.jpg"
+          "image_url": "/images/music/guns-n-roses-appetite-for-destruction-1987.jpg",
+          "cms_slug": "appetite-for-destruction-guns-n-roses-1987",
+          "cms_image_url": "appetite-for-destruction-guns-n-roses-1987.jpg"
         },
         {
           "id": "antony-and-the-johnsons-i-am-a-bird-now",
           "label": "I Am a Bird Now (Antony and the Johnsons)",
-          "image_url": "/images/music/antony-and-the-johnsons-i-am-a-bird-now-2005.jpg"
+          "image_url": "/images/music/antony-and-the-johnsons-i-am-a-bird-now-2005.jpg",
+          "cms_slug": "i-am-a-bird-now-antony-and-the-johnsons-2005",
+          "cms_image_url": "i-am-a-bird-now-antony-and-the-johnsons-2005.jpg"
         },
         {
           "id": "hounds-of-love-by-kate-bush",
           "label": "Hounds of Love (Kate Bush)",
-          "image_url": "/images/music/kate-bush-hounds-of-love-1985.jpg"
+          "image_url": "/images/music/kate-bush-hounds-of-love-1985.jpg",
+          "cms_slug": "hounds-of-love-kate-bush-1985",
+          "cms_image_url": "hounds-of-love-kate-bush-1985.jpg"
         }
       ]
     }
@@ -155,22 +175,30 @@
         {
           "id": "070-shake-you-can-t-kill-me",
           "label": "You Can’t Kill Me (070 Shake)",
-          "image_url": "/images/music/070-shake-you-cant-kill-me-2022.jpg"
+          "image_url": "/images/music/070-shake-you-cant-kill-me-2022.jpg",
+          "cms_slug": "you-can-t-kill-me-070-shake-2022",
+          "cms_image_url": "you-can-t-kill-me-070-shake-2022.jpg"
         },
         {
           "id": "lauryn-hill-the-miseducation-of-lauryn-hill",
           "label": "The Miseducation of Lauryn Hill (Lauryn Hill)",
-          "image_url": "/images/music/lauryn-hill-the-miseducation-of-lauryn-hill-1998.jpg"
+          "image_url": "/images/music/lauryn-hill-the-miseducation-of-lauryn-hill-1998.jpg",
+          "cms_slug": "the-miseducation-of-lauryn-hill-lauryn-hill-1998",
+          "cms_image_url": "the-miseducation-of-lauryn-hill-lauryn-hill-1998.jpg"
         },
         {
           "id": "disintegration-by-the-cure",
           "label": "Disintegration (The Cure)",
-          "image_url": "/images/music/the-cure-disintegration-1989.jpg"
+          "image_url": "/images/music/the-cure-disintegration-1989.jpg",
+          "cms_slug": "disintegration-the-cure-1989",
+          "cms_image_url": "disintegration-the-cure-1989.jpg"
         },
         {
           "id": "de-la-soul-3-feet-high-and-rising",
           "label": "3 Feet High and Rising (De La Soul)",
-          "image_url": "/images/music/de-la-soul-3-feet-high-and-rising-1989.jpg"
+          "image_url": "/images/music/de-la-soul-3-feet-high-and-rising-1989.jpg",
+          "cms_slug": "3-feet-high-and-rising-de-la-soul-1989",
+          "cms_image_url": "3-feet-high-and-rising-de-la-soul-1989.jpg"
         }
       ]
     }
@@ -187,12 +215,16 @@
         {
           "id": "iggy-pop-the-idiot",
           "label": "The Idiot (Iggy Pop)",
-          "image_url": "/images/music/iggy-pop-the-idiot-1977.jpg"
+          "image_url": "/images/music/iggy-pop-the-idiot-1977.jpg",
+          "cms_slug": "the-idiot-iggy-pop-1977",
+          "cms_image_url": "the-idiot-iggy-pop-1977.jpg"
         },
         {
           "id": "good-kid-m-a-a-d-city-by-kendrick-lamar",
           "label": "good kid, m.A.A.d city (Kendrick Lamar)",
-          "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg"
+          "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg",
+          "cms_slug": "good-kid-m-a-a-d-city-kendrick-lamar-2012",
+          "cms_image_url": "good-kid-m-a-a-d-city-kendrick-lamar-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -221,13 +253,17 @@
           "id": "arthur-russell-world-of-echo",
           "label": "World of Echo (Arthur Russell)",
           "image_url": "/images/music/arthur-russell-world-of-echo-1986.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "world-of-echo-arthur-russell-1986",
+          "cms_image_url": "world-of-echo-arthur-russell-1986.jpg"
         },
         {
           "id": "baby-keem-the-melodic-blue",
           "label": "The Melodic Blue (Baby Keem)",
           "image_url": "/images/music/baby-keem-the-melodic-blue-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-melodic-blue-baby-keem-2021",
+          "cms_image_url": "the-melodic-blue-baby-keem-2021.jpg"
         },
         {
           "id": "dont-know",
@@ -256,13 +292,17 @@
           "id": "brian-eno-here-come-the-warm-jets",
           "label": "Here Come the Warm Jets (Brian Eno)",
           "image_url": "/images/music/brian-eno-here-come-the-warm-jets-1974.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "here-come-the-warm-jets-brian-eno-1974",
+          "cms_image_url": "here-come-the-warm-jets-brian-eno-1974.jpg"
         },
         {
           "id": "take-care-by-drake",
           "label": "Take Care (Drake)",
           "image_url": "/images/music/drake-take-care-2011.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "take-care-drake-2011",
+          "cms_image_url": "take-care-drake-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -290,12 +330,16 @@
         {
           "id": "tapestry-by-carole-king",
           "label": "Tapestry (Carole King)",
-          "image_url": "/images/music/carole-king-tapestry-1971.jpg"
+          "image_url": "/images/music/carole-king-tapestry-1971.jpg",
+          "cms_slug": "tapestry-carole-king-1971",
+          "cms_image_url": "tapestry-carole-king-1971.jpg"
         },
         {
           "id": "ready-to-die-by-the-notorious-b-i-g",
           "label": "Ready to Die (The Notorious B.I.G.)",
-          "image_url": "/images/music/the-notorious-big-ready-to-die-1994.jpg"
+          "image_url": "/images/music/the-notorious-big-ready-to-die-1994.jpg",
+          "cms_slug": "ready-to-die-the-notorious-b-i-g-1994",
+          "cms_image_url": "ready-to-die-the-notorious-b-i-g-1994.jpg"
         },
         {
           "id": "dont-know",
@@ -319,13 +363,17 @@
           "id": "bill-withers-just-as-i-am",
           "label": "Just As I Am (Bill Withers)",
           "image_url": "/images/music/bill-withers-just-as-i-am-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "just-as-i-am-bill-withers-1971",
+          "cms_image_url": "just-as-i-am-bill-withers-1971.jpg"
         },
         {
           "id": "brent-faiyaz-fuck-the-world",
           "label": "Fuck the World (Brent Faiyaz)",
           "image_url": "/images/music/brent-faiyaz-fuck-the-world-2020.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "fuck-the-world-brent-faiyaz-2020",
+          "cms_image_url": "fuck-the-world-brent-faiyaz-2020.jpg"
         },
         {
           "id": "dont-know",
@@ -349,13 +397,17 @@
           "id": "can-ege-bamyasi",
           "label": "Ege Bamyasi (Can)",
           "image_url": "/images/music/can-ege-bamyasi-1972.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ege-bamyasi-can-1972",
+          "cms_image_url": "ege-bamyasi-can-1972.jpg"
         },
         {
           "id": "reasonable-doubt-by-jay-z",
           "label": "Reasonable Doubt (Jay-Z)",
           "image_url": "/images/music/jay-z-reasonable-doubt-1996.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "reasonable-doubt-jay-z-1996",
+          "cms_image_url": "reasonable-doubt-jay-z-1996.jpg"
         },
         {
           "id": "dont-know",
@@ -379,13 +431,17 @@
           "id": "bridge-over-troubled-water-by-simon-garfunkel",
           "label": "Bridge Over Troubled Water (Simon & Garfunkel)",
           "image_url": "/images/music/simon-garfunkel-bridge-over-troubled-water-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "bridge-over-troubled-water-simon-garfunkel-1970",
+          "cms_image_url": "bridge-over-troubled-water-simon-garfunkel-1970.jpg"
         },
         {
           "id": "big-boi-sir-lucious-left-foot-the-son-of-chico-dusty",
           "label": "Sir Lucious Left Foot… The Son of Chico Dusty (Big Boi)",
           "image_url": "/images/music/big-boi-sir-lucious-left-foot-the-son-of-chico-dusty-2010.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sir-lucious-left-foot-the-son-of-chico-dusty-big-boi-2010",
+          "cms_image_url": "sir-lucious-left-foot-the-son-of-chico-dusty-big-boi-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -408,12 +464,16 @@
         {
           "id": "boygenius-the-record",
           "label": "the record (boygenius)",
-          "image_url": "/images/music/boygenius-the-record-2023.jpg"
+          "image_url": "/images/music/boygenius-the-record-2023.jpg",
+          "cms_slug": "the-record-boygenius-2023",
+          "cms_image_url": "the-record-boygenius-2023.jpg"
         },
         {
           "id": "madvillainy-by-madvillain",
           "label": "Madvillainy (Madvillain)",
-          "image_url": "/images/music/madvillain-madvillainy-2004.jpg"
+          "image_url": "/images/music/madvillain-madvillainy-2004.jpg",
+          "cms_slug": "madvillainy-madvillain-2004",
+          "cms_image_url": "madvillainy-madvillain-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -437,13 +497,17 @@
           "id": "leonard-cohen-songs-of-leonard-cohen",
           "label": "Songs of Leonard Cohen (Leonard Cohen)",
           "image_url": "/images/music/leonard-cohen-songs-of-leonard-cohen-1967.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "songs-of-leonard-cohen-leonard-cohen-1967",
+          "cms_image_url": "songs-of-leonard-cohen-leonard-cohen-1967.jpg"
         },
         {
           "id": "operation-doomsday-by-mf-doom",
           "label": "Operation: Doomsday (MF DOOM)",
           "image_url": "/images/music/mf-doom-operation-doomsday-1999.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "operation-doomsday-mf-doom-1999",
+          "cms_image_url": "operation-doomsday-mf-doom-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -466,13 +530,17 @@
         {
           "id": "sister-sledge-we-are-family-1979",
           "label": "Sister Sledge (We Are Family)",
-          "image_url": "/images/music/sister-sledge-we-are-family-1979.jpg"
+          "image_url": "/images/music/sister-sledge-we-are-family-1979.jpg",
+          "cms_slug": "we-are-family-sister-sledge-1979",
+          "cms_image_url": "we-are-family-sister-sledge-1979.jpg"
         },
         {
           "id": "voodoo-by-dangelo",
           "label": "Voodoo (D'Angelo)",
           "image_url": "/images/music/dangelo-voodoo-2000.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "voodoo-d-angelo-2000",
+          "cms_image_url": "voodoo-d-angelo-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -496,13 +564,17 @@
           "id": "hotel-california-by-eagles",
           "label": "Hotel California (Eagles)",
           "image_url": "/images/music/eagles-hotel-california-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "hotel-california-eagles-1976",
+          "cms_image_url": "hotel-california-eagles-1976.jpg"
         },
         {
           "id": "fantastic-damage-by-el-p",
           "label": "Fantastic Damage (El-P)",
           "image_url": "/images/music/el-p-fantastic-damage-2002.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "fantastic-damage-el-p-2002",
+          "cms_image_url": "fantastic-damage-el-p-2002.jpg"
         },
         {
           "id": "dont-know",
@@ -525,7 +597,9 @@
         {
           "id": "highway-61-revisited-by-bob-dylan",
           "label": "Highway 61 Revisited (Bob Dylan)",
-          "image_url": "/images/music/bob-dylan-highway-61-revisited-1965.jpg"
+          "image_url": "/images/music/bob-dylan-highway-61-revisited-1965.jpg",
+          "cms_slug": "highway-61-revisited-bob-dylan-1965",
+          "cms_image_url": "highway-61-revisited-bob-dylan-1965.jpg"
         },
         {
           "id": "d-angelo-voodoo",
@@ -554,13 +628,17 @@
           "id": "bob-dylan-the-freewheelin-bob-dylan",
           "label": "The Freewheelin’ Bob Dylan (Bob Dylan)",
           "image_url": "/images/music/bob-dylan-the-freewheelin-bob-dylan-1963.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-freewheelin-bob-dylan-bob-dylan-1963",
+          "cms_image_url": "the-freewheelin-bob-dylan-bob-dylan-1963.jpg"
         },
         {
           "id": "claire-rousay-sentiment",
           "label": "sentiment (claire rousay)",
           "image_url": "/images/music/claire-rousay-sentiment-2024.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sentiment-claire-rousay-2024",
+          "cms_image_url": "sentiment-claire-rousay-2024.jpg"
         },
         {
           "id": "dont-know",
@@ -584,13 +662,17 @@
           "id": "broadcast-the-noise-made-by-people",
           "label": "The Noise Made by People (Broadcast)",
           "image_url": "/images/music/broadcast-the-noise-made-by-people-1997.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-noise-made-by-people-broadcast-1997",
+          "cms_image_url": "the-noise-made-by-people-broadcast-1997.jpg"
         },
         {
           "id": "blood-orange-negro-swan",
           "label": "Negro Swan (Blood Orange)",
           "image_url": "/images/music/blood-orange-negro-swan-2018.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "negro-swan-blood-orange-2018",
+          "cms_image_url": "negro-swan-blood-orange-2018.jpg"
         },
         {
           "id": "dont-know",
@@ -614,13 +696,17 @@
           "id": "arooj-aftab-vulture-prince",
           "label": "Vulture Prince (Arooj Aftab)",
           "image_url": "/images/music/arooj-aftab-vulture-prince-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "vulture-prince-arooj-aftab-2021",
+          "cms_image_url": "vulture-prince-arooj-aftab-2021.jpg"
         },
         {
           "id": "because-the-internet-by-childish-gambino",
           "label": "Because the Internet (Childish Gambino)",
           "image_url": "/images/music/childish-gambino-because-the-internet-2013.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "because-the-internet-childish-gambino-2013",
+          "cms_image_url": "because-the-internet-childish-gambino-2013.jpg"
         },
         {
           "id": "dont-know",
@@ -644,7 +730,9 @@
           "id": "st-vincent-by-st-vincent",
           "label": "St. Vincent - St. Vincent",
           "image_url": "/images/music/st-vincent-st-vincent-2014.jpg",
-          "description": "2014 art rock"
+          "description": "2014 art rock",
+          "cms_slug": "st-vincent-st-vincent-2014",
+          "cms_image_url": "st-vincent-st-vincent-2014.jpg"
         }
       ]
     }
@@ -662,7 +750,9 @@
           "id": "oil-of-every-pearl-s-un-insides-by-sophie",
           "label": "Oil of Every Pearl's Un-Insides - SOPHIE",
           "image_url": "/images/music/sophie-oil-of-every-pearls-un-insides-2018.jpg",
-          "description": "2018 hyperpop pioneer"
+          "description": "2018 hyperpop pioneer",
+          "cms_slug": "oil-of-every-pearl-s-un-insides-sophie-2018",
+          "cms_image_url": "oil-of-every-pearl-s-un-insides-sophie-2018.jpg"
         }
       ]
     }
@@ -679,12 +769,16 @@
         {
           "id": "erykah-badu-baduizm",
           "label": "Baduizm (Erykah Badu)",
-          "image_url": "/images/music/erykah-badu-baduizm-1997.jpg"
+          "image_url": "/images/music/erykah-badu-baduizm-1997.jpg",
+          "cms_slug": "baduizm-erykah-badu-1997",
+          "cms_image_url": "baduizm-erykah-badu-1997.jpg"
         },
         {
           "id": "in-the-court-of-the-crimson-king-by-king-crimson",
           "label": "In the Court of the Crimson King (King Crimson)",
-          "image_url": "/images/music/king-crimson-in-the-court-of-the-crimson-king-1969.jpg"
+          "image_url": "/images/music/king-crimson-in-the-court-of-the-crimson-king-1969.jpg",
+          "cms_slug": "in-the-court-of-the-crimson-king-king-crimson-1969",
+          "cms_image_url": "in-the-court-of-the-crimson-king-king-crimson-1969.jpg"
         },
         {
           "id": "dont-know",
@@ -713,13 +807,17 @@
           "id": "19-by-adele",
           "label": "19 (Adele)",
           "image_url": "/images/music/adele-19-2008.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "19-adele-2008",
+          "cms_image_url": "19-adele-2008.jpg"
         },
         {
           "id": "fragile-by-yes",
           "label": "Fragile (Yes)",
           "image_url": "/images/music/yes-fragile-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "fragile-yes-1971",
+          "cms_image_url": "fragile-yes-1971.jpg"
         },
         {
           "id": "dont-know",
@@ -748,13 +846,17 @@
           "id": "lungs-by-florence-the-machine",
           "label": "Lungs (Florence + The Machine)",
           "image_url": "/images/music/florence-the-machine-lungs-2009.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "lungs-florence-the-machine-2009",
+          "cms_image_url": "lungs-florence-the-machine-2009.jpg"
         },
         {
           "id": "close-to-the-edge-by-yes",
           "label": "Close to the Edge (Yes)",
           "image_url": "/images/music/yes-close-to-the-edge-1972.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "close-to-the-edge-yes-1972",
+          "cms_image_url": "close-to-the-edge-yes-1972.jpg"
         },
         {
           "id": "dont-know",
@@ -783,13 +885,17 @@
           "id": "the-fame-by-lady-gaga",
           "label": "The Fame (Lady Gaga)",
           "image_url": "/images/music/lady-gaga-the-fame-2008.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-fame-lady-gaga-2008",
+          "cms_image_url": "the-fame-lady-gaga-2008.jpg"
         },
         {
           "id": "thick-as-a-brick-by-jethro-tull",
           "label": "Thick as a Brick (Jethro Tull)",
           "image_url": "/images/music/jethro-tull-thick-as-a-brick-1972.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "thick-as-a-brick-jethro-tull-1972",
+          "cms_image_url": "thick-as-a-brick-jethro-tull-1972.jpg"
         },
         {
           "id": "dont-know",
@@ -817,12 +923,16 @@
         {
           "id": "dark-side-of-the-moon-by-pink-floyd",
           "label": "Dark Side of the Moon (Pink Floyd)",
-          "image_url": "/images/music/pink-floyd-dark-side-of-the-moon-1973.jpg"
+          "image_url": "/images/music/pink-floyd-dark-side-of-the-moon-1973.jpg",
+          "cms_slug": "dark-side-of-the-moon-pink-floyd-1973",
+          "cms_image_url": "dark-side-of-the-moon-pink-floyd-1973.jpg"
         },
         {
           "id": "college-dropout-by-kanye-west",
           "label": "College Dropout (Kanye West)",
-          "image_url": "/images/music/kanye-west-college-dropout-2004.jpg"
+          "image_url": "/images/music/kanye-west-college-dropout-2004.jpg",
+          "cms_slug": "college-dropout-kanye-west-2004",
+          "cms_image_url": "college-dropout-kanye-west-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -851,13 +961,17 @@
           "id": "bicep-isles",
           "label": "Isles (Bicep)",
           "image_url": "/images/music/bicep-isles-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "isles-bicep-2021",
+          "cms_image_url": "isles-bicep-2021.jpg"
         },
         {
           "id": "coil-love-s-secret-domain",
           "label": "Love’s Secret Domain (Coil)",
           "image_url": "/images/music/coil-loves-secret-domain-1991.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "love-s-secret-domain-coil-1991",
+          "cms_image_url": "love-s-secret-domain-coil-1991.jpg"
         },
         {
           "id": "dont-know",
@@ -886,13 +1000,17 @@
           "id": "sticky-fingers-by-the-rolling-stones",
           "label": "Sticky Fingers (The Rolling Stones)",
           "image_url": "/images/music/the-rolling-stones-sticky-fingers-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sticky-fingers-the-rolling-stones-1971",
+          "cms_image_url": "sticky-fingers-the-rolling-stones-1971.jpg"
         },
         {
           "id": "50-cent-get-rich-or-die-tryin",
           "label": "Get Rich or Die Tryin’ (50 Cent)",
           "image_url": "/images/music/50-cent-get-rich-or-die-tryin-2003.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "get-rich-or-die-tryin-50-cent-2003",
+          "cms_image_url": "get-rich-or-die-tryin-50-cent-2003.jpg"
         },
         {
           "id": "dont-know",
@@ -921,7 +1039,9 @@
           "id": "days-are-gone-by-haim",
           "label": "Days Are Gone - HAIM",
           "image_url": "/images/music/haim-days-are-gone-2013.jpg",
-          "description": "2013 soft rock revival"
+          "description": "2013 soft rock revival",
+          "cms_slug": "days-are-gone-haim-2013",
+          "cms_image_url": "days-are-gone-haim-2013.jpg"
         }
       ]
     }
@@ -938,12 +1058,16 @@
         {
           "id": "blonde-by-frank-ocean",
           "label": "Blonde (Frank Ocean)",
-          "image_url": "/images/music/frank-ocean-blonde-2016.jpg"
+          "image_url": "/images/music/frank-ocean-blonde-2016.jpg",
+          "cms_slug": "blonde-frank-ocean-2016",
+          "cms_image_url": "blonde-frank-ocean-2016.jpg"
         },
         {
           "id": "fiona-apple-tidal",
           "label": "Tidal (Fiona Apple)",
-          "image_url": "/images/music/fiona-apple-tidal-1996.jpg"
+          "image_url": "/images/music/fiona-apple-tidal-1996.jpg",
+          "cms_slug": "tidal-fiona-apple-1996",
+          "cms_image_url": "tidal-fiona-apple-1996.jpg"
         },
         {
           "id": "dont-know",
@@ -967,13 +1091,17 @@
           "id": "ctrl-by-sza",
           "label": "Ctrl (SZA)",
           "image_url": "/images/music/sza-ctrl-2017.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ctrl-sza-2017",
+          "cms_image_url": "ctrl-sza-2017.jpg"
         },
         {
           "id": "portishead-dummy",
           "label": "Dummy (Portishead)",
           "image_url": "/images/music/portishead-dummy-1994.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "dummy-portishead-1994",
+          "cms_image_url": "dummy-portishead-1994.jpg"
         },
         {
           "id": "dont-know",
@@ -997,13 +1125,17 @@
           "id": "anti-by-rihanna",
           "label": "Anti (Rihanna)",
           "image_url": "/images/music/rihanna-anti-2016.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "anti-rihanna-2016",
+          "cms_image_url": "anti-rihanna-2016.jpg"
         },
         {
           "id": "kate-bush-the-dreaming-1982",
           "label": "The Dreaming (Kate Bush)",
           "image_url": "/images/music/kate-bush-the-dreaming-1982.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-dreaming-kate-bush-1982",
+          "cms_image_url": "the-dreaming-kate-bush-1982.jpg"
         },
         {
           "id": "dont-know",
@@ -1027,13 +1159,17 @@
           "id": "chance-the-rapper-acid-rap",
           "label": "Acid Rap (Chance the Rapper)",
           "image_url": "/images/music/chance-the-rapper-acid-rap-2013.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "acid-rap-chance-the-rapper-2013",
+          "cms_image_url": "acid-rap-chance-the-rapper-2013.jpg"
         },
         {
           "id": "bat-for-lashes-fur-and-gold",
           "label": "Fur and Gold (Bat for Lashes)",
           "image_url": "/images/music/bat-for-lashes-fur-and-gold-2006.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "fur-and-gold-bat-for-lashes-2006",
+          "cms_image_url": "fur-and-gold-bat-for-lashes-2006.jpg"
         },
         {
           "id": "dont-know",
@@ -1057,7 +1193,9 @@
           "id": "the-epic-by-kamasi-washington",
           "label": "The Epic - Kamasi Washington",
           "image_url": "/images/music/kamasi-washington-the-epic-2015.jpg",
-          "description": "2015 contemporary jazz odyssey"
+          "description": "2015 contemporary jazz odyssey",
+          "cms_slug": "the-epic-kamasi-washington-2015",
+          "cms_image_url": "the-epic-kamasi-washington-2015.jpg"
         }
       ]
     }
@@ -1074,22 +1212,30 @@
         {
           "id": "kid-a-by-radiohead",
           "label": "Kid A (Radiohead)",
-          "image_url": "/images/music/radiohead-kid-a-2000.jpg"
+          "image_url": "/images/music/radiohead-kid-a-2000.jpg",
+          "cms_slug": "kid-a-radiohead-2000",
+          "cms_image_url": "kid-a-radiohead-2000.jpg"
         },
         {
           "id": "aquemini-by-outkast",
           "label": "Aquemini (OutKast)",
-          "image_url": "/images/music/outkast-aquemini-1998.jpg"
+          "image_url": "/images/music/outkast-aquemini-1998.jpg",
+          "cms_slug": "aquemini-outkast-1998",
+          "cms_image_url": "aquemini-outkast-1998.jpg"
         },
         {
           "id": "the-talking-heads-fear-of-music-1979",
           "label": "The Talking Heads (Fear of Music)",
-          "image_url": "/images/music/the-talking-heads-fear-of-music-1979.jpg"
+          "image_url": "/images/music/the-talking-heads-fear-of-music-1979.jpg",
+          "cms_slug": "fear-of-music-the-talking-heads-1979",
+          "cms_image_url": "fear-of-music-the-talking-heads-1979.jpg"
         },
         {
           "id": "doolittle-by-pixies",
           "label": "Doolittle (Pixies)",
-          "image_url": "/images/music/pixies-doolittle-1989.jpg"
+          "image_url": "/images/music/pixies-doolittle-1989.jpg",
+          "cms_slug": "doolittle-pixies-1989",
+          "cms_image_url": "doolittle-pixies-1989.jpg"
         }
       ]
     }
@@ -1107,7 +1253,9 @@
           "id": "dj-sabrina-the-teenage-dj-destiny",
           "label": "Destiny (DJ Sabrina the Teenage DJ)",
           "image_url": "/images/music/dj-sabrina-the-teenage-dj-destiny-2023.jpg",
-          "description": "2020 experimental electronic"
+          "description": "2020 experimental electronic",
+          "cms_slug": "destiny-dj-sabrina-the-teenage-dj-2023",
+          "cms_image_url": "destiny-dj-sabrina-the-teenage-dj-2023.jpg"
         }
       ]
     }
@@ -1125,7 +1273,9 @@
           "id": "dizzee-rascal-boy-in-da-corner",
           "label": "Boy in da Corner (Dizzee Rascal)",
           "image_url": "/images/music/dizzee-rascal-boy-in-da-corner-2003.jpg",
-          "description": "2018 R&B/indie"
+          "description": "2018 R&B/indie",
+          "cms_slug": "boy-in-da-corner-dizzee-rascal-2003",
+          "cms_image_url": "boy-in-da-corner-dizzee-rascal-2003.jpg"
         }
       ]
     }
@@ -1142,12 +1292,16 @@
         {
           "id": "d-angelo-brown-sugar",
           "label": "Brown Sugar (D’Angelo)",
-          "image_url": "/images/music/dangelo-brown-sugar-1995.jpg"
+          "image_url": "/images/music/dangelo-brown-sugar-1995.jpg",
+          "cms_slug": "brown-sugar-d-angelo-1995",
+          "cms_image_url": "brown-sugar-d-angelo-1995.jpg"
         },
         {
           "id": "illmatic-by-nas",
           "label": "Illmatic (Nas)",
-          "image_url": "/images/music/nas-illmatic-1994.jpg"
+          "image_url": "/images/music/nas-illmatic-1994.jpg",
+          "cms_slug": "illmatic-nas-1994",
+          "cms_image_url": "illmatic-nas-1994.jpg"
         },
         {
           "id": "dont-know",
@@ -1171,13 +1325,17 @@
           "id": "charli-xcx-crash",
           "label": "CRASH (Charli XCX)",
           "image_url": "/images/music/charli-xcx-crash-2022.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "crash-charli-xcx-2022",
+          "cms_image_url": "crash-charli-xcx-2022.jpg"
         },
         {
           "id": "mobb-deep-the-infamous",
           "label": "The Infamous (Mobb Deep)",
           "image_url": "/images/music/mobb-deep-the-infamous-1995.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-infamous-mobb-deep-1995",
+          "cms_image_url": "the-infamous-mobb-deep-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -1201,13 +1359,17 @@
           "id": "mezzanine-by-massive-attack",
           "label": "Mezzanine (Massive Attack)",
           "image_url": "/images/music/massive-attack-mezzanine-1998.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "mezzanine-massive-attack-1998",
+          "cms_image_url": "mezzanine-massive-attack-1998.jpg"
         },
         {
           "id": "clairo-sling",
           "label": "Sling (Clairo)",
           "image_url": "/images/music/clairo-sling-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sling-clairo-2021",
+          "cms_image_url": "sling-clairo-2021.jpg"
         },
         {
           "id": "dont-know",
@@ -1231,13 +1393,17 @@
           "id": "madonna-like-a-prayer-1989",
           "label": "Like a Prayer (Madonna)",
           "image_url": "/images/music/madonna-like-a-prayer-1989.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "like-a-prayer-madonna-1989",
+          "cms_image_url": "like-a-prayer-madonna-1989.jpg"
         },
         {
           "id": "public-enemy-it-takes-a-nation-of-millions",
           "label": "It Takes a Nation of Millions... (Public Enemy)",
           "image_url": "/images/music/public-enemy-it-takes-a-nation-of-millions-1988.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "it-takes-a-nation-of-millions-public-enemy-1988",
+          "cms_image_url": "it-takes-a-nation-of-millions-public-enemy-1988.jpg"
         },
         {
           "id": "dont-know",
@@ -1260,12 +1426,16 @@
         {
           "id": "alice-coltrane-journey-in-satchidananda",
           "label": "Journey in Satchidananda (Alice Coltrane)",
-          "image_url": "/images/music/alice-coltrane-journey-in-satchidananda-1971.jpg"
+          "image_url": "/images/music/alice-coltrane-journey-in-satchidananda-1971.jpg",
+          "cms_slug": "journey-in-satchidananda-alice-coltrane-1971",
+          "cms_image_url": "journey-in-satchidananda-alice-coltrane-1971.jpg"
         },
         {
           "id": "house-of-balloons-by-the-weeknd",
           "label": "House of Balloons (The Weeknd)",
-          "image_url": "/images/music/the-weeknd-house-of-balloons-2011.jpg"
+          "image_url": "/images/music/the-weeknd-house-of-balloons-2011.jpg",
+          "cms_slug": "house-of-balloons-the-weeknd-2011",
+          "cms_image_url": "house-of-balloons-the-weeknd-2011.jpg"
         },
         {
           "id": "dont-know",
@@ -1289,13 +1459,17 @@
           "id": "aretha-franklin-i-never-loved-a-man-the-way-i-love-you",
           "label": "I Never Loved a Man the Way I Love You (Aretha Franklin)",
           "image_url": "/images/music/aretha-franklin-i-never-loved-a-man-the-way-i-love-you-1967.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "i-never-loved-a-man-the-way-i-love-you-aretha-franklin-1967",
+          "cms_image_url": "i-never-loved-a-man-the-way-i-love-you-aretha-franklin-1967.jpg"
         },
         {
           "id": "future-ds2",
           "label": "DS2 (Future)",
           "image_url": "/images/music/future-ds2-2015.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "ds2-future-2015",
+          "cms_image_url": "ds2-future-2015.jpg"
         },
         {
           "id": "dont-know",
@@ -1319,13 +1493,17 @@
           "id": "arlo-parks-collapsed-in-sunbeams",
           "label": "Collapsed in Sunbeams (Arlo Parks)",
           "image_url": "/images/music/arlo-parks-collapsed-in-sunbeams-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "collapsed-in-sunbeams-arlo-parks-2021",
+          "cms_image_url": "collapsed-in-sunbeams-arlo-parks-2021.jpg"
         },
         {
           "id": "beyonc-cowboy-carter",
           "label": "COWBOY CARTER (Beyoncé)",
           "image_url": "/images/music/beyonce-cowboy-carter-2024.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "cowboy-carter-beyonc-2024",
+          "cms_image_url": "cowboy-carter-beyonc-2024.jpg"
         },
         {
           "id": "dont-know",
@@ -1349,13 +1527,17 @@
           "id": "stevie-wonder-innervisions",
           "label": "Innervisions (Stevie Wonder)",
           "image_url": "/images/music/stevie-wonder-innervisions-1973.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "innervisions-stevie-wonder-1973",
+          "cms_image_url": "innervisions-stevie-wonder-1973.jpg"
         },
         {
           "id": "frank-ocean-channel-orange",
           "label": "Channel Orange (Frank Ocean)",
           "image_url": "/images/music/frank-ocean-channel-orange-2012.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "channel-orange-frank-ocean-2012",
+          "cms_image_url": "channel-orange-frank-ocean-2012.jpg"
         },
         {
           "id": "dont-know",
@@ -1379,7 +1561,9 @@
           "id": "dalek-absence",
           "label": "Absence (Dalek)",
           "image_url": "/images/music/dalek-absence-2005.jpg",
-          "description": "2014 political hip-hop"
+          "description": "2014 political hip-hop",
+          "cms_slug": "absence-dalek-2005",
+          "cms_image_url": "absence-dalek-2005.jpg"
         }
       ]
     }
@@ -1397,7 +1581,9 @@
           "id": "body-talk-by-robyn",
           "label": "Body Talk - Robyn",
           "image_url": "/images/music/robyn-body-talk-2010.jpg",
-          "description": "2010 art-pop masterpiece"
+          "description": "2010 art-pop masterpiece",
+          "cms_slug": "body-talk-robyn-2010",
+          "cms_image_url": "body-talk-robyn-2010.jpg"
         }
       ]
     }
@@ -1414,12 +1600,16 @@
         {
           "id": "cocteau-twins-treasure",
           "label": "Treasure (Cocteau Twins)",
-          "image_url": "/images/music/cocteau-twins-treasure-1984.jpg"
+          "image_url": "/images/music/cocteau-twins-treasure-1984.jpg",
+          "cms_slug": "treasure-cocteau-twins-1984",
+          "cms_image_url": "treasure-cocteau-twins-1984.jpg"
         },
         {
           "id": "spiderland-by-slint",
           "label": "Spiderland (Slint)",
-          "image_url": "/images/music/slint-spiderland-1991.jpg"
+          "image_url": "/images/music/slint-spiderland-1991.jpg",
+          "cms_slug": "spiderland-slint-1991",
+          "cms_image_url": "spiderland-slint-1991.jpg"
         },
         {
           "id": "dont-know",
@@ -1443,13 +1633,17 @@
           "id": "afrika-bambaataa-soulsonic-force-planet-rock",
           "label": "Planet Rock (Afrika Bambaataa & Soulsonic Force)",
           "image_url": "/images/music/afrika-bambaataa-soulsonic-force-planet-rock-1982.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "planet-rock-afrika-bambaataa-soulsonic-force-1982",
+          "cms_image_url": "planet-rock-afrika-bambaataa-soulsonic-force-1982.jpg"
         },
         {
           "id": "goat-by-the-jesus-lizard",
           "label": "Goat (The Jesus Lizard)",
           "image_url": "/images/music/the-jesus-lizard-goat-1991.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "goat-the-jesus-lizard-1991",
+          "cms_image_url": "goat-the-jesus-lizard-1991.jpg"
         },
         {
           "id": "dont-know",
@@ -1473,13 +1667,17 @@
           "id": "michael-jackson-off-the-wall",
           "label": "Off the Wall (Michael Jackson)",
           "image_url": "/images/music/michael-jackson-off-the-wall-1979.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "off-the-wall-michael-jackson-1979",
+          "cms_image_url": "off-the-wall-michael-jackson-1979.jpg"
         },
         {
           "id": "chic-c-est-chic",
           "label": "C'est Chic (Chic)",
           "image_url": "/images/music/chic-cest-chic-1978.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "c-est-chic-chic-1978",
+          "cms_image_url": "c-est-chic-chic-1978.jpg"
         },
         {
           "id": "dont-know",
@@ -1503,13 +1701,17 @@
           "id": "faith-by-george-michael",
           "label": "Faith (George Michael)",
           "image_url": "/images/music/george-michael-faith-1987.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "faith-george-michael-1987",
+          "cms_image_url": "faith-george-michael-1987.jpg"
         },
         {
           "id": "aphex-twin-selected-ambient-works-85-92",
           "label": "Selected Ambient Works 85–92 (Aphex Twin)",
           "image_url": "/images/music/aphex-twin-selected-ambient-works-8592-1992.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "selected-ambient-works-85-92-aphex-twin-1992",
+          "cms_image_url": "selected-ambient-works-85-92-aphex-twin-1992.jpg"
         },
         {
           "id": "dont-know",
@@ -1532,12 +1734,16 @@
         {
           "id": "radiohead-ok-computer",
           "label": "OK Computer (Radiohead)",
-          "image_url": "/images/music/radiohead-ok-computer-1997.jpg"
+          "image_url": "/images/music/radiohead-ok-computer-1997.jpg",
+          "cms_slug": "ok-computer-radiohead-1997",
+          "cms_image_url": "ok-computer-radiohead-1997.jpg"
         },
         {
           "id": "beyonc-renaissance",
           "label": "Renaissance (Beyoncé)",
-          "image_url": "/images/music/beyonce-renaissance-2022.jpg"
+          "image_url": "/images/music/beyonce-renaissance-2022.jpg",
+          "cms_slug": "renaissance-beyonc-2022",
+          "cms_image_url": "renaissance-beyonc-2022.jpg"
         },
         {
           "id": "dont-know",
@@ -1561,13 +1767,17 @@
           "id": "g-tis-byrjun-by-sigur-r-s",
           "label": "Ágætis byrjun (Sigur Rós)",
           "image_url": "/images/music/sigur-ros-agtis-byrjun-1999.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "g-tis-byrjun-sigur-r-s-1999",
+          "cms_image_url": "g-tis-byrjun-sigur-r-s-1999.jpg"
         },
         {
           "id": "black-sabbath-paranoid",
           "label": "Paranoid (Black Sabbath)",
           "image_url": "/images/music/black-sabbath-paranoid-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "paranoid-black-sabbath-1970",
+          "cms_image_url": "paranoid-black-sabbath-1970.jpg"
         },
         {
           "id": "dont-know",
@@ -1591,13 +1801,17 @@
           "id": "chuck-berry-after-school-session",
           "label": "After School Session (Chuck Berry)",
           "image_url": "/images/music/chuck-berry-after-school-session-1957.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "after-school-session-chuck-berry-1957",
+          "cms_image_url": "after-school-session-chuck-berry-1957.jpg"
         },
         {
           "id": "dire-straits-brothers-in-arms-1985",
           "label": "Dire Straits (Brothers in Arms)",
-          "image_url": "/images/music/dire-straits-brothers-in-arms-1985.jpg"
-      },
+          "image_url": "/images/music/dire-straits-brothers-in-arms-1985.jpg",
+          "cms_slug": "brothers-in-arms-dire-straits-1985",
+          "cms_image_url": "brothers-in-arms-dire-straits-1985.jpg"
+        },
         {
           "id": "dont-know",
           "label": "I Don't Know These",
@@ -1620,7 +1834,9 @@
           "id": "daft-punk-homework",
           "label": "Homework (Daft Punk)",
           "image_url": "/images/music/daft-punk-homework-1997.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "homework-daft-punk-1997",
+          "cms_image_url": "homework-daft-punk-1997.jpg"
         },
         {
           "id": "paranoid-by-black-sabbath",
@@ -1650,7 +1866,9 @@
           "id": "1000-gecs-by-100-gecs",
           "label": "1000 gecs - 100 gecs",
           "image_url": "/images/music/100-gecs-1000-gecs-2019.jpg",
-          "description": "2019 hyperpop chaos"
+          "description": "2019 hyperpop chaos",
+          "cms_slug": "1000-gecs-100-gecs-2019",
+          "cms_image_url": "1000-gecs-100-gecs-2019.jpg"
         }
       ]
     }
@@ -1667,12 +1885,16 @@
         {
           "id": "a-tribe-called-quest-people-s-instinctive-travels-and-the-paths-of-rhythm",
           "label": "People's Instinctive Travels and the Paths of Rhythm (A Tribe Called Quest)",
-          "image_url": "/images/music/a-tribe-called-quest-peoples-instinctive-travels-and-the-paths-of-rhythm-1990.jpg"
+          "image_url": "/images/music/a-tribe-called-quest-peoples-instinctive-travels-and-the-paths-of-rhythm-1990.jpg",
+          "cms_slug": "people-s-instinctive-travels-and-the-paths-of-rhythm-a-tribe-called-quest-1990",
+          "cms_image_url": "people-s-instinctive-travels-and-the-paths-of-rhythm-a-tribe-called-quest-1990.jpg"
         },
         {
           "id": "gil-scott-heron-pieces-of-a-man",
           "label": "Heron – Pieces of a Man (Gil Scott)",
-          "image_url": "/images/music/gil-scott-heron-pieces-of-a-man-1971.jpg"
+          "image_url": "/images/music/gil-scott-heron-pieces-of-a-man-1971.jpg",
+          "cms_slug": "heron-pieces-of-a-man-gil-scott-1971",
+          "cms_image_url": "heron-pieces-of-a-man-gil-scott-1971.jpg"
         },
         {
           "id": "dont-know",
@@ -1696,13 +1918,17 @@
           "id": "david-bowie-hunky-dory",
           "label": "Hunky Dory (David Bowie)",
           "image_url": "/images/music/david-bowie-hunky-dory-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "hunky-dory-david-bowie-1971",
+          "cms_image_url": "hunky-dory-david-bowie-1971.jpg"
         },
         {
           "id": "amaarae-fountain-baby",
           "label": "Fountain Baby (Amaarae)",
           "image_url": "/images/music/amaarae-fountain-baby-2023.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "fountain-baby-amaarae-2023",
+          "cms_image_url": "fountain-baby-amaarae-2023.jpg"
         },
         {
           "id": "dont-know",
@@ -1726,13 +1952,17 @@
           "id": "music-for-airports-by-brian-eno",
           "label": "Music for Airports (Brian Eno)",
           "image_url": "/images/music/brian-eno-music-for-airports-1978.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "music-for-airports-brian-eno-1978",
+          "cms_image_url": "music-for-airports-brian-eno-1978.jpg"
         },
         {
           "id": "bone-thugs-n-harmony-e-1999-eternal",
           "label": "n-Harmony – E. 1999 Eternal (Bone Thugs)",
           "image_url": "/images/music/bone-thugs-n-harmony-e-1999-eternal-1995.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "n-harmony-e-1999-eternal-bone-thugs-1995",
+          "cms_image_url": "n-harmony-e-1999-eternal-bone-thugs-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -1756,13 +1986,17 @@
           "id": "oxyg-ne-by-jean-michel-jarre",
           "label": "Oxygène (Jean-Michel Jarre)",
           "image_url": "/images/music/jean-michel-jarre-oxygene-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "oxyg-ne-jean-michel-jarre-1976",
+          "cms_image_url": "oxyg-ne-jean-michel-jarre-1976.jpg"
         },
         {
           "id": "marvin-gaye-lets-get-it-on-1973",
           "label": "Let's Get It On (Marvin Gaye)",
           "image_url": "/images/music/marvin-gaye-lets-get-it-on-1973.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "let-s-get-it-on-marvin-gaye-1973",
+          "cms_image_url": "let-s-get-it-on-marvin-gaye-1973.jpg"
         },
         {
           "id": "dont-know",
@@ -1785,12 +2019,16 @@
         {
           "id": "boogie-down-productions-criminal-minded",
           "label": "Criminal Minded (Boogie Down Productions)",
-          "image_url": "/images/music/boogie-down-productions-criminal-minded-1987.jpg"
+          "image_url": "/images/music/boogie-down-productions-criminal-minded-1987.jpg",
+          "cms_slug": "criminal-minded-boogie-down-productions-1987",
+          "cms_image_url": "criminal-minded-boogie-down-productions-1987.jpg"
         },
         {
           "id": "gang-of-four-entertainment",
           "label": "Entertainment! (Gang of Four)",
-          "image_url": "/images/music/gang-of-four-entertainment-1979.jpg"
+          "image_url": "/images/music/gang-of-four-entertainment-1979.jpg",
+          "cms_slug": "entertainment-gang-of-four-1979",
+          "cms_image_url": "entertainment-gang-of-four-1979.jpg"
         },
         {
           "id": "dont-know",
@@ -1814,13 +2052,17 @@
           "id": "doggystyle-by-snoop-dogg",
           "label": "Doggystyle (Snoop Dogg)",
           "image_url": "/images/music/snoop-dogg-doggystyle-1993.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "doggystyle-snoop-dogg-1993",
+          "cms_image_url": "doggystyle-snoop-dogg-1993.jpg"
         },
         {
           "id": "parallel-lines-by-blondie",
           "label": "Parallel Lines (Blondie)",
           "image_url": "/images/music/blondie-parallel-lines-1978.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "parallel-lines-blondie-1978",
+          "cms_image_url": "parallel-lines-blondie-1978.jpg"
         },
         {
           "id": "dont-know",
@@ -1844,13 +2086,17 @@
           "id": "all-eyez-on-me-by-2pac",
           "label": "All Eyez on Me (2Pac)",
           "image_url": "/images/music/2pac-all-eyez-on-me-1996.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "all-eyez-on-me-2pac-1996",
+          "cms_image_url": "all-eyez-on-me-2pac-1996.jpg"
         },
         {
           "id": "company-flow-funcrusher-plus",
           "label": "Funcrusher Plus (Company Flow)",
           "image_url": "/images/music/company-flow-funcrusher-plus-1997.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "funcrusher-plus-company-flow-1997",
+          "cms_image_url": "funcrusher-plus-company-flow-1997.jpg"
         },
         {
           "id": "dont-know",
@@ -1874,13 +2120,17 @@
           "id": "wu-tang-clan-enter-the-wu-tang-36-chambers",
           "label": "Tang Clan – Enter the Wu-Tang (36 Chambers) (Wu)",
           "image_url": "/images/music/wu-tang-clan-enter-the-wu-tang-36-chambers-1993.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "enter-the-wu-tang-36-chambers-wu-tang-clan-1993",
+          "cms_image_url": "enter-the-wu-tang-36-chambers-wu-tang-clan-1993.jpg"
         },
         {
           "id": "the-smiths-the-smiths",
           "label": "The Smiths (The Smiths)",
           "image_url": "/images/music/the-smiths-the-smiths-1984.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-smiths-the-smiths-1984",
+          "cms_image_url": "the-smiths-the-smiths-1984.jpg"
         },
         {
           "id": "dont-know",
@@ -1904,7 +2154,9 @@
           "id": "a-deeper-understanding-by-the-war-on-drugs",
           "label": "A Deeper Understanding - The War on Drugs",
           "image_url": "/images/music/the-war-on-drugs-a-deeper-understanding-2017.jpg",
-          "description": "2017 heartland rock revival"
+          "description": "2017 heartland rock revival",
+          "cms_slug": "a-deeper-understanding-the-war-on-drugs-2017",
+          "cms_image_url": "a-deeper-understanding-the-war-on-drugs-2017.jpg"
         }
       ]
     }
@@ -1921,12 +2173,16 @@
         {
           "id": "aja-by-steely-dan",
           "label": "Aja (Steely Dan)",
-          "image_url": "/images/music/steely-dan-aja-1977.jpg"
+          "image_url": "/images/music/steely-dan-aja-1977.jpg",
+          "cms_slug": "aja-steely-dan-1977",
+          "cms_image_url": "aja-steely-dan-1977.jpg"
         },
         {
           "id": "donuts-by-j-dilla",
           "label": "Donuts (J Dilla)",
-          "image_url": "/images/music/j-dilla-donuts-2006.jpg"
+          "image_url": "/images/music/j-dilla-donuts-2006.jpg",
+          "cms_slug": "donuts-j-dilla-2006",
+          "cms_image_url": "donuts-j-dilla-2006.jpg"
         },
         {
           "id": "dont-know",
@@ -1950,13 +2206,17 @@
           "id": "al-green-let-s-stay-together",
           "label": "Let’s Stay Together (Al Green)",
           "image_url": "/images/music/al-green-lets-stay-together-1972.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "let-s-stay-together-al-green-1972",
+          "cms_image_url": "let-s-stay-together-al-green-1972.jpg"
         },
         {
           "id": "endtroducing-by-dj-shadow",
           "label": "Endtroducing..... (DJ Shadow)",
           "image_url": "/images/music/dj-shadow-endtroducing-1996.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "endtroducing-dj-shadow-1996",
+          "cms_image_url": "endtroducing-dj-shadow-1996.jpg"
         },
         {
           "id": "dont-know",
@@ -1980,13 +2240,17 @@
           "id": "can-tago-mago",
           "label": "Tago Mago (Can)",
           "image_url": "/images/music/can-tago-mago-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tago-mago-can-1971",
+          "cms_image_url": "tago-mago-can-1971.jpg"
         },
         {
           "id": "mf-doom-mm-food",
           "label": "MM..FOOD (MF DOOM)",
           "image_url": "/images/music/mf-doom-mmfood-2004.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "mm-food-mf-doom-2004",
+          "cms_image_url": "mm-food-mf-doom-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -2010,13 +2274,17 @@
           "id": "big-thief-dragon-new-warm-mountain-i-believe-in-you",
           "label": "Dragon New Warm Mountain I Believe In You (Big Thief)",
           "image_url": "/images/music/big-thief-dragon-new-warm-mountain-i-believe-in-you-2022.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "dragon-new-warm-mountain-i-believe-in-you-big-thief-2022",
+          "cms_image_url": "dragon-new-warm-mountain-i-believe-in-you-big-thief-2022.jpg"
         },
         {
           "id": "since-i-left-you-by-the-avalanches",
           "label": "Since I Left You (The Avalanches)",
           "image_url": "/images/music/the-avalanches-since-i-left-you-2000.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "since-i-left-you-the-avalanches-2000",
+          "cms_image_url": "since-i-left-you-the-avalanches-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -2039,13 +2307,17 @@
         {
           "id": "johnny-cash-at-folsom-prison",
           "label": "At Folsom Prison (Johnny Cash)",
-          "image_url": "/images/music/johnny-cash-at-folsom-prison-1968.jpg"
+          "image_url": "/images/music/johnny-cash-at-folsom-prison-1968.jpg",
+          "cms_slug": "at-folsom-prison-johnny-cash-1968",
+          "cms_image_url": "at-folsom-prison-johnny-cash-1968.jpg"
         },
         {
           "id": "vampire-weekend-modern-vampires-of-the-city-2013",
           "label": "Vampire Weekend (Modern Vampires of the City)",
-          "image_url": "/images/music/vampire-weekend-modern-vampires-of-the-city-2013.jpg"
-      },
+          "image_url": "/images/music/vampire-weekend-modern-vampires-of-the-city-2013.jpg",
+          "cms_slug": "modern-vampires-of-the-city-vampire-weekend-2013",
+          "cms_image_url": "modern-vampires-of-the-city-vampire-weekend-2013.jpg"
+        },
         {
           "id": "dont-know",
           "label": "I Don't Know These",
@@ -2068,13 +2340,17 @@
           "id": "willie-nelson-red-headed-stranger",
           "label": "Red Headed Stranger (Willie Nelson)",
           "image_url": "/images/music/willie-nelson-red-headed-stranger-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "red-headed-stranger-willie-nelson-1975",
+          "cms_image_url": "red-headed-stranger-willie-nelson-1975.jpg"
         },
         {
           "id": "tyler-the-creator-chromakopia",
           "label": "Chromakopia (Tyler, The Creator)",
           "image_url": "/images/music/tyler-the-creator-chromakopia-2024.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "chromakopia-tyler-the-creator-2024",
+          "cms_image_url": "chromakopia-tyler-the-creator-2024.jpg"
         },
         {
           "id": "dont-know",
@@ -2098,13 +2374,17 @@
           "id": "marty-robbins-gunfighter-ballads",
           "label": "Gunfighter Ballads & Trail Songs (Marty Robbins)",
           "image_url": "/images/music/marty-robbins-gunfighter-ballads-trail-songs-1959.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "gunfighter-ballads-trail-songs-marty-robbins-1959",
+          "cms_image_url": "gunfighter-ballads-trail-songs-marty-robbins-1959.jpg"
         },
         {
           "id": "little-simz-sometimes-i-might-be-introvert",
           "label": "Sometimes I Might Be Introvert (Little Simz)",
           "image_url": "/images/music/little-simz-sometimes-i-might-be-introvert-2021.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sometimes-i-might-be-introvert-little-simz-2021",
+          "cms_image_url": "sometimes-i-might-be-introvert-little-simz-2021.jpg"
         },
         {
           "id": "dont-know",
@@ -2127,12 +2407,16 @@
         {
           "id": "the-beatles-a-hard-days-night-1964",
           "label": "The Beatles (A Hard Day’s Night)",
-          "image_url": "/images/music/the-beatles-a-hard-days-night-1964.jpg"
-      },
+          "image_url": "/images/music/the-beatles-a-hard-days-night-1964.jpg",
+          "cms_slug": "a-hard-day-s-night-the-beatles-1964",
+          "cms_image_url": "a-hard-day-s-night-the-beatles-1964.jpg"
+        },
         {
           "id": "curtis-curtis-mayfield",
           "label": "Curtis (Curtis Mayfield)",
-          "image_url": "/images/music/curtis-mayfield-curtis-1970.jpg"
+          "image_url": "/images/music/curtis-mayfield-curtis-1970.jpg",
+          "cms_slug": "curtis-curtis-mayfield-1970",
+          "cms_image_url": "curtis-curtis-mayfield-1970.jpg"
         },
         {
           "id": "dont-know",
@@ -2161,13 +2445,17 @@
           "id": "george-harrison-all-things-must-pass",
           "label": "All Things Must Pass (George Harrison)",
           "image_url": "/images/music/george-harrison-all-things-must-pass-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "all-things-must-pass-george-harrison-1970",
+          "cms_image_url": "all-things-must-pass-george-harrison-1970.jpg"
         },
         {
           "id": "otis-blue-otis-redding",
           "label": "Otis Blue (Otis Redding)",
           "image_url": "/images/music/otis-redding-otis-blue-1965.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "otis-blue-otis-redding-1965",
+          "cms_image_url": "otis-blue-otis-redding-1965.jpg"
         },
         {
           "id": "dont-know",
@@ -2196,13 +2484,17 @@
           "id": "traveling-wilburys-volume-one",
           "label": "Traveling Wilburys Vol. 1 (Traveling Wilburys)",
           "image_url": "/images/music/traveling-wilburys-volume-one-1988.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "volume-one-traveling-wilburys-1988",
+          "cms_image_url": "volume-one-traveling-wilburys-1988.jpg"
         },
         {
           "id": "marvin-gaye-i-want-you",
           "label": "I Want You (Marvin Gaye)",
           "image_url": "/images/music/marvin-gaye-i-want-you-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "i-want-you-marvin-gaye-1976",
+          "cms_image_url": "i-want-you-marvin-gaye-1976.jpg"
         },
         {
           "id": "dont-know",
@@ -2230,12 +2522,16 @@
         {
           "id": "paul-simon-graceland",
           "label": "Graceland (Paul Simon)",
-          "image_url": "/images/music/paul-simon-graceland-1986.jpg"
+          "image_url": "/images/music/paul-simon-graceland-1986.jpg",
+          "cms_slug": "graceland-paul-simon-1986",
+          "cms_image_url": "graceland-paul-simon-1986.jpg"
         },
         {
           "id": "van-morrison-astral-weeks",
           "label": "Astral Weeks (Van Morrison)",
-          "image_url": "/images/music/van-morrison-astral-weeks-1968.jpg"
+          "image_url": "/images/music/van-morrison-astral-weeks-1968.jpg",
+          "cms_slug": "astral-weeks-van-morrison-1968",
+          "cms_image_url": "astral-weeks-van-morrison-1968.jpg"
         },
         {
           "id": "dont-know",
@@ -2259,13 +2555,17 @@
           "id": "simon-garfunkel-bookends",
           "label": "Bookends (Simon & Garfunkel)",
           "image_url": "/images/music/simon-garfunkel-bookends-1968.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "bookends-simon-garfunkel-1968",
+          "cms_image_url": "bookends-simon-garfunkel-1968.jpg"
         },
         {
           "id": "van-morrison-moondance",
           "label": "Moondance (Van Morrison)",
           "image_url": "/images/music/van-morrison-moondance-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "moondance-van-morrison-1970",
+          "cms_image_url": "moondance-van-morrison-1970.jpg"
         },
         {
           "id": "dont-know",
@@ -2289,13 +2589,17 @@
           "id": "paul-simon-still-crazy",
           "label": "Still Crazy After All These Years (Paul Simon)",
           "image_url": "/images/music/paul-simon-still-crazy-after-all-these-years-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "still-crazy-after-all-these-years-paul-simon-1975",
+          "cms_image_url": "still-crazy-after-all-these-years-paul-simon-1975.jpg"
         },
         {
           "id": "van-morrison-tupelo-honey",
           "label": "Tupelo Honey (Van Morrison)",
           "image_url": "/images/music/van-morrison-tupelo-honey-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tupelo-honey-van-morrison-1971",
+          "cms_image_url": "tupelo-honey-van-morrison-1971.jpg"
         },
         {
           "id": "dont-know",
@@ -2318,12 +2622,16 @@
         {
           "id": "grateful-dead-american-beauty",
           "label": "American Beauty (Grateful Dead)",
-          "image_url": "/images/music/grateful-dead-american-beauty-1970.jpg"
+          "image_url": "/images/music/grateful-dead-american-beauty-1970.jpg",
+          "cms_slug": "american-beauty-grateful-dead-1970",
+          "cms_image_url": "american-beauty-grateful-dead-1970.jpg"
         },
         {
           "id": "the-rolling-stones-exile-on-main-st-1972",
           "label": "The Rolling Stones (Exile on Main St.)",
-          "image_url": "/images/music/the-rolling-stones-exile-on-main-st-1972.jpg"
+          "image_url": "/images/music/the-rolling-stones-exile-on-main-st-1972.jpg",
+          "cms_slug": "exile-on-main-st-the-rolling-stones-1972",
+          "cms_image_url": "exile-on-main-st-the-rolling-stones-1972.jpg"
         },
         {
           "id": "dont-know",
@@ -2347,13 +2655,17 @@
           "id": "grateful-dead-workingmans-dead",
           "label": "Workingman's Dead (Grateful Dead)",
           "image_url": "/images/music/grateful-dead-workingmans-dead-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "workingman-s-dead-grateful-dead-1970",
+          "cms_image_url": "workingman-s-dead-grateful-dead-1970.jpg"
         },
         {
           "id": "deep-purple-machine-head-1972",
           "label": "Deep Purple (Machine Head)",
-          "image_url": "/images/music/deep-purple-machine-head-1972.jpg"
-      },
+          "image_url": "/images/music/deep-purple-machine-head-1972.jpg",
+          "cms_slug": "machine-head-deep-purple-1972",
+          "cms_image_url": "machine-head-deep-purple-1972.jpg"
+        },
         {
           "id": "dont-know",
           "label": "I Don't Know These",
@@ -2376,13 +2688,17 @@
           "id": "tom-petty-wildflowers",
           "label": "Wildflowers (Tom Petty)",
           "image_url": "/images/music/tom-petty-wildflowers-1994.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "wildflowers-tom-petty-1994",
+          "cms_image_url": "wildflowers-tom-petty-1994.jpg"
         },
         {
           "id": "the-who-quadrophenia",
           "label": "Quadrophenia (The Who)",
           "image_url": "/images/music/the-who-quadrophenia-1973.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "quadrophenia-the-who-1973",
+          "cms_image_url": "quadrophenia-the-who-1973.jpg"
         },
         {
           "id": "dont-know",
@@ -2405,12 +2721,16 @@
         {
           "id": "electric-ladyland-jimi-hendrix",
           "label": "Electric Ladyland (The Jimi Hendrix Experience)",
-          "image_url": "/images/music/the-jimi-hendrix-experience-electric-ladyland-1968.jpg"
+          "image_url": "/images/music/the-jimi-hendrix-experience-electric-ladyland-1968.jpg",
+          "cms_slug": "electric-ladyland-the-jimi-hendrix-experience-1968",
+          "cms_image_url": "electric-ladyland-the-jimi-hendrix-experience-1968.jpg"
         },
         {
           "id": "arcade-fire-funeral",
           "label": "Funeral (Arcade Fire)",
-          "image_url": "/images/music/arcade-fire-funeral-2004.jpg"
+          "image_url": "/images/music/arcade-fire-funeral-2004.jpg",
+          "cms_slug": "funeral-arcade-fire-2004",
+          "cms_image_url": "funeral-arcade-fire-2004.jpg"
         },
         {
           "id": "dont-know",
@@ -2439,13 +2759,17 @@
           "id": "physical-graffiti-led-zeppelin",
           "label": "Physical Graffiti (Led Zeppelin)",
           "image_url": "/images/music/led-zeppelin-physical-graffiti-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "physical-graffiti-led-zeppelin-1975",
+          "cms_image_url": "physical-graffiti-led-zeppelin-1975.jpg"
         },
         {
           "id": "arcade-fire-the-suburbs",
           "label": "The Suburbs (Arcade Fire)",
           "image_url": "/images/music/arcade-fire-the-suburbs-2010.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-suburbs-arcade-fire-2010",
+          "cms_image_url": "the-suburbs-arcade-fire-2010.jpg"
         },
         {
           "id": "dont-know",
@@ -2474,13 +2798,17 @@
           "id": "led-zeppelin-presence",
           "label": "Presence (Led Zeppelin)",
           "image_url": "/images/music/led-zeppelin-presence-1976.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "presence-led-zeppelin-1976",
+          "cms_image_url": "presence-led-zeppelin-1976.jpg"
         },
         {
           "id": "arcade-fire-neon-bible",
           "label": "Neon Bible (Arcade Fire)",
           "image_url": "/images/music/arcade-fire-neon-bible-2007.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "neon-bible-arcade-fire-2007",
+          "cms_image_url": "neon-bible-arcade-fire-2007.jpg"
         },
         {
           "id": "dont-know",
@@ -2508,12 +2836,16 @@
         {
           "id": "the-smashing-pumpkins-siamese-dream-1993",
           "label": "The Smashing Pumpkins (Siamese Dream)",
-          "image_url": "/images/music/the-smashing-pumpkins-siamese-dream-1993.jpg"
+          "image_url": "/images/music/the-smashing-pumpkins-siamese-dream-1993.jpg",
+          "cms_slug": "siamese-dream-the-smashing-pumpkins-1993",
+          "cms_image_url": "siamese-dream-the-smashing-pumpkins-1993.jpg"
         },
         {
           "id": "joy-division-closer-1980",
           "label": "Joy Division (Closer)",
-          "image_url": "/images/music/joy-division-closer-1980.jpg"
+          "image_url": "/images/music/joy-division-closer-1980.jpg",
+          "cms_slug": "closer-joy-division-1980",
+          "cms_image_url": "closer-joy-division-1980.jpg"
         },
         {
           "id": "dont-know",
@@ -2537,13 +2869,17 @@
           "id": "the-smiths-the-queen-is-dead",
           "label": "The Queen Is Dead (The Smiths)",
           "image_url": "/images/music/the-smiths-the-queen-is-dead-1986.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-queen-is-dead-the-smiths-1986",
+          "cms_image_url": "the-queen-is-dead-the-smiths-1986.jpg"
         },
         {
           "id": "neutral-milk-hotel-in-the-aeroplane-over-the-sea-1998",
           "label": "Neutral Milk Hotel (In the Aeroplane Over the Sea)",
-          "image_url": "/images/music/neutral-milk-hotel-in-the-aeroplane-over-the-sea-1998.jpg"
-      },
+          "image_url": "/images/music/neutral-milk-hotel-in-the-aeroplane-over-the-sea-1998.jpg",
+          "cms_slug": "in-the-aeroplane-over-the-sea-neutral-milk-hotel-1998",
+          "cms_image_url": "in-the-aeroplane-over-the-sea-neutral-milk-hotel-1998.jpg"
+        },
         {
           "id": "dont-know",
           "label": "I Don't Know These",
@@ -2566,13 +2902,17 @@
           "id": "the-kinks-village-green",
           "label": "The Village Green Preservation Society (The Kinks)",
           "image_url": "/images/music/the-kinks-the-village-green-preservation-society-1968.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-village-green-preservation-society-the-kinks-1968",
+          "cms_image_url": "the-village-green-preservation-society-the-kinks-1968.jpg"
         },
         {
           "id": "wilco-yankee-hotel-foxtrot",
           "label": "Yankee Hotel Foxtrot (Wilco)",
           "image_url": "/images/music/wilco-yankee-hotel-foxtrot-2002.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "yankee-hotel-foxtrot-wilco-2002",
+          "cms_image_url": "yankee-hotel-foxtrot-wilco-2002.jpg"
         },
         {
           "id": "dont-know",
@@ -2595,12 +2935,16 @@
         {
           "id": "frank-sinatra-wee-small-hours",
           "label": "In The Wee Small Hours (Frank Sinatra)",
-          "image_url": "/images/music/frank-sinatra-in-the-wee-small-hours-1955.jpg"
+          "image_url": "/images/music/frank-sinatra-in-the-wee-small-hours-1955.jpg",
+          "cms_slug": "in-the-wee-small-hours-frank-sinatra-1955",
+          "cms_image_url": "in-the-wee-small-hours-frank-sinatra-1955.jpg"
         },
         {
           "id": "dolly-parton-coat-of-many-colors",
           "label": "Coat of Many Colors (Dolly Parton)",
-          "image_url": "/images/music/dolly-parton-coat-of-many-colors-1971.jpg"
+          "image_url": "/images/music/dolly-parton-coat-of-many-colors-1971.jpg",
+          "cms_slug": "coat-of-many-colors-dolly-parton-1971",
+          "cms_image_url": "coat-of-many-colors-dolly-parton-1971.jpg"
         },
         {
           "id": "dont-know",
@@ -2624,13 +2968,17 @@
           "id": "frank-sinatra-live-at-the-sands",
           "label": "Live at the Sands (Frank Sinatra)",
           "image_url": "/images/music/frank-sinatra-sinatra-at-the-sands-1966.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "sinatra-at-the-sands-frank-sinatra-1966",
+          "cms_image_url": "sinatra-at-the-sands-frank-sinatra-1966.jpg"
         },
         {
           "id": "loretta-lynn-coal-miners-daughter",
           "label": "Coal Miner's Daughter (Loretta Lynn)",
           "image_url": "/images/music/loretta-lynn-coal-miners-daughter-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "coal-miner-s-daughter-loretta-lynn-1970",
+          "cms_image_url": "coal-miner-s-daughter-loretta-lynn-1970.jpg"
         },
         {
           "id": "dont-know",
@@ -2654,13 +3002,17 @@
           "id": "getz-gilberto",
           "label": "Getz/Gilberto (Stan Getz & João Gilberto)",
           "image_url": "/images/music/stan-getz-joao-gilberto-getz-gilberto-1964.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "getz-gilberto-stan-getz-jo-o-gilberto-1964",
+          "cms_image_url": "getz-gilberto-stan-getz-jo-o-gilberto-1964.jpg"
         },
         {
           "id": "tammy-wynette-greatest-hits",
           "label": "Tammy's Greatest Hits (Tammy Wynette)",
           "image_url": "/images/music/tammy-wynette-tammys-greatest-hits-1969.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "tammy-s-greatest-hits-tammy-wynette-1969",
+          "cms_image_url": "tammy-s-greatest-hits-tammy-wynette-1969.jpg"
         },
         {
           "id": "dont-know",
@@ -2683,12 +3035,16 @@
         {
           "id": "the-pharcyde-bizarre-ride-ii-the-pharcyde-1992",
           "label": "Bizarre Ride II the Pharcyde (The Pharcyde)",
-          "image_url": "/images/music/the-pharcyde-bizarre-ride-ii-the-pharcyde-1992.jpg"
+          "image_url": "/images/music/the-pharcyde-bizarre-ride-ii-the-pharcyde-1992.jpg",
+          "cms_slug": "bizarre-ride-ii-the-pharcyde-the-pharcyde-1992",
+          "cms_image_url": "bizarre-ride-ii-the-pharcyde-the-pharcyde-1992.jpg"
         },
         {
           "id": "dr-dre-2001",
           "label": "2001 (Dr. Dre)",
-          "image_url": "/images/music/dr-dre-2001-1999.jpg"
+          "image_url": "/images/music/dr-dre-2001-1999.jpg",
+          "cms_slug": "2001-dr-dre-1999",
+          "cms_image_url": "2001-dr-dre-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -2716,13 +3072,17 @@
         {
           "id": "dr-dre-the-chronic-1992",
           "label": "Dr. Dre (The Chronic)",
-          "image_url": "/images/music/dr-dre-the-chronic-1992.jpg"
-    },
+          "image_url": "/images/music/dr-dre-the-chronic-1992.jpg",
+          "cms_slug": "the-chronic-dr-dre-1992",
+          "cms_image_url": "the-chronic-dr-dre-1992.jpg"
+        },
         {
           "id": "eminem-marshall-mathers-lp",
           "label": "The Marshall Mathers LP (Eminem)",
           "image_url": "/images/music/eminem-the-marshall-mathers-lp-2000.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "the-marshall-mathers-lp-eminem-2000",
+          "cms_image_url": "the-marshall-mathers-lp-eminem-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -2751,13 +3111,17 @@
           "id": "notorious-big-life-after-death",
           "label": "Life After Death (The Notorious B.I.G.)",
           "image_url": "/images/music/the-notorious-big-life-after-death-1997.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "life-after-death-the-notorious-b-i-g-1997",
+          "cms_image_url": "life-after-death-the-notorious-b-i-g-1997.jpg"
         },
         {
           "id": "the-doc-no-one-can-do-it-better",
           "label": "No One Can Do It Better (The D.O.C.)",
           "image_url": "/images/music/the-doc-no-one-can-do-it-better-1989.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "no-one-can-do-it-better-the-d-o-c-1989",
+          "cms_image_url": "no-one-can-do-it-better-the-d-o-c-1989.jpg"
         },
         {
           "id": "dont-know",
@@ -2785,12 +3149,16 @@
         {
           "id": "isley-brothers-3-plus-3",
           "label": "3 + 3 (Isley Brothers)",
-          "image_url": "/images/music/the-isley-brothers-3-3-1973.jpg"
+          "image_url": "/images/music/the-isley-brothers-3-3-1973.jpg",
+          "cms_slug": "3-3-the-isley-brothers-1973",
+          "cms_image_url": "3-3-the-isley-brothers-1973.jpg"
         },
         {
           "id": "built-to-spill-perfect-from-now-on",
           "label": "Perfect From Now On (Built To Spill)",
-          "image_url": "/images/music/built-to-spill-perfect-from-now-on-1997.jpg"
+          "image_url": "/images/music/built-to-spill-perfect-from-now-on-1997.jpg",
+          "cms_slug": "perfect-from-now-on-built-to-spill-1997",
+          "cms_image_url": "perfect-from-now-on-built-to-spill-1997.jpg"
         },
         {
           "id": "dont-know",
@@ -2814,13 +3182,17 @@
           "id": "earth-wind-fire-all-n-all",
           "label": "All 'n All (Earth, Wind & Fire)",
           "image_url": "/images/music/earth-wind-fire-all-n-all-1977.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "all-n-all-earth-wind-fire-1977",
+          "cms_image_url": "all-n-all-earth-wind-fire-1977.jpg"
         },
         {
           "id": "pixies-doolittle-1989",
           "label": "Doolittle (Pixies)",
           "image_url": "/images/music/pixies-doolittle-1989.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "doolittle-pixies-1989",
+          "cms_image_url": "doolittle-pixies-1989.jpg"
         },
         {
           "id": "dont-know",
@@ -2844,13 +3216,17 @@
           "id": "harold-melvin-bluenotes-wake-up-everybody",
           "label": "Wake Up Everybody (Harold Melvin & The Blue Notes)",
           "image_url": "/images/music/harold-melvin-the-blue-notes-wake-up-everybody-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "wake-up-everybody-harold-melvin-the-blue-notes-1975",
+          "cms_image_url": "wake-up-everybody-harold-melvin-the-blue-notes-1975.jpg"
         },
         {
           "id": "luna-penthouse",
           "label": "Penthouse (Luna)",
           "image_url": "/images/music/luna-penthouse-1995.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "penthouse-luna-1995",
+          "cms_image_url": "penthouse-luna-1995.jpg"
         },
         {
           "id": "dont-know",
@@ -2873,12 +3249,16 @@
         {
           "id": "prince-sign-o-the-times",
           "label": "Sign O' The Times (Prince)",
-          "image_url": "/images/music/prince-sign-o-the-times-1987.jpg"
+          "image_url": "/images/music/prince-sign-o-the-times-1987.jpg",
+          "cms_slug": "sign-o-the-times-prince-1987",
+          "cms_image_url": "sign-o-the-times-prince-1987.jpg"
         },
         {
           "id": "rolling-stones-some-girls",
           "label": "Some Girls (The Rolling Stones)",
-          "image_url": "/images/music/the-rolling-stones-some-girls-1978.jpg"
+          "image_url": "/images/music/the-rolling-stones-some-girls-1978.jpg",
+          "cms_slug": "some-girls-the-rolling-stones-1978",
+          "cms_image_url": "some-girls-the-rolling-stones-1978.jpg"
         },
         {
           "id": "dont-know",
@@ -2902,13 +3282,17 @@
           "id": "bob-marley-soul-revolution",
           "label": "Soul Revolution (Bob Marley & The Wailers)",
           "image_url": "/images/music/bob-marley-the-wailers-soul-revolution-1971.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "soul-revolution-bob-marley-the-wailers-1971",
+          "cms_image_url": "soul-revolution-bob-marley-the-wailers-1971.jpg"
         },
         {
           "id": "ac-dc-highway-to-hell",
           "label": "Highway To Hell (AC/DC)",
           "image_url": "/images/music/ac-dc-highway-to-hell-1979.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "highway-to-hell-ac-dc-1979",
+          "cms_image_url": "highway-to-hell-ac-dc-1979.jpg"
         },
         {
           "id": "dont-know",
@@ -2932,13 +3316,17 @@
           "id": "fela-kuti-everything-scatter",
           "label": "Everything Scatter (Fela Kuti)",
           "image_url": "/images/music/fela-kuti-everything-scatter-1975.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "everything-scatter-fela-kuti-1975",
+          "cms_image_url": "everything-scatter-fela-kuti-1975.jpg"
         },
         {
           "id": "van-halen-van-halen",
           "label": "Van Halen (Van Halen)",
           "image_url": "/images/music/van-halen-van-halen-1978.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "van-halen-van-halen-1978",
+          "cms_image_url": "van-halen-van-halen-1978.jpg"
         },
         {
           "id": "dont-know",
@@ -2962,7 +3350,9 @@
           "id": "willie-nelson-stardust",
           "label": "Stardust - Willie Nelson",
           "image_url": "/images/music/willie-nelson-stardust-1978.jpg",
-          "description": "1978 standards album"
+          "description": "1978 standards album",
+          "cms_slug": "stardust-willie-nelson-1978",
+          "cms_image_url": "stardust-willie-nelson-1978.jpg"
         }
       ]
     }
@@ -2980,7 +3370,9 @@
           "id": "chris-stapleton-traveller",
           "label": "Traveller - Chris Stapleton",
           "image_url": "/images/music/chris-stapleton-traveller-2015.jpg",
-          "description": "2015 outlaw country revival"
+          "description": "2015 outlaw country revival",
+          "cms_slug": "traveller-chris-stapleton-2015",
+          "cms_image_url": "traveller-chris-stapleton-2015.jpg"
         }
       ]
     }
@@ -2998,7 +3390,9 @@
           "id": "lucinda-williams-car-wheels",
           "label": "Car Wheels on a Gravel Road - Lucinda Williams",
           "image_url": "/images/music/lucinda-williams-car-wheels-on-a-gravel-road-1998.jpg",
-          "description": "1998 Americana classic"
+          "description": "1998 Americana classic",
+          "cms_slug": "car-wheels-on-a-gravel-road-lucinda-williams-1998",
+          "cms_image_url": "car-wheels-on-a-gravel-road-lucinda-williams-1998.jpg"
         }
       ]
     }
@@ -3016,7 +3410,9 @@
           "id": "radiohead-in-rainbows",
           "label": "In Rainbows - Radiohead",
           "image_url": "/images/music/radiohead-in-rainbows-2007.jpg",
-          "description": "2007 pay-what-you-want milestone"
+          "description": "2007 pay-what-you-want milestone",
+          "cms_slug": "in-rainbows-radiohead-2007",
+          "cms_image_url": "in-rainbows-radiohead-2007.jpg"
         }
       ]
     }
@@ -3034,7 +3430,9 @@
           "id": "joni-mitchell-hissing-of-summer-lawns",
           "label": "The Hissing of Summer Lawns - Joni Mitchell",
           "image_url": "/images/music/joni-mitchell-the-hissing-of-summer-lawns-1975.jpg",
-          "description": "1975 jazz-fusion experiment"
+          "description": "1975 jazz-fusion experiment",
+          "cms_slug": "the-hissing-of-summer-lawns-joni-mitchell-1975",
+          "cms_image_url": "the-hissing-of-summer-lawns-joni-mitchell-1975.jpg"
         }
       ]
     }
@@ -3052,7 +3450,9 @@
           "id": "weather-report-heavy-weather",
           "label": "Heavy Weather - Weather Report",
           "image_url": "/images/music/weather-report-heavy-weather-1977.jpg",
-          "description": "1977 jazz-fusion"
+          "description": "1977 jazz-fusion",
+          "cms_slug": "heavy-weather-weather-report-1977",
+          "cms_image_url": "heavy-weather-weather-report-1977.jpg"
         }
       ]
     }
@@ -3070,7 +3470,9 @@
           "id": "steely-dan-gaucho",
           "label": "Gaucho - Steely Dan",
           "image_url": "/images/music/steely-dan-gaucho-1980.jpg",
-          "description": "1980 yacht rock perfection"
+          "description": "1980 yacht rock perfection",
+          "cms_slug": "gaucho-steely-dan-1980",
+          "cms_image_url": "gaucho-steely-dan-1980.jpg"
         }
       ]
     }
@@ -3088,7 +3490,9 @@
           "id": "michael-kiwanuka-kiwanuka",
           "label": "KIWANUKA - Michael Kiwanuka",
           "image_url": "/images/music/michael-kiwanuka-kiwanuka-2019.jpg",
-          "description": "2019 psychedelic soul"
+          "description": "2019 psychedelic soul",
+          "cms_slug": "kiwanuka-michael-kiwanuka-2019",
+          "cms_image_url": "kiwanuka-michael-kiwanuka-2019.jpg"
         }
       ]
     }
@@ -3106,7 +3510,9 @@
           "id": "ryan-adams-heartbreaker",
           "label": "Heartbreaker - Ryan Adams",
           "image_url": "/images/music/ryan-adams-heartbreaker-2000.jpg",
-          "description": "2000 alt-country"
+          "description": "2000 alt-country",
+          "cms_slug": "heartbreaker-ryan-adams-2000",
+          "cms_image_url": "heartbreaker-ryan-adams-2000.jpg"
         }
       ]
     }
@@ -3124,7 +3530,9 @@
           "id": "jamie-xx-in-colour",
           "label": "In Colour - Jamie xx",
           "image_url": "/images/music/jamie-xx-in-colour-2015.jpg",
-          "description": "2015 electronic"
+          "description": "2015 electronic",
+          "cms_slug": "in-colour-jamie-xx-2015",
+          "cms_image_url": "in-colour-jamie-xx-2015.jpg"
         }
       ]
     }
@@ -3142,7 +3550,9 @@
           "id": "fontaines-dc-skinty-fia",
           "label": "Skinty Fia - Fontaines D.C.",
           "image_url": "/images/music/fontaines-dc-skinty-fia-2022.jpg",
-          "description": "2022 post-punk"
+          "description": "2022 post-punk",
+          "cms_slug": "skinty-fia-fontaines-d-c-2022",
+          "cms_image_url": "skinty-fia-fontaines-d-c-2022.jpg"
         }
       ]
     }
@@ -3160,7 +3570,9 @@
           "id": "mdou-moctar-afrique-victime",
           "label": "Afrique Victime - Mdou Moctar",
           "image_url": "/images/music/mdou-moctar-afrique-victime-2021.jpg",
-          "description": "2021 Tuareg rock"
+          "description": "2021 Tuareg rock",
+          "cms_slug": "afrique-victime-mdou-moctar-2021",
+          "cms_image_url": "afrique-victime-mdou-moctar-2021.jpg"
         }
       ]
     }
@@ -3178,7 +3590,9 @@
           "id": "maggie-rogers-heard-it-in-a-past-life",
           "label": "Heard It In A Past Life - Maggie Rogers",
           "image_url": "/images/music/maggie-rogers-heard-it-in-a-past-life-2019.jpg",
-          "description": "2019 indie pop"
+          "description": "2019 indie pop",
+          "cms_slug": "heard-it-in-a-past-life-maggie-rogers-2019",
+          "cms_image_url": "heard-it-in-a-past-life-maggie-rogers-2019.jpg"
         }
       ]
     }
@@ -3195,23 +3609,31 @@
         {
           "id": "john-prine-john-prine",
           "label": "John Prine (John Prine)",
-          "image_url": "/images/music/john-prine-john-prine-1971.jpg"
+          "image_url": "/images/music/john-prine-john-prine-1971.jpg",
+          "cms_slug": "john-prine-john-prine-1971",
+          "cms_image_url": "john-prine-john-prine-1971.jpg"
         },
         {
           "id": "waylon-jennings-dreaming-my-dreams",
           "label": "Dreaming My Dreams (Waylon Jennings)",
-          "image_url": "/images/music/waylon-jennings-dreaming-my-dreams-1975.jpg"
+          "image_url": "/images/music/waylon-jennings-dreaming-my-dreams-1975.jpg",
+          "cms_slug": "dreaming-my-dreams-waylon-jennings-1975",
+          "cms_image_url": "dreaming-my-dreams-waylon-jennings-1975.jpg"
         },
         {
           "id": "ray-charles-modern-sounds-in-country",
           "label": "Modern Sounds in Country and Western Music (Ray Charles)",
-          "image_url": "/images/music/ray-charles-modern-sounds-in-country-and-western-music-1962.jpg"
+          "image_url": "/images/music/ray-charles-modern-sounds-in-country-and-western-music-1962.jpg",
+          "cms_slug": "modern-sounds-in-country-and-western-music-ray-charles-1962",
+          "cms_image_url": "modern-sounds-in-country-and-western-music-ray-charles-1962.jpg"
         },
         {
           "id": "yola-walk-through-fire",
           "label": "Walk Through Fire (Yola)",
-          "image_url": "/images/music/yola-walk-through-fire-2019.jpg"
-        }        
+          "image_url": "/images/music/yola-walk-through-fire-2019.jpg",
+          "cms_slug": "walk-through-fire-yola-2019",
+          "cms_image_url": "walk-through-fire-yola-2019.jpg"
+        }
       ]
     }
   },
@@ -3227,22 +3649,30 @@
         {
           "id": "pat-metheny-off-ramp",
           "label": "Offramp (Pat Metheny Group)",
-          "image_url": "/images/music/pat-metheny-group-off-ramp-1982.jpg"
+          "image_url": "/images/music/pat-metheny-group-off-ramp-1982.jpg",
+          "cms_slug": "off-ramp-pat-metheny-group-1982",
+          "cms_image_url": "off-ramp-pat-metheny-group-1982.jpg"
         },
         {
           "id": "pat-metheny-secret-story",
           "label": "Secret Story (Pat Metheny)",
-          "image_url": "/images/music/pat-metheny-secret-story-1992.jpg"
+          "image_url": "/images/music/pat-metheny-secret-story-1992.jpg",
+          "cms_slug": "secret-story-pat-metheny-1992",
+          "cms_image_url": "secret-story-pat-metheny-1992.jpg"
         },
         {
           "id": "herbie-hancock-sunlight",
           "label": "Sunlight (Herbie Hancock)",
-          "image_url": "/images/music/herbie-hancock-sunlight-1978.jpg"
+          "image_url": "/images/music/herbie-hancock-sunlight-1978.jpg",
+          "cms_slug": "sunlight-herbie-hancock-1978",
+          "cms_image_url": "sunlight-herbie-hancock-1978.jpg"
         },
         {
           "id": "bee-gees-main-course",
           "label": "Main Course (Bee Gees)",
-          "image_url": "/images/music/bee-gees-main-course-1975.jpg"
+          "image_url": "/images/music/bee-gees-main-course-1975.jpg",
+          "cms_slug": "main-course-bee-gees-1975",
+          "cms_image_url": "main-course-bee-gees-1975.jpg"
         }
       ]
     }
@@ -3259,22 +3689,30 @@
         {
           "id": "queens-of-the-stone-age-rated-r",
           "label": "Rated R (Queens Of The Stone Age)",
-          "image_url": "/images/music/queens-of-the-stone-age-rated-r-2000.jpg"
+          "image_url": "/images/music/queens-of-the-stone-age-rated-r-2000.jpg",
+          "cms_slug": "rated-r-queens-of-the-stone-age-2000",
+          "cms_image_url": "rated-r-queens-of-the-stone-age-2000.jpg"
         },
         {
           "id": "turnstile-never-enough",
           "label": "GLOW ON (Turnstile)",
-          "image_url": "/images/music/turnstile-glow-on-2021.jpg"
+          "image_url": "/images/music/turnstile-glow-on-2021.jpg",
+          "cms_slug": "glow-on-turnstile-2021",
+          "cms_image_url": "glow-on-turnstile-2021.jpg"
         },
         {
           "id": "cindy-lee-diamond-jubilee",
           "label": "Diamond Jubilee (Cindy Lee)",
-          "image_url": "/images/music/cindy-lee-diamond-jubilee-2024.jpg"
+          "image_url": "/images/music/cindy-lee-diamond-jubilee-2024.jpg",
+          "cms_slug": "diamond-jubilee-cindy-lee-2024",
+          "cms_image_url": "diamond-jubilee-cindy-lee-2024.jpg"
         },
         {
           "id": "simon-garfunkel-parsley-sage",
           "label": "Parsley, Sage, Rosemary and Thyme (Simon & Garfunkel)",
-          "image_url": "/images/music/simon-garfunkel-parsley-sage-rosemary-and-thyme-1966.jpg"
+          "image_url": "/images/music/simon-garfunkel-parsley-sage-rosemary-and-thyme-1966.jpg",
+          "cms_slug": "parsley-sage-rosemary-and-thyme-simon-garfunkel-1966",
+          "cms_image_url": "parsley-sage-rosemary-and-thyme-simon-garfunkel-1966.jpg"
         }
       ]
     }
@@ -3291,22 +3729,30 @@
         {
           "id": "johnny-cash-with-his-hot-blue-guitar",
           "label": "With His Hot and Blue Guitar! (Johnny Cash)",
-          "image_url": "/images/music/johnny-cash-with-his-hot-and-blue-guitar-1957.jpg"
+          "image_url": "/images/music/johnny-cash-with-his-hot-and-blue-guitar-1957.jpg",
+          "cms_slug": "with-his-hot-and-blue-guitar-johnny-cash-1957",
+          "cms_image_url": "with-his-hot-and-blue-guitar-johnny-cash-1957.jpg"
         },
         {
           "id": "gary-stewart-out-of-hand",
           "label": "Out of Hand (Gary Stewart)",
-          "image_url": "/images/music/gary-stewart-out-of-hand-1975.jpg"
+          "image_url": "/images/music/gary-stewart-out-of-hand-1975.jpg",
+          "cms_slug": "out-of-hand-gary-stewart-1975",
+          "cms_image_url": "out-of-hand-gary-stewart-1975.jpg"
         },
         {
           "id": "isley-brothers-harvest-for-the-world",
           "label": "Harvest For The World (Isley Brothers)",
-          "image_url": "/images/music/the-isley-brothers-harvest-for-the-world-1976.jpg"
+          "image_url": "/images/music/the-isley-brothers-harvest-for-the-world-1976.jpg",
+          "cms_slug": "harvest-for-the-world-the-isley-brothers-1976",
+          "cms_image_url": "harvest-for-the-world-the-isley-brothers-1976.jpg"
         },
         {
           "id": "steely-dan-katy-lied",
           "label": "Katy Lied (Steely Dan)",
-          "image_url": "/images/music/steely-dan-katy-lied-1975.jpg"
+          "image_url": "/images/music/steely-dan-katy-lied-1975.jpg",
+          "cms_slug": "katy-lied-steely-dan-1975",
+          "cms_image_url": "katy-lied-steely-dan-1975.jpg"
         }
       ]
     }
@@ -3323,22 +3769,30 @@
         {
           "id": "frank-sinatra-sinatra-jobim",
           "label": "Francis Albert Sinatra & Antônio Carlos Jobim (Frank Sinatra)",
-          "image_url": "/images/music/frank-sinatra-antonio-carlos-jobim-sinatra-jobim-1967.jpg"
+          "image_url": "/images/music/frank-sinatra-antonio-carlos-jobim-sinatra-jobim-1967.jpg",
+          "cms_slug": "sinatra-jobim-frank-sinatra-antonio-carlos-jobim-1967",
+          "cms_image_url": "sinatra-jobim-frank-sinatra-antonio-carlos-jobim-1967.jpg"
         },
         {
           "id": "pat-metheny-still-life-talking",
           "label": "Still Life (Talking) (Pat Metheny Group)",
-          "image_url": "/images/music/pat-metheny-group-still-life-talking-1987.jpg"
+          "image_url": "/images/music/pat-metheny-group-still-life-talking-1987.jpg",
+          "cms_slug": "still-life-talking-pat-metheny-group-1987",
+          "cms_image_url": "still-life-talking-pat-metheny-group-1987.jpg"
         },
         {
           "id": "van-morrison-his-band-in-the-street-choir",
           "label": "His Band and the Street Choir (Van Morrison)",
-          "image_url": "/images/music/van-morrison-his-band-and-the-street-choir-1970.jpg"
+          "image_url": "/images/music/van-morrison-his-band-and-the-street-choir-1970.jpg",
+          "cms_slug": "his-band-and-the-street-choir-van-morrison-1970",
+          "cms_image_url": "his-band-and-the-street-choir-van-morrison-1970.jpg"
         },
         {
           "id": "sade-diamond-life",
           "label": "Diamond Life (Sade)",
-          "image_url": "/images/music/sade-diamond-life-1984.jpg"
+          "image_url": "/images/music/sade-diamond-life-1984.jpg",
+          "cms_slug": "diamond-life-sade-1984",
+          "cms_image_url": "diamond-life-sade-1984.jpg"
         }
       ]
     }
