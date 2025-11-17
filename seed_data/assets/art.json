@@ -6,7 +6,9 @@
     "region": null,
     "description": "Large-scale photograph of discount store shelves",
     "cover_filename": "079_Andreas_Gursky_99_Cent.jpg",
-    "cover_filename_slug": "079-andreas-gursky-99-cent.jpg"
+    "cover_filename_slug": "079-andreas-gursky-99-cent.jpg",
+    "cover_cms_filename": "99-cent-andreas-gursky-1999.jpg",
+    "cms_slug": "99-cent-andreas-gursky-1999"
   },
   {
     "title": "A Burial at Ornans",
@@ -15,7 +17,9 @@
     "region": null,
     "description": "Large-scale depiction of common funeral, revolutionary for its time",
     "cover_filename": "225_Gustave_Courbet_A_Burial_at_Ornans.jpg",
-    "cover_filename_slug": "225-gustave-courbet-a-burial-at-ornans.jpg"
+    "cover_filename_slug": "225-gustave-courbet-a-burial-at-ornans.jpg",
+    "cover_cms_filename": "a-burial-at-ornans-gustave-courbet-1850.jpg",
+    "cms_slug": "a-burial-at-ornans-gustave-courbet-1850"
   },
   {
     "title": "A Sunday Afternoon on the Island of La Grande Jatte",
@@ -24,7 +28,9 @@
     "region": null,
     "description": "Parisians relaxing in park, composed of tiny dots of color",
     "cover_filename": "216_Georges_Seurat_A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte.jpg",
-    "cover_filename_slug": "216-georges-seurat-a-sunday-afternoon-on-the-island-of-la-grande-jatte.jpg"
+    "cover_filename_slug": "216-georges-seurat-a-sunday-afternoon-on-the-island-of-la-grande-jatte.jpg",
+    "cover_cms_filename": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat.jpg",
+    "cms_slug": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat"
   },
   {
     "title": "American Gothic",
@@ -33,7 +39,9 @@
     "region": null,
     "description": "Stern farmer and daughter in front of Iowa farmhouse",
     "cover_filename": "207_Grant_Wood_American_Gothic.jpg",
-    "cover_filename_slug": "207-grant-wood-american-gothic.jpg"
+    "cover_filename_slug": "207-grant-wood-american-gothic.jpg",
+    "cover_cms_filename": "american-gothic-grant-wood-1930.jpg",
+    "cms_slug": "american-gothic-grant-wood-1930"
   },
   {
     "title": "Angel of the North",
@@ -42,7 +50,9 @@
     "region": null,
     "description": "66-foot tall steel angel with 177-foot wingspan in Gateshead, England",
     "cover_filename": "011_Antony_Gormley_Angel_of_the_North.jpg",
-    "cover_filename_slug": "011-antony-gormley-angel-of-the-north.jpg"
+    "cover_filename_slug": "011-antony-gormley-angel-of-the-north.jpg",
+    "cover_cms_filename": "angel-of-the-north-antony-gormley-1998.jpg",
+    "cms_slug": "angel-of-the-north-antony-gormley-1998"
   },
   {
     "title": "Another Place",
@@ -51,7 +61,9 @@
     "region": null,
     "description": "100 cast-iron figures along Crosby Beach facing the sea",
     "cover_filename": "037_Antony_Gormley_Another_Place.jpg",
-    "cover_filename_slug": "037-antony-gormley-another-place.jpg"
+    "cover_filename_slug": "037-antony-gormley-another-place.jpg",
+    "cover_cms_filename": "another-place-antony-gormley-1997.jpg",
+    "cms_slug": "another-place-antony-gormley-1997"
   },
   {
     "title": "Anthropométries",
@@ -60,7 +72,9 @@
     "region": null,
     "description": "Paintings made with nude models as 'living brushes'",
     "cover_filename": "083_Yves_Klein_Anthropométries.jpg",
-    "cover_filename_slug": "083-yves-klein-anthropométries.jpg"
+    "cover_filename_slug": "083-yves-klein-anthropométries.jpg",
+    "cover_cms_filename": "anthropom-tries-yves-klein-1960.jpg",
+    "cms_slug": "anthropom-tries-yves-klein-1960"
   },
   {
     "title": "Bal du moulin de la Galette",
@@ -69,7 +83,9 @@
     "region": null,
     "description": "Bustling outdoor dance hall scene in Montmartre",
     "cover_filename": "318_Pierre-Auguste_Renoir_Bal_du_moulin_de_la_Galette.jpg",
-    "cover_filename_slug": "318-pierre-auguste-renoir-bal-du-moulin-de-la-galette.jpg"
+    "cover_filename_slug": "318-pierre-auguste-renoir-bal-du-moulin-de-la-galette.jpg",
+    "cover_cms_filename": "bal-du-moulin-de-la-galette-pierre-auguste-renoir-1876.jpg",
+    "cms_slug": "bal-du-moulin-de-la-galette-pierre-auguste-renoir-1876"
   },
   {
     "title": "Bird in Space",
@@ -78,7 +94,9 @@
     "region": null,
     "description": "Sleek abstract bronze bird form",
     "cover_filename": "330_Constantin_Brâncuși_Bird_in_Space.jpg",
-    "cover_filename_slug": "330-constantin-brâncuși-bird-in-space.jpg"
+    "cover_filename_slug": "330-constantin-brâncuși-bird-in-space.jpg",
+    "cover_cms_filename": "bird-in-space-constantin-br-ncu-i-1923.jpg",
+    "cms_slug": "bird-in-space-constantin-br-ncu-i-1923"
   },
   {
     "title": "Box with the Sound of Its Own Making",
@@ -87,7 +105,9 @@
     "region": null,
     "description": "Wooden box containing recording of its construction",
     "cover_filename": "088_Robert_Morris_Box_with_the_Sound_of_Its_Own_Making.jpg",
-    "cover_filename_slug": "088-robert-morris-box-with-the-sound-of-its-own-making.jpg"
+    "cover_filename_slug": "088-robert-morris-box-with-the-sound-of-its-own-making.jpg",
+    "cover_cms_filename": "box-with-the-sound-of-its-own-making-robert-morris-1961.jpg",
+    "cms_slug": "box-with-the-sound-of-its-own-making-robert-morris-1961"
   },
   {
     "title": "Broadway Boogie-Woogie",
@@ -96,7 +116,9 @@
     "region": null,
     "description": "Geometric abstraction inspired by Manhattan and jazz music",
     "cover_filename": "044_Piet_Mondrian_Broadway_Boogie-Woogie.jpg",
-    "cover_filename_slug": "044-piet-mondrian-broadway-boogie-woogie.jpg"
+    "cover_filename_slug": "044-piet-mondrian-broadway-boogie-woogie.jpg",
+    "cover_cms_filename": "broadway-boogie-woogie-piet-mondrian-1943.jpg",
+    "cms_slug": "broadway-boogie-woogie-piet-mondrian-1943"
   },
   {
     "title": "Cafe Terrace at Night",
@@ -105,7 +127,9 @@
     "region": null,
     "description": "Glowing cafe terrace under starry night sky",
     "cover_filename": "321_Vincent_van_Gogh_Cafe_Terrace_at_Night.jpg",
-    "cover_filename_slug": "321-vincent-van-gogh-cafe-terrace-at-night.jpg"
+    "cover_filename_slug": "321-vincent-van-gogh-cafe-terrace-at-night.jpg",
+    "cover_cms_filename": "cafe-terrace-at-night-vincent-van-gogh-1888.jpg",
+    "cms_slug": "cafe-terrace-at-night-vincent-van-gogh-1888"
   },
   {
     "title": "Campbell's Soup Cans",
@@ -114,7 +138,9 @@
     "region": null,
     "description": "Series of 32 canvases depicting different flavors of Campbell's soup, reflecting on mass production",
     "cover_filename": "003_Andy_Warhol_Campbells_Soup_Cans.jpg",
-    "cover_filename_slug": "003-andy-warhol-campbells-soup-cans.jpg"
+    "cover_filename_slug": "003-andy-warhol-campbells-soup-cans.jpg",
+    "cover_cms_filename": "campbell-s-soup-cans-andy-warhol-1962.jpg",
+    "cms_slug": "campbell-s-soup-cans-andy-warhol-1962"
   },
   {
     "title": "Chicago Board of Trade II",
@@ -123,7 +149,9 @@
     "region": null,
     "description": "Kaleidoscopic view of trading floor",
     "cover_filename": "080_Andreas_Gursky_Chicago_Board_of_Trade_II.jpg",
-    "cover_filename_slug": "080-andreas-gursky-chicago-board-of-trade-ii.jpg"
+    "cover_filename_slug": "080-andreas-gursky-chicago-board-of-trade-ii.jpg",
+    "cover_cms_filename": "chicago-board-of-trade-ii-andreas-gursky-1999.jpg",
+    "cms_slug": "chicago-board-of-trade-ii-andreas-gursky-1999"
   },
   {
     "title": "Chicago The Dinner Party",
@@ -132,7 +160,9 @@
     "region": null,
     "description": null,
     "cover_filename": "437_Judy_Chicago_The_Dinner_Party.jpg",
-    "cover_filename_slug": "437_judy_chicago_the_dinner_party.jpg"
+    "cover_filename_slug": "437_judy_chicago_the_dinner_party.jpg",
+    "cover_cms_filename": "chicago-the-dinner-party-judy.jpg",
+    "cms_slug": "chicago-the-dinner-party-judy"
   },
   {
     "title": "Christina's World",
@@ -141,7 +171,9 @@
     "region": null,
     "description": "Woman in pink dress crawling through field toward distant house",
     "cover_filename": "238_Andrew_Wyeth_Christinas_World.jpg",
-    "cover_filename_slug": "238-andrew-wyeth-christinas-world.jpg"
+    "cover_filename_slug": "238-andrew-wyeth-christinas-world.jpg",
+    "cover_cms_filename": "christina-s-world-andrew-wyeth-1948.jpg",
+    "cms_slug": "christina-s-world-andrew-wyeth-1948"
   },
   {
     "title": "Composition VIII",
@@ -150,7 +182,9 @@
     "region": null,
     "description": "Masterpiece of geometric shapes and vibrant colors, pioneering pure abstraction",
     "cover_filename": "009_Wassily_Kandinsky_Composition_VIII.jpg",
-    "cover_filename_slug": "009-wassily-kandinsky-composition-viii.jpg"
+    "cover_filename_slug": "009-wassily-kandinsky-composition-viii.jpg",
+    "cover_cms_filename": "composition-viii-wassily-kandinsky-1923.jpg",
+    "cms_slug": "composition-viii-wassily-kandinsky-1923"
   },
   {
     "title": "Composition with Red, Blue, and Yellow",
@@ -159,7 +193,9 @@
     "region": null,
     "description": "Iconic geometric composition with primary colors and black perpendicular lines",
     "cover_filename": "007_Piet_Mondrian_Composition_with_Red_Blue_and_Yellow.jpg",
-    "cover_filename_slug": "007-piet-mondrian-composition-with-red-blue-and-yellow.jpg"
+    "cover_filename_slug": "007-piet-mondrian-composition-with-red-blue-and-yellow.jpg",
+    "cover_cms_filename": "composition-with-red-blue-and-yellow-piet-mondrian-1930.jpg",
+    "cms_slug": "composition-with-red-blue-and-yellow-piet-mondrian-1930"
   },
   {
     "title": "Crack is Wack",
@@ -168,7 +204,9 @@
     "region": null,
     "description": "Public mural in Harlem raising awareness about drug addiction, featuring signature dancing figures",
     "cover_filename": "005_Keith_Haring_Crack_is_Wack.jpg",
-    "cover_filename_slug": "005-keith-haring-crack-is-wack.jpg"
+    "cover_filename_slug": "005-keith-haring-crack-is-wack.jpg",
+    "cover_cms_filename": "crack-is-wack-keith-haring-1986.jpg",
+    "cms_slug": "crack-is-wack-keith-haring-1986"
   },
   {
     "title": "Cut Piece",
@@ -177,7 +215,9 @@
     "region": null,
     "description": "Performance where audience cuts away artist's clothing",
     "cover_filename": "063_Yoko_Ono_Cut_Piece.jpg",
-    "cover_filename_slug": "063-yoko-ono-cut-piece.jpg"
+    "cover_filename_slug": "063-yoko-ono-cut-piece.jpg",
+    "cover_cms_filename": "cut-piece-yoko-ono-1964.jpg",
+    "cms_slug": "cut-piece-yoko-ono-1964"
   },
   {
     "title": "David",
@@ -186,7 +226,9 @@
     "region": null,
     "description": null,
     "cover_filename": "401_Michelangelo_David.jpg",
-    "cover_filename_slug": "401_michelangelo_david.jpg"
+    "cover_filename_slug": "401_michelangelo_david.jpg",
+    "cover_cms_filename": "david-michelangelo.jpg",
+    "cms_slug": "david-michelangelo"
   },
   {
     "title": "Don Quixote",
@@ -195,7 +237,9 @@
     "region": null,
     "description": "Simple line drawing of Don Quixote and Sancho Panza",
     "cover_filename": "222_Pablo_Picasso_Don_Quixote.jpg",
-    "cover_filename_slug": "222-pablo-picasso-don-quixote.jpg"
+    "cover_filename_slug": "222-pablo-picasso-don-quixote.jpg",
+    "cover_cms_filename": "don-quixote-pablo-picasso-1955.jpg",
+    "cms_slug": "don-quixote-pablo-picasso-1955"
   },
   {
     "title": "Double Negative",
@@ -204,7 +248,9 @@
     "region": null,
     "description": "Two massive trenches cut into Nevada desert mesa",
     "cover_filename": "057_Michael_Heizer_Double_Negative.jpg",
-    "cover_filename_slug": "057-michael-heizer-double-negative.jpg"
+    "cover_filename_slug": "057-michael-heizer-double-negative.jpg",
+    "cover_cms_filename": "double-negative-michael-heizer.jpg",
+    "cms_slug": "double-negative-michael-heizer"
   },
   {
     "title": "Dropping a Han Dynasty Urn",
@@ -213,7 +259,9 @@
     "region": null,
     "description": "Triptych of artist dropping and destroying ancient vase",
     "cover_filename": "233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn.jpg",
-    "cover_filename_slug": "233-ai-weiwei-dropping-a-han-dynasty-urn.jpg"
+    "cover_filename_slug": "233-ai-weiwei-dropping-a-han-dynasty-urn.jpg",
+    "cover_cms_filename": "dropping-a-han-dynasty-urn-ai-weiwei-1995.jpg",
+    "cms_slug": "dropping-a-han-dynasty-urn-ai-weiwei-1995"
   },
   {
     "title": "Drowning Girl",
@@ -222,7 +270,9 @@
     "region": null,
     "description": "Comic book-style painting of distressed woman in water",
     "cover_filename": "031_Roy_Lichtenstein_Drowning_Girl.jpg",
-    "cover_filename_slug": "031-roy-lichtenstein-drowning-girl.jpg"
+    "cover_filename_slug": "031-roy-lichtenstein-drowning-girl.jpg",
+    "cover_cms_filename": "drowning-girl-roy-lichtenstein-1963.jpg",
+    "cms_slug": "drowning-girl-roy-lichtenstein-1963"
   },
   {
     "title": "Excavation",
@@ -231,7 +281,9 @@
     "region": null,
     "description": "Complex abstracted figures in yellow and white",
     "cover_filename": "089_Willem_de_Kooning_Excavation.jpg",
-    "cover_filename_slug": "089-willem-de-kooning-excavation.jpg"
+    "cover_filename_slug": "089-willem-de-kooning-excavation.jpg",
+    "cover_cms_filename": "excavation-willem-de-kooning-1950.jpg",
+    "cms_slug": "excavation-willem-de-kooning-1950"
   },
   {
     "title": "Floating Piers",
@@ -240,7 +292,9 @@
     "region": null,
     "description": "3km of floating walkways on Lake Iseo, Italy",
     "cover_filename": "085_Christo_and_Jeanne-Claude_Floating_Piers.jpg",
-    "cover_filename_slug": "085-christo-and-jeanne-claude-floating-piers.jpg"
+    "cover_filename_slug": "085-christo-and-jeanne-claude-floating-piers.jpg",
+    "cover_cms_filename": "floating-piers-christo-and-jeanne-claude-2016.jpg",
+    "cms_slug": "floating-piers-christo-and-jeanne-claude-2016"
   },
   {
     "title": "Flowers",
@@ -249,7 +303,9 @@
     "region": null,
     "description": "Smiling multi-colored flowers characteristic of Murakami's pop art style",
     "cover_filename": "021_Takashi_Murakami_Flowers.jpg",
-    "cover_filename_slug": "021-takashi-murakami-flowers.jpg"
+    "cover_filename_slug": "021-takashi-murakami-flowers.jpg",
+    "cover_cms_filename": "flowers-takashi-murakami.jpg",
+    "cms_slug": "flowers-takashi-murakami"
   },
   {
     "title": "For the Love of God",
@@ -258,7 +314,9 @@
     "region": null,
     "description": "Platinum cast of human skull covered with 8,601 diamonds",
     "cover_filename": "068_Damien_Hirst_For_the_Love_of_God.jpg",
-    "cover_filename_slug": "068-damien-hirst-for-the-love-of-god.jpg"
+    "cover_filename_slug": "068-damien-hirst-for-the-love-of-god.jpg",
+    "cover_cms_filename": "for-the-love-of-god-damien-hirst-2007.jpg",
+    "cms_slug": "for-the-love-of-god-damien-hirst-2007"
   },
   {
     "title": "Fountain",
@@ -267,7 +325,9 @@
     "region": null,
     "description": "Porcelain urinal signed 'R. Mutt', revolutionary conceptual art",
     "cover_filename": "218_Marcel_Duchamp_Fountain.jpg",
-    "cover_filename_slug": "218-marcel-duchamp-fountain.jpg"
+    "cover_filename_slug": "218-marcel-duchamp-fountain.jpg",
+    "cover_cms_filename": "fountain-marcel-duchamp-1917.jpg",
+    "cms_slug": "fountain-marcel-duchamp-1917"
   },
   {
     "title": "Girl with a Pearl Earring",
@@ -276,7 +336,9 @@
     "region": null,
     "description": "Young girl in exotic dress and turban, glancing over shoulder",
     "cover_filename": "204_Johannes_Vermeer_Girl_with_a_Pearl_Earring.jpg",
-    "cover_filename_slug": "204-johannes-vermeer-girl-with-a-pearl-earring.jpg"
+    "cover_filename_slug": "204-johannes-vermeer-girl-with-a-pearl-earring.jpg",
+    "cover_cms_filename": "girl-with-a-pearl-earring-johannes-vermeer-1665.jpg",
+    "cms_slug": "girl-with-a-pearl-earring-johannes-vermeer-1665"
   },
   {
     "title": "Girl with Balloon",
@@ -285,7 +347,9 @@
     "region": null,
     "description": "Iconic stencil of a girl reaching for a heart-shaped balloon",
     "cover_filename": "006_Banksy_Girl_with_Balloon.jpg",
-    "cover_filename_slug": "006-banksy-girl-with-balloon.jpg"
+    "cover_filename_slug": "006-banksy-girl-with-balloon.jpg",
+    "cover_cms_filename": "girl-with-balloon-banksy-2002.jpg",
+    "cms_slug": "girl-with-balloon-banksy-2002"
   },
   {
     "title": "Gonzalez Torres Untitled Death By Gun",
@@ -294,7 +358,9 @@
     "region": null,
     "description": null,
     "cover_filename": "427_Felix_Gonzalez-Torres_Untitled_Death_by_Gun.jpg",
-    "cover_filename_slug": "427_felix_gonzalez-torres_untitled_death_by_gun.jpg"
+    "cover_filename_slug": "427_felix_gonzalez-torres_untitled_death_by_gun.jpg",
+    "cover_cms_filename": "gonzalez-torres-untitled-death-by-gun-felix.jpg",
+    "cms_slug": "gonzalez-torres-untitled-death-by-gun-felix"
   },
   {
     "title": "Guernica",
@@ -303,7 +369,9 @@
     "region": null,
     "description": "Powerful anti-war painting depicting bombing of Guernica",
     "cover_filename": "206_Pablo_Picasso_Guernica.jpg",
-    "cover_filename_slug": "206-pablo-picasso-guernica.jpg"
+    "cover_filename_slug": "206-pablo-picasso-guernica.jpg",
+    "cover_cms_filename": "guernica-pablo-picasso-1937.jpg",
+    "cms_slug": "guernica-pablo-picasso-1937"
   },
   {
     "title": "Holt Sun Tunnels",
@@ -312,7 +380,9 @@
     "region": null,
     "description": null,
     "cover_filename": "424_Nancy_Holt_Sun_Tunnels.jpg",
-    "cover_filename_slug": "424_nancy_holt_sun_tunnels.jpg"
+    "cover_filename_slug": "424_nancy_holt_sun_tunnels.jpg",
+    "cover_cms_filename": "holt-sun-tunnels-nancy.jpg",
+    "cms_slug": "holt-sun-tunnels-nancy"
   },
   {
     "title": "House",
@@ -321,7 +391,9 @@
     "region": null,
     "description": "Concrete cast of interior of Victorian house (demolished 1994)",
     "cover_filename": "091_Rachel_Whiteread_House.jpg",
-    "cover_filename_slug": "091-rachel-whiteread-house.jpg"
+    "cover_filename_slug": "091-rachel-whiteread-house.jpg",
+    "cover_cms_filename": "house-rachel-whiteread-1993.jpg",
+    "cms_slug": "house-rachel-whiteread-1993"
   },
   {
     "title": "I and the Village",
@@ -330,7 +402,9 @@
     "region": null,
     "description": "Dreamlike village scene with floating figures and animals",
     "cover_filename": "328_Marc_Chagall_I_and_the_Village.jpg",
-    "cover_filename_slug": "328-marc-chagall-i-and-the-village.jpg"
+    "cover_filename_slug": "328-marc-chagall-i-and-the-village.jpg",
+    "cover_cms_filename": "i-and-the-village-marc-chagall-1911.jpg",
+    "cms_slug": "i-and-the-village-marc-chagall-1911"
   },
   {
     "title": "Impression, Sunrise",
@@ -339,7 +413,9 @@
     "region": null,
     "description": "Painting that gave Impressionism its name, harbor at sunrise",
     "cover_filename": "307_Claude_Monet_Impression_Sunrise.jpg",
-    "cover_filename_slug": "307-claude-monet-impression-sunrise.jpg"
+    "cover_filename_slug": "307-claude-monet-impression-sunrise.jpg",
+    "cover_cms_filename": "impression-sunrise-claude-monet-1872.jpg",
+    "cms_slug": "impression-sunrise-claude-monet-1872"
   },
   {
     "title": "In Advance of the Broken Arm",
@@ -348,7 +424,9 @@
     "region": null,
     "description": "Snow shovel as found object art",
     "cover_filename": "087_Marcel_Duchamp_In_Advance_of_the_Broken_Arm.jpg",
-    "cover_filename_slug": "087-marcel-duchamp-in-advance-of-the-broken-arm.jpg"
+    "cover_filename_slug": "087-marcel-duchamp-in-advance-of-the-broken-arm.jpg",
+    "cover_cms_filename": "in-advance-of-the-broken-arm-marcel-duchamp-1915.jpg",
+    "cms_slug": "in-advance-of-the-broken-arm-marcel-duchamp-1915"
   },
   {
     "title": "Indiana Love",
@@ -357,7 +435,9 @@
     "region": null,
     "description": null,
     "cover_filename": "415_Robert_Indiana_Love.jpg",
-    "cover_filename_slug": "415_robert_indiana_love.jpg"
+    "cover_filename_slug": "415_robert_indiana_love.jpg",
+    "cover_cms_filename": "indiana-love-robert.jpg",
+    "cms_slug": "indiana-love-robert"
   },
   {
     "title": "Infinity Mirror Room",
@@ -366,7 +446,9 @@
     "region": null,
     "description": "Immersive installations using mirrors and lights to create seemingly boundless spaces, featuring signature polka dot motifs",
     "cover_filename": "001_Yayoi_Kusama_Infinity_Mirror_Room.jpg",
-    "cover_filename_slug": "001-yayoi-kusama-infinity-mirror-room.jpg"
+    "cover_filename_slug": "001-yayoi-kusama-infinity-mirror-room.jpg",
+    "cover_cms_filename": "infinity-mirror-room-yayoi-kusama.jpg",
+    "cms_slug": "infinity-mirror-room-yayoi-kusama"
   },
   {
     "title": "Irises",
@@ -375,7 +457,9 @@
     "region": null,
     "description": "Field of purple irises from asylum garden",
     "cover_filename": "323_Vincent_van_Gogh_Irises.jpg",
-    "cover_filename_slug": "323-vincent-van-gogh-irises.jpg"
+    "cover_filename_slug": "323-vincent-van-gogh-irises.jpg",
+    "cover_cms_filename": "irises-vincent-van-gogh-1889.jpg",
+    "cms_slug": "irises-vincent-van-gogh-1889"
   },
   {
     "title": "Lange Migrant Mother",
@@ -384,7 +468,9 @@
     "region": null,
     "description": null,
     "cover_filename": "428_Dorothea_Lange_Migrant_Mother.jpg",
-    "cover_filename_slug": "428_dorothea_lange_migrant_mother.jpg"
+    "cover_filename_slug": "428_dorothea_lange_migrant_mother.jpg",
+    "cover_cms_filename": "lange-migrant-mother-dorothea.jpg",
+    "cms_slug": "lange-migrant-mother-dorothea"
   },
   {
     "title": "Les Demoiselles d'Avignon",
@@ -393,7 +479,9 @@
     "region": null,
     "description": "Five angular female figures, revolutionary break with tradition",
     "cover_filename": "221_Pablo_Picasso_Les_Demoiselles_dAvignon.jpg",
-    "cover_filename_slug": "221-pablo-picasso-les-demoiselles-davignon.jpg"
+    "cover_filename_slug": "221-pablo-picasso-les-demoiselles-davignon.jpg",
+    "cover_cms_filename": "les-demoiselles-d-avignon-pablo-picasso-1907.jpg",
+    "cms_slug": "les-demoiselles-d-avignon-pablo-picasso-1907"
   },
   {
     "title": "Lightning Field",
@@ -402,7 +490,9 @@
     "region": null,
     "description": "400 stainless steel poles arranged in grid in New Mexico",
     "cover_filename": "058_Walter_De_Maria_Lightning_Field.jpg",
-    "cover_filename_slug": "058-walter-de-maria-lightning-field.jpg"
+    "cover_filename_slug": "058-walter-de-maria-lightning-field.jpg",
+    "cover_cms_filename": "lightning-field-walter-de-maria-1977.jpg",
+    "cms_slug": "lightning-field-walter-de-maria-1977"
   },
   {
     "title": "Lin Vietnam Veterans Memorial",
@@ -411,7 +501,9 @@
     "region": null,
     "description": null,
     "cover_filename": "439_Maya_Lin_Vietnam_Veterans_Memorial.jpg",
-    "cover_filename_slug": "439_maya_lin_vietnam_veterans_memorial.jpg"
+    "cover_filename_slug": "439_maya_lin_vietnam_veterans_memorial.jpg",
+    "cover_cms_filename": "lin-vietnam-veterans-memorial-maya.jpg",
+    "cms_slug": "lin-vietnam-veterans-memorial-maya"
   },
   {
     "title": "Mama",
@@ -420,7 +512,9 @@
     "region": null,
     "description": "Monumental bronze spider sculpture",
     "cover_filename": "054_Louise_Bourgeois_Mama.jpg",
-    "cover_filename_slug": "054-louise-bourgeois-mama.jpg"
+    "cover_filename_slug": "054-louise-bourgeois-mama.jpg",
+    "cover_cms_filename": "mama-louise-bourgeois-1999.jpg",
+    "cms_slug": "mama-louise-bourgeois-1999"
   },
   {
     "title": "Marilyn Diptych",
@@ -429,7 +523,9 @@
     "region": null,
     "description": "50 images of Marilyn Monroe in vibrant and faded repetition",
     "cover_filename": "032_Andy_Warhol_Marilyn_Diptych.jpg",
-    "cover_filename_slug": "032-andy-warhol-marilyn-diptych.jpg"
+    "cover_filename_slug": "032-andy-warhol-marilyn-diptych.jpg",
+    "cover_cms_filename": "marilyn-diptych-andy-warhol-1962.jpg",
+    "cms_slug": "marilyn-diptych-andy-warhol-1962"
   },
   {
     "title": "Merzbau",
@@ -438,7 +534,9 @@
     "region": null,
     "description": "Architectural collage installation (destroyed in WWII)",
     "cover_filename": "093_Kurt_Schwitters_Merzbau.jpg",
-    "cover_filename_slug": "093-kurt-schwitters-merzbau.jpg"
+    "cover_filename_slug": "093-kurt-schwitters-merzbau.jpg",
+    "cover_cms_filename": "merzbau-kurt-schwitters.jpg",
+    "cms_slug": "merzbau-kurt-schwitters"
   },
   {
     "title": "Mona Lisa",
@@ -447,7 +545,9 @@
     "region": null,
     "description": "Perhaps the most famous painting in the world, known for her enigmatic smile",
     "cover_filename": "201_Leonardo_da_Vinci_Mona_Lisa.jpg",
-    "cover_filename_slug": "201-leonardo-da-vinci-mona-lisa.jpg"
+    "cover_filename_slug": "201-leonardo-da-vinci-mona-lisa.jpg",
+    "cover_cms_filename": "mona-lisa-leonardo-da-vinci.jpg",
+    "cms_slug": "mona-lisa-leonardo-da-vinci"
   },
   {
     "title": "Monument for V. Tatlin",
@@ -456,7 +556,9 @@
     "region": null,
     "description": "Fluorescent light tubes arranged to create colored light zones",
     "cover_filename": "016_Dan_Flavin_Monument_for_V_Tatlin.jpg",
-    "cover_filename_slug": "016-dan-flavin-monument-for-v-tatlin.jpg"
+    "cover_filename_slug": "016-dan-flavin-monument-for-v-tatlin.jpg",
+    "cover_cms_filename": "monument-for-v-tatlin-dan-flavin.jpg",
+    "cms_slug": "monument-for-v-tatlin-dan-flavin"
   },
   {
     "title": "My Bed",
@@ -465,7 +567,9 @@
     "region": null,
     "description": "Artist's unmade bed with personal items as artwork",
     "cover_filename": "067_Tracey_Emin_My_Bed.jpg",
-    "cover_filename_slug": "067-tracey-emin-my-bed.jpg"
+    "cover_filename_slug": "067-tracey-emin-my-bed.jpg",
+    "cover_cms_filename": "my-bed-tracey-emin-1998.jpg",
+    "cms_slug": "my-bed-tracey-emin-1998"
   },
   {
     "title": "Nighthawks",
@@ -474,7 +578,9 @@
     "region": null,
     "description": "Lonely late-night diner scene in urban setting",
     "cover_filename": "210_Edward_Hopper_Nighthawks.jpg",
-    "cover_filename_slug": "210-edward-hopper-nighthawks.jpg"
+    "cover_filename_slug": "210-edward-hopper-nighthawks.jpg",
+    "cover_cms_filename": "nighthawks-edward-hopper-1942.jpg",
+    "cms_slug": "nighthawks-edward-hopper-1942"
   },
   {
     "title": "No. 61 (Rust and Blue)",
@@ -483,7 +589,9 @@
     "region": null,
     "description": "Luminous color field painting with stacked rectangles designed to evoke emotion",
     "cover_filename": "008_Mark_Rothko_No_61_Rust_and_Blue.jpg",
-    "cover_filename_slug": "008-mark-rothko-no-61-rust-and-blue.jpg"
+    "cover_filename_slug": "008-mark-rothko-no-61-rust-and-blue.jpg",
+    "cover_cms_filename": "no-61-rust-and-blue-mark-rothko-1953.jpg",
+    "cms_slug": "no-61-rust-and-blue-mark-rothko-1953"
   },
   {
     "title": "Nude Descending a Staircase, No. 2",
@@ -492,7 +600,9 @@
     "region": null,
     "description": "Figure shown in sequential motion down stairs",
     "cover_filename": "334_Marcel_Duchamp_Nude_Descending_a_Staircase_No_2.jpg",
-    "cover_filename_slug": "334-marcel-duchamp-nude-descending-a-staircase-no-2.jpg"
+    "cover_filename_slug": "334-marcel-duchamp-nude-descending-a-staircase-no-2.jpg",
+    "cover_cms_filename": "nude-descending-a-staircase-no-2-marcel-duchamp-1912.jpg",
+    "cms_slug": "nude-descending-a-staircase-no-2-marcel-duchamp-1912"
   },
   {
     "title": "One and Three Chairs",
@@ -501,7 +611,9 @@
     "region": null,
     "description": "Physical chair, photograph of chair, and dictionary definition",
     "cover_filename": "060_Joseph_Kosuth_One_and_Three_Chairs.jpg",
-    "cover_filename_slug": "060-joseph-kosuth-one-and-three-chairs.jpg"
+    "cover_filename_slug": "060-joseph-kosuth-one-and-three-chairs.jpg",
+    "cover_cms_filename": "one-and-three-chairs-joseph-kosuth-1965.jpg",
+    "cms_slug": "one-and-three-chairs-joseph-kosuth-1965"
   },
   {
     "title": "Ophelia",
@@ -510,7 +622,9 @@
     "region": null,
     "description": "Ophelia floating in stream surrounded by flowers",
     "cover_filename": "313_John_Everett_Millais_Ophelia.jpg",
-    "cover_filename_slug": "313-john-everett-millais-ophelia.jpg"
+    "cover_filename_slug": "313-john-everett-millais-ophelia.jpg",
+    "cover_cms_filename": "ophelia-john-everett-millais.jpg",
+    "cms_slug": "ophelia-john-everett-millais"
   },
   {
     "title": "Orange and Yellow",
@@ -519,7 +633,9 @@
     "region": null,
     "description": "Meditative color field painting with warm tones",
     "cover_filename": "045_Mark_Rothko_Orange_and_Yellow.jpg",
-    "cover_filename_slug": "045-mark-rothko-orange-and-yellow.jpg"
+    "cover_filename_slug": "045-mark-rothko-orange-and-yellow.jpg",
+    "cover_cms_filename": "orange-and-yellow-mark-rothko-1956.jpg",
+    "cms_slug": "orange-and-yellow-mark-rothko-1956"
   },
   {
     "title": "Pietà",
@@ -528,7 +644,9 @@
     "region": null,
     "description": null,
     "cover_filename": "405_Michelangelo_Pietà.jpg",
-    "cover_filename_slug": "405_michelangelo_pietà.jpg"
+    "cover_filename_slug": "405_michelangelo_pietà.jpg",
+    "cover_cms_filename": "piet-michelangelo.jpg",
+    "cms_slug": "piet-michelangelo"
   },
   {
     "title": "Pumpkin",
@@ -537,7 +655,9 @@
     "region": null,
     "description": "Iconic polka-dotted pumpkin sculptures in various sizes",
     "cover_filename": "078_Yayoi_Kusama_Pumpkin.jpg",
-    "cover_filename_slug": "078-yayoi-kusama-pumpkin.jpg"
+    "cover_filename_slug": "078-yayoi-kusama-pumpkin.jpg",
+    "cover_cms_filename": "pumpkin-yayoi-kusama.jpg",
+    "cms_slug": "pumpkin-yayoi-kusama"
   },
   {
     "title": "Puppy",
@@ -546,7 +666,9 @@
     "region": null,
     "description": "40-foot tall West Highland Terrier covered with flowering plants at Guggenheim Bilbao",
     "cover_filename": "010_Jeff_Koons_Puppy.jpg",
-    "cover_filename_slug": "010-jeff-koons-puppy.jpg"
+    "cover_filename_slug": "010-jeff-koons-puppy.jpg",
+    "cover_cms_filename": "puppy-jeff-koons-1992.jpg",
+    "cms_slug": "puppy-jeff-koons-1992"
   },
   {
     "title": "Rhythm 0",
@@ -555,7 +677,9 @@
     "region": null,
     "description": "6-hour performance allowing audience to use 72 objects on artist",
     "cover_filename": "064_Marina_Abramović_Rhythm_0.jpg",
-    "cover_filename_slug": "064-marina-abramović-rhythm-0.jpg"
+    "cover_filename_slug": "064-marina-abramović-rhythm-0.jpg",
+    "cover_cms_filename": "rhythm-0-marina-abramovi-1974.jpg",
+    "cms_slug": "rhythm-0-marina-abramovi-1974"
   },
   {
     "title": "Roden Crater",
@@ -564,7 +688,9 @@
     "region": null,
     "description": "Massive naked-eye observatory created from an extinct volcano in Arizona",
     "cover_filename": "012_James_Turrell_Roden_Crater.jpg",
-    "cover_filename_slug": "012-james-turrell-roden-crater.jpg"
+    "cover_filename_slug": "012-james-turrell-roden-crater.jpg",
+    "cover_cms_filename": "roden-crater-james-turrell.jpg",
+    "cms_slug": "roden-crater-james-turrell"
   },
   {
     "title": "Rodin The Gates Of Hell",
@@ -573,7 +699,9 @@
     "region": null,
     "description": null,
     "cover_filename": "403_Auguste_Rodin_The_Gates_of_Hell.jpg",
-    "cover_filename_slug": "403_auguste_rodin_the_gates_of_hell.jpg"
+    "cover_filename_slug": "403_auguste_rodin_the_gates_of_hell.jpg",
+    "cover_cms_filename": "rodin-the-gates-of-hell-auguste.jpg",
+    "cms_slug": "rodin-the-gates-of-hell-auguste"
   },
   {
     "title": "Rodin The Kiss",
@@ -582,7 +710,9 @@
     "region": null,
     "description": null,
     "cover_filename": "404_Auguste_Rodin_The_Kiss.jpg",
-    "cover_filename_slug": "404_auguste_rodin_the_kiss.jpg"
+    "cover_filename_slug": "404_auguste_rodin_the_kiss.jpg",
+    "cover_cms_filename": "rodin-the-kiss-auguste.jpg",
+    "cms_slug": "rodin-the-kiss-auguste"
   },
   {
     "title": "Saturn Devouring His Son",
@@ -591,7 +721,9 @@
     "region": null,
     "description": "Disturbing image of Titan eating his child",
     "cover_filename": "305_Francisco_Goya_Saturn_Devouring_His_Son.jpg",
-    "cover_filename_slug": "305-francisco-goya-saturn-devouring-his-son.jpg"
+    "cover_filename_slug": "305-francisco-goya-saturn-devouring-his-son.jpg",
+    "cover_cms_filename": "saturn-devouring-his-son-francisco-goya.jpg",
+    "cms_slug": "saturn-devouring-his-son-francisco-goya"
   },
   {
     "title": "Serra One Ton Prop House Of Cards",
@@ -600,7 +732,9 @@
     "region": null,
     "description": null,
     "cover_filename": "438_Richard_Serra_One_Ton_Prop_House_of_Cards.jpg",
-    "cover_filename_slug": "438_richard_serra_one_ton_prop_house_of_cards.jpg"
+    "cover_filename_slug": "438_richard_serra_one_ton_prop_house_of_cards.jpg",
+    "cover_cms_filename": "serra-one-ton-prop-house-of-cards-richard.jpg",
+    "cms_slug": "serra-one-ton-prop-house-of-cards-richard"
   },
   {
     "title": "Sky Above Clouds IV",
@@ -609,7 +743,9 @@
     "region": null,
     "description": "Monumental aerial view of clouds",
     "cover_filename": "098_Georgia_OKeeffe_Sky_Above_Clouds_IV.jpg",
-    "cover_filename_slug": "098-georgia-okeeffe-sky-above-clouds-iv.jpg"
+    "cover_filename_slug": "098-georgia-okeeffe-sky-above-clouds-iv.jpg",
+    "cover_cms_filename": "sky-above-clouds-iv-georgia-o-keeffe-1965.jpg",
+    "cms_slug": "sky-above-clouds-iv-georgia-o-keeffe-1965"
   },
   {
     "title": "Sky Mirror",
@@ -618,7 +754,9 @@
     "region": null,
     "description": "Massive concave mirror reflecting sky and surroundings",
     "cover_filename": "038_Anish_Kapoor_Sky_Mirror.jpg",
-    "cover_filename_slug": "038-anish-kapoor-sky-mirror.jpg"
+    "cover_filename_slug": "038-anish-kapoor-sky-mirror.jpg",
+    "cover_cms_filename": "sky-mirror-anish-kapoor-2006.jpg",
+    "cms_slug": "sky-mirror-anish-kapoor-2006"
   },
   {
     "title": "Spiral Jetty",
@@ -627,7 +765,9 @@
     "region": null,
     "description": "1,500-foot-long spiral of rocks and earth jutting into Great Salt Lake",
     "cover_filename": "013_Robert_Smithson_Spiral_Jetty.jpg",
-    "cover_filename_slug": "013-robert-smithson-spiral-jetty.jpg"
+    "cover_filename_slug": "013-robert-smithson-spiral-jetty.jpg",
+    "cover_cms_filename": "spiral-jetty-robert-smithson-1970.jpg",
+    "cms_slug": "spiral-jetty-robert-smithson-1970"
   },
   {
     "title": "Spiral Jetty",
@@ -636,7 +776,9 @@
     "region": null,
     "description": "1,500-foot coil of rock and earth extending into Great Salt Lake",
     "cover_filename": "235_Robert_Smithson_Spiral_Jetty.jpg",
-    "cover_filename_slug": "235-robert-smithson-spiral-jetty.jpg"
+    "cover_filename_slug": "235-robert-smithson-spiral-jetty.jpg",
+    "cover_cms_filename": "spiral-jetty-robert-smithson-1970.jpg",
+    "cms_slug": "spiral-jetty-robert-smithson-1970"
   },
   {
     "title": "Squares with Concentric Circles",
@@ -645,7 +787,9 @@
     "region": null,
     "description": "Study of color combinations with geometric circles",
     "cover_filename": "043_Wassily_Kandinsky_Squares_with_Concentric_Circles.jpg",
-    "cover_filename_slug": "043-wassily-kandinsky-squares-with-concentric-circles.jpg"
+    "cover_filename_slug": "043-wassily-kandinsky-squares-with-concentric-circles.jpg",
+    "cover_cms_filename": "squares-with-concentric-circles-wassily-kandinsky-1913.jpg",
+    "cms_slug": "squares-with-concentric-circles-wassily-kandinsky-1913"
   },
   {
     "title": "Starry Night",
@@ -654,7 +798,9 @@
     "region": null,
     "description": "Swirling night sky over a French village, painted from asylum",
     "cover_filename": "202_Vincent_van_Gogh_Starry_Night.jpg",
-    "cover_filename_slug": "202-vincent-van-gogh-starry-night.jpg"
+    "cover_filename_slug": "202-vincent-van-gogh-starry-night.jpg",
+    "cover_cms_filename": "starry-night-vincent-van-gogh-1889.jpg",
+    "cms_slug": "starry-night-vincent-van-gogh-1889"
   },
   {
     "title": "Still Life with Chair Caning",
@@ -663,7 +809,9 @@
     "region": null,
     "description": "First cubist collage with real materials",
     "cover_filename": "092_Pablo_Picasso_Still_Life_with_Chair_Caning.jpg",
-    "cover_filename_slug": "092-pablo-picasso-still-life-with-chair-caning.jpg"
+    "cover_filename_slug": "092-pablo-picasso-still-life-with-chair-caning.jpg",
+    "cover_cms_filename": "still-life-with-chair-caning-pablo-picasso-1912.jpg",
+    "cms_slug": "still-life-with-chair-caning-pablo-picasso-1912"
   },
   {
     "title": "Sunflower Seeds",
@@ -672,7 +820,9 @@
     "region": null,
     "description": "100 million hand-crafted porcelain sunflower seeds covering Tate Modern's Turbine Hall",
     "cover_filename": "022_Ai_Weiwei_Sunflower_Seeds.jpg",
-    "cover_filename_slug": "022-ai-weiwei-sunflower-seeds.jpg"
+    "cover_filename_slug": "022-ai-weiwei-sunflower-seeds.jpg",
+    "cover_cms_filename": "sunflower-seeds-ai-weiwei-2010.jpg",
+    "cms_slug": "sunflower-seeds-ai-weiwei-2010"
   },
   {
     "title": "Sunflowers",
@@ -681,7 +831,9 @@
     "region": null,
     "description": "Vibrant yellow sunflowers in a vase",
     "cover_filename": "215_Vincent_van_Gogh_Sunflowers.jpg",
-    "cover_filename_slug": "215-vincent-van-gogh-sunflowers.jpg"
+    "cover_filename_slug": "215-vincent-van-gogh-sunflowers.jpg",
+    "cover_cms_filename": "sunflowers-vincent-van-gogh-1888.jpg",
+    "cms_slug": "sunflowers-vincent-van-gogh-1888"
   },
   {
     "title": "The Absinthe Drinker",
@@ -690,7 +842,9 @@
     "region": null,
     "description": "Solitary figures in Parisian café with absinthe",
     "cover_filename": "319_Edgar_Degas_The_Absinthe_Drinker.jpg",
-    "cover_filename_slug": "319-edgar-degas-the-absinthe-drinker.jpg"
+    "cover_filename_slug": "319-edgar-degas-the-absinthe-drinker.jpg",
+    "cover_cms_filename": "the-absinthe-drinker-edgar-degas-1876.jpg",
+    "cms_slug": "the-absinthe-drinker-edgar-degas-1876"
   },
   {
     "title": "The Arnolfini Portrait",
@@ -699,7 +853,9 @@
     "region": null,
     "description": "Mysterious double portrait with convex mirror",
     "cover_filename": "308_Jan_van_Eyck_The_Arnolfini_Portrait.jpg",
-    "cover_filename_slug": "308-jan-van-eyck-the-arnolfini-portrait.jpg"
+    "cover_filename_slug": "308-jan-van-eyck-the-arnolfini-portrait.jpg",
+    "cover_cms_filename": "the-arnolfini-portrait-jan-van-eyck-1434.jpg",
+    "cms_slug": "the-arnolfini-portrait-jan-van-eyck-1434"
   },
   {
     "title": "The Bedroom",
@@ -708,7 +864,9 @@
     "region": null,
     "description": "Van Gogh's simple bedroom in Arles",
     "cover_filename": "322_Vincent_van_Gogh_The_Bedroom.jpg",
-    "cover_filename_slug": "322-vincent-van-gogh-the-bedroom.jpg"
+    "cover_filename_slug": "322-vincent-van-gogh-the-bedroom.jpg",
+    "cover_cms_filename": "the-bedroom-vincent-van-gogh-1888.jpg",
+    "cms_slug": "the-bedroom-vincent-van-gogh-1888"
   },
   {
     "title": "The Birth of Venus",
@@ -717,7 +875,9 @@
     "region": null,
     "description": "Goddess Venus emerging from the sea on a shell",
     "cover_filename": "203_Sandro_Botticelli_The_Birth_of_Venus.jpg",
-    "cover_filename_slug": "203-sandro-botticelli-the-birth-of-venus.jpg"
+    "cover_filename_slug": "203-sandro-botticelli-the-birth-of-venus.jpg",
+    "cover_cms_filename": "the-birth-of-venus-sandro-botticelli-1485.jpg",
+    "cms_slug": "the-birth-of-venus-sandro-botticelli-1485"
   },
   {
     "title": "The Burghers of Calais",
@@ -726,7 +886,9 @@
     "region": null,
     "description": "Six figures commemorating siege of Calais",
     "cover_filename": "332_Auguste_Rodin_The_Burghers_of_Calais.jpg",
-    "cover_filename_slug": "332-auguste-rodin-the-burghers-of-calais.jpg"
+    "cover_filename_slug": "332-auguste-rodin-the-burghers-of-calais.jpg",
+    "cover_cms_filename": "the-burghers-of-calais-auguste-rodin-1889.jpg",
+    "cms_slug": "the-burghers-of-calais-auguste-rodin-1889"
   },
   {
     "title": "The Calling of Saint Matthew",
@@ -735,7 +897,9 @@
     "region": null,
     "description": "Dramatic moment of Christ calling Matthew, theatrical lighting",
     "cover_filename": "228_Caravaggio_The_Calling_of_Saint_Matthew.jpg",
-    "cover_filename_slug": "228-caravaggio-the-calling-of-saint-matthew.jpg"
+    "cover_filename_slug": "228-caravaggio-the-calling-of-saint-matthew.jpg",
+    "cover_cms_filename": "the-calling-of-saint-matthew-caravaggio-1600.jpg",
+    "cms_slug": "the-calling-of-saint-matthew-caravaggio-1600"
   },
   {
     "title": "The Creation of Adam",
@@ -744,7 +908,9 @@
     "region": null,
     "description": "God reaching out to touch Adam's finger, Sistine Chapel ceiling",
     "cover_filename": "212_Michelangelo_The_Creation_of_Adam.jpg",
-    "cover_filename_slug": "212-michelangelo-the-creation-of-adam.jpg"
+    "cover_filename_slug": "212-michelangelo-the-creation-of-adam.jpg",
+    "cover_cms_filename": "the-creation-of-adam-michelangelo-1512.jpg",
+    "cms_slug": "the-creation-of-adam-michelangelo-1512"
   },
   {
     "title": "The Dance Class",
@@ -753,7 +919,9 @@
     "region": null,
     "description": "Ballet dancers practicing with instructor",
     "cover_filename": "320_Edgar_Degas_The_Dance_Class.jpg",
-    "cover_filename_slug": "320-edgar-degas-the-dance-class.jpg"
+    "cover_filename_slug": "320-edgar-degas-the-dance-class.jpg",
+    "cover_cms_filename": "the-dance-class-edgar-degas-1874.jpg",
+    "cms_slug": "the-dance-class-edgar-degas-1874"
   },
   {
     "title": "The Dinner Party",
@@ -762,7 +930,9 @@
     "region": null,
     "description": "Triangular banquet table honoring 39 notable women",
     "cover_filename": "073_Judy_Chicago_The_Dinner_Party.jpg",
-    "cover_filename_slug": "073-judy-chicago-the-dinner-party.jpg"
+    "cover_filename_slug": "073-judy-chicago-the-dinner-party.jpg",
+    "cover_cms_filename": "the-dinner-party-judy-chicago.jpg",
+    "cms_slug": "the-dinner-party-judy-chicago"
   },
   {
     "title": "The Fighting Temeraire",
@@ -771,7 +941,9 @@
     "region": null,
     "description": "Warship being tugged to be broken up, sunset",
     "cover_filename": "314_JMW_Turner_The_Fighting_Temeraire.jpg",
-    "cover_filename_slug": "314-jmw-turner-the-fighting-temeraire.jpg"
+    "cover_filename_slug": "314-jmw-turner-the-fighting-temeraire.jpg",
+    "cover_cms_filename": "the-fighting-temeraire-j-m-w-turner-1838.jpg",
+    "cms_slug": "the-fighting-temeraire-j-m-w-turner-1838"
   },
   {
     "title": "The Garden of Earthly Delights",
@@ -780,7 +952,9 @@
     "region": null,
     "description": "Fantastical scenes of paradise, earth, and hell",
     "cover_filename": "304_Hieronymus_Bosch_The_Garden_of_Earthly_Delights.jpg",
-    "cover_filename_slug": "304-hieronymus-bosch-the-garden-of-earthly-delights.jpg"
+    "cover_filename_slug": "304-hieronymus-bosch-the-garden-of-earthly-delights.jpg",
+    "cover_cms_filename": "the-garden-of-earthly-delights-hieronymus-bosch.jpg",
+    "cms_slug": "the-garden-of-earthly-delights-hieronymus-bosch"
   },
   {
     "title": "The Great Wave off Kanagawa",
@@ -789,7 +963,9 @@
     "region": null,
     "description": "Iconic Japanese wave with Mount Fuji in background",
     "cover_filename": "301_Katsushika_Hokusai_The_Great_Wave_off_Kanagawa.jpg",
-    "cover_filename_slug": "301-katsushika-hokusai-the-great-wave-off-kanagawa.jpg"
+    "cover_filename_slug": "301-katsushika-hokusai-the-great-wave-off-kanagawa.jpg",
+    "cover_cms_filename": "the-great-wave-off-kanagawa-katsushika-hokusai-1831.jpg",
+    "cms_slug": "the-great-wave-off-kanagawa-katsushika-hokusai-1831"
   },
   {
     "title": "The Hay Wain",
@@ -798,7 +974,9 @@
     "region": null,
     "description": "Pastoral English countryside with wagon crossing stream",
     "cover_filename": "310_John_Constable_The_Hay_Wain.jpg",
-    "cover_filename_slug": "310-john-constable-the-hay-wain.jpg"
+    "cover_filename_slug": "310-john-constable-the-hay-wain.jpg",
+    "cover_cms_filename": "the-hay-wain-john-constable-1821.jpg",
+    "cms_slug": "the-hay-wain-john-constable-1821"
   },
   {
     "title": "The Horse",
@@ -807,7 +985,9 @@
     "region": null,
     "description": "Signature voluminous bronze horse sculpture",
     "cover_filename": "024_Fernando_Botero_The_Horse.jpg",
-    "cover_filename_slug": "024-fernando-botero-the-horse.jpg"
+    "cover_filename_slug": "024-fernando-botero-the-horse.jpg",
+    "cover_cms_filename": "the-horse-fernando-botero.jpg",
+    "cms_slug": "the-horse-fernando-botero"
   },
   {
     "title": "The Kiss",
@@ -816,7 +996,9 @@
     "region": null,
     "description": "Couple embracing, covered in elaborate gold patterns",
     "cover_filename": "209_Gustav_Klimt_The_Kiss.jpg",
-    "cover_filename_slug": "209-gustav-klimt-the-kiss.jpg"
+    "cover_filename_slug": "209-gustav-klimt-the-kiss.jpg",
+    "cover_cms_filename": "the-kiss-gustav-klimt-1908.jpg",
+    "cms_slug": "the-kiss-gustav-klimt-1908"
   },
   {
     "title": "The Kiss",
@@ -825,7 +1007,9 @@
     "region": null,
     "description": "Abstract embracing couple carved from stone block",
     "cover_filename": "329_Constantin_Brâncuși_The_Kiss.jpg",
-    "cover_filename_slug": "329-constantin-brâncuși-the-kiss.jpg"
+    "cover_filename_slug": "329-constantin-brâncuși-the-kiss.jpg",
+    "cover_cms_filename": "the-kiss-constantin-br-ncu-i.jpg",
+    "cms_slug": "the-kiss-constantin-br-ncu-i"
   },
   {
     "title": "The Last Supper",
@@ -834,7 +1018,9 @@
     "region": null,
     "description": "Jesus and disciples at final meal, moment of betrayal announcement",
     "cover_filename": "211_Leonardo_da_Vinci_The_Last_Supper.jpg",
-    "cover_filename_slug": "211-leonardo-da-vinci-the-last-supper.jpg"
+    "cover_filename_slug": "211-leonardo-da-vinci-the-last-supper.jpg",
+    "cover_cms_filename": "the-last-supper-leonardo-da-vinci.jpg",
+    "cms_slug": "the-last-supper-leonardo-da-vinci"
   },
   {
     "title": "The Physical Impossibility of Death",
@@ -843,7 +1029,9 @@
     "region": null,
     "description": "Tiger shark preserved in formaldehyde in a vitrine",
     "cover_filename": "053_Damien_Hirst_The_Physical_Impossibility_of_Death.jpg",
-    "cover_filename_slug": "053-damien-hirst-the-physical-impossibility-of-death.jpg"
+    "cover_filename_slug": "053-damien-hirst-the-physical-impossibility-of-death.jpg",
+    "cover_cms_filename": "the-physical-impossibility-of-death-damien-hirst-1991.jpg",
+    "cms_slug": "the-physical-impossibility-of-death-damien-hirst-1991"
   },
   {
     "title": "The School of Athens",
@@ -852,7 +1040,9 @@
     "region": null,
     "description": "Plato, Aristotle and philosophers in grand hall",
     "cover_filename": "339_Raphael_The_School_of_Athens.jpg",
-    "cover_filename_slug": "339-raphael-the-school-of-athens.jpg"
+    "cover_filename_slug": "339-raphael-the-school-of-athens.jpg",
+    "cover_cms_filename": "the-school-of-athens-raphael.jpg",
+    "cms_slug": "the-school-of-athens-raphael"
   },
   {
     "title": "The Scream",
@@ -861,7 +1051,9 @@
     "region": null,
     "description": "Agonized figure on bridge against turbulent orange sky",
     "cover_filename": "205_Edvard_Munch_The_Scream.jpg",
-    "cover_filename_slug": "205-edvard-munch-the-scream.jpg"
+    "cover_filename_slug": "205-edvard-munch-the-scream.jpg",
+    "cover_cms_filename": "the-scream-edvard-munch-1893.jpg",
+    "cms_slug": "the-scream-edvard-munch-1893"
   },
   {
     "title": "The Sistine Madonna",
@@ -870,7 +1062,9 @@
     "region": null,
     "description": "Madonna and child on clouds with cherubs below",
     "cover_filename": "338_Raphael_The_Sistine_Madonna.jpg",
-    "cover_filename_slug": "338-raphael-the-sistine-madonna.jpg"
+    "cover_filename_slug": "338-raphael-the-sistine-madonna.jpg",
+    "cover_cms_filename": "the-sistine-madonna-raphael-1512.jpg",
+    "cms_slug": "the-sistine-madonna-raphael-1512"
   },
   {
     "title": "The Thinker",
@@ -879,7 +1073,9 @@
     "region": null,
     "description": "Muscular nude male figure in deep contemplation",
     "cover_filename": "331_Auguste_Rodin_The_Thinker.jpg",
-    "cover_filename_slug": "331-auguste-rodin-the-thinker.jpg"
+    "cover_filename_slug": "331-auguste-rodin-the-thinker.jpg",
+    "cover_cms_filename": "the-thinker-auguste-rodin-1902.jpg",
+    "cms_slug": "the-thinker-auguste-rodin-1902"
   },
   {
     "title": "The Third of May 1808",
@@ -888,7 +1084,9 @@
     "region": null,
     "description": "Spanish rebels being executed by French soldiers",
     "cover_filename": "316_Francisco_Goya_The_Third_of_May_1808.jpg",
-    "cover_filename_slug": "316-francisco-goya-the-third-of-may-1808.jpg"
+    "cover_filename_slug": "316-francisco-goya-the-third-of-may-1808.jpg",
+    "cover_cms_filename": "the-third-of-may-1808-francisco-goya-1814.jpg",
+    "cms_slug": "the-third-of-may-1808-francisco-goya-1814"
   },
   {
     "title": "The Weather Project",
@@ -897,7 +1095,9 @@
     "region": null,
     "description": "Artificial sun installation in Tate Modern's Turbine Hall",
     "cover_filename": "061_Olafur_Eliasson_The_Weather_Project.jpg",
-    "cover_filename_slug": "061-olafur-eliasson-the-weather-project.jpg"
+    "cover_filename_slug": "061-olafur-eliasson-the-weather-project.jpg",
+    "cover_cms_filename": "the-weather-project-olafur-eliasson-2003.jpg",
+    "cms_slug": "the-weather-project-olafur-eliasson-2003"
   },
   {
     "title": "The Yellow Christ",
@@ -906,7 +1106,9 @@
     "region": null,
     "description": "Stylized crucifixion in Breton landscape",
     "cover_filename": "325_Paul_Gauguin_The_Yellow_Christ.jpg",
-    "cover_filename_slug": "325-paul-gauguin-the-yellow-christ.jpg"
+    "cover_filename_slug": "325-paul-gauguin-the-yellow-christ.jpg",
+    "cover_cms_filename": "the-yellow-christ-paul-gauguin-1889.jpg",
+    "cms_slug": "the-yellow-christ-paul-gauguin-1889"
   },
   {
     "title": "Tulips",
@@ -915,7 +1117,9 @@
     "region": null,
     "description": "Multi-colored mirror-polished stainless steel balloon flowers",
     "cover_filename": "066_Jeff_Koons_Tulips.jpg",
-    "cover_filename_slug": "066-jeff-koons-tulips.jpg"
+    "cover_filename_slug": "066-jeff-koons-tulips.jpg",
+    "cover_cms_filename": "tulips-jeff-koons.jpg",
+    "cms_slug": "tulips-jeff-koons"
   },
   {
     "title": "Tulips",
@@ -924,7 +1128,9 @@
     "region": null,
     "description": "Colorful balloon-like tulips in bouquet formation",
     "cover_filename": "231_Jeff_Koons_Tulips.jpg",
-    "cover_filename_slug": "231-jeff-koons-tulips.jpg"
+    "cover_filename_slug": "231-jeff-koons-tulips.jpg",
+    "cover_cms_filename": "tulips-jeff-koons.jpg",
+    "cms_slug": "tulips-jeff-koons"
   },
   {
     "title": "Turrell Roden Crater",
@@ -933,7 +1139,9 @@
     "region": null,
     "description": null,
     "cover_filename": "425_James_Turrell_Roden_Crater.jpg",
-    "cover_filename_slug": "425_james_turrell_roden_crater.jpg"
+    "cover_filename_slug": "425_james_turrell_roden_crater.jpg",
+    "cover_cms_filename": "turrell-roden-crater-james.jpg",
+    "cms_slug": "turrell-roden-crater-james"
   },
   {
     "title": "Two Fridas",
@@ -942,7 +1150,9 @@
     "region": null,
     "description": "Double self-portrait showing two versions of Frida with exposed hearts",
     "cover_filename": "023_Frida_Kahlo_Two_Fridas.jpg",
-    "cover_filename_slug": "023-frida-kahlo-two-fridas.jpg"
+    "cover_filename_slug": "023-frida-kahlo-two-fridas.jpg",
+    "cover_cms_filename": "two-fridas-frida-kahlo-1939.jpg",
+    "cms_slug": "two-fridas-frida-kahlo-1939"
   },
   {
     "title": "Umbrellas",
@@ -951,7 +1161,9 @@
     "region": null,
     "description": "1,340 blue umbrellas in Japan, 1,760 yellow in California",
     "cover_filename": "070_Christo_and_Jeanne-Claude_Umbrellas.jpg",
-    "cover_filename_slug": "070-christo-and-jeanne-claude-umbrellas.jpg"
+    "cover_filename_slug": "070-christo-and-jeanne-claude-umbrellas.jpg",
+    "cover_cms_filename": "umbrellas-christo-and-jeanne-claude-1991.jpg",
+    "cms_slug": "umbrellas-christo-and-jeanne-claude-1991"
   },
   {
     "title": "Unique Forms of Continuity in Space",
@@ -960,7 +1172,9 @@
     "region": null,
     "description": "Dynamic striding figure showing motion",
     "cover_filename": "333_Umberto_Boccioni_Unique_Forms_of_Continuity_in_Space.jpg",
-    "cover_filename_slug": "333-umberto-boccioni-unique-forms-of-continuity-in-space.jpg"
+    "cover_filename_slug": "333-umberto-boccioni-unique-forms-of-continuity-in-space.jpg",
+    "cover_cms_filename": "unique-forms-of-continuity-in-space-umberto-boccioni-1913.jpg",
+    "cms_slug": "unique-forms-of-continuity-in-space-umberto-boccioni-1913"
   },
   {
     "title": "Untitled (I shop therefore I am)",
@@ -969,7 +1183,9 @@
     "region": null,
     "description": "Bold text and image critique of consumerism",
     "cover_filename": "074_Barbara_Kruger_Untitled_I_shop_therefore_I_am.jpg",
-    "cover_filename_slug": "074-barbara-kruger-untitled-i-shop-therefore-i-am.jpg"
+    "cover_filename_slug": "074-barbara-kruger-untitled-i-shop-therefore-i-am.jpg",
+    "cover_cms_filename": "untitled-i-shop-therefore-i-am-barbara-kruger-1987.jpg",
+    "cms_slug": "untitled-i-shop-therefore-i-am-barbara-kruger-1987"
   },
   {
     "title": "Untitled (Perfect Lovers)",
@@ -978,7 +1194,9 @@
     "region": null,
     "description": "Two synchronized clocks destined to fall out of sync",
     "cover_filename": "090_Felix_Gonzalez-Torres_Untitled_Perfect_Lovers.jpg",
-    "cover_filename_slug": "090-felix-gonzalez-torres-untitled-perfect-lovers.jpg"
+    "cover_filename_slug": "090-felix-gonzalez-torres-untitled-perfect-lovers.jpg",
+    "cover_cms_filename": "untitled-perfect-lovers-felix-gonzalez-torres-1991.jpg",
+    "cms_slug": "untitled-perfect-lovers-felix-gonzalez-torres-1991"
   },
   {
     "title": "Untitled (Portrait of Ross in L.A.)",
@@ -987,7 +1205,9 @@
     "region": null,
     "description": "Pile of candy representing partner's body weight, visitors take pieces",
     "cover_filename": "069_Felix_Gonzalez-Torres_Untitled_Portrait_of_Ross_in_LA.jpg",
-    "cover_filename_slug": "069-felix-gonzalez-torres-untitled-portrait-of-ross-in-la.jpg"
+    "cover_filename_slug": "069-felix-gonzalez-torres-untitled-portrait-of-ross-in-la.jpg",
+    "cover_cms_filename": "untitled-portrait-of-ross-in-l-a-felix-gonzalez-torres-1991.jpg",
+    "cms_slug": "untitled-portrait-of-ross-in-l-a-felix-gonzalez-torres-1991"
   },
   {
     "title": "Untitled (Your body is a battleground)",
@@ -996,7 +1216,9 @@
     "region": null,
     "description": "Split positive/negative portrait with feminist message",
     "cover_filename": "081_Barbara_Kruger_Untitled_Your_body_is_a_battleground.jpg",
-    "cover_filename_slug": "081-barbara-kruger-untitled-your-body-is-a-battleground.jpg"
+    "cover_filename_slug": "081-barbara-kruger-untitled-your-body-is-a-battleground.jpg",
+    "cover_cms_filename": "untitled-your-body-is-a-battleground-barbara-kruger-1989.jpg",
+    "cms_slug": "untitled-your-body-is-a-battleground-barbara-kruger-1989"
   },
   {
     "title": "Untitled #96",
@@ -1005,7 +1227,9 @@
     "region": null,
     "description": "Self-portrait from Untitled Film Stills series challenging female stereotypes",
     "cover_filename": "017_Cindy_Sherman_Untitled_96.jpg",
-    "cover_filename_slug": "017-cindy-sherman-untitled-96.jpg"
+    "cover_filename_slug": "017-cindy-sherman-untitled-96.jpg",
+    "cover_cms_filename": "untitled-96-cindy-sherman-1981.jpg",
+    "cms_slug": "untitled-96-cindy-sherman-1981"
   },
   {
     "title": "Wanderer above the Sea of Fog",
@@ -1014,7 +1238,9 @@
     "region": null,
     "description": "Man standing on rocky precipice overlooking misty landscape",
     "cover_filename": "311_Caspar_David_Friedrich_Wanderer_above_the_Sea_of_Fog.jpg",
-    "cover_filename_slug": "311-caspar-david-friedrich-wanderer-above-the-sea-of-fog.jpg"
+    "cover_filename_slug": "311-caspar-david-friedrich-wanderer-above-the-sea-of-fog.jpg",
+    "cover_cms_filename": "wanderer-above-the-sea-of-fog-caspar-david-friedrich-1818.jpg",
+    "cms_slug": "wanderer-above-the-sea-of-fog-caspar-david-friedrich-1818"
   },
   {
     "title": "Washington Crossing the Delaware",
@@ -1023,7 +1249,9 @@
     "region": null,
     "description": "George Washington standing in boat crossing icy river",
     "cover_filename": "219_Emanuel_Leutze_Washington_Crossing_the_Delaware.jpg",
-    "cover_filename_slug": "219-emanuel-leutze-washington-crossing-the-delaware.jpg"
+    "cover_filename_slug": "219-emanuel-leutze-washington-crossing-the-delaware.jpg",
+    "cover_cms_filename": "washington-crossing-the-delaware-emanuel-leutze-1851.jpg",
+    "cms_slug": "washington-crossing-the-delaware-emanuel-leutze-1851"
   },
   {
     "title": "Water Lilies",
@@ -1032,7 +1260,9 @@
     "region": null,
     "description": "Serene pond with floating water lilies and reflections",
     "cover_filename": "213_Claude_Monet_Water_Lilies.jpg",
-    "cover_filename_slug": "213-claude-monet-water-lilies.jpg"
+    "cover_filename_slug": "213-claude-monet-water-lilies.jpg",
+    "cover_cms_filename": "water-lilies-claude-monet-1919.jpg",
+    "cms_slug": "water-lilies-claude-monet-1919"
   },
   {
     "title": "Whaam!",
@@ -1041,7 +1271,9 @@
     "region": null,
     "description": "Large-scale painting mimicking comic book style with Ben-Day dots",
     "cover_filename": "004_Roy_Lichtenstein_Whaam.jpg",
-    "cover_filename_slug": "004-roy-lichtenstein-whaam.jpg"
+    "cover_filename_slug": "004-roy-lichtenstein-whaam.jpg",
+    "cover_cms_filename": "whaam-roy-lichtenstein-1963.jpg",
+    "cms_slug": "whaam-roy-lichtenstein-1963"
   },
   {
     "title": "Where Do We Come From? What Are We? Where Are We Going?",
@@ -1050,7 +1282,9 @@
     "region": null,
     "description": "Large philosophical allegory of human existence, Tahiti",
     "cover_filename": "324_Paul_Gauguin_Where_Do_We_Come_From_What_Are_We_Where_Are_We_Going.jpg",
-    "cover_filename_slug": "324-paul-gauguin-where-do-we-come-from-what-are-we-where-are-we-going.jpg"
+    "cover_filename_slug": "324-paul-gauguin-where-do-we-come-from-what-are-we-where-are-we-going.jpg",
+    "cover_cms_filename": "where-do-we-come-from-what-are-we-where-are-we-going-paul-gauguin.jpg",
+    "cms_slug": "where-do-we-come-from-what-are-we-where-are-we-going-paul-gauguin"
   },
   {
     "title": "Whistler's Mother",
@@ -1059,7 +1293,9 @@
     "region": null,
     "description": "Austere portrait of artist's mother in profile",
     "cover_filename": "315_James_McNeill_Whistler_Whistlers_Mother.jpg",
-    "cover_filename_slug": "315-james-mcneill-whistler-whistlers-mother.jpg"
+    "cover_filename_slug": "315-james-mcneill-whistler-whistlers-mother.jpg",
+    "cover_cms_filename": "whistler-s-mother-james-mcneill-whistler-1871.jpg",
+    "cms_slug": "whistler-s-mother-james-mcneill-whistler-1871"
   },
   {
     "title": "Woman I",
@@ -1068,7 +1304,9 @@
     "region": null,
     "description": "Aggressive brushwork depicting distorted female figure",
     "cover_filename": "052_Willem_de_Kooning_Woman_I.jpg",
-    "cover_filename_slug": "052-willem-de-kooning-woman-i.jpg"
+    "cover_filename_slug": "052-willem-de-kooning-woman-i.jpg",
+    "cover_cms_filename": "woman-i-willem-de-kooning.jpg",
+    "cms_slug": "woman-i-willem-de-kooning"
   },
   {
     "title": "Wrapped Reichstag",
@@ -1077,7 +1315,9 @@
     "region": null,
     "description": "German parliament building wrapped in silver fabric",
     "cover_filename": "084_Christo_and_Jeanne-Claude_Wrapped_Reichstag.jpg",
-    "cover_filename_slug": "084-christo-and-jeanne-claude-wrapped-reichstag.jpg"
+    "cover_filename_slug": "084-christo-and-jeanne-claude-wrapped-reichstag.jpg",
+    "cover_cms_filename": "wrapped-reichstag-christo-and-jeanne-claude-1995.jpg",
+    "cms_slug": "wrapped-reichstag-christo-and-jeanne-claude-1995"
   },
   {
     "title": "Your Rainbow Panorama",
@@ -1086,6 +1326,8 @@
     "region": null,
     "description": "Circular rainbow-colored glass walkway atop ARoS Museum",
     "cover_filename": "062_Olafur_Eliasson_Your_Rainbow_Panorama.jpg",
-    "cover_filename_slug": "062-olafur-eliasson-your-rainbow-panorama.jpg"
+    "cover_filename_slug": "062-olafur-eliasson-your-rainbow-panorama.jpg",
+    "cover_cms_filename": "your-rainbow-panorama-olafur-eliasson-2011.jpg",
+    "cms_slug": "your-rainbow-panorama-olafur-eliasson-2011"
   }
 ]
