@@ -1,0 +1,136 @@
+import type { CollectionConfig } from 'payload'
+
+export const Questions: CollectionConfig = {
+  slug: 'questions',
+  admin: {
+    useAsTitle: 'questionText',
+    group: 'Applications',
+    defaultColumns: ['questionText', 'questionType', 'category', 'updatedAt'],
+  },
+  access: {
+    read: () => true, // Public API access
+  },
+  fields: [
+    {
+      name: 'questionText',
+      type: 'text',
+      required: true,
+      admin: {
+        description: 'The question to ask the user',
+      },
+    },
+    {
+      name: 'questionType',
+      type: 'select',
+      required: true,
+      options: [
+        { label: 'Short Text', value: 'short_text' },
+        { label: 'Long Text', value: 'long_text' },
+        { label: 'Multiple Choice', value: 'multiple_choice' },
+        { label: 'This or That', value: 'this_or_that' },
+        { label: 'Rating', value: 'rating' },
+        { label: 'Ranking', value: 'ranking' },
+      ],
+      admin: {
+        description: 'Type of question',
+      },
+    },
+    {
+      name: 'category',
+      type: 'select',
+      required: true,
+      options: [
+        { label: 'General Info', value: 'general_info' },
+        { label: 'Inner Self', value: 'inner_self' },
+        { label: 'Music Questions', value: 'music_questions' },
+        { label: 'Film Questions', value: 'film_questions' },
+        { label: 'Literature Questions', value: 'literature_questions' },
+      ],
+      admin: {
+        description: 'Question category',
+      },
+    },
+    // Multiple Choice Options
+    {
+      name: 'options',
+      type: 'array',
+      admin: {
+        condition: (_, siblingData) => siblingData.questionType === 'multiple_choice',
+        description: 'Options for multiple choice questions',
+      },
+      fields: [
+        {
+          name: 'label',
+          type: 'text',
+          required: true,
+        },
+        {
+          name: 'value',
+          type: 'text',
+          required: true,
+        },
+      ],
+    },
+    // This or That Options
+    {
+      name: 'optionA',
+      type: 'relationship',
+      relationTo: ['art', 'films', 'albums', 'books'],
+      admin: {
+        condition: (_, siblingData) => siblingData.questionType === 'this_or_that',
+        description: 'First option (A)',
+      },
+    },
+    {
+      name: 'optionB',
+      type: 'relationship',
+      relationTo: ['art', 'films', 'albums', 'books'],
+      admin: {
+        condition: (_, siblingData) => siblingData.questionType === 'this_or_that',
+        description: 'Second option (B)',
+      },
+    },
+    // Rating Labels
+    {
+      name: 'ratingLabels',
+      type: 'array',
+      admin: {
+        condition: (_, siblingData) => siblingData.questionType === 'rating',
+        description: 'Rating labels (e.g., "Like it", "Love it", "Obsessed")',
+      },
+      fields: [
+        {
+          name: 'label',
+          type: 'text',
+          required: true,
+        },
+        {
+          name: 'value',
+          type: 'number',
+          required: true,
+          admin: {
+            description: 'Numeric value for this rating',
+          },
+        },
+      ],
+    },
+    // Ranking Options (4 items)
+    {
+      name: 'rankingOptions',
+      type: 'array',
+      maxRows: 4,
+      admin: {
+        condition: (_, siblingData) => siblingData.questionType === 'ranking',
+        description: 'Items to rank (maximum 4)',
+      },
+      fields: [
+        {
+          name: 'item',
+          type: 'relationship',
+          relationTo: ['art', 'films', 'albums', 'books'],
+          required: true,
+        },
+      ],
+    },
+  ],
+}
