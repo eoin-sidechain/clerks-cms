@@ -539,8 +539,8 @@
           "label": "Voodoo (D'Angelo)",
           "image_url": "/images/music/dangelo-voodoo-2000.jpg",
           "description": "",
-          "cms_slug": "voodoo-d-angelo-2000",
-          "cms_image_url": "voodoo-d-angelo-2000.jpg"
+          "cms_slug": "dangelo-voodoo-1999",
+          "cms_image_url": "dangelo-voodoo-1999.jpg"
         },
         {
           "id": "dont-know",
@@ -603,8 +603,10 @@
         },
         {
           "id": "d-angelo-voodoo",
-          "label": "Voodoo (D’Angelo)",
-          "image_url": "/images/music/dangelo-voodoo-1999.jpg"
+          "label": "Voodoo (D'Angelo)",
+          "image_url": "/images/music/dangelo-voodoo-1999.jpg",
+          "cms_slug": "voodoo-d-angelo-2000",
+          "cms_image_url": "voodoo-d-angelo-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -1842,7 +1844,9 @@
           "id": "paranoid-by-black-sabbath",
           "label": "Paranoid (Black Sabbath)",
           "image_url": "/images/music/black-sabbath-paranoid-1970.jpg",
-          "description": ""
+          "description": "",
+          "cms_slug": "paranoid-black-sabbath-1970",
+          "cms_image_url": "paranoid-black-sabbath-1970.jpg"
         },
         {
           "id": "dont-know",
