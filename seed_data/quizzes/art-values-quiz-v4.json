@@ -1,0 +1,599 @@
+[
+  {
+    "id": "welcome-art-assessment",
+    "type": "statement",
+    "title": "Art Appreciation",
+    "properties": {
+      "button_text": "Yes"
+    },
+    "description": "Let's see what art moves you."
+  },
+  {
+    "id": "tt-1",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "starry-night-van-gogh",
+          "label": "Starry Night (Vincent van Gogh)",
+          "image_url": "/images/art/202_Vincent_van_Gogh_Starry_Night.jpg"
+        },
+        {
+          "id": "mona-lisa-da-vinci",
+          "label": "Mona Lisa (Leonardo da Vinci)",
+          "image_url": "/images/art/201_Leonardo_da_Vinci_Mona_Lisa.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-2",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "campbells-soup-warhol",
+          "label": "Campbell's Soup Cans (Andy Warhol)",
+          "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg"
+        },
+        {
+          "id": "composition-red-blue-yellow-mondrian",
+          "label": "Composition with Red, Blue, and Yellow (Mondrian)",
+          "image_url": "/images/art/007_Piet_Mondrian_Composition_with_Red_Blue_and_Yellow.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-3",
+    "type": "question",
+    "title": "Rate \"The Scream\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "the-scream-munch",
+          "label": "The Scream - Edvard Munch",
+          "image_url": "/images/art/205_Edvard_Munch_The_Scream.jpg",
+          "description": "1893"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-5",
+    "type": "question",
+    "title": "Rate \"American Gothic\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "american-gothic-wood",
+          "label": "American Gothic - Grant Wood",
+          "image_url": "/images/art/207_Grant_Wood_American_Gothic.jpg",
+          "description": "1930"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-3",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "no-61-rust-blue-rothko",
+          "label": "No. 61 (Rust and Blue) (Mark Rothko)",
+          "image_url": "/images/art/008_Mark_Rothko_No_61_Rust_and_Blue.jpg"
+        },
+        {
+          "id": "crack-is-wack-haring",
+          "label": "Crack is Wack (Keith Haring)",
+          "image_url": "/images/art/005_Keith_Haring_Crack_is_Wack.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "rating-7",
+    "type": "question",
+    "title": "Rate \"Nighthawks\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "nighthawks-hopper",
+          "label": "Nighthawks - Edward Hopper",
+          "image_url": "/images/art/210_Edward_Hopper_Nighthawks.jpg",
+          "description": "1942"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-8",
+    "type": "question",
+    "title": "Rate \"Campbell's Soup Cans\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "003_Andy_Warhol_Campbells_Soup_Cans",
+          "label": "Campbell's Soup Cans - Andy Warhol",
+          "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg",
+          "description": "1962"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-4",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "christo-and-jeanne-claude-floating-piers",
+          "label": "Floating Piers (Christo and Jeanne-Claude)",
+          "image_url": "/images/art/085_Christo_and_Jeanne-Claude_Floating_Piers.jpg"
+      },
+        {
+          "id": "sunflower-seeds-ai-weiwei",
+          "label": "Sunflower Seeds (Ai Weiwei)",
+          "image_url": "/images/art/022_Ai_Weiwei_Sunflower_Seeds.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-10",
+    "type": "question",
+    "title": "Rate \"Girl with Balloon\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "girl-with-balloon-banksy",
+          "label": "Girl with Balloon - Banksy",
+          "image_url": "/images/art/006_Banksy_Girl_with_Balloon.jpg",
+          "description": "2002"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-11",
+    "type": "question",
+    "title": "Rate \"Puppy\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "puppy-koons",
+          "label": "Puppy - Jeff Koons",
+          "image_url": "/images/art/010_Jeff_Koons_Puppy.jpg",
+          "description": "1992"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-5",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "garden-earthly-delights-bosch",
+          "label": "The Garden of Earthly Delights (Hieronymus Bosch)",
+          "image_url": "/images/art/304_Hieronymus_Bosch_The_Garden_of_Earthly_Delights.jpg"
+        },
+        {
+          "id": "impression-sunrise-monet",
+          "label": "Impression, Sunrise (Claude Monet)",
+          "image_url": "/images/art/307_Claude_Monet_Impression_Sunrise.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "rating-12",
+    "type": "question",
+    "title": "Rate \"Angel of the North\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "angel-of-the-north-gormley",
+          "label": "Angel of the North - Antony Gormley",
+          "image_url": "/images/art/011_Antony_Gormley_Angel_of_the_North.jpg",
+          "description": "1998"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-13",
+    "type": "question",
+    "title": "Rate \"Whaam!\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "004_Roy_Lichtenstein_Whaam",
+          "label": "Whaam! - Roy Lichtenstein",
+          "image_url": "/images/art/004_Roy_Lichtenstein_Whaam.jpg",
+          "description": "1963"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-14",
+    "type": "question",
+    "title": "Rate \"The Last Supper\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "last-supper-da-vinci",
+          "label": "The Last Supper - Leonardo da Vinci",
+          "image_url": "/images/art/211_Leonardo_da_Vinci_The_Last_Supper.jpg",
+          "description": "1495-1498"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-6",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that",
+    "description": "Choose your favorite!",
+    "properties": {
+      "choices": [
+        {
+          "id": "untitled-film-stills-sherman",
+          "label": "Untitled #96 (Cindy Sherman)",
+          "image_url": "/images/art/017_Cindy_Sherman_Untitled_96.jpg"
+        },
+        {
+          "id": "rhythm-0-abramovic",
+          "label": "Rhythm 0 (Marina Abramović)",
+          "image_url": "/images/art/064_Marina_Abramović_Rhythm_0.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-15",
+    "type": "question",
+    "title": "Rate \"The Creation of Adam\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "creation-of-adam-michelangelo",
+          "label": "The Creation of Adam - Michelangelo",
+          "image_url": "/images/art/212_Michelangelo_The_Creation_of_Adam.jpg",
+          "description": "1512 (Sistine Chapel)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-16",
+    "type": "question",
+    "title": "Rate \"Sunflowers\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "sunflowers-van-gogh",
+          "label": "Sunflowers - Vincent van Gogh",
+          "image_url": "/images/art/215_Vincent_van_Gogh_Sunflowers.jpg",
+          "description": "1888"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-17",
+    "type": "question",
+    "title": "Rate \"Maman\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "mama-bourgeois",
+          "label": "Maman - Louise Bourgeois",
+          "image_url": "/images/art/054_Louise_Bourgeois_Mama.jpg",
+          "description": "1999 spider sculpture"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-18",
+    "type": "question",
+    "title": "Rate \"Marilyn Diptych\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "marilyn-diptych-warhol",
+          "label": "Marilyn Diptych - Andy Warhol",
+          "image_url": "/images/art/032_Andy_Warhol_Marilyn_Diptych.jpg",
+          "description": "1962"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-19",
+    "type": "question",
+    "title": "Rate \"Drowning Girl\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "drowning-girl-lichtenstein",
+          "label": "Drowning Girl - Roy Lichtenstein",
+          "image_url": "/images/art/031_Roy_Lichtenstein_Drowning_Girl.jpg",
+          "description": "1963"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-20",
+    "type": "question",
+    "title": "Rate \"Ophelia\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "ophelia-millais",
+          "label": "Ophelia - John Everett Millais",
+          "image_url": "/images/art/313_John_Everett_Millais_Ophelia.jpg",
+          "description": "1851-1852"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-21",
+    "type": "question",
+    "title": "Rate \"Les Demoiselles d'Avignon\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "221_Pablo_Picasso_Les_Demoiselles_dAvignon",
+          "label": "Les Demoiselles d'Avignon - Pablo Picasso",
+          "image_url": "/images/art/221_Pablo_Picasso_Les_Demoiselles_dAvignon.jpg",
+          "description": "1907"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-22",
+    "type": "question",
+    "title": "Rate \"The Bedroom\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "the-bedroom-van-gogh",
+          "label": "The Bedroom - Vincent van Gogh",
+          "image_url": "/images/art/322_Vincent_van_Gogh_The_Bedroom.jpg",
+          "description": "1888"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-23",
+    "type": "question",
+    "title": "Rate \"A Sunday Afternoon on La Grande Jatte\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "sunday-afternoon-seurat",
+          "label": "A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat",
+          "image_url": "/images/art/216_Georges_Seurat_A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte.jpg",
+          "description": "1884-1886 (Pointillism)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-24",
+    "type": "question",
+    "title": "Rate \"The Thinker\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "the-thinker-rodin",
+          "label": "The Thinker - Auguste Rodin",
+          "image_url": "/images/art/331_Auguste_Rodin_The_Thinker.jpg",
+          "description": "1904"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-25",
+    "type": "question",
+    "title": "Rate \"Saturn Devouring His Son\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "saturn-devouring-son-goya",
+          "label": "Saturn Devouring His Son - Francisco Goya",
+          "image_url": "/images/art/305_Francisco_Goya_Saturn_Devouring_His_Son.jpg",
+          "description": "1819-1823"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-26",
+    "type": "question",
+    "title": "Rate \"Irises\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "irises-van-gogh",
+          "label": "Irises - Vincent van Gogh",
+          "image_url": "/images/art/323_Vincent_van_Gogh_Irises.jpg",
+          "description": "1889"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-27",
+    "type": "question",
+    "title": "Rate \"The School of Athens\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "school-of-athens-raphael",
+          "label": "The School of Athens - Raphael",
+          "image_url": "/images/art/339_Raphael_The_School_of_Athens.jpg",
+          "description": "1509-1511"
+        }
+      ]
+    }
+  },
+  {
+    "id": "complete-art-assessment",
+    "type": "statement",
+    "title": "Measuring Taste",
+    "properties": {
+      "button_text": "Review"
+    },
+    "description": "Thanks for sharing your taste in art."
+  }
+]

@@ -1,0 +1,2143 @@
+[
+  {
+    "id": "welcome-cinema-assessment",
+    "type": "statement",
+    "title": "Measuring Taste - Film",
+    "properties": {
+      "button_text": "Yes"
+    },
+    "description": "Now we turn to film—your taste, knowledge, and instincts.\n\nYou'll see movies, directors, and performances from across eras and genres. Some questions are easy, others trickier. There are no wrong answers—just what you enjoy, notice, or value.\n\nReady to explore your cinematic self?"
+  },
+  {
+    "id": "tt-25",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "birdman-alejandro-g-i-rritu",
+          "label": "Birdman (Alejandro G. Iñárritu)",
+          "image_url": "/images/movies/birdman-2014-alejandro-g-inarritu.jpg"
+        },
+        {
+          "id": "the-lego-movie-by-phil-lord-christopher-miller",
+          "label": "The Lego Movie (Phil Lord & Christopher Miller)",
+          "image_url": "/images/movies/the-lego-movie-2014-phil-lord-christopher-miller.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-335",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "bicycle-thieves-vittorio-de-sica",
+          "label": "Bicycle Thieves (Vittorio De Sica)",
+          "image_url": "/images/movies/bicycle-thieves-1948-vittorio-de-sica.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-lego-batman-movie-by-chris-mckay",
+          "label": "The Lego Batman Movie (Chris McKay)",
+          "image_url": "/images/movies/the-lego-batman-movie-2017-chris-mckay.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-336",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "la-la-land-2016-damien-chazelle",
+          "label": "La La Land (Damien Chazelle)",
+          "image_url": "/images/movies/la-la-land-2016-damien-chazelle.jpg"
+        },
+        {
+          "id": "everything-everywhere-all-at-once-2022-daniels",
+          "label": "Everything Everywhere All at Once (Daniels)",
+          "image_url": "/images/movies/everything-everywhere-all-at-once-2022-daniels.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-337",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "before-sunrise-richard-linklater",
+          "label": "Before Sunrise (Richard Linklater)",
+          "image_url": "/images/movies/before-sunrise-1995-richard-linklater.jpg",
+          "description": ""
+        },
+        {
+          "id": "cloudy-with-a-chance-of-meatballs-by-phil-lord-christopher-miller",
+          "label": "Cloudy with a Chance of Meatballs (Phil Lord & Christopher Miller)",
+          "image_url": "/images/movies/cloudy-with-a-chance-of-meatballs-2009-phil-lord-christopher-miller.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-17",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-act-of-killing-by-joshua-oppenheimer",
+          "label": "The Act of Killing (Joshua Oppenheimer)",
+          "image_url": "/images/movies/the-act-of-killing-2012-joshua-oppenheimer.jpg"
+        },
+        {
+          "id": "battle-royale-kinji-fukasaku",
+          "label": "Battle Royale (Kinji Fukasaku)",
+          "image_url": "/images/movies/battle-royale-2000-kinji-fukasaku.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-338",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "shoah-by-claude-lanzmann",
+          "label": "Shoah (Claude Lanzmann)",
+          "image_url": "/images/movies/shoah-1985-claude-lanzmann.jpg",
+          "description": ""
+        },
+        {
+          "id": "thor-ragnarok-by-taika-waititi",
+          "label": "Thor: Ragnarok (Taika Waititi)",
+          "image_url": "/images/movies/thor-ragnarok-2017-taika-waititi.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-339",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "night-and-fog-by-alain-resnais",
+          "label": "Night and Fog (Alain Resnais)",
+          "image_url": "/images/movies/night-and-fog-1956-alain-resnais.jpg",
+          "description": ""
+        },
+        {
+          "id": "deadpool-by-tim-miller",
+          "label": "Deadpool (Tim Miller)",
+          "image_url": "/images/movies/deadpool-2016-tim-miller.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-340",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-look-of-silence-by-joshua-oppenheimer",
+          "label": "The Look of Silence (Joshua Oppenheimer)",
+          "image_url": "/images/movies/the-look-of-silence-2014-joshua-oppenheimer.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-suicide-squad-by-james-gunn",
+          "label": "The Suicide Squad (James Gunn)",
+          "image_url": "/images/movies/the-suicide-squad-2021-james-gunn.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rk-5",
+    "type": "question",
+    "title": "Rank these films",
+    "required": true,
+    "questionType": "ranking",
+    "description": "Order from favorite to least favorite.",
+    "properties": {
+      "choices": [
+        {
+          "id": "children-of-men-alfonso-cuar-n",
+          "label": "Children of Men (Alfonso Cuarón)",
+          "image_url": "/images/movies/children-of-men-2006-alfonso-cuaron.jpg"
+        },
+        {
+          "id": "the-40-year-old-virgin-by-judd-apatow",
+          "label": "The 40-Year-Old Virgin (Judd Apatow)",
+          "image_url": "/images/movies/the-40-year-old-virgin-2005-judd-apatow.jpg"
+        },
+        {
+          "id": "come-and-see-by-elem-klimov",
+          "label": "Come and See (Elem Klimov)",
+          "image_url": "/images/movies/come-and-see-1985-elem-klimov.jpg"
+        },
+        {
+          "id": "solaris-by-andrei-tarkovsky",
+          "label": "Solaris (Andrei Tarkovsky)",
+          "image_url": "/images/movies/solaris-1972-andrei-tarkovsky.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rk-3",
+    "type": "question",
+    "title": "Rank these films",
+    "required": true,
+    "questionType": "ranking",
+    "description": "Order from favorite to least favorite.",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-shining-by-stanley-kubrick",
+          "label": "The Shining (Stanley Kubrick)",
+          "image_url": "/images/movies/the-shining-1980-stanley-kubrick.jpg"
+        },        
+        {
+          "id": "scarface-by-brian-de-palma",
+          "label": "Scarface (Brian De Palma)",
+          "image_url": "/images/movies/scarface-1983-brian-de-palma.jpg"
+        },
+        {
+          "id": "dune-denis-villeneuve",
+          "label": "Dune (Denis Villeneuve)",
+          "image_url": "/images/movies/dune-2021-denis-villeneuve.jpg"
+        },
+        {
+          "id": "casino-royale-by-martin-campbell",
+          "label": "Casino Royale (Martin Campbell)",
+          "image_url": "/images/movies/casino-royale-2006-martin-campbell.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-1",
+    "type": "question",
+    "title": "Rate \"City of God\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "dodgeball-rawson-marshall-thurber",
+          "label": "Dodgeball (Rawson Marshall Thurber)",
+          "image_url": "/images/movies/dodgeball-2004-rawson-marshall-thurber.jpg",
+          "description": "2002 Brazilian crime drama about favelas"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-16",
+    "type": "question",
+    "title": "Rate \"Moon\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "moon-by-duncan-jones",
+          "label": "Moon (Duncan Jones)",
+          "image_url": "/images/movies/moon-2009-duncan-jones.jpg",
+          "description": "2009 Duncan Jones sci-fi isolation drama"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-18",
+    "type": "question",
+    "title": "Rate \"The Social Network\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "a-ghost-story-david-lowery",
+          "label": "A Ghost Story (David Lowery)",
+          "image_url": "/images/movies/a-ghost-story-2017-david-lowery.jpg",
+          "description": "2010 David Fincher Facebook origin story"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-16",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "hiroshima-mon-amour-by-alain-resnais",
+          "label": "Hiroshima Mon Amour (Alain Resnais)",
+          "image_url": "/images/movies/hiroshima-mon-amour-1959-alain-resnais.jpg"
+        },
+        {
+          "id": "jurassic-park-by-steven-spielberg",
+          "label": "Jurassic Park (Steven Spielberg)",
+          "image_url": "/images/movies/jurassic-park-1993-steven-spielberg.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-341",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "days-of-thunder-1990-tony-scott",
+          "label": "Days of Thunder (Tony Scott)",
+          "image_url": "/images/movies/days-of-thunder-1990-tony-scott.jpg"
+        },
+        {
+          "id": "king-kong-by-peter-jackson",
+          "label": "King Kong (Peter Jackson)",
+          "image_url": "/images/movies/king-kong-2005-peter-jackson.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-342",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "cleo-from-5-to-7-by-agn-s-varda",
+          "label": "Cleo from 5 to 7 (Agnès Varda)",
+          "image_url": "/images/movies/cleo-from-5-to-7-1962-agnes-varda.jpg",
+          "description": ""
+        },
+        {
+          "id": "godzilla-by-gareth-edwards",
+          "label": "Godzilla (Gareth Edwards)",
+          "image_url": "/images/movies/godzilla-2014-gareth-edwards.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-343",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "amelie-jean-pierre-jeunet",
+          "label": "Amélie (Jean-Pierre Jeunet)",
+          "image_url": "/images/movies/amelie-2001-jean-pierre-jeunet.jpg",
+          "description": ""
+        },
+        {
+          "id": "war-of-the-worlds-by-steven-spielberg",
+          "label": "War of the Worlds (Steven Spielberg)",
+          "image_url": "/images/movies/war-of-the-worlds-2005-steven-spielberg.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "rating-15",
+    "type": "question",
+    "title": "Rate \"The White Ribbon\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "the-white-ribbon-by-michael-haneke",
+          "label": "The White Ribbon (Michael Haneke)",
+          "image_url": "/images/movies/the-white-ribbon-2009-michael-haneke.jpg",
+          "description": "2009 Michael Haneke pre-WWI German drama"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-10",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "rashomon-by-akira-kurosawa",
+          "label": "Rashomon (Akira Kurosawa)",
+          "image_url": "/images/movies/rashomon-1950-akira-kurosawa.jpg"
+        },
+        {
+          "id": "mean-girls-by-mark-waters",
+          "label": "Mean Girls (Mark Waters)",
+          "image_url": "/images/movies/mean-girls-2004-mark-waters.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-344",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-hidden-fortress-by-akira-kurosawa",
+          "label": "The Hidden Fortress (Akira Kurosawa)",
+          "image_url": "/images/movies/the-hidden-fortress-1958-akira-kurosawa.jpg",
+          "description": ""
+        },
+        {
+          "id": "clueless-by-amy-heckerling",
+          "label": "Clueless (Amy Heckerling)",
+          "image_url": "/images/movies/clueless-1995-amy-heckerling.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-345",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "ugetsu-by-kenji-mizoguchi",
+          "label": "Ugetsu (Kenji Mizoguchi)",
+          "image_url": "/images/movies/ugetsu-1953-kenji-mizoguchi.jpg",
+          "description": ""
+        },
+        {
+          "id": "legally-blonde-by-robert-luketic",
+          "label": "Legally Blonde (Robert Luketic)",
+          "image_url": "/images/movies/legally-blonde-2001-robert-luketic.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-346",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "harakiri-by-masaki-kobayashi",
+          "label": "Harakiri (Masaki Kobayashi)",
+          "image_url": "/images/movies/harakiri-1962-masaki-kobayashi.jpg",
+          "description": ""
+        },
+        {
+          "id": "easy-a-by-will-gluck",
+          "label": "Easy A (Will Gluck)",
+          "image_url": "/images/movies/easy-a-2010-will-gluck.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-10",
+    "type": "question",
+    "title": "Rate \"No Country for Old Men\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "captain-marvel-boden-fleck",
+          "label": "Captain Marvel (Boden & Fleck)",
+          "image_url": "/images/movies/captain-marvel-2019-boden-fleck.jpg",
+          "description": "2007 Coen Brothers neo-western"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-19",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "amour-by-michael-haneke",
+          "label": "Amour (Michael Haneke)",
+          "image_url": "/images/movies/amour-2012-michael-haneke.jpg"
+        },
+        {
+          "id": "fast-five-by-justin-lin",
+          "label": "Fast Five (Justin Lin)",
+          "image_url": "/images/movies/fast-five-2011-justin-lin.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-347",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "45-years-by-andrew-haigh",
+          "label": "45 Years (Andrew Haigh)",
+          "image_url": "/images/movies/45-years-2015-andrew-haigh.jpg",
+          "description": ""
+        },
+        {
+          "id": "dr-strangelove-stanley-kubrick",
+          "label": "Dr. Strangelove (Stanley Kubrick)",
+          "image_url": "/images/movies/dr-strangelove-1964-stanley-kubrick.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-348",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "a-separation-by-asghar-farhadi",
+          "label": "A Separation (Asghar Farhadi)",
+          "image_url": "/images/movies/a-separation-2011-asghar-farhadi.jpg",
+          "description": ""
+        },
+        {
+          "id": "drive-by-nicolas-winding-refn",
+          "label": "Drive (Nicolas Winding Refn)",
+          "image_url": "/images/movies/drive-2011-nicolas-winding-refn.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-349",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "still-alice-by-richard-glatzer-wash-westmoreland",
+          "label": "Still Alice (Richard Glatzer & Wash Westmoreland)",
+          "image_url": "/images/movies/still-alice-2014-glatzer-westmoreland.jpg",
+          "description": ""
+        },
+        {
+          "id": "rush-by-ron-howard",
+          "label": "Rush (Ron Howard)",
+          "image_url": "/images/movies/rush-2013-ron-howard.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-12",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "persona-by-ingmar-bergman",
+          "label": "Persona (Ingmar Bergman)",
+          "image_url": "/images/movies/persona-1966-ingmar-bergman.jpg"
+        },
+        {
+          "id": "spider-man-by-sam-raimi",
+          "label": "Spider-Man (Sam Raimi)",
+          "image_url": "/images/movies/spider-man-2002-sam-raimi.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-350",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "anchorman-adam-mckay",
+          "label": "Anchorman (Adam McKay)",
+          "image_url": "/images/movies/anchorman-2004-adam-mckay.jpg",
+          "description": ""
+        },
+        {
+          "id": "batman-begins-by-christopher-nolan",
+          "label": "Batman Begins (Christopher Nolan)",
+          "image_url": "/images/movies/batman-begins-2005-christopher-nolan.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-351",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-mirror-by-andrei-tarkovsky",
+          "label": "The Mirror (Andrei Tarkovsky)",
+          "image_url": "/images/movies/the-mirror-1975-andrei-tarkovsky.jpg",
+          "description": ""
+        },
+        {
+          "id": "x-men-by-bryan-singer",
+          "label": "X-Men (Bryan Singer)",
+          "image_url": "/images/movies/x-men-2000-bryan-singer.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-352",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "back-to-the-future-robert-zemeckis",
+          "label": "Back to the Future (Robert Zemeckis)",
+          "image_url": "/images/movies/back-to-the-future-1985-robert-zemeckis.jpg",
+          "description": ""
+        },
+        {
+          "id": "superman-by-richard-donner",
+          "label": "Superman (Richard Donner)",
+          "image_url": "/images/movies/superman-1978-richard-donner.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-14",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "arrival-denis-villeneuve",
+          "label": "Arrival (Denis Villeneuve)",
+          "image_url": "/images/movies/arrival-2016-denis-villeneuve.jpg"
+        },
+        {
+          "id": "magic-mike-by-steven-soderbergh",
+          "label": "Magic Mike (Steven Soderbergh)",
+          "image_url": "/images/movies/magic-mike-2012-steven-soderbergh.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-353",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "avengers-endgame-russo-brothers",
+          "label": "Avengers: Endgame (Russo Brothers)",
+          "image_url": "/images/movies/avengers-endgame-2019-russo-brothers.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-full-monty-by-peter-cattaneo",
+          "label": "The Full Monty (Peter Cattaneo)",
+          "image_url": "/images/movies/the-full-monty-1997-peter-cattaneo.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-354",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "baby-driver-edgar-wright",
+          "label": "Baby Driver (Edgar Wright)",
+          "image_url": "/images/movies/baby-driver-2017-edgar-wright.jpg",
+          "description": ""
+        },
+        {
+          "id": "hustlers-by-lorene-scafaria",
+          "label": "Hustlers (Lorene Scafaria)",
+          "image_url": "/images/movies/hustlers-2019-lorene-scafaria.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-355",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "avatar-james-cameron",
+          "label": "Avatar (James Cameron)",
+          "image_url": "/images/movies/avatar-2009-james-cameron.jpg",
+          "description": ""
+        },
+        {
+          "id": "boogie-nights-by-paul-thomas-anderson",
+          "label": "Boogie Nights (Paul Thomas Anderson)",
+          "image_url": "/images/movies/boogie-nights-1997-paul-thomas-anderson.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-17",
+    "type": "question",
+    "title": "Rate \"The Hurt Locker\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "the-hurt-locker-by-kathryn-bigelow",
+          "label": "The Hurt Locker (Kathryn Bigelow)",
+          "image_url": "/images/movies/the-hurt-locker-2008-kathryn-bigelow.jpg",
+          "description": "2009 Kathryn Bigelow war thriller"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-22",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "phoenix-by-christian-petzold",
+          "label": "Phoenix (Christian Petzold)",
+          "image_url": "/images/movies/phoenix-2014-christian-petzold.jpg"
+        },
+        {
+          "id": "crazy-rich-asians-by-jon-m-chu",
+          "label": "Crazy Rich Asians (Jon M. Chu)",
+          "image_url": "/images/movies/crazy-rich-asians-2018-jon-m-chu.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-356",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "son-of-saul-by-l-szl-nemes",
+          "label": "Son of Saul (László Nemes)",
+          "image_url": "/images/movies/son-of-saul-2015-laszlo-nemes.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-proposal-by-anne-fletcher",
+          "label": "The Proposal (Anne Fletcher)",
+          "image_url": "/images/movies/the-proposal-2009-anne-fletcher.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-357",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "ida-by-pawe-pawlikowski",
+          "label": "Ida (Paweł Pawlikowski)",
+          "image_url": "/images/movies/ida-2013-pawe-pawlikowski.jpg",
+          "description": ""
+        },
+        {
+          "id": "love-actually-by-richard-curtis",
+          "label": "Love Actually (Richard Curtis)",
+          "image_url": "/images/movies/love-actually-2003-richard-curtis.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-358",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-zone-of-interest-by-jonathan-glazer",
+          "label": "The Zone of Interest (Jonathan Glazer)",
+          "image_url": "/images/movies/the-zone-of-interest-2023-jonathan-glazer.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-big-sick-by-michael-showalter",
+          "label": "The Big Sick (Michael Showalter)",
+          "image_url": "/images/movies/the-big-sick-2017-michael-showalter.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-14",
+    "type": "question",
+    "title": "Rate \"The Secret in Their Eyes\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "the-secret-in-their-eyes-by-juan-jos-campanella",
+          "label": "The Secret in Their Eyes (Juan José Campanella)",
+          "image_url": "/images/movies/the-secret-in-their-eyes-2009-juan-jose-campanella.jpg",
+          "description": "2009 Argentine thriller"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-18",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "1917-sam-mendes",
+          "label": "1917 (Sam Mendes)",
+          "image_url": "/images/movies/1917-2019-sam-mendes.jpg"
+        },
+        {
+          "id": "the-notebook-by-nick-cassavetes",
+          "label": "The Notebook (Nick Cassavetes)",
+          "image_url": "/images/movies/the-notebook-2004-nick-cassavetes.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-359",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "decision-to-leave-by-park-chan-wook",
+          "label": "Decision to Leave (Park Chan-wook)",
+          "image_url": "/images/movies/decision-to-leave-2022-park-chan-wook.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-vow-by-michael-sucsy",
+          "label": "The Vow (Michael Sucsy)",
+          "image_url": "/images/movies/the-vow-2012-michael-sucsy.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-360",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "captain-america-joe-johnston",
+          "label": "Captain America (Joe Johnston)",
+          "image_url": "/images/movies/captain-america-2011-joe-johnston.jpg",
+          "description": ""
+        },
+        {
+          "id": "dear-john-by-lasse-hallstr-m",
+          "label": "Dear John (Lasse Hallström)",
+          "image_url": "/images/movies/dear-john-2010-lasse-hallstrom.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-361",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-lobster-yorgos-lanthimos",
+          "label": "The Lobster (Yorgos Lanthimos)",
+          "image_url": "/images/movies/the-lobster-2015-yorgos-lanthimos.jpg",
+          "description": ""
+        },
+        {
+          "id": "cold-war-pawe-pawlikowski",
+          "label": "Cold War (Paweł Pawlikowski)",
+          "image_url": "/images/movies/cold-war-2018-pawe-pawlikowski.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-19",
+    "type": "question",
+    "title": "Rate \"Winter's Bone\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "winter-s-bone-by-debra-granik",
+          "label": "Winter's Bone (Debra Granik)",
+          "image_url": "/images/movies/winters-bone-2010-debra-granik.jpg",
+          "description": "2010 Debra Granik Ozarks noir"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-15",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "elf-jon-favreau",
+          "label": "Elf (Jon Favreau)",
+          "image_url": "/images/movies/elf-2003-jon-favreau.jpg"
+        },
+        {
+          "id": "shrek-by-andrew-adamson",
+          "label": "Shrek (Andrew Adamson)",
+          "image_url": "/images/movies/shrek-2001-andrew-adamson.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-362",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-ascent-by-larisa-shepitko",
+          "label": "The Ascent (Larisa Shepitko)",
+          "image_url": "/images/movies/the-ascent-1977-larisa-shepitko.jpg",
+          "description": ""
+        },
+        {
+          "id": "toy-story-by-john-lasseter",
+          "label": "Toy Story (John Lasseter)",
+          "image_url": "/images/movies/toy-story-1995-john-lasseter.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-363",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "ivan-s-childhood-by-andrei-tarkovsky",
+          "label": "Ivan's Childhood (Andrei Tarkovsky)",
+          "image_url": "/images/movies/ivans-childhood-1962-andrei-tarkovsky.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-incredibles-by-brad-bird",
+          "label": "The Incredibles (Brad Bird)",
+          "image_url": "/images/movies/the-incredibles-2004-brad-bird.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-364",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-cranes-are-flying-by-mikhail-kalatozov",
+          "label": "The Cranes Are Flying (Mikhail Kalatozov)",
+          "image_url": "/images/movies/the-cranes-are-flying-1957-mikhail-kalatozov.jpg",
+          "description": ""
+        },
+        {
+          "id": "finding-nemo-by-andrew-stanton",
+          "label": "Finding Nemo (Andrew Stanton)",
+          "image_url": "/images/movies/finding-nemo-2003-andrew-stanton.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-23",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "certified-copy-by-abbas-kiarostami",
+          "label": "Certified Copy (Abbas Kiarostami)",
+          "image_url": "/images/movies/certified-copy-2010-abbas-kiarostami.jpg"
+        },
+        {
+          "id": "zombieland-by-ruben-fleischer",
+          "label": "Zombieland (Ruben Fleischer)",
+          "image_url": "/images/movies/zombieland-2009-ruben-fleischer.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-365",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "crouching-tiger-hidden-dragon-ang-lee",
+          "label": "Crouching Tiger Hidden Dragon (Ang Lee)",
+          "image_url": "/images/movies/crouching-tiger-hidden-dragon-2000-ang-lee.jpg",
+          "description": ""
+        },
+        {
+          "id": "shaun-of-the-dead-by-edgar-wright",
+          "label": "Shaun of the Dead (Edgar Wright)",
+          "image_url": "/images/movies/shaun-of-the-dead-2004-edgar-wright.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-366",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "once-upon-a-time-in-anatolia-by-nuri-bilge-ceylan",
+          "label": "Once Upon a Time in Anatolia (Nuri Bilge Ceylan)",
+          "image_url": "/images/movies/once-upon-a-time-in-anatolia-2011-nuri-bilge-ceylan.jpg",
+          "description": ""
+        },
+        {
+          "id": "warm-bodies-by-jonathan-levine",
+          "label": "Warm Bodies (Jonathan Levine)",
+          "image_url": "/images/movies/warm-bodies-2013-jonathan-levine.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-367",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "like-someone-in-love-by-abbas-kiarostami",
+          "label": "Like Someone in Love (Abbas Kiarostami)",
+          "image_url": "/images/movies/like-someone-in-love-2012-abbas-kiarostami.jpg",
+          "description": ""
+        },
+        {
+          "id": "world-war-z-by-marc-forster",
+          "label": "World War Z (Marc Forster)",
+          "image_url": "/images/movies/world-war-z-2013-marc-forster.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-20",
+    "type": "question",
+    "title": "Rate \"The Tree of Life\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "alien-ridley-scott",
+          "label": "Alien (Ridley Scott)",
+          "image_url": "/images/movies/alien-1979-ridley-scott.jpg",
+          "description": "2011 Terrence Malick cosmic family drama"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-24",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "winter-sleep-by-nuri-bilge-ceylan",
+          "label": "Winter Sleep (Nuri Bilge Ceylan)",
+          "image_url": "/images/movies/winter-sleep-2014-nuri-bilge-ceylan.jpg"
+        },
+        {
+          "id": "beautiful-creatures-richard-lagravenese",
+          "label": "Beautiful Creatures (Richard LaGravenese)",
+          "image_url": "/images/movies/beautiful-creatures-2013-richard-lagravenese.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-368",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-death-of-mr-lazarescu-by-cristi-puiu",
+          "label": "The Death of Mr. Lazarescu (Cristi Puiu)",
+          "image_url": "/images/movies/the-death-of-mr-lazarescu-2005-cristi-puiu.jpg",
+          "description": ""
+        },
+        {
+          "id": "kick-ass-by-matthew-vaughn",
+          "label": "Kick-Ass (Matthew Vaughn)",
+          "image_url": "/images/movies/kick-ass-2010-matthew-vaughn.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-369",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "3-weeks-and-2-days-by-cristian-mungiu",
+          "label": "3 Weeks and 2 Days (Cristian Mungiu)",
+          "image_url": "/images/movies/4-months-3-weeks-and-2-days-2007-cristian-mungiu.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-nice-guys-by-shane-black",
+          "label": "The Nice Guys (Shane Black)",
+          "image_url": "/images/movies/the-nice-guys-2016-shane-black.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-370",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "leviathan-by-andrey-zvyagintsev",
+          "label": "Leviathan (Andrey Zvyagintsev)",
+          "image_url": "/images/movies/leviathan-2014-andrey-zvyagintsev.jpg",
+          "description": ""
+        },
+        {
+          "id": "free-guy-by-shawn-levy",
+          "label": "Free Guy (Shawn Levy)",
+          "image_url": "/images/movies/free-guy-2021-shawn-levy.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-11",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-thin-red-line-by-terrence-malick",
+          "label": "The Thin Red Line (Terrence Malick)",
+          "image_url": "/images/movies/the-thin-red-line-1998-terrence-malick.jpg"
+        },
+        {
+          "id": "superbad-by-greg-mottola",
+          "label": "Superbad (Greg Mottola)",
+          "image_url": "/images/movies/superbad-2007-greg-mottola.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-371",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "a-moment-of-innocence-mohsen-makhmalbaf",
+          "label": "A Moment of Innocence (Mohsen Makhmalbaf)",
+          "image_url": "/images/movies/a-moment-of-innocence-1996-mohsen-makhmalbaf.jpg",
+          "description": ""
+        },
+        {
+          "id": "american-pie-by-paul-weitz",
+          "label": "American Pie (Paul Weitz)",
+          "image_url": "/images/movies/american-pie-1999-paul-weitz.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-372",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-deer-hunter-by-michael-cimino",
+          "label": "The Deer Hunter (Michael Cimino)",
+          "image_url": "/images/movies/the-deer-hunter-1978-michael-cimino.jpg",
+          "description": ""
+        },
+        {
+          "id": "knocked-up-by-judd-apatow",
+          "label": "Knocked Up (Judd Apatow)",
+          "image_url": "/images/movies/knocked-up-2007-judd-apatow.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-373",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "capernaum-nadine-labaki",
+          "label": "Capernaum (Nadine Labaki)",
+          "image_url": "/images/movies/capernaum-2018-nadine-labaki.jpg",
+          "description": ""
+        },
+        {
+          "id": "step-brothers-by-adam-mckay",
+          "label": "Step Brothers (Adam McKay)",
+          "image_url": "/images/movies/step-brothers-2008-adam-mckay.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-9",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "yi-yi-by-edward-yang",
+          "label": "Yi Yi (Edward Yang)",
+          "image_url": "/images/movies/yi-yi-2000-edward-yang.jpg"
+        },
+        {
+          "id": "the-avengers-by-joss-whedon",
+          "label": "The Avengers (Joss Whedon)",
+          "image_url": "/images/movies/the-avengers-2012-joss-whedon.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-374",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "still-walking-by-hirokazu-kore-eda",
+          "label": "Still Walking (Hirokazu Kore-eda)",
+          "image_url": "/images/movies/still-walking-2008-hirokazu-kore-eda.jpg",
+          "description": ""
+        },
+        {
+          "id": "iron-man-by-jon-favreau",
+          "label": "Iron Man (Jon Favreau)",
+          "image_url": "/images/movies/iron-man-2008-jon-favreau.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-375",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "tokyo-story-by-yasujir-ozu",
+          "label": "Tokyo Story (Yasujirō Ozu)",
+          "image_url": "/images/movies/tokyo-story-1953-yasujiro-ozu.jpg",
+          "description": ""
+        },
+        {
+          "id": "guardians-of-the-galaxy-by-james-gunn",
+          "label": "Guardians of the Galaxy (James Gunn)",
+          "image_url": "/images/movies/guardians-of-the-galaxy-2014-james-gunn.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-376",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "city-of-god-fernando-meirelles",
+          "label": "City of God (Fernando Meirelles)",
+          "image_url": "/images/movies/city-of-god-2002-fernando-meirelles.jpg",
+          "description": ""
+        },
+        {
+          "id": "black-panther-by-ryan-coogler",
+          "label": "Black Panther (Ryan Coogler)",
+          "image_url": "/images/movies/black-panther-2018-ryan-coogler.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "rk-4",
+    "type": "question",
+    "title": "Rank these films",
+    "required": true,
+    "questionType": "ranking",
+    "description": "Order from favorite to least favorite.",
+    "properties": {
+      "choices": [
+        {
+          "id": "birds-of-prey-cathy-yan",
+          "label": "Birds of Prey (Cathy Yan)",
+          "image_url": "/images/movies/birds-of-prey-2020-cathy-yan.jpg"
+        },
+        {
+          "id": "bohemian-rhapsody-bryan-singer",
+          "label": "Bohemian Rhapsody (Bryan Singer)",
+          "image_url": "/images/movies/bohemian-rhapsody-2018-bryan-singer.jpg"
+        },
+        {
+          "id": "a-star-is-born-bradley-cooper",
+          "label": "A Star Is Born (Bradley Cooper)",
+          "image_url": "/images/movies/a-star-is-born-2018-bradley-cooper.jpg"
+        },
+        {
+          "id": "the-princess-bride-by-rob-reiner",
+          "label": "The Princess Bride (Rob Reiner)",
+          "image_url": "/images/movies/the-princess-bride-1987-rob-reiner.jpg"
+        },
+        {
+          "id": "borat-larry-charles",
+          "label": "Borat (Larry Charles)",
+          "image_url": "/images/movies/borat-2006-larry-charles.jpg"
+        },
+        {
+          "id": "close-up-abbas-kiarostami",
+          "label": "Close-Up (Abbas Kiarostami)",
+          "image_url": "/images/movies/close-up-1990-abbas-kiarostami.jpg"
+        },
+        {
+          "id": "sunset-boulevard-by-billy-wilder",
+          "label": "Sunset Boulevard (Billy Wilder)",
+          "image_url": "/images/movies/sunset-boulevard-1950-billy-wilder.jpg"
+        },
+        {
+          "id": "the-hunger-games-by-gary-ross",
+          "label": "The Hunger Games (Gary Ross)",
+          "image_url": "/images/movies/the-hunger-games-2012-gary-ross.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rating-13",
+    "type": "question",
+    "title": "Rate \"Eastern Promises\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "eastern-promises-by-david-cronenberg",
+          "label": "Eastern Promises (David Cronenberg)",
+          "image_url": "/images/movies/eastern-promises-2007-david-cronenberg.jpg",
+          "description": "2007 David Cronenberg Russian mafia thriller"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-20",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "whiplash-2014-damien-chazelle",
+          "label": "Whiplash (Damien Chazelle)",
+          "image_url": "/images/movies/whiplash-2014-damien-chazelle.jpg"
+        },
+        {
+          "id": "the-grand-budapest-hotel-2014-wes-anderson",
+          "label": "The Grand Budapest Hotel (Wes Anderson)",
+          "image_url": "/images/movies/the-grand-budapest-hotel-2014-wes-anderson.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-377",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "divergent-neil-burger",
+          "label": "Divergent (Neil Burger)",
+          "image_url": "/images/movies/divergent-2014-neil-burger.jpg",
+          "description": ""
+        },
+        {
+          "id": "pitch-perfect-by-jason-moore",
+          "label": "Pitch Perfect (Jason Moore)",
+          "image_url": "/images/movies/pitch-perfect-2012-jason-moore.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-378",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "winter-light-by-ingmar-bergman",
+          "label": "Winter Light (Ingmar Bergman)",
+          "image_url": "/images/movies/winter-light-1963-ingmar-bergman.jpg",
+          "description": ""
+        },
+        {
+          "id": "girls-trip-by-malcolm-d-lee",
+          "label": "Girls Trip (Malcolm D. Lee)",
+          "image_url": "/images/movies/girls-trip-2017-malcolm-d-lee.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-379",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-tree-of-life-by-terrence-malick",
+          "label": "The Tree of Life (Terrence Malick)",
+          "image_url": "/images/movies/the-tree-of-life-2011-terrence-malick.jpg",
+          "description": ""
+        },
+        {
+          "id": "booksmart-by-olivia-wilde",
+          "label": "Booksmart (Olivia Wilde)",
+          "image_url": "/images/movies/booksmart-2019-olivia-wilde.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "complete-movies-assessment",
+    "type": "statement",
+    "title": "Measuring Taste",
+    "properties": {
+      "button_text": "Home"
+    },
+    "description": "Thanks for sharing your taste in film."
+  }
+]

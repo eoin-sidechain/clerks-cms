@@ -1,0 +1,4385 @@
+[
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": "1949",
+    "region": null,
+    "description": null,
+    "cover_filename": "1984 by George Orwell (1949).jpg",
+    "cover_filename_slug": "1984-by-george-orwell-1949.jpg"
+  },
+  {
+    "title": "2001 A Space Odyssey",
+    "author": "Arthur C Clarke",
+    "year": "1968",
+    "region": null,
+    "description": null,
+    "cover_filename": "2001 A Space Odyssey by Arthur C Clarke (1968).jpg",
+    "cover_filename_slug": "2001-a-space-odyssey-by-arthur-c-clarke-1968.jpg"
+  },
+  {
+    "title": "2666",
+    "author": "Roberto Bolano",
+    "year": "2004",
+    "region": null,
+    "description": null,
+    "cover_filename": "2666 by Roberto Bolano (2004).jpg",
+    "cover_filename_slug": "2666-by-roberto-bolano-2004.jpg"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "author": "Anthony Burgess",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Clockwork Orange by Anthony Burgess (1962).jpg",
+    "cover_filename_slug": "a-clockwork-orange-by-anthony-burgess-1962.jpg"
+  },
+  {
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Court of Thorns and Roses by Sarah J. Maas (2015).jpg",
+    "cover_filename_slug": "a-court-of-thorns-and-roses-by-sarah-j-maas-2015.jpg"
+  },
+  {
+    "title": "A Farewell to Arms",
+    "author": "Ernest Hemingway",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Farewell to Arms by Ernest Hemingway (1929).jpg",
+    "cover_filename_slug": "a-farewell-to-arms-by-ernest-hemingway-1929.jpg"
+  },
+  {
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry",
+    "year": "1995",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Fine Balance by Rohinton Mistry (1995).jpg",
+    "cover_filename_slug": "a-fine-balance-by-rohinton-mistry-1995.jpg"
+  },
+  {
+    "title": "A Gentleman in Moscow",
+    "author": "Amor Towles",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Gentleman in Moscow by Amor Towles (2016).jpg",
+    "cover_filename_slug": "a-gentleman-in-moscow-by-amor-towles-2016.jpg"
+  },
+  {
+    "title": "A Good Girl's Guide to Murder",
+    "author": "Holly Jackson",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Good Girl's Guide to Murder by Holly Jackson (2019).jpg",
+    "cover_filename_slug": "a-good-girls-guide-to-murder-by-holly-jackson-2019.jpg"
+  },
+  {
+    "title": "A Grain of Wheat",
+    "author": "Ngũgĩ wa Thiong'o",
+    "year": "1967",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Grain of Wheat by Ngũgĩ wa Thiong'o (1967).jpg",
+    "cover_filename_slug": "a-grain-of-wheat-by-ngugi-wa-thiongo-1967.jpg"
+  },
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Little Life by Hanya Yanagihara (2015).jpg",
+    "cover_filename_slug": "a-little-life-by-hanya-yanagihara-2015.jpg"
+  },
+  {
+    "title": "A Passage To India",
+    "author": "E M Forster",
+    "year": "1924",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Passage To India by E M Forster (1924).jpg",
+    "cover_filename_slug": "a-passage-to-india-by-e-m-forster-1924.jpg"
+  },
+  {
+    "title": "A Portrait Of The Artist As A Young Man",
+    "author": "James Joyce",
+    "year": "1916",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Portrait Of The Artist As A Young Man by James Joyce (1916).jpg",
+    "cover_filename_slug": "a-portrait-of-the-artist-as-a-young-man-by-james-joyce-1916.jpg"
+  },
+  {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Room of One's Own by Virginia Woolf (1929).jpg",
+    "cover_filename_slug": "a-room-of-ones-own-by-virginia-woolf-1929.jpg"
+  },
+  {
+    "title": "A Separate Peace",
+    "author": "John Knowles",
+    "year": "1959",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Separate Peace by John Knowles (1959).jpg",
+    "cover_filename_slug": "a-separate-peace-by-john-knowles-1959.jpg"
+  },
+  {
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Suitable Boy by Vikram Seth (1993).jpg",
+    "cover_filename_slug": "a-suitable-boy-by-vikram-seth-1993.jpg"
+  },
+  {
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Thousand Splendid Suns by Khaled Hosseini (2007).jpg",
+    "cover_filename_slug": "a-thousand-splendid-suns-by-khaled-hosseini-2007.jpg"
+  },
+  {
+    "title": "A Walk to Remember",
+    "author": "Nicholas Sparks",
+    "year": "1999",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Walk to Remember by Nicholas Sparks (1999).jpg",
+    "cover_filename_slug": "a-walk-to-remember-by-nicholas-sparks-1999.jpg"
+  },
+  {
+    "title": "A Wizard Of Earthsea",
+    "author": "Ursula K Le Guin",
+    "year": "1968",
+    "region": null,
+    "description": null,
+    "cover_filename": "A Wizard Of Earthsea by Ursula K Le Guin (1968).jpg",
+    "cover_filename_slug": "a-wizard-of-earthsea-by-ursula-k-le-guin-1968.jpg"
+  },
+  {
+    "title": "Absalom",
+    "author": "William Faulkner",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Absalom by William Faulkner.jpg",
+    "cover_filename_slug": "absalom-by-william-faulkner.jpg"
+  },
+  {
+    "title": "Absalom Absalom!",
+    "author": "William Faulkner",
+    "year": "1936",
+    "region": null,
+    "description": null,
+    "cover_filename": "Absalom Absalom! by William Faulkner (1936).jpg",
+    "cover_filename_slug": "absalom-absalom-by-william-faulkner-1936.jpg"
+  },
+  {
+    "title": "Ada or Ardor",
+    "author": "Vladimir Nabokov",
+    "year": "1969",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ada or Ardor by Vladimir Nabokov (1969).jpg",
+    "cover_filename_slug": "ada-or-ardor-by-vladimir-nabokov-1969.jpg"
+  },
+  {
+    "title": "Agua Viva",
+    "author": "Clarice Lispector",
+    "year": "1973",
+    "region": null,
+    "description": null,
+    "cover_filename": "Agua Viva by Clarice Lispector (1973).jpg",
+    "cover_filename_slug": "agua-viva-by-clarice-lispector-1973.jpg"
+  },
+  {
+    "title": "All Quiet On The Western Front",
+    "author": "Erich Maria Remarque",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "All Quiet On The Western Front by Erich Maria Remarque (1929).jpg",
+    "cover_filename_slug": "all-quiet-on-the-western-front-by-erich-maria-remarque-1929.jpg"
+  },
+  {
+    "title": "All the Bright Places",
+    "author": "Jennifer Niven",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "All the Bright Places by Jennifer Niven (2015).jpg",
+    "cover_filename_slug": "all-the-bright-places-by-jennifer-niven-2015.jpg"
+  },
+  {
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "All the Light We Cannot See by Anthony Doerr (2014).jpg",
+    "cover_filename_slug": "all-the-light-we-cannot-see-by-anthony-doerr-2014.jpg"
+  },
+  {
+    "title": "All The Light We Cannot See",
+    "author": "Anthony Doerr 2014 Pulitzer Winner",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "All The Light We Cannot See by Anthony Doerr 2014 Pulitzer Winner.jpg",
+    "cover_filename_slug": "all-the-light-we-cannot-see-by-anthony-doerr-2014-pulitzer-winner.jpg"
+  },
+  {
+    "title": "American Psycho",
+    "author": "Bret Easton Ellis",
+    "year": "1991",
+    "region": null,
+    "description": null,
+    "cover_filename": "American Psycho by Bret Easton Ellis (1991).jpg",
+    "cover_filename_slug": "american-psycho-by-bret-easton-ellis-1991.jpg"
+  },
+  {
+    "title": "Americanah",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "Americanah by Chimamanda Ngozi Adichie (2013).jpg",
+    "cover_filename_slug": "americanah-by-chimamanda-ngozi-adichie-2013.jpg"
+  },
+  {
+    "title": "And Quiet Flows The Don",
+    "author": "Mikhail Sholokhov 192840",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "And Quiet Flows The Don by Mikhail Sholokhov 192840.jpg",
+    "cover_filename_slug": "and-quiet-flows-the-don-by-mikhail-sholokhov-192840.jpg"
+  },
+  {
+    "title": "Angels & Demons",
+    "author": "Dan Brown",
+    "year": "2000",
+    "region": null,
+    "description": null,
+    "cover_filename": "Angels & Demons by Dan Brown (2000).jpg",
+    "cover_filename_slug": "angels-demons-by-dan-brown-2000.jpg"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "year": "1945",
+    "region": null,
+    "description": null,
+    "cover_filename": "Animal Farm by George Orwell (1945).jpg",
+    "cover_filename_slug": "animal-farm-by-george-orwell-1945.jpg"
+  },
+  {
+    "title": "Anna and the French Kiss",
+    "author": "Stephanie Perkins",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "Anna and the French Kiss by Stephanie Perkins (2010).jpg",
+    "cover_filename_slug": "anna-and-the-french-kiss-by-stephanie-perkins-2010.jpg"
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": "1878",
+    "region": null,
+    "description": null,
+    "cover_filename": "Anna Karenina by Leo Tolstoy (1878).jpg",
+    "cover_filename_slug": "anna-karenina-by-leo-tolstoy-1878.jpg"
+  },
+  {
+    "title": "Anxious People",
+    "author": "Fredrik Backman",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "Anxious People by Fredrik Backman (2019).jpg",
+    "cover_filename_slug": "anxious-people-by-fredrik-backman-2019.jpg"
+  },
+  {
+    "title": "Ariel",
+    "author": "Sylvia Plath",
+    "year": "1965",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ariel by Sylvia Plath (1965).jpg",
+    "cover_filename_slug": "ariel-by-sylvia-plath-1965.jpg"
+  },
+  {
+    "title": "Arrow Of God",
+    "author": "Chinua Achebe",
+    "year": "1964",
+    "region": null,
+    "description": null,
+    "cover_filename": "Arrow Of God by Chinua Achebe (1964).jpg",
+    "cover_filename_slug": "arrow-of-god-by-chinua-achebe-1964.jpg"
+  },
+  {
+    "title": "As I Lay Dying",
+    "author": "William Faulkner",
+    "year": "1930",
+    "region": null,
+    "description": null,
+    "cover_filename": "As I Lay Dying by William Faulkner (1930).jpg",
+    "cover_filename_slug": "as-i-lay-dying-by-william-faulkner-1930.jpg"
+  },
+  {
+    "title": "Atonement",
+    "author": "Ian McEwan",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "Atonement by Ian McEwan (2001).jpg",
+    "cover_filename_slug": "atonement-by-ian-mcewan-2001.jpg"
+  },
+  {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Babel by R.F. Kuang (2022).jpg",
+    "cover_filename_slug": "babel-by-rf-kuang-2022.jpg"
+  },
+  {
+    "title": "Beach Read",
+    "author": "Emily Henry",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "Beach Read by Emily Henry (2020).jpg",
+    "cover_filename_slug": "beach-read-by-emily-henry-2020.jpg"
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Becoming by Michelle Obama (2018).jpg",
+    "cover_filename_slug": "becoming-by-michelle-obama-2018.jpg"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "author": "B.A. Paris",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "Behind Closed Doors by B.A. Paris (2016).jpg",
+    "cover_filename_slug": "behind-closed-doors-by-ba-paris-2016.jpg"
+  },
+  {
+    "title": "Bel Canto",
+    "author": "Ann Patchett",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "Bel Canto by Ann Patchett (2001).jpg",
+    "cover_filename_slug": "bel-canto-by-ann-patchett-2001.jpg"
+  },
+  {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "year": "1987",
+    "region": null,
+    "description": null,
+    "cover_filename": "Beloved by Toni Morrison (1987).jpg",
+    "cover_filename_slug": "beloved-by-toni-morrison-1987.jpg"
+  },
+  {
+    "title": "Beowulf",
+    "author": "Anonymous",
+    "year": "1000",
+    "region": null,
+    "description": null,
+    "cover_filename": "Beowulf by Anonymous (1000).jpg",
+    "cover_filename_slug": "beowulf-by-anonymous-1000.jpg"
+  },
+  {
+    "title": "Berlin Alexanderplatz",
+    "author": "Alfred Doblin",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "Berlin Alexanderplatz by Alfred Doblin (1929).jpg",
+    "cover_filename_slug": "berlin-alexanderplatz-by-alfred-doblin-1929.jpg"
+  },
+  {
+    "title": "Big Little Lies",
+    "author": "Liane Moriarty",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Big Little Lies by Liane Moriarty (2014).jpg",
+    "cover_filename_slug": "big-little-lies-by-liane-moriarty-2014.jpg"
+  },
+  {
+    "title": "Bleak House",
+    "author": "Charles Dickens",
+    "year": "1853",
+    "region": null,
+    "description": null,
+    "cover_filename": "Bleak House by Charles Dickens (1853).jpg",
+    "cover_filename_slug": "bleak-house-by-charles-dickens-1853.jpg"
+  },
+  {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "Blood Meridian by Cormac McCarthy (1985).jpg",
+    "cover_filename_slug": "blood-meridian-by-cormac-mccarthy-1985.jpg"
+  },
+  {
+    "title": "Book Lovers",
+    "author": "Emily Henry",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Book Lovers by Emily Henry (2022).jpg",
+    "cover_filename_slug": "book-lovers-by-emily-henry-2022.jpg"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": "1932",
+    "region": null,
+    "description": null,
+    "cover_filename": "Brave New World by Aldous Huxley (1932).jpg",
+    "cover_filename_slug": "brave-new-world-by-aldous-huxley-1932.jpg"
+  },
+  {
+    "title": "Breakfast at Tiffany's",
+    "author": "Truman Capote",
+    "year": "1958",
+    "region": null,
+    "description": null,
+    "cover_filename": "Breakfast at Tiffany's by Truman Capote (1958).jpg",
+    "cover_filename_slug": "breakfast-at-tiffanys-by-truman-capote-1958.jpg"
+  },
+  {
+    "title": "Bridget Jones's Diary",
+    "author": "Helen Fielding",
+    "year": "1996",
+    "region": null,
+    "description": null,
+    "cover_filename": "Bridget Jones's Diary by Helen Fielding (1996).jpg",
+    "cover_filename_slug": "bridget-joness-diary-by-helen-fielding-1996.jpg"
+  },
+  {
+    "title": "Buddenbrooks",
+    "author": "Thomas Mann",
+    "year": "1901",
+    "region": null,
+    "description": null,
+    "cover_filename": "Buddenbrooks by Thomas Mann (1901).jpg",
+    "cover_filename_slug": "buddenbrooks-by-thomas-mann-1901.jpg"
+  },
+  {
+    "title": "Cannery Row",
+    "author": "John Steinbeck",
+    "year": "1945",
+    "region": null,
+    "description": null,
+    "cover_filename": "Cannery Row by John Steinbeck (1945).jpg",
+    "cover_filename_slug": "cannery-row-by-john-steinbeck-1945.jpg"
+  },
+  {
+    "title": "Caraval",
+    "author": "Stephanie Garber",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Caraval by Stephanie Garber (2017).jpg",
+    "cover_filename_slug": "caraval-by-stephanie-garber-2017.jpg"
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "year": "1961",
+    "region": null,
+    "description": null,
+    "cover_filename": "Catch-22 by Joseph Heller (1961).jpg",
+    "cover_filename_slug": "catch-22-by-joseph-heller-1961.jpg"
+  },
+  {
+    "title": "Cats Cradle",
+    "author": "Kurt Vonnegut",
+    "year": "1963",
+    "region": null,
+    "description": null,
+    "cover_filename": "Cats Cradle by Kurt Vonnegut (1963).png",
+    "cover_filename_slug": "cats-cradle-by-kurt-vonnegut-1963.png"
+  },
+  {
+    "title": "Ceremony",
+    "author": "Leslie Marmon Silko",
+    "year": "1977",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ceremony by Leslie Marmon Silko (1977).jpg",
+    "cover_filename_slug": "ceremony-by-leslie-marmon-silko-1977.jpg"
+  },
+  {
+    "title": "Check & Mate",
+    "author": "Ali Hazelwood",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Check & Mate by Ali Hazelwood (2023).jpg",
+    "cover_filename_slug": "check-mate-by-ali-hazelwood-2023.jpg"
+  },
+  {
+    "title": "Childhoods End",
+    "author": "Arthur C Clarke",
+    "year": "1953",
+    "region": null,
+    "description": null,
+    "cover_filename": "Childhoods End by Arthur C Clarke (1953).jpg",
+    "cover_filename_slug": "childhoods-end-by-arthur-c-clarke-1953.jpg"
+  },
+  {
+    "title": "Chronicle Of A Death Foretold",
+    "author": "Gabriel Garcia Marquez",
+    "year": "1981",
+    "region": null,
+    "description": null,
+    "cover_filename": "Chronicle Of A Death Foretold by Gabriel Garcia Marquez (1981).jpg",
+    "cover_filename_slug": "chronicle-of-a-death-foretold-by-gabriel-garcia-marquez-1981.jpg"
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Circe by Madeline Miller (2018).jpg",
+    "cover_filename_slug": "circe-by-madeline-miller-2018.jpg"
+  },
+  {
+    "title": "Cloud Atlas",
+    "author": "David Mitchell",
+    "year": "2004",
+    "region": null,
+    "description": null,
+    "cover_filename": "Cloud Atlas by David Mitchell (2004).jpg",
+    "cover_filename_slug": "cloud-atlas-by-david-mitchell-2004.jpg"
+  },
+  {
+    "title": "Cloudstreet",
+    "author": "Tim Winton",
+    "year": "1991",
+    "region": null,
+    "description": null,
+    "cover_filename": "Cloudstreet by Tim Winton (1991).jpg",
+    "cover_filename_slug": "cloudstreet-by-tim-winton-1991.jpg"
+  },
+  {
+    "title": "Conversations With Friends",
+    "author": "Sally Rooney",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Conversations With Friends by Sally Rooney (2017).jpg",
+    "cover_filename_slug": "conversations-with-friends-by-sally-rooney-2017.jpg"
+  },
+  {
+    "title": "Crazy Rich Asians",
+    "author": "Kevin Kwan",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "Crazy Rich Asians by Kevin Kwan (2013).jpg",
+    "cover_filename_slug": "crazy-rich-asians-by-kevin-kwan-2013.jpg"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": "1866",
+    "region": null,
+    "description": null,
+    "cover_filename": "Crime and Punishment by Fyodor Dostoevsky (1866).jpg",
+    "cover_filename_slug": "crime-and-punishment-by-fyodor-dostoevsky-1866.jpg"
+  },
+  {
+    "title": "Cry The Beloved Country",
+    "author": "Alan Paton",
+    "year": "1948",
+    "region": null,
+    "description": null,
+    "cover_filename": "Cry The Beloved Country by Alan Paton (1948).jpg",
+    "cover_filename_slug": "cry-the-beloved-country-by-alan-paton-1948.jpg"
+  },
+  {
+    "title": "Daisy Jones & The Six",
+    "author": "Taylor Jenkins Reid",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "Daisy Jones & The Six by Taylor Jenkins Reid (2019).jpg",
+    "cover_filename_slug": "daisy-jones-the-six-by-taylor-jenkins-reid-2019.jpg"
+  },
+  {
+    "title": "Daniel Deronda",
+    "author": "George Eliot",
+    "year": "1876",
+    "region": null,
+    "description": null,
+    "cover_filename": "Daniel Deronda by George Eliot (1876).jpg",
+    "cover_filename_slug": "daniel-deronda-by-george-eliot-1876.jpg"
+  },
+  {
+    "title": "Dating You / Hating You",
+    "author": "Christina Lauren",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dating You _ Hating You by Christina Lauren (2017).jpg",
+    "cover_filename_slug": "dating-you-hating-you-by-christina-lauren-2017.jpg"
+  },
+  {
+    "title": "De Profundis",
+    "author": "Oscar Wilde",
+    "year": "1905",
+    "region": null,
+    "description": null,
+    "cover_filename": "De Profundis by Oscar Wilde (1905).jpg",
+    "cover_filename_slug": "de-profundis-by-oscar-wilde-1905.jpg"
+  },
+  {
+    "title": "Dead Souls",
+    "author": "Nikolai Gogol",
+    "year": "1842",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dead Souls by Nikolai Gogol (1842).jpg",
+    "cover_filename_slug": "dead-souls-by-nikolai-gogol-1842.jpg"
+  },
+  {
+    "title": "Dead Souls",
+    "author": "Nikolai Gogol",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dead Souls by Nikolai Gogol.jpg",
+    "cover_filename_slug": "dead-souls-by-nikolai-gogol.jpg"
+  },
+  {
+    "title": "Dirt Music",
+    "author": "Tim Winton",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dirt Music by Tim Winton (2001).jpg",
+    "cover_filename_slug": "dirt-music-by-tim-winton-2001.jpg"
+  },
+  {
+    "title": "Disgrace",
+    "author": "J M Coetzee",
+    "year": "1999",
+    "region": null,
+    "description": null,
+    "cover_filename": "Disgrace by J M Coetzee (1999).jpg",
+    "cover_filename_slug": "disgrace-by-j-m-coetzee-1999.jpg"
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "Divergent by Veronica Roth (2011).jpg",
+    "cover_filename_slug": "divergent-by-veronica-roth-2011.jpg"
+  },
+  {
+    "title": "Divine Rivals",
+    "author": "Rebecca Ross",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Divine Rivals by Rebecca Ross (2023).jpg",
+    "cover_filename_slug": "divine-rivals-by-rebecca-ross-2023.jpg"
+  },
+  {
+    "title": "Doctor Zhivago",
+    "author": "Boris Pasternak",
+    "year": "1957",
+    "region": null,
+    "description": null,
+    "cover_filename": "Doctor Zhivago by Boris Pasternak (1957).jpg",
+    "cover_filename_slug": "doctor-zhivago-by-boris-pasternak-1957.jpg"
+  },
+  {
+    "title": "Dom Casmurro",
+    "author": "Machado De Assis",
+    "year": "1899",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dom Casmurro by Machado De Assis (1899).jpg",
+    "cover_filename_slug": "dom-casmurro-by-machado-de-assis-1899.jpg"
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": "1605",
+    "region": null,
+    "description": null,
+    "cover_filename": "Don Quixote by Miguel de Cervantes (1605).jpg",
+    "cover_filename_slug": "don-quixote-by-miguel-de-cervantes-1605.jpg"
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "year": "1897",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dracula by Bram Stoker (1897).jpg",
+    "cover_filename_slug": "dracula-by-bram-stoker-1897.jpg"
+  },
+  {
+    "title": "Dream Of The Red Chamber",
+    "author": "Cao Xueqin 18th Century",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dream Of The Red Chamber by Cao Xueqin 18th Century.jpg",
+    "cover_filename_slug": "dream-of-the-red-chamber-by-cao-xueqin-18th-century.jpg"
+  },
+  {
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "year": "1914",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dubliners by James Joyce (1914).jpg",
+    "cover_filename_slug": "dubliners-by-james-joyce-1914.jpg"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "year": "1965",
+    "region": null,
+    "description": null,
+    "cover_filename": "Dune by Frank Herbert (1965).jpg",
+    "cover_filename_slug": "dune-by-frank-herbert-1965.jpg"
+  },
+  {
+    "title": "East of Eden",
+    "author": "John Steinbeck",
+    "year": "1952",
+    "region": null,
+    "description": null,
+    "cover_filename": "East of Eden by John Steinbeck (1952).jpg",
+    "cover_filename_slug": "east-of-eden-by-john-steinbeck-1952.jpg"
+  },
+  {
+    "title": "Eat Pray Love",
+    "author": "Elizabeth Gilbert",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "Eat Pray Love by Elizabeth Gilbert (2006).jpg",
+    "cover_filename_slug": "eat-pray-love-by-elizabeth-gilbert-2006.jpg"
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Educated by Tara Westover (2018).jpg",
+    "cover_filename_slug": "educated-by-tara-westover-2018.jpg"
+  },
+  {
+    "title": "Effi Briest",
+    "author": "Theodor Fontane",
+    "year": "1895",
+    "region": null,
+    "description": null,
+    "cover_filename": "Effi Briest by Theodor Fontane (1895).jpg",
+    "cover_filename_slug": "effi-briest-by-theodor-fontane-1895.jpg"
+  },
+  {
+    "title": "Eleanor Oliphant Is Completely Fine",
+    "author": "Gail Honeyman",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Eleanor Oliphant Is Completely Fine by Gail Honeyman (2017).jpg",
+    "cover_filename_slug": "eleanor-oliphant-is-completely-fine-by-gail-honeyman-2017.jpg"
+  },
+  {
+    "title": "Ender's Game",
+    "author": "Orson Scott Card",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ender's Game by Orson Scott Card (1985).jpg",
+    "cover_filename_slug": "enders-game-by-orson-scott-card-1985.jpg"
+  },
+  {
+    "title": "Everything",
+    "author": "Nicola Yoon",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Everything by Nicola Yoon.jpg",
+    "cover_filename_slug": "everything-by-nicola-yoon.jpg"
+  },
+  {
+    "title": "Everything Everything",
+    "author": "Nicola Yoon",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "Everything Everything by Nicola Yoon (2015).jpg",
+    "cover_filename_slug": "everything-everything-by-nicola-yoon-2015.jpg"
+  },
+  {
+    "title": "Everything I Never Told You",
+    "author": "Celeste Ng",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Everything I Never Told You by Celeste Ng (2014).jpg",
+    "cover_filename_slug": "everything-i-never-told-you-by-celeste-ng-2014.jpg"
+  },
+  {
+    "title": "Exit West",
+    "author": "Mohsin Hamid",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Exit West by Mohsin Hamid (2017).jpg",
+    "cover_filename_slug": "exit-west-by-mohsin-hamid-2017.jpg"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": "1953",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fahrenheit 451 by Ray Bradbury (1953).jpg",
+    "cover_filename_slug": "fahrenheit-451-by-ray-bradbury-1953.jpg"
+  },
+  {
+    "title": "Fear and Loathing in Las Vegas",
+    "author": "Hunter S. Thompson",
+    "year": "1971",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fear and Loathing in Las Vegas by Hunter S. Thompson (1971).jpg",
+    "cover_filename_slug": "fear-and-loathing-in-las-vegas-by-hunter-s-thompson-1971.jpg"
+  },
+  {
+    "title": "Ferdydurke",
+    "author": "Witold Gombrowicz",
+    "year": "1937",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ferdydurke by Witold Gombrowicz (1937).jpg",
+    "cover_filename_slug": "ferdydurke-by-witold-gombrowicz-1937.jpg"
+  },
+  {
+    "title": "Ficciones",
+    "author": "Jorge Luis Borges",
+    "year": "1944",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ficciones by Jorge Luis Borges (1944).jpg",
+    "cover_filename_slug": "ficciones-by-jorge-luis-borges-1944.jpg"
+  },
+  {
+    "title": "Fifty Shades of Grey",
+    "author": "E.L. James",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fifty Shades of Grey by E.L. James (2011).jpg",
+    "cover_filename_slug": "fifty-shades-of-grey-by-el-james-2011.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk",
+    "year": "1996",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fight Club by Chuck Palahniuk (1996).jpg",
+    "cover_filename_slug": "fight-club-by-chuck-palahniuk-1996.jpg"
+  },
+  {
+    "title": "Final Offer",
+    "author": "Lauren Asher",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Final Offer by Lauren Asher (2023).jpg",
+    "cover_filename_slug": "final-offer-by-lauren-asher-2023.jpg"
+  },
+  {
+    "title": "Finnegans Wake",
+    "author": "James Joyce",
+    "year": "1939",
+    "region": null,
+    "description": null,
+    "cover_filename": "Finnegans Wake by James Joyce (1939).jpg",
+    "cover_filename_slug": "finnegans-wake-by-james-joyce-1939.jpg"
+  },
+  {
+    "title": "For Whom the Bell Tolls",
+    "author": "Ernest Hemingway",
+    "year": "1940",
+    "region": null,
+    "description": null,
+    "cover_filename": "For Whom the Bell Tolls by Ernest Hemingway (1940).jpg",
+    "cover_filename_slug": "for-whom-the-bell-tolls-by-ernest-hemingway-1940.jpg"
+  },
+  {
+    "title": "Foucaults Pendulum",
+    "author": "Umberto Eco",
+    "year": "1988",
+    "region": null,
+    "description": null,
+    "cover_filename": "Foucaults Pendulum by Umberto Eco (1988).jpg",
+    "cover_filename_slug": "foucaults-pendulum-by-umberto-eco-1988.jpg"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "year": "1951",
+    "region": null,
+    "description": null,
+    "cover_filename": "Foundation by Isaac Asimov (1951).jpg",
+    "cover_filename_slug": "foundation-by-isaac-asimov-1951.jpg"
+  },
+  {
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fourth Wing by Rebecca Yarros (2023).jpg",
+    "cover_filename_slug": "fourth-wing-by-rebecca-yarros-2023.jpg"
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": "1818",
+    "region": null,
+    "description": null,
+    "cover_filename": "Frankenstein by Mary Shelley (1818).jpg",
+    "cover_filename_slug": "frankenstein-by-mary-shelley-1818.jpg"
+  },
+  {
+    "title": "Freedom",
+    "author": "Jonathan Franzen",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "Freedom by Jonathan Franzen (2010).jpg",
+    "cover_filename_slug": "freedom-by-jonathan-franzen-2010.jpg"
+  },
+  {
+    "title": "From Blood and Ash",
+    "author": "Jennifer L. Armentrout",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "From Blood and Ash by Jennifer L. Armentrout (2020).jpg",
+    "cover_filename_slug": "from-blood-and-ash-by-jennifer-l-armentrout-2020.jpg"
+  },
+  {
+    "title": "Fun Home",
+    "author": "Alison Bechdel",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "Fun Home by Alison Bechdel (2006).jpg",
+    "cover_filename_slug": "fun-home-by-alison-bechdel-2006.jpg"
+  },
+  {
+    "title": "Gilead",
+    "author": "Marilynne Robinson",
+    "year": "2004",
+    "region": null,
+    "description": null,
+    "cover_filename": "Gilead by Marilynne Robinson (2004).jpg",
+    "cover_filename_slug": "gilead-by-marilynne-robinson-2004.jpg"
+  },
+  {
+    "title": "Giovannis Room",
+    "author": "James Baldwin",
+    "year": "1956",
+    "region": null,
+    "description": null,
+    "cover_filename": "Giovannis Room by James Baldwin (1956).jpg",
+    "cover_filename_slug": "giovannis-room-by-james-baldwin-1956.jpg"
+  },
+  {
+    "title": "Go Tell It on the Mountain",
+    "author": "James Baldwin",
+    "year": "1953",
+    "region": null,
+    "description": null,
+    "cover_filename": "Go Tell It on the Mountain by James Baldwin (1953).jpg",
+    "cover_filename_slug": "go-tell-it-on-the-mountain-by-james-baldwin-1953.jpg"
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "Gone Girl by Gillian Flynn (2012).jpg",
+    "cover_filename_slug": "gone-girl-by-gillian-flynn-2012.jpg"
+  },
+  {
+    "title": "Good Omens",
+    "author": "Terry Pratchett & Neil Gaiman",
+    "year": "1990",
+    "region": null,
+    "description": null,
+    "cover_filename": "Good Omens by Terry Pratchett & Neil Gaiman (1990).jpg",
+    "cover_filename_slug": "good-omens-by-terry-pratchett-neil-gaiman-1990.jpg"
+  },
+  {
+    "title": "Gravity's Rainbow",
+    "author": "Thomas Pynchon",
+    "year": "1973",
+    "region": null,
+    "description": null,
+    "cover_filename": "Gravity's Rainbow by Thomas Pynchon (1973).jpg",
+    "cover_filename_slug": "gravitys-rainbow-by-thomas-pynchon-1973.jpg"
+  },
+  {
+    "title": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "year": "1726",
+    "region": null,
+    "description": null,
+    "cover_filename": "Gulliver's Travels by Jonathan Swift (1726).jpg",
+    "cover_filename_slug": "gullivers-travels-by-jonathan-swift-1726.jpg"
+  },
+  {
+    "title": "Half of a Yellow Sun",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "Half of a Yellow Sun by Chimamanda Ngozi Adichie (2006).jpg",
+    "cover_filename_slug": "half-of-a-yellow-sun-by-chimamanda-ngozi-adichie-2006.jpg"
+  },
+  {
+    "title": "Happy Place",
+    "author": "Emily Henry",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Happy Place by Emily Henry (2023).jpg",
+    "cover_filename_slug": "happy-place-by-emily-henry-2023.jpg"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "year": "1997",
+    "region": null,
+    "description": null,
+    "cover_filename": "Harry Potter and the Sorcerer's Stone by J.K. Rowling (1997).jpg",
+    "cover_filename_slug": "harry-potter-and-the-sorcerers-stone-by-jk-rowling-1997.jpg"
+  },
+  {
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": "1899",
+    "region": null,
+    "description": null,
+    "cover_filename": "Heart of Darkness by Joseph Conrad (1899).jpg",
+    "cover_filename_slug": "heart-of-darkness-by-joseph-conrad-1899.jpg"
+  },
+  {
+    "title": "Heat And Dust",
+    "author": "Ruth Prawer Jhabvala",
+    "year": "1975",
+    "region": null,
+    "description": null,
+    "cover_filename": "Heat And Dust by Ruth Prawer Jhabvala (1975).jpg",
+    "cover_filename_slug": "heat-and-dust-by-ruth-prawer-jhabvala-1975.jpg"
+  },
+  {
+    "title": "Homegoing",
+    "author": "Yaa Gyasi",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "Homegoing by Yaa Gyasi (2016).jpg",
+    "cover_filename_slug": "homegoing-by-yaa-gyasi-2016.jpg"
+  },
+  {
+    "title": "Hopscotch",
+    "author": "Julio Cortazar",
+    "year": "1963",
+    "region": null,
+    "description": null,
+    "cover_filename": "Hopscotch by Julio Cortazar (1963).jpg",
+    "cover_filename_slug": "hopscotch-by-julio-cortazar-1963.jpg"
+  },
+  {
+    "title": "House Made Of Dawn",
+    "author": "N Scott Momaday",
+    "year": "1968",
+    "region": null,
+    "description": null,
+    "cover_filename": "House Made Of Dawn by N Scott Momaday (1968).jpg",
+    "cover_filename_slug": "house-made-of-dawn-by-n-scott-momaday-1968.jpg"
+  },
+  {
+    "title": "House of Earth and Blood",
+    "author": "Sarah J. Maas",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "House of Earth and Blood by Sarah J. Maas (2020).jpg",
+    "cover_filename_slug": "house-of-earth-and-blood-by-sarah-j-maas-2020.jpg"
+  },
+  {
+    "title": "Housekeeping",
+    "author": "Marilynne Robinson",
+    "year": "1980",
+    "region": null,
+    "description": null,
+    "cover_filename": "Housekeeping by Marilynne Robinson (1980).jpg",
+    "cover_filename_slug": "housekeeping-by-marilynne-robinson-1980.jpg"
+  },
+  {
+    "title": "Howards End",
+    "author": "E M Forster",
+    "year": "1910",
+    "region": null,
+    "description": null,
+    "cover_filename": "Howards End by E M Forster (1910).jpg",
+    "cover_filename_slug": "howards-end-by-e-m-forster-1910.jpg"
+  },
+  {
+    "title": "I Am A Cat",
+    "author": "Natsume Soseki",
+    "year": "1905",
+    "region": null,
+    "description": null,
+    "cover_filename": "I Am A Cat by Natsume Soseki (1905).jpg",
+    "cover_filename_slug": "i-am-a-cat-by-natsume-soseki-1905.jpg"
+  },
+  {
+    "title": "I Robot",
+    "author": "Isaac Asimov",
+    "year": "1950",
+    "region": null,
+    "description": null,
+    "cover_filename": "I Robot by Isaac Asimov (1950).jpg",
+    "cover_filename_slug": "i-robot-by-isaac-asimov-1950.jpg"
+  },
+  {
+    "title": "Icebreaker",
+    "author": "Hannah Grace",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Icebreaker by Hannah Grace (2022).jpg",
+    "cover_filename_slug": "icebreaker-by-hannah-grace-2022.jpg"
+  },
+  {
+    "title": "If On A Winters Night A Traveler",
+    "author": "Italo Calvino",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "If On A Winters Night A Traveler by Italo Calvino (1979).jpg",
+    "cover_filename_slug": "if-on-a-winters-night-a-traveler-by-italo-calvino-1979.jpg"
+  },
+  {
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "year": "1966",
+    "region": null,
+    "description": null,
+    "cover_filename": "In Cold Blood by Truman Capote (1966).jpg",
+    "cover_filename_slug": "in-cold-blood-by-truman-capote-1966.jpg"
+  },
+  {
+    "title": "In Search Of Lost Time",
+    "author": "Marcel Proust 19131927",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "In Search Of Lost Time by Marcel Proust 19131927.jpg",
+    "cover_filename_slug": "in-search-of-lost-time-by-marcel-proust-19131927.jpg"
+  },
+  {
+    "title": "In the Penal Colony",
+    "author": "Franz Kafka",
+    "year": "1919",
+    "region": null,
+    "description": null,
+    "cover_filename": "In the Penal Colony by Franz Kafka (1919).jpg",
+    "cover_filename_slug": "in-the-penal-colony-by-franz-kafka-1919.jpg"
+  },
+  {
+    "title": "Infinite Jest",
+    "author": "David Foster Wallace",
+    "year": "1996",
+    "region": null,
+    "description": null,
+    "cover_filename": "Infinite Jest by David Foster Wallace (1996).jpg",
+    "cover_filename_slug": "infinite-jest-by-david-foster-wallace-1996.jpg"
+  },
+  {
+    "title": "Invisible Cities",
+    "author": "Italo Calvino",
+    "year": "1972",
+    "region": null,
+    "description": null,
+    "cover_filename": "Invisible Cities by Italo Calvino (1972).jpg",
+    "cover_filename_slug": "invisible-cities-by-italo-calvino-1972.jpg"
+  },
+  {
+    "title": "Invisible Man",
+    "author": "Ralph Ellison",
+    "year": "1952",
+    "region": null,
+    "description": null,
+    "cover_filename": "Invisible Man by Ralph Ellison (1952).jpg",
+    "cover_filename_slug": "invisible-man-by-ralph-ellison-1952.jpg"
+  },
+  {
+    "title": "Island",
+    "author": "Aldous Huxley",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "Island by Aldous Huxley (1962).png",
+    "cover_filename_slug": "island-by-aldous-huxley-1962.png"
+  },
+  {
+    "title": "It Ends with Us",
+    "author": "Colleen Hoover",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "It Ends with Us by Colleen Hoover (2016).jpg",
+    "cover_filename_slug": "it-ends-with-us-by-colleen-hoover-2016.jpg"
+  },
+  {
+    "title": "It Starts With Us",
+    "author": "Colleen Hoover",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "It Starts With Us by Colleen Hoover (2022).jpg",
+    "cover_filename_slug": "it-starts-with-us-by-colleen-hoover-2022.jpg"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": "1847",
+    "region": null,
+    "description": null,
+    "cover_filename": "Jane Eyre by Charlotte Brontë (1847).jpg",
+    "cover_filename_slug": "jane-eyre-by-charlotte-bronte-1847.jpg"
+  },
+  {
+    "title": "Johnny Panic and the Bible of Dreams",
+    "author": "Sylvia Plath",
+    "year": "1977",
+    "region": null,
+    "description": null,
+    "cover_filename": "Johnny Panic and the Bible of Dreams by Sylvia Plath (1977).jpg",
+    "cover_filename_slug": "johnny-panic-and-the-bible-of-dreams-by-sylvia-plath-1977.jpg"
+  },
+  {
+    "title": "Journey To The End Of The Night",
+    "author": "Louisferdinand Celine",
+    "year": "1932",
+    "region": null,
+    "description": null,
+    "cover_filename": "Journey To The End Of The Night by Louisferdinand Celine (1932).jpg",
+    "cover_filename_slug": "journey-to-the-end-of-the-night-by-louisferdinand-celine-1932.jpg"
+  },
+  {
+    "title": "Julys People",
+    "author": "Nadine Gordimer",
+    "year": "1981",
+    "region": null,
+    "description": null,
+    "cover_filename": "Julys People by Nadine Gordimer (1981).jpg",
+    "cover_filename_slug": "julys-people-by-nadine-gordimer-1981.jpg"
+  },
+  {
+    "title": "Kafka On The Shore",
+    "author": "Haruki Murakami",
+    "year": "2002",
+    "region": null,
+    "description": null,
+    "cover_filename": "Kafka On The Shore by Haruki Murakami (2002).jpg",
+    "cover_filename_slug": "kafka-on-the-shore-by-haruki-murakami-2002.jpg"
+  },
+  {
+    "title": "Kindred",
+    "author": "Octavia E Butler",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "Kindred by Octavia E Butler (1979).jpg",
+    "cover_filename_slug": "kindred-by-octavia-e-butler-1979.jpg"
+  },
+  {
+    "title": "Kiss Of The Spider Woman",
+    "author": "Manuel Puig",
+    "year": "1976",
+    "region": null,
+    "description": null,
+    "cover_filename": "Kiss Of The Spider Woman by Manuel Puig (1976).jpg",
+    "cover_filename_slug": "kiss-of-the-spider-woman-by-manuel-puig-1976.jpg"
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "Klara and the Sun by Kazuo Ishiguro (2021).jpg",
+    "cover_filename_slug": "klara-and-the-sun-by-kazuo-ishiguro-2021.jpg"
+  },
+  {
+    "title": "Kokoro",
+    "author": "Natsume Soseki",
+    "year": "1914",
+    "region": null,
+    "description": null,
+    "cover_filename": "Kokoro by Natsume Soseki (1914).jpg",
+    "cover_filename_slug": "kokoro-by-natsume-soseki-1914.jpg"
+  },
+  {
+    "title": "Lady Windermere's Fan",
+    "author": "Oscar Wilde",
+    "year": "1892",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lady Windermere's Fan by Oscar Wilde (1892).jpg",
+    "cover_filename_slug": "lady-windermeres-fan-by-oscar-wilde-1892.jpg"
+  },
+  {
+    "title": "Leaves of Grass",
+    "author": "Walt Whitman",
+    "year": "1855",
+    "region": null,
+    "description": null,
+    "cover_filename": "Leaves of Grass by Walt Whitman (1855).jpg",
+    "cover_filename_slug": "leaves-of-grass-by-walt-whitman-1855.jpg"
+  },
+  {
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lessons in Chemistry by Bonnie Garmus (2022).jpg",
+    "cover_filename_slug": "lessons-in-chemistry-by-bonnie-garmus-2022.jpg"
+  },
+  {
+    "title": "Life After Life",
+    "author": "Kate Atkinson",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "Life After Life by Kate Atkinson (2013).jpg",
+    "cover_filename_slug": "life-after-life-by-kate-atkinson-2013.jpg"
+  },
+  {
+    "title": "Life And Fate",
+    "author": "Vasily Grossman 1959",
+    "year": "1980",
+    "region": null,
+    "description": null,
+    "cover_filename": "Life And Fate by Vasily Grossman 1959 (1980).jpg",
+    "cover_filename_slug": "life-and-fate-by-vasily-grossman-1959-1980.jpg"
+  },
+  {
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "Life of Pi by Yann Martel (2001).jpg",
+    "cover_filename_slug": "life-of-pi-by-yann-martel-2001.jpg"
+  },
+  {
+    "title": "Light in August",
+    "author": "William Faulkner",
+    "year": "1932",
+    "region": null,
+    "description": null,
+    "cover_filename": "Light in August by William Faulkner (1932).jpg",
+    "cover_filename_slug": "light-in-august-by-william-faulkner-1932.jpg"
+  },
+  {
+    "title": "Like Water for Chocolate",
+    "author": "Laura Esquivel",
+    "year": "1989",
+    "region": null,
+    "description": null,
+    "cover_filename": "Like Water for Chocolate by Laura Esquivel (1989).jpg",
+    "cover_filename_slug": "like-water-for-chocolate-by-laura-esquivel-1989.jpg"
+  },
+  {
+    "title": "Lincoln in the Bardo",
+    "author": "George Saunders",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lincoln in the Bardo by George Saunders (2017).jpg",
+    "cover_filename_slug": "lincoln-in-the-bardo-by-george-saunders-2017.jpg"
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": "1868",
+    "region": null,
+    "description": null,
+    "cover_filename": "Little Women by Louisa May Alcott (1868).jpg",
+    "cover_filename_slug": "little-women-by-louisa-may-alcott-1868.jpg"
+  },
+  {
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "year": "1955",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lolita by Vladimir Nabokov (1955).jpg",
+    "cover_filename_slug": "lolita-by-vladimir-nabokov-1955.jpg"
+  },
+  {
+    "title": "Lonesome Dove",
+    "author": "Larry Mcmurtry",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lonesome Dove by Larry Mcmurtry (1985).jpg",
+    "cover_filename_slug": "lonesome-dove-by-larry-mcmurtry-1985.jpg"
+  },
+  {
+    "title": "Looking for Alaska",
+    "author": "John Green",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "Looking for Alaska by John Green (2005).jpg",
+    "cover_filename_slug": "looking-for-alaska-by-john-green-2005.jpg"
+  },
+  {
+    "title": "Lord Jim",
+    "author": "Joseph Conrad",
+    "year": "1900",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lord Jim by Joseph Conrad (1900).jpg",
+    "cover_filename_slug": "lord-jim-by-joseph-conrad-1900.jpg"
+  },
+  {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "year": "1954",
+    "region": null,
+    "description": null,
+    "cover_filename": "Lord of the Flies by William Golding (1954).jpg",
+    "cover_filename_slug": "lord-of-the-flies-by-william-golding-1954.jpg"
+  },
+  {
+    "title": "Love",
+    "author": "Elizabeth Gilbert",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Love by Elizabeth Gilbert.png",
+    "cover_filename_slug": "love-by-elizabeth-gilbert.png"
+  },
+  {
+    "title": "Love in the Time of Cholera",
+    "author": "Gabriel García Márquez",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "Love in the Time of Cholera by Gabriel García Márquez (1985).jpg",
+    "cover_filename_slug": "love-in-the-time-of-cholera-by-gabriel-garcia-marquez-1985.jpg"
+  },
+  {
+    "title": "Love Medicine",
+    "author": "Louise Erdrich",
+    "year": "1984",
+    "region": null,
+    "description": null,
+    "cover_filename": "Love Medicine by Louise Erdrich (1984).jpg",
+    "cover_filename_slug": "love-medicine-by-louise-erdrich-1984.jpg"
+  },
+  {
+    "title": "Love on the Brain",
+    "author": "Ali Hazelwood",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Love on the Brain by Ali Hazelwood (2022).jpg",
+    "cover_filename_slug": "love-on-the-brain-by-ali-hazelwood-2022.jpg"
+  },
+  {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "year": "1857",
+    "region": null,
+    "description": null,
+    "cover_filename": "Madame Bovary by Gustave Flaubert (1857).jpg",
+    "cover_filename_slug": "madame-bovary-by-gustave-flaubert-1857.jpg"
+  },
+  {
+    "title": "Malgudi Days",
+    "author": "R K Narayan",
+    "year": "1943",
+    "region": null,
+    "description": null,
+    "cover_filename": "Malgudi Days by R K Narayan (1943).jpg",
+    "cover_filename_slug": "malgudi-days-by-r-k-narayan-1943.jpg"
+  },
+  {
+    "title": "Mash",
+    "author": "Richard Hooker",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Mash by Richard Hooker.jpg",
+    "cover_filename_slug": "mash-by-richard-hooker.jpg"
+  },
+  {
+    "title": "Mason & Dixon",
+    "author": "Thomas Pynchon",
+    "year": "1997",
+    "region": null,
+    "description": null,
+    "cover_filename": "Mason & Dixon by Thomas Pynchon (1997).jpg",
+    "cover_filename_slug": "mason-dixon-by-thomas-pynchon-1997.jpg"
+  },
+  {
+    "title": "Maus",
+    "author": "Art Spiegelman 1986",
+    "year": "1991",
+    "region": null,
+    "description": null,
+    "cover_filename": "Maus by Art Spiegelman 1986 (1991).jpg",
+    "cover_filename_slug": "maus-by-art-spiegelman-1986-1991.jpg"
+  },
+  {
+    "title": "Me Before You",
+    "author": "Jojo Moyes",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "Me Before You by Jojo Moyes (2012).jpg",
+    "cover_filename_slug": "me-before-you-by-jojo-moyes-2012.jpg"
+  },
+  {
+    "title": "Metamorphoses",
+    "author": "Ovid",
+    "year": "8",
+    "region": null,
+    "description": null,
+    "cover_filename": "Metamorphoses by Ovid (8).jpg",
+    "cover_filename_slug": "metamorphoses-by-ovid-8.jpg"
+  },
+  {
+    "title": "Metamorphoses",
+    "author": "Ovid",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Metamorphoses by Ovid.jpg",
+    "cover_filename_slug": "metamorphoses-by-ovid.jpg"
+  },
+  {
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "Mexican Gothic by Silvia Moreno-Garcia (2020).jpg",
+    "cover_filename_slug": "mexican-gothic-by-silvia-moreno-garcia-2020.jpg"
+  },
+  {
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "year": "1871",
+    "region": null,
+    "description": null,
+    "cover_filename": "Middlemarch by George Eliot (1871).jpg",
+    "cover_filename_slug": "middlemarch-by-george-eliot-1871.jpg"
+  },
+  {
+    "title": "Middlesex",
+    "author": "Jeffrey Eugenides",
+    "year": "2002",
+    "region": null,
+    "description": null,
+    "cover_filename": "Middlesex by Jeffrey Eugenides (2002).jpg",
+    "cover_filename_slug": "middlesex-by-jeffrey-eugenides-2002.jpg"
+  },
+  {
+    "title": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "year": "1981",
+    "region": null,
+    "description": null,
+    "cover_filename": "Midnight's Children by Salman Rushdie (1981).jpg",
+    "cover_filename_slug": "midnights-children-by-salman-rushdie-1981.jpg"
+  },
+  {
+    "title": "Milkman",
+    "author": "Anna Burns",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Milkman by Anna Burns (2018).jpg",
+    "cover_filename_slug": "milkman-by-anna-burns-2018.jpg"
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": "1851",
+    "region": null,
+    "description": null,
+    "cover_filename": "Moby-Dick by Herman Melville (1851).jpg",
+    "cover_filename_slug": "moby-dick-by-herman-melville-1851.jpg"
+  },
+  {
+    "title": "Mrs. Dalloway",
+    "author": "Virginia Woolf",
+    "year": "1925",
+    "region": null,
+    "description": null,
+    "cover_filename": "Mrs. Dalloway by Virginia Woolf (1925).jpg",
+    "cover_filename_slug": "mrs-dalloway-by-virginia-woolf-1925.jpg"
+  },
+  {
+    "title": "My Brilliant Career",
+    "author": "Miles Franklin",
+    "year": "1901",
+    "region": null,
+    "description": null,
+    "cover_filename": "My Brilliant Career by Miles Franklin (1901).jpg",
+    "cover_filename_slug": "my-brilliant-career-by-miles-franklin-1901.jpg"
+  },
+  {
+    "title": "My Name Is Red",
+    "author": "Orhan Pamuk",
+    "year": "1998",
+    "region": null,
+    "description": null,
+    "cover_filename": "My Name Is Red by Orhan Pamuk (1998).jpg",
+    "cover_filename_slug": "my-name-is-red-by-orhan-pamuk-1998.jpg"
+  },
+  {
+    "title": "Naked Lunch",
+    "author": "William S. Burroughs",
+    "year": "1959",
+    "region": null,
+    "description": null,
+    "cover_filename": "Naked Lunch by William S. Burroughs (1959).jpg",
+    "cover_filename_slug": "naked-lunch-by-william-s-burroughs-1959.jpg"
+  },
+  {
+    "title": "Native Son",
+    "author": "Richard Wright",
+    "year": "1940",
+    "region": null,
+    "description": null,
+    "cover_filename": "Native Son by Richard Wright (1940).jpg",
+    "cover_filename_slug": "native-son-by-richard-wright-1940.jpg"
+  },
+  {
+    "title": "Nausea",
+    "author": "Jean-Paul Sartre",
+    "year": "1938",
+    "region": null,
+    "description": null,
+    "cover_filename": "Nausea by Jean-Paul Sartre (1938).jpg",
+    "cover_filename_slug": "nausea-by-jean-paul-sartre-1938.jpg"
+  },
+  {
+    "title": "Nervous Conditions",
+    "author": "Tsitsi Dangarembga",
+    "year": "1988",
+    "region": null,
+    "description": null,
+    "cover_filename": "Nervous Conditions by Tsitsi Dangarembga (1988).jpg",
+    "cover_filename_slug": "nervous-conditions-by-tsitsi-dangarembga-1988.jpg"
+  },
+  {
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "year": "1984",
+    "region": null,
+    "description": null,
+    "cover_filename": "Neuromancer by William Gibson (1984).jpg",
+    "cover_filename_slug": "neuromancer-by-william-gibson-1984.jpg"
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "Never Let Me Go by Kazuo Ishiguro (2005).jpg",
+    "cover_filename_slug": "never-let-me-go-by-kazuo-ishiguro-2005.jpg"
+  },
+  {
+    "title": "Neverwhere",
+    "author": "Neil Gaiman",
+    "year": "1996",
+    "region": null,
+    "description": null,
+    "cover_filename": "Neverwhere by Neil Gaiman (1996).jpg",
+    "cover_filename_slug": "neverwhere-by-neil-gaiman-1996.jpg"
+  },
+  {
+    "title": "Ninth House",
+    "author": "Leigh Bardugo",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ninth House by Leigh Bardugo (2019).jpg",
+    "cover_filename_slug": "ninth-house-by-leigh-bardugo-2019.jpg"
+  },
+  {
+    "title": "No Longer At Ease",
+    "author": "Chinua Achebe",
+    "year": "1960",
+    "region": null,
+    "description": null,
+    "cover_filename": "No Longer At Ease by Chinua Achebe (1960).jpg",
+    "cover_filename_slug": "no-longer-at-ease-by-chinua-achebe-1960.jpg"
+  },
+  {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "year": "1948",
+    "region": null,
+    "description": null,
+    "cover_filename": "No Longer Human by Osamu Dazai (1948).jpg",
+    "cover_filename_slug": "no-longer-human-by-osamu-dazai-1948.jpg"
+  },
+  {
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Normal People by Sally Rooney (2018).jpg",
+    "cover_filename_slug": "normal-people-by-sally-rooney-2018.jpg"
+  },
+  {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "year": "1987",
+    "region": null,
+    "description": null,
+    "cover_filename": "Norwegian Wood by Haruki Murakami (1987).jpg",
+    "cover_filename_slug": "norwegian-wood-by-haruki-murakami-1987.jpg"
+  },
+  {
+    "title": "Nostromo",
+    "author": "Joseph Conrad",
+    "year": "1904",
+    "region": null,
+    "description": null,
+    "cover_filename": "Nostromo by Joseph Conrad (1904).jpg",
+    "cover_filename_slug": "nostromo-by-joseph-conrad-1904.jpg"
+  },
+  {
+    "title": "November 9",
+    "author": "Colleen Hoover",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "November 9 by Colleen Hoover (2015).jpg",
+    "cover_filename_slug": "november-9-by-colleen-hoover-2015.jpg"
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "year": "1937",
+    "region": null,
+    "description": null,
+    "cover_filename": "Of Mice and Men by John Steinbeck (1937).jpg",
+    "cover_filename_slug": "of-mice-and-men-by-john-steinbeck-1937.jpg"
+  },
+  {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "year": "1957",
+    "region": null,
+    "description": null,
+    "cover_filename": "On the Road by Jack Kerouac (1957).jpg",
+    "cover_filename_slug": "on-the-road-by-jack-kerouac-1957.jpg"
+  },
+  {
+    "title": "Once Upon a Broken Heart",
+    "author": "Stephanie Garber",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "Once Upon a Broken Heart by Stephanie Garber (2021).jpg",
+    "cover_filename_slug": "once-upon-a-broken-heart-by-stephanie-garber-2021.jpg"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "author": "Ken Kesey",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "One Flew Over the Cuckoo's Nest by Ken Kesey (1962).jpg",
+    "cover_filename_slug": "one-flew-over-the-cuckoos-nest-by-ken-kesey-1962.jpg"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "year": "1967",
+    "region": null,
+    "description": null,
+    "cover_filename": "One Hundred Years of Solitude by Gabriel García Márquez (1967).jpg",
+    "cover_filename_slug": "one-hundred-years-of-solitude-by-gabriel-garcia-marquez-1967.jpg"
+  },
+  {
+    "title": "One of Us Is Lying",
+    "author": "Karen M. McManus",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "One of Us Is Lying by Karen M. McManus (2017).jpg",
+    "cover_filename_slug": "one-of-us-is-lying-by-karen-m-mcmanus-2017.jpg"
+  },
+  {
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "year": "1928",
+    "region": null,
+    "description": null,
+    "cover_filename": "Orlando by Virginia Woolf (1928).jpg",
+    "cover_filename_slug": "orlando-by-virginia-woolf-1928.jpg"
+  },
+  {
+    "title": "Oscar And Lucinda",
+    "author": "Peter Carey",
+    "year": "1988",
+    "region": null,
+    "description": null,
+    "cover_filename": "Oscar And Lucinda by Peter Carey (1988).jpg",
+    "cover_filename_slug": "oscar-and-lucinda-by-peter-carey-1988.jpg"
+  },
+  {
+    "title": "Out",
+    "author": "Natsuo Kirino",
+    "year": "1997",
+    "region": null,
+    "description": null,
+    "cover_filename": "Out by Natsuo Kirino (1997).jpg",
+    "cover_filename_slug": "out-by-natsuo-kirino-1997.jpg"
+  },
+  {
+    "title": "Outlander",
+    "author": "Diana Gabaldon",
+    "year": "1991",
+    "region": null,
+    "description": null,
+    "cover_filename": "Outlander by Diana Gabaldon (1991).jpg",
+    "cover_filename_slug": "outlander-by-diana-gabaldon-1991.jpg"
+  },
+  {
+    "title": "Pachinko",
+    "author": "Min Jin Lee",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pachinko by Min Jin Lee (2017).jpg",
+    "cover_filename_slug": "pachinko-by-min-jin-lee-2017.jpg"
+  },
+  {
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pale Fire by Vladimir Nabokov (1962).jpg",
+    "cover_filename_slug": "pale-fire-by-vladimir-nabokov-1962.jpg"
+  },
+  {
+    "title": "Parable Of The Sower",
+    "author": "Octavia E Butler",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "Parable Of The Sower by Octavia E Butler (1993).jpg",
+    "cover_filename_slug": "parable-of-the-sower-by-octavia-e-butler-1993.jpg"
+  },
+  {
+    "title": "Paradise Lost",
+    "author": "John Milton",
+    "year": "1667",
+    "region": null,
+    "description": null,
+    "cover_filename": "Paradise Lost by John Milton (1667).jpg",
+    "cover_filename_slug": "paradise-lost-by-john-milton-1667.jpg"
+  },
+  {
+    "title": "Pedro Paramo",
+    "author": "Juan Rulfo",
+    "year": "1955",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pedro Paramo by Juan Rulfo (1955).jpg",
+    "cover_filename_slug": "pedro-paramo-by-juan-rulfo-1955.jpg"
+  },
+  {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "People We Meet on Vacation by Emily Henry (2021).jpg",
+    "cover_filename_slug": "people-we-meet-on-vacation-by-emily-henry-2021.jpg"
+  },
+  {
+    "title": "Percy Jackson & The Olympians: The Lightning Thief",
+    "author": "Rick Riordan",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "Percy Jackson & The Olympians_ The Lightning Thief by Rick Riordan (2005).jpg",
+    "cover_filename_slug": "percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005.jpg"
+  },
+  {
+    "title": "Persepolis",
+    "author": "Marjane Satrapi 200003",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Persepolis by Marjane Satrapi 200003.jpg",
+    "cover_filename_slug": "persepolis-by-marjane-satrapi-200003.jpg"
+  },
+  {
+    "title": "Petals Of Blood",
+    "author": "Ngugi Wa Thiongo",
+    "year": "1977",
+    "region": null,
+    "description": null,
+    "cover_filename": "Petals Of Blood by Ngugi Wa Thiongo (1977).jpg",
+    "cover_filename_slug": "petals-of-blood-by-ngugi-wa-thiongo-1977.jpg"
+  },
+  {
+    "title": "Please Look After Mom",
+    "author": "Shin Kyungsook",
+    "year": "2008",
+    "region": null,
+    "description": null,
+    "cover_filename": "Please Look After Mom by Shin Kyungsook (2008).jpg",
+    "cover_filename_slug": "please-look-after-mom-by-shin-kyungsook-2008.jpg"
+  },
+  {
+    "title": "Pnin",
+    "author": "Vladimir Nabokov",
+    "year": "1957",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pnin by Vladimir Nabokov (1957).jpg",
+    "cover_filename_slug": "pnin-by-vladimir-nabokov-1957.jpg"
+  },
+  {
+    "title": "Point Counter Point",
+    "author": "Aldous Huxley",
+    "year": "1928",
+    "region": null,
+    "description": null,
+    "cover_filename": "Point Counter Point by Aldous Huxley (1928).jpg",
+    "cover_filename_slug": "point-counter-point-by-aldous-huxley-1928.jpg"
+  },
+  {
+    "title": "Possession",
+    "author": "A S Byatt",
+    "year": "1990",
+    "region": null,
+    "description": null,
+    "cover_filename": "Possession by A S Byatt (1990).jpg",
+    "cover_filename_slug": "possession-by-a-s-byatt-1990.jpg"
+  },
+  {
+    "title": "Posthumous Memoirs Of Bras Cubas",
+    "author": "Machado De Assis",
+    "year": "1881",
+    "region": null,
+    "description": null,
+    "cover_filename": "Posthumous Memoirs Of Bras Cubas by Machado De Assis (1881).jpg",
+    "cover_filename_slug": "posthumous-memoirs-of-bras-cubas-by-machado-de-assis-1881.jpg"
+  },
+  {
+    "title": "Powerless",
+    "author": "Lauren Roberts",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Powerless by Lauren Roberts (2023).jpg",
+    "cover_filename_slug": "powerless-by-lauren-roberts-2023.jpg"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": "1813",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pride and Prejudice by Jane Austen (1813).jpg",
+    "cover_filename_slug": "pride-and-prejudice-by-jane-austen-1813.jpg"
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "Project Hail Mary by Andy Weir (2021).jpg",
+    "cover_filename_slug": "project-hail-mary-by-andy-weir-2021.jpg"
+  },
+  {
+    "title": "Pucked",
+    "author": "Helena Hunting",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "Pucked by Helena Hunting (2015).jpg",
+    "cover_filename_slug": "pucked-by-helena-hunting-2015.jpg"
+  },
+  {
+    "title": "Rashomon And Other Stories",
+    "author": "Ryunosuke Akutagawa 191527",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Rashomon And Other Stories by Ryunosuke Akutagawa 191527.jpg",
+    "cover_filename_slug": "rashomon-and-other-stories-by-ryunosuke-akutagawa-191527.jpg"
+  },
+  {
+    "title": "Reading Lolita In Tehran",
+    "author": "Azar Nafisi",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "Reading Lolita In Tehran by Azar Nafisi (2003).jpg",
+    "cover_filename_slug": "reading-lolita-in-tehran-by-azar-nafisi-2003.jpg"
+  },
+  {
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ready Player One by Ernest Cline (2011).jpg",
+    "cover_filename_slug": "ready-player-one-by-ernest-cline-2011.jpg"
+  },
+  {
+    "title": "Red Queen",
+    "author": "Victoria Aveyard",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "Red Queen by Victoria Aveyard (2015).jpg",
+    "cover_filename_slug": "red-queen-by-victoria-aveyard-2015.jpg"
+  },
+  {
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Red Rising by Pierce Brown (2014).jpg",
+    "cover_filename_slug": "red-rising-by-pierce-brown-2014.jpg"
+  },
+  {
+    "title": "Red Sorghum",
+    "author": "Mo Yan",
+    "year": "1986",
+    "region": null,
+    "description": null,
+    "cover_filename": "Red Sorghum by Mo Yan (1986).jpg",
+    "cover_filename_slug": "red-sorghum-by-mo-yan-1986.jpg"
+  },
+  {
+    "title": "Red White & Royal Blue",
+    "author": "Casey McRiston",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "Red White & Royal Blue by Casey McRiston (2019).jpg",
+    "cover_filename_slug": "red-white-royal-blue-by-casey-mcriston-2019.jpg"
+  },
+  {
+    "title": "Red White Royal Blue",
+    "author": "Casey Mcroberts",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "Red White Royal Blue by Casey Mcroberts (2019).jpg",
+    "cover_filename_slug": "red-white-royal-blue-by-casey-mcroberts-2019.jpg"
+  },
+  {
+    "title": "Reminders of Him",
+    "author": "Colleen Hoover",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Reminders of Him by Colleen Hoover (2022).jpg",
+    "cover_filename_slug": "reminders-of-him-by-colleen-hoover-2022.jpg"
+  },
+  {
+    "title": "Resurrection",
+    "author": "Leo Tolstoy",
+    "year": "1899",
+    "region": null,
+    "description": null,
+    "cover_filename": "Resurrection by Leo Tolstoy (1899).jpg",
+    "cover_filename_slug": "resurrection-by-leo-tolstoy-1899.jpg"
+  },
+  {
+    "title": "Resurrection",
+    "author": "Leo Tolstoy",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Resurrection by Leo Tolstoy.jpg",
+    "cover_filename_slug": "resurrection-by-leo-tolstoy.jpg"
+  },
+  {
+    "title": "Romance Of The Three Kingdoms",
+    "author": "Luo Guanzhong 14th Century",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Romance Of The Three Kingdoms by Luo Guanzhong 14th Century.jpg",
+    "cover_filename_slug": "romance-of-the-three-kingdoms-by-luo-guanzhong-14th-century.jpg"
+  },
+  {
+    "title": "Room",
+    "author": "Emma Donoghue",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "Room by Emma Donoghue (2010).jpg",
+    "cover_filename_slug": "room-by-emma-donoghue-2010.jpg"
+  },
+  {
+    "title": "Sea Of Poppies",
+    "author": "Amitav Ghosh",
+    "year": "2008",
+    "region": null,
+    "description": null,
+    "cover_filename": "Sea Of Poppies by Amitav Ghosh (2008).jpg",
+    "cover_filename_slug": "sea-of-poppies-by-amitav-ghosh-2008.jpg"
+  },
+  {
+    "title": "Season Of Migration To The North",
+    "author": "Tayeb Salih",
+    "year": "1966",
+    "region": null,
+    "description": null,
+    "cover_filename": "Season Of Migration To The North by Tayeb Salih (1966).jpg",
+    "cover_filename_slug": "season-of-migration-to-the-north-by-tayeb-salih-1966.jpg"
+  },
+  {
+    "title": "Self-Reliance",
+    "author": "Ralph Waldo Emerson",
+    "year": "1841",
+    "region": null,
+    "description": null,
+    "cover_filename": "Self-Reliance by Ralph Waldo Emerson (1841).jpg",
+    "cover_filename_slug": "self-reliance-by-ralph-waldo-emerson-1841.jpg"
+  },
+  {
+    "title": "Sentimental Education",
+    "author": "Gustave Flaubert",
+    "year": "1869",
+    "region": null,
+    "description": null,
+    "cover_filename": "Sentimental Education by Gustave Flaubert (1869).jpg",
+    "cover_filename_slug": "sentimental-education-by-gustave-flaubert-1869.jpg"
+  },
+  {
+    "title": "Shadow and Bone",
+    "author": "Leigh Bardugo",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "Shadow and Bone by Leigh Bardugo (2012).jpg",
+    "cover_filename_slug": "shadow-and-bone-by-leigh-bardugo-2012.jpg"
+  },
+  {
+    "title": "Shatter Me",
+    "author": "Tahereh Mafi",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "Shatter Me by Tahereh Mafi (2011).jpg",
+    "cover_filename_slug": "shatter-me-by-tahereh-mafi-2011.jpg"
+  },
+  {
+    "title": "Since You've Been Gone",
+    "author": "Morgan Matson",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Since You've Been Gone by Morgan Matson (2014).jpg",
+    "cover_filename_slug": "since-youve-been-gone-by-morgan-matson-2014.jpg"
+  },
+  {
+    "title": "Sing Unburied Sing",
+    "author": "Jesmyn Ward",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "Sing Unburied Sing by Jesmyn Ward (2017).jpg",
+    "cover_filename_slug": "sing-unburied-sing-by-jesmyn-ward-2017.jpg"
+  },
+  {
+    "title": "Sir Gawain and the Green Knight",
+    "author": "Anonymous",
+    "year": "1400",
+    "region": null,
+    "description": null,
+    "cover_filename": "Sir Gawain and the Green Knight by Anonymous (1400).jpg",
+    "cover_filename_slug": "sir-gawain-and-the-green-knight-by-anonymous-1400.jpg"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "year": "1969",
+    "region": null,
+    "description": null,
+    "cover_filename": "Slaughterhouse-Five by Kurt Vonnegut (1969).jpg",
+    "cover_filename_slug": "slaughterhouse-five-by-kurt-vonnegut-1969.jpg"
+  },
+  {
+    "title": "Snow",
+    "author": "Orhan Pamuk",
+    "year": "2002",
+    "region": null,
+    "description": null,
+    "cover_filename": "Snow by Orhan Pamuk (2002).jpg",
+    "cover_filename_slug": "snow-by-orhan-pamuk-2002.jpg"
+  },
+  {
+    "title": "Snow Country",
+    "author": "Yasunari Kawabata",
+    "year": "1956",
+    "region": null,
+    "description": null,
+    "cover_filename": "Snow Country by Yasunari Kawabata (1956).jpg",
+    "cover_filename_slug": "snow-country-by-yasunari-kawabata-1956.jpg"
+  },
+  {
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "year": "1992",
+    "region": null,
+    "description": null,
+    "cover_filename": "Snow Crash by Neal Stephenson (1992).jpg",
+    "cover_filename_slug": "snow-crash-by-neal-stephenson-1992.jpg"
+  },
+  {
+    "title": "So Long A Letter",
+    "author": "Mariama Ba",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "So Long A Letter by Mariama Ba (1979).jpg",
+    "cover_filename_slug": "so-long-a-letter-by-mariama-ba-1979.jpg"
+  },
+  {
+    "title": "Solaris",
+    "author": "Stanislaw Lem",
+    "year": "1961",
+    "region": null,
+    "description": null,
+    "cover_filename": "Solaris by Stanislaw Lem (1961).jpg",
+    "cover_filename_slug": "solaris-by-stanislaw-lem-1961.jpg"
+  },
+  {
+    "title": "Some Prefer Nettles",
+    "author": "Junichiro Tanizaki",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "Some Prefer Nettles by Junichiro Tanizaki (1929).jpg",
+    "cover_filename_slug": "some-prefer-nettles-by-junichiro-tanizaki-1929.jpg"
+  },
+  {
+    "title": "Song of Myself",
+    "author": "Walt Whitman",
+    "year": "1855",
+    "region": null,
+    "description": null,
+    "cover_filename": "Song of Myself by Walt Whitman (1855).jpg",
+    "cover_filename_slug": "song-of-myself-by-walt-whitman-1855.jpg"
+  },
+  {
+    "title": "Song Of Solomon",
+    "author": "Toni Morrison",
+    "year": "1977",
+    "region": null,
+    "description": null,
+    "cover_filename": "Song Of Solomon by Toni Morrison (1977).jpg",
+    "cover_filename_slug": "song-of-solomon-by-toni-morrison-1977.jpg"
+  },
+  {
+    "title": "Soul Mountain",
+    "author": "Gao Xingjian",
+    "year": "1990",
+    "region": null,
+    "description": null,
+    "cover_filename": "Soul Mountain by Gao Xingjian (1990).jpg",
+    "cover_filename_slug": "soul-mountain-by-gao-xingjian-1990.jpg"
+  },
+  {
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Station Eleven by Emily St. John Mandel (2014).jpg",
+    "cover_filename_slug": "station-eleven-by-emily-st-john-mandel-2014.jpg"
+  },
+  {
+    "title": "Strange Tales From A Chinese Studio",
+    "author": "Pu Songling 18th Century",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Strange Tales From A Chinese Studio by Pu Songling 18th Century.jpg",
+    "cover_filename_slug": "strange-tales-from-a-chinese-studio-by-pu-songling-18th-century.jpg"
+  },
+  {
+    "title": "Stuck with You",
+    "author": "Ali Hazelwood",
+    "year": "2023",
+    "region": null,
+    "description": null,
+    "cover_filename": "Stuck with You by Ali Hazelwood (2023).jpg",
+    "cover_filename_slug": "stuck-with-you-by-ali-hazelwood-2023.jpg"
+  },
+  {
+    "title": "Such a Pretty Girl",
+    "author": "Laura Wiess",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "Such a Pretty Girl by Laura Wiess (2007).jpg",
+    "cover_filename_slug": "such-a-pretty-girl-by-laura-wiess-2007.jpg"
+  },
+  {
+    "title": "Tender Is The Night",
+    "author": "F Scott Fitzgerald",
+    "year": "1934",
+    "region": null,
+    "description": null,
+    "cover_filename": "Tender Is The Night by F Scott Fitzgerald (1934).jpg",
+    "cover_filename_slug": "tender-is-the-night-by-f-scott-fitzgerald-1934.jpg"
+  },
+  {
+    "title": "Terms and Conditions",
+    "author": "Lauren Asher",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Terms and Conditions by Lauren Asher (2022).jpg",
+    "cover_filename_slug": "terms-and-conditions-by-lauren-asher-2022.jpg"
+  },
+  {
+    "title": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": "1891",
+    "region": null,
+    "description": null,
+    "cover_filename": "Tess of the d'Urbervilles by Thomas Hardy (1891).jpg",
+    "cover_filename_slug": "tess-of-the-durbervilles-by-thomas-hardy-1891.jpg"
+  },
+  {
+    "title": "The 7½ Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The 7½ Deaths of Evelyn Hardcastle by Stuart Turton (2018).jpg",
+    "cover_filename_slug": "the-712-deaths-of-evelyn-hardcastle-by-stuart-turton-2018.jpg"
+  },
+  {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": "1884",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Adventures of Huckleberry Finn by Mark Twain (1884).jpg",
+    "cover_filename_slug": "the-adventures-of-huckleberry-finn-by-mark-twain-1884.jpg"
+  },
+  {
+    "title": "The Aeneid",
+    "author": "Virgil",
+    "year": "19 BC",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Aeneid by Virgil (19 BC).jpg",
+    "cover_filename_slug": "the-aeneid-by-virgil-19-bc.jpg"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": "1988",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Alchemist by Paulo Coelho (1988).jpg",
+    "cover_filename_slug": "the-alchemist-by-paulo-coelho-1988.jpg"
+  },
+  {
+    "title": "The Aleph",
+    "author": "Jorge Luis Borges",
+    "year": "1949",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Aleph by Jorge Luis Borges (1949).jpg",
+    "cover_filename_slug": "the-aleph-by-jorge-luis-borges-1949.jpg"
+  },
+  {
+    "title": "The Amazing Adventures of Kavalier & Clay",
+    "author": "Michael Chabon",
+    "year": "2000",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Amazing Adventures of Kavalier & Clay by Michael Chabon (2000).jpg",
+    "cover_filename_slug": "the-amazing-adventures-of-kavalier-clay-by-michael-chabon-2000.jpg"
+  },
+  {
+    "title": "The Appeal",
+    "author": "Janice Hallett",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Appeal by Janice Hallett (2021).jpg",
+    "cover_filename_slug": "the-appeal-by-janice-hallett-2021.jpg"
+  },
+  {
+    "title": "The Atlas Six",
+    "author": "Olivie Blake",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Atlas Six by Olivie Blake (2022).jpg",
+    "cover_filename_slug": "the-atlas-six-by-olivie-blake-2022.jpg"
+  },
+  {
+    "title": "The Beautyful Ones Are Not Yet Born",
+    "author": "Ayi Kwei Armah",
+    "year": "1968",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Beautyful Ones Are Not Yet Born by Ayi Kwei Armah (1968).jpg",
+    "cover_filename_slug": "the-beautyful-ones-are-not-yet-born-by-ayi-kwei-armah-1968.jpg"
+  },
+  {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "year": "1963",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Bell Jar by Sylvia Plath (1963).jpg",
+    "cover_filename_slug": "the-bell-jar-by-sylvia-plath-1963.jpg"
+  },
+  {
+    "title": "The Blind Assassin",
+    "author": "Margaret Atwood",
+    "year": "2000",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Blind Assassin by Margaret Atwood (2000).jpg",
+    "cover_filename_slug": "the-blind-assassin-by-margaret-atwood-2000.jpg"
+  },
+  {
+    "title": "The Blind Owl",
+    "author": "Sadegh Hedayat",
+    "year": "1937",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Blind Owl by Sadegh Hedayat (1937).jpg",
+    "cover_filename_slug": "the-blind-owl-by-sadegh-hedayat-1937.jpg"
+  },
+  {
+    "title": "The Blithedale Romance",
+    "author": "Nathaniel Hawthorne",
+    "year": "1852",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Blithedale Romance by Nathaniel Hawthorne (1852).jpg",
+    "cover_filename_slug": "the-blithedale-romance-by-nathaniel-hawthorne-1852.jpg"
+  },
+  {
+    "title": "The Bluest Eye",
+    "author": "Toni Morrison",
+    "year": "1970",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Bluest Eye by Toni Morrison (1970).jpg",
+    "cover_filename_slug": "the-bluest-eye-by-toni-morrison-1970.jpg"
+  },
+  {
+    "title": "The Bone People",
+    "author": "Keri Hulme",
+    "year": "1984",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Bone People by Keri Hulme (1984).jpg",
+    "cover_filename_slug": "the-bone-people-by-keri-hulme-1984.jpg"
+  },
+  {
+    "title": "The Book Of Laughter And Forgetting",
+    "author": "Milan Kundera",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Book Of Laughter And Forgetting by Milan Kundera (1979).jpg",
+    "cover_filename_slug": "the-book-of-laughter-and-forgetting-by-milan-kundera-1979.jpg"
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Book Thief by Markus Zusak (2005).jpg",
+    "cover_filename_slug": "the-book-thief-by-markus-zusak-2005.jpg"
+  },
+  {
+    "title": "The Brief Wondrous Life of Oscar Wao",
+    "author": "Junot Díaz",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Brief Wondrous Life of Oscar Wao by Junot Díaz (2007).jpg",
+    "cover_filename_slug": "the-brief-wondrous-life-of-oscar-wao-by-junot-diaz-2007.jpg"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "year": "1880",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Brothers Karamazov by Fyodor Dostoevsky (1880).jpg",
+    "cover_filename_slug": "the-brothers-karamazov-by-fyodor-dostoevsky-1880.jpg"
+  },
+  {
+    "title": "The Canterbury Tales",
+    "author": "Geoffrey Chaucer",
+    "year": "1400",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Canterbury Tales by Geoffrey Chaucer (1400).jpg",
+    "cover_filename_slug": "the-canterbury-tales-by-geoffrey-chaucer-1400.jpg"
+  },
+  {
+    "title": "The Castle",
+    "author": "Franz Kafka",
+    "year": "1926",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Castle by Franz Kafka (1926).jpg",
+    "cover_filename_slug": "the-castle-by-franz-kafka-1926.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": "1951",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Catcher in the Rye by J.D. Salinger (1951).jpg",
+    "cover_filename_slug": "the-catcher-in-the-rye-by-jd-salinger-1951.jpg"
+  },
+  {
+    "title": "The Celestine Prophecy",
+    "author": "James Redfield",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Celestine Prophecy by James Redfield (1993).jpg",
+    "cover_filename_slug": "the-celestine-prophecy-by-james-redfield-1993.jpg"
+  },
+  {
+    "title": "The Christie Affair",
+    "author": "Nina de Gramont",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Christie Affair by Nina de Gramont (2022).jpg",
+    "cover_filename_slug": "the-christie-affair-by-nina-de-gramont-2022.jpg"
+  },
+  {
+    "title": "The Collected Poems",
+    "author": "Sylvia Plath",
+    "year": "1981",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Collected Poems by Sylvia Plath (1981).jpg",
+    "cover_filename_slug": "the-collected-poems-by-sylvia-plath-1981.jpg"
+  },
+  {
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "year": "1982",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Color Purple by Alice Walker (1982).jpg",
+    "cover_filename_slug": "the-color-purple-by-alice-walker-1982.jpg"
+  },
+  {
+    "title": "The Conservationist",
+    "author": "Nadine Gordimer",
+    "year": "1974",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Conservationist by Nadine Gordimer (1974).jpg",
+    "cover_filename_slug": "the-conservationist-by-nadine-gordimer-1974.jpg"
+  },
+  {
+    "title": "The Corrections",
+    "author": "Jonathan Franzen",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Corrections by Jonathan Franzen (2001).jpg",
+    "cover_filename_slug": "the-corrections-by-jonathan-franzen-2001.jpg"
+  },
+  {
+    "title": "The Cruel Prince",
+    "author": "Holly Black",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Cruel Prince by Holly Black (2018).jpg",
+    "cover_filename_slug": "the-cruel-prince-by-holly-black-2018.jpg"
+  },
+  {
+    "title": "The Crying of Lot 49",
+    "author": "Thomas Pynchon",
+    "year": "1966",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Crying of Lot 49 by Thomas Pynchon (1966).jpg",
+    "cover_filename_slug": "the-crying-of-lot-49-by-thomas-pynchon-1966.jpg"
+  },
+  {
+    "title": "The Curious Incident of the Dog in the Night-Time",
+    "author": "Mark Haddon",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Curious Incident of the Dog in the Night-Time by Mark Haddon (2003).jpg",
+    "cover_filename_slug": "the-curious-incident-of-the-dog-in-the-night-time-by-mark-haddon-2003.jpg"
+  },
+  {
+    "title": "The Cyberiad",
+    "author": "Stanisaw Lem",
+    "year": "1965",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Cyberiad by Stanisaw Lem (1965).jpg",
+    "cover_filename_slug": "the-cyberiad-by-stanisaw-lem-1965.jpg"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Da Vinci Code by Dan Brown (2003).jpg",
+    "cover_filename_slug": "the-da-vinci-code-by-dan-brown-2003.jpg"
+  },
+  {
+    "title": "The Deal",
+    "author": "Elle Kennedy",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Deal by Elle Kennedy (2015).jpg",
+    "cover_filename_slug": "the-deal-by-elle-kennedy-2015.jpg"
+  },
+  {
+    "title": "The Death Of Artemio Cruz",
+    "author": "Carlos Fuentes",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Death Of Artemio Cruz by Carlos Fuentes (1962).jpg",
+    "cover_filename_slug": "the-death-of-artemio-cruz-by-carlos-fuentes-1962.jpg"
+  },
+  {
+    "title": "The Death of Ivan Ilyich",
+    "author": "Leo Tolstoy",
+    "year": "1886",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Death of Ivan Ilyich by Leo Tolstoy (1886).jpg",
+    "cover_filename_slug": "the-death-of-ivan-ilyich-by-leo-tolstoy-1886.jpg"
+  },
+  {
+    "title": "The Devil Wears Prada",
+    "author": "Lauren Weisberger",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Devil Wears Prada by Lauren Weisberger (2003).jpg",
+    "cover_filename_slug": "the-devil-wears-prada-by-lauren-weisberger-2003.jpg"
+  },
+  {
+    "title": "The Devotion Of Suspect X",
+    "author": "Keigo Higashino",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Devotion Of Suspect X by Keigo Higashino (2005).jpg",
+    "cover_filename_slug": "the-devotion-of-suspect-x-by-keigo-higashino-2005.jpg"
+  },
+  {
+    "title": "The Dharma Bums",
+    "author": "Jack Kerouac",
+    "year": "1958",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Dharma Bums by Jack Kerouac (1958).jpg",
+    "cover_filename_slug": "the-dharma-bums-by-jack-kerouac-1958.jpg"
+  },
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K Le Guin",
+    "year": "1974",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Dispossessed by Ursula K Le Guin (1974).jpg",
+    "cover_filename_slug": "the-dispossessed-by-ursula-k-le-guin-1974.jpg"
+  },
+  {
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "year": "1320",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Divine Comedy by Dante Alighieri (1320).jpg",
+    "cover_filename_slug": "the-divine-comedy-by-dante-alighieri-1320.jpg"
+  },
+  {
+    "title": "The Door",
+    "author": "Magda Szabo",
+    "year": "1987",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Door by Magda Szabo (1987).jpg",
+    "cover_filename_slug": "the-door-by-magda-szabo-1987.jpg"
+  },
+  {
+    "title": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "year": "1954",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Doors of Perception by Aldous Huxley (1954).jpg",
+    "cover_filename_slug": "the-doors-of-perception-by-aldous-huxley-1954.jpg"
+  },
+  {
+    "title": "The Dry",
+    "author": "Jane Harper",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Dry by Jane Harper (2016).jpg",
+    "cover_filename_slug": "the-dry-by-jane-harper-2016.jpg"
+  },
+  {
+    "title": "The Dutch House",
+    "author": "Ann Patchett",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Dutch House by Ann Patchett (2019).jpg",
+    "cover_filename_slug": "the-dutch-house-by-ann-patchett-2019.jpg"
+  },
+  {
+    "title": "The Electric Kool Aid Acid Test",
+    "author": "Tom Wolfe",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Electric Kool Aid Acid Test by Tom Wolfe.jpg",
+    "cover_filename_slug": "the-electric-kool-aid-acid-test-by-tom-wolfe.jpg"
+  },
+  {
+    "title": "The Elegance Of The Hedgehog",
+    "author": "Muriel Barbery",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Elegance Of The Hedgehog by Muriel Barbery (2006).jpg",
+    "cover_filename_slug": "the-elegance-of-the-hedgehog-by-muriel-barbery-2006.jpg"
+  },
+  {
+    "title": "The English Patient",
+    "author": "Michael Ondaatje",
+    "year": "1992",
+    "region": null,
+    "description": null,
+    "cover_filename": "The English Patient by Michael Ondaatje (1992).jpg",
+    "cover_filename_slug": "the-english-patient-by-michael-ondaatje-1992.jpg"
+  },
+  {
+    "title": "The Famished Road",
+    "author": "Ben Okri",
+    "year": "1991",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Famished Road by Ben Okri (1991).jpg",
+    "cover_filename_slug": "the-famished-road-by-ben-okri-1991.jpg"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Fault in Our Stars by John Green (2012).jpg",
+    "cover_filename_slug": "the-fault-in-our-stars-by-john-green-2012.jpg"
+  },
+  {
+    "title": "The Fine Print",
+    "author": "Lauren Asher",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Fine Print by Lauren Asher (2021).jpg",
+    "cover_filename_slug": "the-fine-print-by-lauren-asher-2021.jpg"
+  },
+  {
+    "title": "The Finkler Question",
+    "author": "Howard Jacobson",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Finkler Question by Howard Jacobson (2010).jpg",
+    "cover_filename_slug": "the-finkler-question-by-howard-jacobson-2010.jpg"
+  },
+  {
+    "title": "The Fishermen",
+    "author": "Chigozie Obioma",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Fishermen by Chigozie Obioma (2015).jpg",
+    "cover_filename_slug": "the-fishermen-by-chigozie-obioma-2015.jpg"
+  },
+  {
+    "title": "The Garden Of The Finzicontinis",
+    "author": "Giorgio Bassani",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Garden Of The Finzicontinis by Giorgio Bassani (1962).jpg",
+    "cover_filename_slug": "the-garden-of-the-finzicontinis-by-giorgio-bassani-1962.jpg"
+  },
+  {
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Girl on the Train by Paula Hawkins (2015).jpg",
+    "cover_filename_slug": "the-girl-on-the-train-by-paula-hawkins-2015.jpg"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Girl with the Dragon Tattoo by Stieg Larsson (2005).jpg",
+    "cover_filename_slug": "the-girl-with-the-dragon-tattoo-by-stieg-larsson-2005.jpg"
+  },
+  {
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Giver by Lois Lowry (1993).jpg",
+    "cover_filename_slug": "the-giver-by-lois-lowry-1993.jpg"
+  },
+  {
+    "title": "The Glass Castle",
+    "author": "Jeannette Walls",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Glass Castle by Jeannette Walls (2005).jpg",
+    "cover_filename_slug": "the-glass-castle-by-jeannette-walls-2005.jpg"
+  },
+  {
+    "title": "The Goal",
+    "author": "Elle Kennedy",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Goal by Elle Kennedy (2016).jpg",
+    "cover_filename_slug": "the-goal-by-elle-kennedy-2016.jpg"
+  },
+  {
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "year": "1997",
+    "region": null,
+    "description": null,
+    "cover_filename": "The God of Small Things by Arundhati Roy (1997).jpg",
+    "cover_filename_slug": "the-god-of-small-things-by-arundhati-roy-1997.jpg"
+  },
+  {
+    "title": "The Golden Compass",
+    "author": "Philip Pullman",
+    "year": "1995",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Golden Compass by Philip Pullman (1995).jpg",
+    "cover_filename_slug": "the-golden-compass-by-philip-pullman-1995.jpg"
+  },
+  {
+    "title": "The Goldfinch",
+    "author": "Donna Tartt",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Goldfinch by Donna Tartt (2013).jpg",
+    "cover_filename_slug": "the-goldfinch-by-donna-tartt-2013.jpg"
+  },
+  {
+    "title": "The Goldfinch",
+    "author": "Donna Tartt 2013 Pulitzer Winner",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Goldfinch by Donna Tartt 2013 Pulitzer Winner.jpg",
+    "cover_filename_slug": "the-goldfinch-by-donna-tartt-2013-pulitzer-winner.jpg"
+  },
+  {
+    "title": "The Good Earth",
+    "author": "Pearl S Buck",
+    "year": "1931",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Good Earth by Pearl S Buck (1931).jpg",
+    "cover_filename_slug": "the-good-earth-by-pearl-s-buck-1931.jpg"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "year": "1939",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Grapes of Wrath by John Steinbeck (1939).jpg",
+    "cover_filename_slug": "the-grapes-of-wrath-by-john-steinbeck-1939.jpg"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": "1925",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Great Gatsby by F. Scott Fitzgerald (1925).jpg",
+    "cover_filename_slug": "the-great-gatsby-by-f-scott-fitzgerald-1925.jpg"
+  },
+  {
+    "title": "The Guest List",
+    "author": "Lucy Foley",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Guest List by Lucy Foley (2020).jpg",
+    "cover_filename_slug": "the-guest-list-by-lucy-foley-2020.jpg"
+  },
+  {
+    "title": "The Guide",
+    "author": "R K Narayan",
+    "year": "1958",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Guide by R K Narayan (1958).png",
+    "cover_filename_slug": "the-guide-by-r-k-narayan-1958.png"
+  },
+  {
+    "title": "The Gulag Archipelago",
+    "author": "Aleksandr Solzhenitsyn",
+    "year": "1973",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Gulag Archipelago by Aleksandr Solzhenitsyn (1973).jpg",
+    "cover_filename_slug": "the-gulag-archipelago-by-aleksandr-solzhenitsyn-1973.jpg"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Handmaid's Tale by Margaret Atwood (1985).jpg",
+    "cover_filename_slug": "the-handmaids-tale-by-margaret-atwood-1985.jpg"
+  },
+  {
+    "title": "The Harp In The South",
+    "author": "Ruth Park",
+    "year": "1948",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Harp In The South by Ruth Park (1948).jpg",
+    "cover_filename_slug": "the-harp-in-the-south-by-ruth-park-1948.jpg"
+  },
+  {
+    "title": "The Hating Game",
+    "author": "Sally Thorne",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Hating Game by Sally Thorne (2016).jpg",
+    "cover_filename_slug": "the-hating-game-by-sally-thorne-2016.jpg"
+  },
+  {
+    "title": "The Help",
+    "author": "Kathryn Stockett",
+    "year": "2009",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Help by Kathryn Stockett (2009).jpg",
+    "cover_filename_slug": "the-help-by-kathryn-stockett-2009.jpg"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Hitchhiker's Guide to the Galaxy by Douglas Adams (1979).jpg",
+    "cover_filename_slug": "the-hitchhikers-guide-to-the-galaxy-by-douglas-adams-1979.jpg"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": "1937",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Hobbit by J.R.R. Tolkien (1937).jpg",
+    "cover_filename_slug": "the-hobbit-by-jrr-tolkien-1937.jpg"
+  },
+  {
+    "title": "The Hour Of The Star",
+    "author": "Clarice Lispector",
+    "year": "1977",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Hour Of The Star by Clarice Lispector (1977).jpg",
+    "cover_filename_slug": "the-hour-of-the-star-by-clarice-lispector-1977.jpg"
+  },
+  {
+    "title": "The House of Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": "1851",
+    "region": null,
+    "description": null,
+    "cover_filename": "The House of Seven Gables by Nathaniel Hawthorne (1851).jpg",
+    "cover_filename_slug": "the-house-of-seven-gables-by-nathaniel-hawthorne-1851.jpg"
+  },
+  {
+    "title": "The House of the Spirits",
+    "author": "Isabel Allende",
+    "year": "1982",
+    "region": null,
+    "description": null,
+    "cover_filename": "The House of the Spirits by Isabel Allende (1982).jpg",
+    "cover_filename_slug": "the-house-of-the-spirits-by-isabel-allende-1982.jpg"
+  },
+  {
+    "title": "The House On Mango Street",
+    "author": "Sandra Cisneros",
+    "year": "1984",
+    "region": null,
+    "description": null,
+    "cover_filename": "The House On Mango Street by Sandra Cisneros (1984).jpg",
+    "cover_filename_slug": "the-house-on-mango-street-by-sandra-cisneros-1984.jpg"
+  },
+  {
+    "title": "The Humans",
+    "author": "Matt Haig",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Humans by Matt Haig (2013).jpg",
+    "cover_filename_slug": "the-humans-by-matt-haig-2013.jpg"
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "year": "2008",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Hunger Games by Suzanne Collins (2008).jpg",
+    "cover_filename_slug": "the-hunger-games-by-suzanne-collins-2008.jpg"
+  },
+  {
+    "title": "The Iliad",
+    "author": "Homer",
+    "year": "750 BC",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Iliad by Homer (750 BC).jpg",
+    "cover_filename_slug": "the-iliad-by-homer-750-bc.jpg"
+  },
+  {
+    "title": "The Importance of Being Earnest",
+    "author": "Oscar Wilde",
+    "year": "1895",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Importance of Being Earnest by Oscar Wilde (1895).jpg",
+    "cover_filename_slug": "the-importance-of-being-earnest-by-oscar-wilde-1895.jpg"
+  },
+  {
+    "title": "The Invisible Life of Addie LaRue",
+    "author": "V.E. Schwab",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Invisible Life of Addie LaRue by V.E. Schwab (2020).jpg",
+    "cover_filename_slug": "the-invisible-life-of-addie-larue-by-ve-schwab-2020.jpg"
+  },
+  {
+    "title": "The Joy Luck Club",
+    "author": "Amy Tan",
+    "year": "1989",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Joy Luck Club by Amy Tan (1989).jpg",
+    "cover_filename_slug": "the-joy-luck-club-by-amy-tan-1989.jpg"
+  },
+  {
+    "title": "The Kingdom Of This World",
+    "author": "Alejo Carpentier",
+    "year": "1949",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Kingdom Of This World by Alejo Carpentier (1949).jpg",
+    "cover_filename_slug": "the-kingdom-of-this-world-by-alejo-carpentier-1949.jpg"
+  },
+  {
+    "title": "The Kiss Quotient",
+    "author": "Helen Hoang",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Kiss Quotient by Helen Hoang (2018).jpg",
+    "cover_filename_slug": "the-kiss-quotient-by-helen-hoang-2018.jpg"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Kite Runner by Khaled Hosseini (2003).jpg",
+    "cover_filename_slug": "the-kite-runner-by-khaled-hosseini-2003.jpg"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini 2003 Afghan American Bestseller",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Kite Runner by Khaled Hosseini 2003 Afghan American Bestseller.jpg",
+    "cover_filename_slug": "the-kite-runner-by-khaled-hosseini-2003-afghan-american-bestseller.jpg"
+  },
+  {
+    "title": "The Left Hand Of Darkness",
+    "author": "Ursula K Le Guin",
+    "year": "1969",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Left Hand Of Darkness by Ursula K Le Guin (1969).jpg",
+    "cover_filename_slug": "the-left-hand-of-darkness-by-ursula-k-le-guin-1969.jpg"
+  },
+  {
+    "title": "The Leopard",
+    "author": "Giuseppe Tomasi Di Lampedusa",
+    "year": "1958",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Leopard by Giuseppe Tomasi Di Lampedusa (1958).jpg",
+    "cover_filename_slug": "the-leopard-by-giuseppe-tomasi-di-lampedusa-1958.jpg"
+  },
+  {
+    "title": "The Lincoln Highway",
+    "author": "Amor Towles",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Lincoln Highway by Amor Towles (2021).jpg",
+    "cover_filename_slug": "the-lincoln-highway-by-amor-towles-2021.jpg"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": "1954",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Lord of the Rings by J.R.R. Tolkien (1954).jpg",
+    "cover_filename_slug": "the-lord-of-the-rings-by-jrr-tolkien-1954.jpg"
+  },
+  {
+    "title": "The Love Hypothesis",
+    "author": "Ali Hazelwood",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Love Hypothesis by Ali Hazelwood (2021).jpg",
+    "cover_filename_slug": "the-love-hypothesis-by-ali-hazelwood-2021.jpg"
+  },
+  {
+    "title": "The Lovely Bones",
+    "author": "Alice Sebold",
+    "year": "2002",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Lovely Bones by Alice Sebold (2002).jpg",
+    "cover_filename_slug": "the-lovely-bones-by-alice-sebold-2002.jpg"
+  },
+  {
+    "title": "The Luminaries",
+    "author": "Eleanor Catton",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Luminaries by Eleanor Catton (2013).jpg",
+    "cover_filename_slug": "the-luminaries-by-eleanor-catton-2013.jpg"
+  },
+  {
+    "title": "The Magic Mountain",
+    "author": "Thomas Mann",
+    "year": "1924",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Magic Mountain by Thomas Mann (1924).jpg",
+    "cover_filename_slug": "the-magic-mountain-by-thomas-mann-1924.jpg"
+  },
+  {
+    "title": "The Maid",
+    "author": "Nita Prose",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Maid by Nita Prose (2022).jpg",
+    "cover_filename_slug": "the-maid-by-nita-prose-2022.jpg"
+  },
+  {
+    "title": "The Makioka Sisters",
+    "author": "Junichiro Tanizaki 194348",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Makioka Sisters by Junichiro Tanizaki 194348.jpg",
+    "cover_filename_slug": "the-makioka-sisters-by-junichiro-tanizaki-194348.jpg"
+  },
+  {
+    "title": "The Man Who Died Twice",
+    "author": "Richard Osman",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Man Who Died Twice by Richard Osman (2021).jpg",
+    "cover_filename_slug": "the-man-who-died-twice-by-richard-osman-2021.jpg"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Martian by Andy Weir (2014).jpg",
+    "cover_filename_slug": "the-martian-by-andy-weir-2014.jpg"
+  },
+  {
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "year": "1967",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Master and Margarita by Mikhail Bulgakov (1967).jpg",
+    "cover_filename_slug": "the-master-and-margarita-by-mikhail-bulgakov-1967.jpg"
+  },
+  {
+    "title": "The Maze Runner",
+    "author": "James Dashner",
+    "year": "2009",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Maze Runner by James Dashner (2009).jpg",
+    "cover_filename_slug": "the-maze-runner-by-james-dashner-2009.jpg"
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": "1915",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Metamorphosis by Franz Kafka (1915).jpg",
+    "cover_filename_slug": "the-metamorphosis-by-franz-kafka-1915.jpg"
+  },
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Midnight Library by Matt Haig (2020).jpg",
+    "cover_filename_slug": "the-midnight-library-by-matt-haig-2020.jpg"
+  },
+  {
+    "title": "The Mortal Instruments",
+    "author": "Cassandra Clare",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Mortal Instruments by Cassandra Clare (2007).jpg",
+    "cover_filename_slug": "the-mortal-instruments-by-cassandra-clare-2007.jpg"
+  },
+  {
+    "title": "The Mortal Instruments: City of Bones",
+    "author": "Cassandra Clare",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Mortal Instruments_ City of Bones by Cassandra Clare (2007).jpg",
+    "cover_filename_slug": "the-mortal-instruments-city-of-bones-by-cassandra-clare-2007.jpg"
+  },
+  {
+    "title": "The Museum Of Innocence",
+    "author": "Orhan Pamuk",
+    "year": "2008",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Museum Of Innocence by Orhan Pamuk (2008).jpg",
+    "cover_filename_slug": "the-museum-of-innocence-by-orhan-pamuk-2008.jpg"
+  },
+  {
+    "title": "The Name Of The Rose",
+    "author": "Umberto Eco",
+    "year": "1980",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Name Of The Rose by Umberto Eco (1980).jpg",
+    "cover_filename_slug": "the-name-of-the-rose-by-umberto-eco-1980.jpg"
+  },
+  {
+    "title": "The Narrow Road To The Deep North",
+    "author": "Richard Flanagan",
+    "year": "2013",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Narrow Road To The Deep North by Richard Flanagan (2013).jpg",
+    "cover_filename_slug": "the-narrow-road-to-the-deep-north-by-richard-flanagan-2013.jpg"
+  },
+  {
+    "title": "The Nickel Boys",
+    "author": "Colson Whitehead",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Nickel Boys by Colson Whitehead (2019).jpg",
+    "cover_filename_slug": "the-nickel-boys-by-colson-whitehead-2019.jpg"
+  },
+  {
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Night Circus by Erin Morgenstern (2011).jpg",
+    "cover_filename_slug": "the-night-circus-by-erin-morgenstern-2011.jpg"
+  },
+  {
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "year": "2015",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Nightingale by Kristin Hannah (2015).jpg",
+    "cover_filename_slug": "the-nightingale-by-kristin-hannah-2015.jpg"
+  },
+  {
+    "title": "The Notebook",
+    "author": "Nicholas Sparks",
+    "year": "1996",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Notebook by Nicholas Sparks (1996).jpg",
+    "cover_filename_slug": "the-notebook-by-nicholas-sparks-1996.jpg"
+  },
+  {
+    "title": "The Obscene Bird Of Night",
+    "author": "Jose Donoso",
+    "year": "1970",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Obscene Bird Of Night by Jose Donoso (1970).jpg",
+    "cover_filename_slug": "the-obscene-bird-of-night-by-jose-donoso-1970.jpg"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "year": "800 BC",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Odyssey by Homer (800 BC).jpg",
+    "cover_filename_slug": "the-odyssey-by-homer-800-bc.jpg"
+  },
+  {
+    "title": "The Old Drift",
+    "author": "Namwali Serpell",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Old Drift by Namwali Serpell (2019).jpg",
+    "cover_filename_slug": "the-old-drift-by-namwali-serpell-2019.jpg"
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "year": "1952",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Old Man and the Sea by Ernest Hemingway (1952).jpg",
+    "cover_filename_slug": "the-old-man-and-the-sea-by-ernest-hemingway-1952.jpg"
+  },
+  {
+    "title": "The Orphan Masters Son",
+    "author": "Adam Johnson",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Orphan Masters Son by Adam Johnson (2012).jpg",
+    "cover_filename_slug": "the-orphan-masters-son-by-adam-johnson-2012.jpg"
+  },
+  {
+    "title": "The Outsiders",
+    "author": "S.E. Hinton",
+    "year": "1967",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Outsiders by S.E. Hinton (1967).jpg",
+    "cover_filename_slug": "the-outsiders-by-se-hinton-1967.jpg"
+  },
+  {
+    "title": "The Overstory",
+    "author": "Richard Powers",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Overstory by Richard Powers (2018).jpg",
+    "cover_filename_slug": "the-overstory-by-richard-powers-2018.jpg"
+  },
+  {
+    "title": "The Passage",
+    "author": "Justin Cronin",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Passage by Justin Cronin (2010).jpg",
+    "cover_filename_slug": "the-passage-by-justin-cronin-2010.jpg"
+  },
+  {
+    "title": "The Perks of Being a Wallflower",
+    "author": "Stephen Chbosky",
+    "year": "1999",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Perks of Being a Wallflower by Stephen Chbosky (1999).jpg",
+    "cover_filename_slug": "the-perks-of-being-a-wallflower-by-stephen-chbosky-1999.jpg"
+  },
+  {
+    "title": "The Personal Librarian",
+    "author": "Marie Benedict",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Personal Librarian by Marie Benedict (2021).jpg",
+    "cover_filename_slug": "the-personal-librarian-by-marie-benedict-2021.jpg"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": "1890",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Picture of Dorian Gray by Oscar Wilde (1890).jpg",
+    "cover_filename_slug": "the-picture-of-dorian-gray-by-oscar-wilde-1890.jpg"
+  },
+  {
+    "title": "The Pillow Book",
+    "author": "Sei Shōnagon",
+    "year": "1002",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Pillow Book by Sei Shōnagon (1002).jpg",
+    "cover_filename_slug": "the-pillow-book-by-sei-shonagon-1002.jpg"
+  },
+  {
+    "title": "The Plague",
+    "author": "Albert Camus",
+    "year": "1947",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Plague by Albert Camus (1947).jpg",
+    "cover_filename_slug": "the-plague-by-albert-camus-1947.jpg"
+  },
+  {
+    "title": "The Poisonwood Bible",
+    "author": "Barbara Kingsolver",
+    "year": "1998",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Poisonwood Bible by Barbara Kingsolver (1998).jpg",
+    "cover_filename_slug": "the-poisonwood-bible-by-barbara-kingsolver-1998.jpg"
+  },
+  {
+    "title": "The Power",
+    "author": "Naomi Alderman",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Power by Naomi Alderman (2016).jpg",
+    "cover_filename_slug": "the-power-by-naomi-alderman-2016.jpg"
+  },
+  {
+    "title": "The Prime Of Miss Jean Brodie",
+    "author": "Muriel Spark",
+    "year": "1961",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Prime Of Miss Jean Brodie by Muriel Spark (1961).jpg",
+    "cover_filename_slug": "the-prime-of-miss-jean-brodie-by-muriel-spark-1961.jpg"
+  },
+  {
+    "title": "The Proposal",
+    "author": "Jasmine Guillory",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Proposal by Jasmine Guillory (2018).jpg",
+    "cover_filename_slug": "the-proposal-by-jasmine-guillory-2018.jpg"
+  },
+  {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "year": "1989",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Remains of the Day by Kazuo Ishiguro (1989).jpg",
+    "cover_filename_slug": "the-remains-of-the-day-by-kazuo-ishiguro-1989.jpg"
+  },
+  {
+    "title": "The Right Stuff",
+    "author": "Tom Wolfe",
+    "year": "1979",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Right Stuff by Tom Wolfe (1979).jpg",
+    "cover_filename_slug": "the-right-stuff-by-tom-wolfe-1979.jpg"
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Road by Cormac McCarthy (2006).jpg",
+    "cover_filename_slug": "the-road-by-cormac-mccarthy-2006.jpg"
+  },
+  {
+    "title": "The Sandman Vols",
+    "author": "Neil Gaiman 198996",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Sandman Vols by Neil Gaiman 198996.jpg",
+    "cover_filename_slug": "the-sandman-vols-by-neil-gaiman-198996.jpg"
+  },
+  {
+    "title": "The Savage Detectives",
+    "author": "Roberto Bolano",
+    "year": "1998",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Savage Detectives by Roberto Bolano (1998).jpg",
+    "cover_filename_slug": "the-savage-detectives-by-roberto-bolano-1998.jpg"
+  },
+  {
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": "1850",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Scarlet Letter by Nathaniel Hawthorne (1850).jpg",
+    "cover_filename_slug": "the-scarlet-letter-by-nathaniel-hawthorne-1850.jpg"
+  },
+  {
+    "title": "The Score",
+    "author": "Elle Kennedy",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Score by Elle Kennedy (2016).jpg",
+    "cover_filename_slug": "the-score-by-elle-kennedy-2016.jpg"
+  },
+  {
+    "title": "The Secret Agent",
+    "author": "Joseph Conrad",
+    "year": "1907",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Secret Agent by Joseph Conrad (1907).jpg",
+    "cover_filename_slug": "the-secret-agent-by-joseph-conrad-1907.jpg"
+  },
+  {
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "year": "1992",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Secret History by Donna Tartt (1992).jpg",
+    "cover_filename_slug": "the-secret-history-by-donna-tartt-1992.jpg"
+  },
+  {
+    "title": "The Secret River",
+    "author": "Kate Grenville",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Secret River by Kate Grenville (2005).jpg",
+    "cover_filename_slug": "the-secret-river-by-kate-grenville-2005.jpg"
+  },
+  {
+    "title": "The Sense Of An Ending",
+    "author": "Julian Barnes",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Sense Of An Ending by Julian Barnes (2011).jpg",
+    "cover_filename_slug": "the-sense-of-an-ending-by-julian-barnes-2011.jpg"
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid (2017).jpg",
+    "cover_filename_slug": "the-seven-husbands-of-evelyn-hugo-by-taylor-jenkins-reid-2017.jpg"
+  },
+  {
+    "title": "The Shadow Lines",
+    "author": "Amitav Ghosh",
+    "year": "1988",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Shadow Lines by Amitav Ghosh (1988).jpg",
+    "cover_filename_slug": "the-shadow-lines-by-amitav-ghosh-1988.jpg"
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Shadow of the Wind by Carlos Ruiz Zafón (2001).jpg",
+    "cover_filename_slug": "the-shadow-of-the-wind-by-carlos-ruiz-zafon-2001.jpg"
+  },
+  {
+    "title": "The Shipping News",
+    "author": "Annie Proulx",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Shipping News by Annie Proulx (1993).jpg",
+    "cover_filename_slug": "the-shipping-news-by-annie-proulx-1993.jpg"
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Silent Patient by Alex Michaelides (2019).jpg",
+    "cover_filename_slug": "the-silent-patient-by-alex-michaelides-2019.jpg"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "year": "2011",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Song of Achilles by Madeline Miller (2011).jpg",
+    "cover_filename_slug": "the-song-of-achilles-by-madeline-miller-2011.jpg"
+  },
+  {
+    "title": "The Soulmate Equation",
+    "author": "Christina Lauren",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Soulmate Equation by Christina Lauren (2021).jpg",
+    "cover_filename_slug": "the-soulmate-equation-by-christina-lauren-2021.jpg"
+  },
+  {
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "year": "1929",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Sound and the Fury by William Faulkner (1929).jpg",
+    "cover_filename_slug": "the-sound-and-the-fury-by-william-faulkner-1929.jpg"
+  },
+  {
+    "title": "The Spanish Love Deception",
+    "author": "Elena Armas",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Spanish Love Deception by Elena Armas (2021).jpg",
+    "cover_filename_slug": "the-spanish-love-deception-by-elena-armas-2021.jpg"
+  },
+  {
+    "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": "1886",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson (1886).jpg",
+    "cover_filename_slug": "the-strange-case-of-dr-jekyll-and-mr-hyde-by-robert-louis-stevenson-1886.jpg"
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "year": "1942",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Stranger by Albert Camus (1942).jpg",
+    "cover_filename_slug": "the-stranger-by-albert-camus-1942.jpg"
+  },
+  {
+    "title": "The Summer I Turned Pretty",
+    "author": "Jenny Han",
+    "year": "2009",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Summer I Turned Pretty by Jenny Han (2009).jpg",
+    "cover_filename_slug": "the-summer-i-turned-pretty-by-jenny-han-2009.jpg"
+  },
+  {
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "year": "1926",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Sun Also Rises by Ernest Hemingway (1926).jpg",
+    "cover_filename_slug": "the-sun-also-rises-by-ernest-hemingway-1926.jpg"
+  },
+  {
+    "title": "The Tale Of Genji",
+    "author": "Murasaki Shikibu",
+    "year": "1021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Tale Of Genji by Murasaki Shikibu (1021).jpg",
+    "cover_filename_slug": "the-tale-of-genji-by-murasaki-shikibu-1021.jpg"
+  },
+  {
+    "title": "The Things They Carried",
+    "author": "Tim O'Brien",
+    "year": "1990",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Things They Carried by Tim O'Brien (1990).jpg",
+    "cover_filename_slug": "the-things-they-carried-by-tim-obrien-1990.jpg"
+  },
+  {
+    "title": "The Thousand Autumns Of Jacob De Zoet",
+    "author": "David Mitchell",
+    "year": "2010",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Thousand Autumns Of Jacob De Zoet by David Mitchell (2010).jpg",
+    "cover_filename_slug": "the-thousand-autumns-of-jacob-de-zoet-by-david-mitchell-2010.jpg"
+  },
+  {
+    "title": "The Threebody Problem",
+    "author": "Liu Cixin",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Threebody Problem by Liu Cixin (2006).jpg",
+    "cover_filename_slug": "the-threebody-problem-by-liu-cixin-2006.jpg"
+  },
+  {
+    "title": "The Thursday Murder Club",
+    "author": "Richard Osman",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Thursday Murder Club by Richard Osman (2020).jpg",
+    "cover_filename_slug": "the-thursday-murder-club-by-richard-osman-2020.jpg"
+  },
+  {
+    "title": "The Time Of The Doves",
+    "author": "Merce Rodoreda",
+    "year": "1962",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Time Of The Doves by Merce Rodoreda (1962).jpg",
+    "cover_filename_slug": "the-time-of-the-doves-by-merce-rodoreda-1962.jpg"
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
+    "year": "2003",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Time Traveler's Wife by Audrey Niffenegger (2003).jpg",
+    "cover_filename_slug": "the-time-travelers-wife-by-audrey-niffenegger-2003.jpg"
+  },
+  {
+    "title": "The Tin Drum",
+    "author": "Gunter Grass",
+    "year": "1959",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Tin Drum by Gunter Grass (1959).jpg",
+    "cover_filename_slug": "the-tin-drum-by-gunter-grass-1959.jpg"
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "year": "1925",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Trial by Franz Kafka (1925).jpg",
+    "cover_filename_slug": "the-trial-by-franz-kafka-1925.jpg"
+  },
+  {
+    "title": "The Twisted Series",
+    "author": "Ana Huang",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Twisted Series by Ana Huang (2021).jpg",
+    "cover_filename_slug": "the-twisted-series-by-ana-huang-2021.jpg"
+  },
+  {
+    "title": "The Unbearable Lightness of Being",
+    "author": "Milan Kundera",
+    "year": "1984",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Unbearable Lightness of Being by Milan Kundera (1984).jpg",
+    "cover_filename_slug": "the-unbearable-lightness-of-being-by-milan-kundera-1984.jpg"
+  },
+  {
+    "title": "The Underground Railroad",
+    "author": "Colson Whitehead",
+    "year": "2016",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Underground Railroad by Colson Whitehead (2016).jpg",
+    "cover_filename_slug": "the-underground-railroad-by-colson-whitehead-2016.jpg"
+  },
+  {
+    "title": "The Unhoneymooners",
+    "author": "Christina Lauren",
+    "year": "2019",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Unhoneymooners by Christina Lauren (2019).jpg",
+    "cover_filename_slug": "the-unhoneymooners-by-christina-lauren-2019.jpg"
+  },
+  {
+    "title": "The Vampire Chronicles",
+    "author": "Anne Rice",
+    "year": "1976",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Vampire Chronicles by Anne Rice (1976).jpg",
+    "cover_filename_slug": "the-vampire-chronicles-by-anne-rice-1976.jpg"
+  },
+  {
+    "title": "The Vampire Chronicles: Interview with the Vampire",
+    "author": "Anne Rice",
+    "year": "1976",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Vampire Chronicles_ Interview with the Vampire by Anne Rice (1976).jpg",
+    "cover_filename_slug": "the-vampire-chronicles-interview-with-the-vampire-by-anne-rice-1976.jpg"
+  },
+  {
+    "title": "The Vanishing Half",
+    "author": "Brit Bennett",
+    "year": "2020",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Vanishing Half by Brit Bennett (2020).jpg",
+    "cover_filename_slug": "the-vanishing-half-by-brit-bennett-2020.jpg"
+  },
+  {
+    "title": "The Vegetarian",
+    "author": "Han Kang",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Vegetarian by Han Kang (2007).jpg",
+    "cover_filename_slug": "the-vegetarian-by-han-kang-2007.jpg"
+  },
+  {
+    "title": "The White Guard",
+    "author": "Mikhail Bulgakov",
+    "year": "1925",
+    "region": null,
+    "description": null,
+    "cover_filename": "The White Guard by Mikhail Bulgakov (1925).jpg",
+    "cover_filename_slug": "the-white-guard-by-mikhail-bulgakov-1925.jpg"
+  },
+  {
+    "title": "The White Tiger",
+    "author": "Aravind Adiga",
+    "year": "2008",
+    "region": null,
+    "description": null,
+    "cover_filename": "The White Tiger by Aravind Adiga (2008).jpg",
+    "cover_filename_slug": "the-white-tiger-by-aravind-adiga-2008.jpg"
+  },
+  {
+    "title": "The Wind-Up Bird Chronicle",
+    "author": "Haruki Murakami",
+    "year": "1994",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Wind-Up Bird Chronicle by Haruki Murakami (1994).jpg",
+    "cover_filename_slug": "the-wind-up-bird-chronicle-by-haruki-murakami-1994.jpg"
+  },
+  {
+    "title": "The Woman in the Window",
+    "author": "A.J. Finn",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Woman in the Window by A.J. Finn (2018).jpg",
+    "cover_filename_slug": "the-woman-in-the-window-by-aj-finn-2018.jpg"
+  },
+  {
+    "title": "The Yacoubian Building",
+    "author": "Alaa Al Aswany",
+    "year": "2002",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Yacoubian Building by Alaa Al Aswany (2002).jpg",
+    "cover_filename_slug": "the-yacoubian-building-by-alaa-al-aswany-2002.jpg"
+  },
+  {
+    "title": "The Yiddish Policemens Union",
+    "author": "Michael Chabon",
+    "year": "2007",
+    "region": null,
+    "description": null,
+    "cover_filename": "The Yiddish Policemens Union by Michael Chabon (2007).jpg",
+    "cover_filename_slug": "the-yiddish-policemens-union-by-michael-chabon-2007.jpg"
+  },
+  {
+    "title": "Their Eyes Were Watching God",
+    "author": "Zora Neale Hurston",
+    "year": "1937",
+    "region": null,
+    "description": null,
+    "cover_filename": "Their Eyes Were Watching God by Zora Neale Hurston (1937).jpg",
+    "cover_filename_slug": "their-eyes-were-watching-god-by-zora-neale-hurston-1937.jpg"
+  },
+  {
+    "title": "There There",
+    "author": "Tommy Orange",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "There There by Tommy Orange (2018).jpg",
+    "cover_filename_slug": "there-there-by-tommy-orange-2018.jpg"
+  },
+  {
+    "title": "They Both Die at the End",
+    "author": "Adam Silvera",
+    "year": "2017",
+    "region": null,
+    "description": null,
+    "cover_filename": "They Both Die at the End by Adam Silvera (2017).jpg",
+    "cover_filename_slug": "they-both-die-at-the-end-by-adam-silvera-2017.jpg"
+  },
+  {
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "year": "1958",
+    "region": null,
+    "description": null,
+    "cover_filename": "Things Fall Apart by Chinua Achebe (1958).jpg",
+    "cover_filename_slug": "things-fall-apart-by-chinua-achebe-1958.jpg"
+  },
+  {
+    "title": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "Throne of Glass by Sarah J. Maas (2012).jpg",
+    "cover_filename_slug": "throne-of-glass-by-sarah-j-maas-2012.jpg"
+  },
+  {
+    "title": "To All the Boys I've Loved Before",
+    "author": "Jenny Han",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "To All the Boys I've Loved Before by Jenny Han (2014).jpg",
+    "cover_filename_slug": "to-all-the-boys-ive-loved-before-by-jenny-han-2014.jpg"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": "1960",
+    "region": null,
+    "description": null,
+    "cover_filename": "To Kill a Mockingbird by Harper Lee (1960).jpg",
+    "cover_filename_slug": "to-kill-a-mockingbird-by-harper-lee-1960.jpg"
+  },
+  {
+    "title": "To Live",
+    "author": "Yu Hua",
+    "year": "1993",
+    "region": null,
+    "description": null,
+    "cover_filename": "To Live by Yu Hua (1993).jpg",
+    "cover_filename_slug": "to-live-by-yu-hua-1993.jpg"
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "year": "1927",
+    "region": null,
+    "description": null,
+    "cover_filename": "To the Lighthouse by Virginia Woolf (1927).jpg",
+    "cover_filename_slug": "to-the-lighthouse-by-virginia-woolf-1927.jpg"
+  },
+  {
+    "title": "True Blood Series",
+    "author": "Charlaine Harris",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "True Blood Series by Charlaine Harris (2001).jpg",
+    "cover_filename_slug": "true-blood-series-by-charlaine-harris-2001.jpg"
+  },
+  {
+    "title": "True Blood series: Dead Until Dark",
+    "author": "Charlaine Harris",
+    "year": "2001",
+    "region": null,
+    "description": null,
+    "cover_filename": "True Blood series_ Dead Until Dark by Charlaine Harris (2001).jpg",
+    "cover_filename_slug": "true-blood-series-dead-until-dark-by-charlaine-harris-2001.jpg"
+  },
+  {
+    "title": "True History Of The Kelly Gang",
+    "author": "Peter Carey",
+    "year": "2000",
+    "region": null,
+    "description": null,
+    "cover_filename": "True History Of The Kelly Gang by Peter Carey (2000).jpg",
+    "cover_filename_slug": "true-history-of-the-kelly-gang-by-peter-carey-2000.jpg"
+  },
+  {
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "year": "2005",
+    "region": null,
+    "description": null,
+    "cover_filename": "Twilight by Stephenie Meyer (2005).jpg",
+    "cover_filename_slug": "twilight-by-stephenie-meyer-2005.jpg"
+  },
+  {
+    "title": "Twisted Games",
+    "author": "Ana Huang",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "Twisted Games by Ana Huang (2021).jpg",
+    "cover_filename_slug": "twisted-games-by-ana-huang-2021.jpg"
+  },
+  {
+    "title": "Twisted Hate",
+    "author": "Ana Huang",
+    "year": "2022",
+    "region": null,
+    "description": null,
+    "cover_filename": "Twisted Hate by Ana Huang (2022).jpg",
+    "cover_filename_slug": "twisted-hate-by-ana-huang-2022.jpg"
+  },
+  {
+    "title": "Twisted Love",
+    "author": "Ana Huang",
+    "year": "2021",
+    "region": null,
+    "description": null,
+    "cover_filename": "Twisted Love by Ana Huang (2021).jpg",
+    "cover_filename_slug": "twisted-love-by-ana-huang-2021.jpg"
+  },
+  {
+    "title": "Ugly Love",
+    "author": "Colleen Hoover",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ugly Love by Colleen Hoover (2014).jpg",
+    "cover_filename_slug": "ugly-love-by-colleen-hoover-2014.jpg"
+  },
+  {
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "year": "1922",
+    "region": null,
+    "description": null,
+    "cover_filename": "Ulysses by James Joyce (1922).jpg",
+    "cover_filename_slug": "ulysses-by-james-joyce-1922.jpg"
+  },
+  {
+    "title": "Underworld",
+    "author": "Don Delillo",
+    "year": "1997",
+    "region": null,
+    "description": null,
+    "cover_filename": "Underworld by Don Delillo (1997).jpg",
+    "cover_filename_slug": "underworld-by-don-delillo-1997.jpg"
+  },
+  {
+    "title": "V",
+    "author": "Thomas Pynchon",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "V by Thomas Pynchon.jpg",
+    "cover_filename_slug": "v-by-thomas-pynchon.jpg"
+  },
+  {
+    "title": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "year": "1848",
+    "region": null,
+    "description": null,
+    "cover_filename": "Vanity Fair by William Makepeace Thackeray (1848).jpg",
+    "cover_filename_slug": "vanity-fair-by-william-makepeace-thackeray-1848.jpg"
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Verity by Colleen Hoover (2018).jpg",
+    "cover_filename_slug": "verity-by-colleen-hoover-2018.jpg"
+  },
+  {
+    "title": "Waiting For The Barbarians",
+    "author": "J M Coetzee",
+    "year": "1980",
+    "region": null,
+    "description": null,
+    "cover_filename": "Waiting For The Barbarians by J M Coetzee (1980).jpg",
+    "cover_filename_slug": "waiting-for-the-barbarians-by-j-m-coetzee-1980.jpg"
+  },
+  {
+    "title": "Walden",
+    "author": "Henry David Thoreau",
+    "year": "1854",
+    "region": null,
+    "description": null,
+    "cover_filename": "Walden by Henry David Thoreau (1854).jpg",
+    "cover_filename_slug": "walden-by-henry-david-thoreau-1854.jpg"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": "1869",
+    "region": null,
+    "description": null,
+    "cover_filename": "War and Peace by Leo Tolstoy (1869).jpg",
+    "cover_filename_slug": "war-and-peace-by-leo-tolstoy-1869.jpg"
+  },
+  {
+    "title": "Watchmen",
+    "author": "Alan Moore Dave Gibbons 198687",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "Watchmen by Alan Moore Dave Gibbons 198687.jpg",
+    "cover_filename_slug": "watchmen-by-alan-moore-dave-gibbons-198687.jpg"
+  },
+  {
+    "title": "Water for Elephants",
+    "author": "Sara Gruen",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "Water for Elephants by Sara Gruen (2006).jpg",
+    "cover_filename_slug": "water-for-elephants-by-sara-gruen-2006.jpg"
+  },
+  {
+    "title": "We",
+    "author": "Yevgeny Zamyatin",
+    "year": "1921",
+    "region": null,
+    "description": null,
+    "cover_filename": "We by Yevgeny Zamyatin (1921).jpg",
+    "cover_filename_slug": "we-by-yevgeny-zamyatin-1921.jpg"
+  },
+  {
+    "title": "We Were Liars",
+    "author": "E. Lockhart",
+    "year": "2014",
+    "region": null,
+    "description": null,
+    "cover_filename": "We Were Liars by E. Lockhart (2014).jpg",
+    "cover_filename_slug": "we-were-liars-by-e-lockhart-2014.jpg"
+  },
+  {
+    "title": "Weep Not Child",
+    "author": "Ngugi Wa Thiongo",
+    "year": "1964",
+    "region": null,
+    "description": null,
+    "cover_filename": "Weep Not Child by Ngugi Wa Thiongo (1964).jpg",
+    "cover_filename_slug": "weep-not-child-by-ngugi-wa-thiongo-1964.jpg"
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "year": "2018",
+    "region": null,
+    "description": null,
+    "cover_filename": "Where the Crawdads Sing by Delia Owens (2018).jpg",
+    "cover_filename_slug": "where-the-crawdads-sing-by-delia-owens-2018.jpg"
+  },
+  {
+    "title": "White Noise",
+    "author": "Don DeLillo",
+    "year": "1985",
+    "region": null,
+    "description": null,
+    "cover_filename": "White Noise by Don DeLillo (1985).jpg",
+    "cover_filename_slug": "white-noise-by-don-delillo-1985.jpg"
+  },
+  {
+    "title": "White Royal Blue",
+    "author": "Casey Mcriston",
+    "year": "Unknown",
+    "region": null,
+    "description": null,
+    "cover_filename": "White Royal Blue by Casey Mcriston.jpg",
+    "cover_filename_slug": "white-royal-blue-by-casey-mcriston.jpg"
+  },
+  {
+    "title": "White Teeth",
+    "author": "Zadie Smith",
+    "year": "2000",
+    "region": null,
+    "description": null,
+    "cover_filename": "White Teeth by Zadie Smith (2000).jpg",
+    "cover_filename_slug": "white-teeth-by-zadie-smith-2000.jpg"
+  },
+  {
+    "title": "Wild",
+    "author": "Cheryl Strayed",
+    "year": "2012",
+    "region": null,
+    "description": null,
+    "cover_filename": "Wild by Cheryl Strayed (2012).jpg",
+    "cover_filename_slug": "wild-by-cheryl-strayed-2012.jpg"
+  },
+  {
+    "title": "Wizard Of The Crow",
+    "author": "Ngugi Wa Thiongo",
+    "year": "2004",
+    "region": null,
+    "description": null,
+    "cover_filename": "Wizard Of The Crow by Ngugi Wa Thiongo (2004).jpg",
+    "cover_filename_slug": "wizard-of-the-crow-by-ngugi-wa-thiongo-2004.jpg"
+  },
+  {
+    "title": "World War Z",
+    "author": "Max Brooks",
+    "year": "2006",
+    "region": null,
+    "description": null,
+    "cover_filename": "World War Z by Max Brooks (2006).jpg",
+    "cover_filename_slug": "world-war-z-by-max-brooks-2006.jpg"
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": "1847",
+    "region": null,
+    "description": null,
+    "cover_filename": "Wuthering Heights by Emily Brontë (1847).jpg",
+    "cover_filename_slug": "wuthering-heights-by-emily-bronte-1847.jpg"
+  },
+  {
+    "title": "Young Goodman Brown",
+    "author": "Nathaniel Hawthorne",
+    "year": "1835",
+    "region": null,
+    "description": null,
+    "cover_filename": "Young Goodman Brown by Nathaniel Hawthorne (1835).jpg",
+    "cover_filename_slug": "young-goodman-brown-by-nathaniel-hawthorne-1835.jpg"
+  }
+]

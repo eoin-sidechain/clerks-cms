@@ -1,0 +1,2712 @@
+[
+  {
+    "id": "welcome-intro-video",
+    "type": "video_statement",
+    "title": "You are invited to be a Clerk.",
+    "properties": {
+      "button_text": "Let's Begin",
+      "content": [
+        "Clerks is a sacred membership society dedicated to the preservation of culture. Clerks is led by Q-Tip and RZA, and designed to last for 1000 years. We think you can help us.",
+        {
+          "link": "/videos/clerks-welcome.mp4",
+          "name": "Welcome"
+        },
+        "To offer you membership, we must test your kindness, curiosity and willingness to serve. There is no right or wrong answer to any question.",
+        "Please create a peaceful environment for yourself and focus for the next 30 minutes. Rest assured, your private information will never be shared with anyone, for any reason, without your consent."
+      ]
+    }
+  },
+  {
+    "id": "clerk-full-name",
+    "type": "question",
+    "title": "What is your full name?",
+    "required": true,
+    "properties": {
+      "placeholder": "First and Last Name"
+    },
+    "description": "We need your complete name for our records",
+    "questionType": "short_text"
+  },
+  {
+    "id": "clerk-email",
+    "type": "question",
+    "title": "What is your email address?",
+    "required": true,
+    "properties": {
+      "placeholder": "your.email@example.com"
+    },
+    "description": "We'll use this to contact you about your application status",
+    "questionType": "short_text"
+  },
+  {
+    "id": "clerk-phone",
+    "type": "question",
+    "title": "What is your phone number?",
+    "subtitle": "Soon after you finish, a Clerk will call to discuss your application.",
+    "required": true,
+    "properties": {
+      "placeholder": "Your phone number with country code"
+    },
+    "description": "A Clerk will call you soon to discuss your application",
+    "questionType": "short_text"
+  },
+  {
+    "id": "clerk-social-media",
+    "type": "question",
+    "title": "What are your primary social media handles?",
+    "required": false,
+    "properties": {
+      "placeholder": "Instagram: @yourusername\nTwitter: @yourusername\nOther platforms..."
+    },
+    "description": "Please list your main social media accounts (Instagram, Twitter, etc.). This helps us understand your cultural engagement.",
+    "questionType": "long_text"
+  },
+  {
+    "id": "cultural-focus",
+    "type": "question",
+    "title": "Which cultural domains are you passionate about?",
+    "required": true,
+    "properties": {
+      "choices": [
+        {
+          "id": "music",
+          "label": "Music"
+        },
+        {
+          "id": "visual-art",
+          "label": "Visual Art"
+        },
+        {
+          "id": "film-cinema",
+          "label": "Film & Cinema"
+        },
+        {
+          "id": "literature",
+          "label": "Literature"
+        },
+        {
+          "id": "theater-performance",
+          "label": "Theater & Performance Art"
+        },
+        {
+          "id": "fashion-design",
+          "label": "Fashion & Design"
+        },
+        {
+          "id": "architecture",
+          "label": "Architecture & Spatial Design"
+        },
+        {
+          "id": "culinary-arts",
+          "label": "Culinary Arts & Food Culture"
+        }
+      ],
+      "allow_multiple_selection": true,
+      "max_selections": 3
+    },
+    "description": "As a potential Clerk, we want to understand where your expertise and passion lie",
+    "questionType": "multiple_choice"
+  },
+  {
+    "id": "cultural-engagement",
+    "type": "question",
+    "title": "Which cultural domains would you like to learn more about?",
+    "required": true,
+    "properties": {
+      "choices": [
+        {
+          "id": "music",
+          "label": "Music"
+        },
+        {
+          "id": "visual-art",
+          "label": "Visual Art"
+        },
+        {
+          "id": "film-cinema",
+          "label": "Film & Cinema"
+        },
+        {
+          "id": "literature",
+          "label": "Literature"
+        },
+        {
+          "id": "theater-performance",
+          "label": "Theater & Performance Art"
+        },
+        {
+          "id": "fashion-design",
+          "label": "Fashion & Design"
+        },
+        {
+          "id": "architecture",
+          "label": "Architecture & Spatial Design"
+        },
+        {
+          "id": "culinary-arts",
+          "label": "Culinary Arts & Food Culture"
+        }
+      ],
+      "allow_multiple_selection": true,
+      "max_selections": 3
+    },
+    "description": "We want to understand your active participation in cultural life",
+    "questionType": "multiple_choice"
+  },
+  {
+    "id": "cultural-desire",
+    "type": "question",
+    "title": "How do you currently engage with culture and the arts?",
+    "required": true,
+    "properties": {
+      "choices": [
+        {
+          "id": "create-original",
+          "label": "I create original works (music, art, writing, etc.)"
+        },
+        {
+          "id": "curate-collect",
+          "label": "I curate and collect works by others"
+        },
+        {
+          "id": "attend-events",
+          "label": "I regularly attend concerts, exhibitions, readings"
+        },
+        {
+          "id": "write-critique",
+          "label": "I write reviews, criticism, or commentary"
+        },
+        {
+          "id": "support-artists",
+          "label": "I financially support living artists"
+        },
+        {
+          "id": "teach-share",
+          "label": "I teach or share knowledge with others"
+        },
+        {
+          "id": "research-study",
+          "label": "I research and study cultural history"
+        },
+        {
+          "id": "community-organize",
+          "label": "I organize cultural events in my community"
+        },
+        {
+          "id": "group-chat-hero",
+          "label": "I have the best taste in the group chat"
+        }
+      ],
+      "allow_multiple_selection": true,
+      "max_selections": 3
+    },
+    "description": "We want to understand your active participation in cultural life",
+    "questionType": "multiple_choice"
+  },
+  {
+    "id": "masterpiece-nomination",
+    "type": "question",
+    "title": "What work of art means the most to you?",
+    "subtitle": "Tell us about the album, film, book or artwork that has become a part of you.",
+    "required": true,
+    "properties": {
+      "placeholder": "Think of a work that you believe deserves preservation for future generations..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "artist-funding",
+    "type": "question",
+    "title": "Tell us about an artist who needs funding.",
+    "subtitle": "If you could direct $50,000 to an artist with no strings attached, who would you choose and why?",
+    "required": true,
+    "properties": {
+      "placeholder": "Name the artist and explain why they deserve this support..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "hosting-clerks",
+    "type": "question",
+    "title": "How are we going to have fun together?",
+    "subtitle": "You are my guide around your city. What are we doing?",
+    "required": true,
+    "properties": {
+      "placeholder": "Describe the cultural experiences you'd share with visiting Clerks..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-225",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "beastie-boys-pauls-boutique-1989",
+          "label": "Paul's Boutique (Beastie Boys)",
+          "image_url": "/images/music/beastie-boys-pauls-boutique-1989.jpg",
+          "description": ""
+        },
+        {
+          "id": "duran-duran-rio-1982",
+          "label": "Rio (Duran Duran)",
+          "image_url": "/images/music/duran-duran-rio-1982.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-7",
+    "type": "question",
+    "title": "Tell us about the movie you've seen the most.",
+    "required": true,
+    "properties": {
+      "placeholder": "What film have you watched over and over..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-greatest-fear",
+    "type": "question",
+    "title": "What is your greatest fear?",
+    "required": true,
+    "properties": {
+      "placeholder": "Share what truly frightens you..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-211",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "cat-stevens-tea-for-the-tillerman-1970",
+          "label": "Tea for the Tillerman (Cat Stevens)",
+          "image_url": "/images/music/cat-stevens-tea-for-the-tillerman-1970.jpg",
+          "description": ""
+        },
+        {
+          "id": "jamie-xx-in-colour-2015",
+          "label": "In Colour (Jamie xx)",
+          "image_url": "/images/music/jamie-xx-in-colour-2015.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-9",
+    "type": "question",
+    "title": "What is the perfect date night film? Why?",
+    "required": true,
+    "properties": {
+      "placeholder": "Your go-to movie for a romantic evening..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "music-first-purchase",
+    "type": "question",
+    "title": "What was the first album, book, film or work of art you purchased with your own money?",
+    "required": true,
+    "properties": {
+      "placeholder": "The first thing you bought yourself..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "music-tt-5",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "van-morrison-astral-weeks-1968",
+          "label": "Astral Weeks (Van Morrison)",
+          "image_url": "/images/music/van-morrison-astral-weeks-1968.jpg"
+        },
+        {
+          "id": "outkast-stankonia-2000",
+          "label": "Stankonia (OutKast)",
+          "image_url": "/images/music/outkast-stankonia-2000.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-one-song-forever",
+    "type": "question",
+    "title": "You get one song to listen to for the rest of your life. What is it?",
+    "required": true,
+    "properties": {
+      "placeholder": "The song you'd never get tired of..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "cultural-q-14",
+    "type": "question",
+    "title": "Tell us a joke.",
+    "required": true,
+    "properties": {
+      "placeholder": "Make us laugh..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "music-rating-3",
+    "type": "question",
+    "title": "Rate \"Master of Puppets\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "metallica-master-of-puppets-1986",
+          "label": "Master of Puppets - Metallica",
+          "image_url": "/images/music/metallica-master-of-puppets-1986.jpg",
+          "description": "1986"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-tt-3-3",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "rem-automatic-for-the-people-1992",
+          "label": "Automatic for the People (R.E.M.)",
+          "image_url": "/images/music/rem-automatic-for-the-people-1992.jpg"
+        },
+        {
+          "id": "kanye-west-yeezus-2013",
+          "label": "Yeezus (Kanye West)",
+          "image_url": "/images/music/kanye-west-yeezus-2013.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-art-made-you-cry",
+    "type": "question",
+    "title": "What is the last piece of art that made you cry?",
+    "required": true,
+    "properties": {
+      "placeholder": "A song, movie, book, painting..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "cultural-q-13",
+    "type": "question",
+    "title": "What is your definition of the word 'taste'?",
+    "required": true,
+    "properties": {
+      "placeholder": "Define taste in your own words..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-living-person-admire",
+    "type": "question",
+    "title": "Which living person do you most admire?",
+    "required": true,
+    "properties": {
+      "placeholder": "Tell us about someone you look up to..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "music-rating-4",
+    "type": "question",
+    "title": "Rate \"Hot Buttered Soul\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "isaac-hayes-hot-buttered-soul-1969",
+          "label": "Hot Buttered Soul - Isaac Hayes",
+          "image_url": "/images/music/isaac-hayes-hot-buttered-soul-1969.jpg",
+          "description": "1969"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-1",
+    "type": "question",
+    "title": "Rate \"Fountain\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "218_Marcel_Duchamp_Fountain",
+          "label": "Fountain - Marcel Duchamp",
+          "image_url": "/images/art/218_Marcel_Duchamp_Fountain.jpg",
+          "description": "1917"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rk-2-2",
+    "type": "question",
+    "title": "Rank these albums",
+    "required": true,
+    "questionType": "ranking",
+    "description": "Order from favorite to least favorite.",
+    "properties": {
+      "choices": [
+        {
+          "id": "talking-heads-remain-in-light-1980",
+          "label": "Remain in Light (Talking Heads)",
+          "image_url": "/images/music/talking-heads-remain-in-light-1980.jpg"
+        },
+        {
+          "id": "the-police-synchronicity-1983",
+          "label": "The Police (Synchronicity)",
+          "image_url": "/images/music/the-police-synchronicity-1983.jpg"
+      },
+        {
+          "id": "patti-smith-horses-1975",
+          "label": "Horses (Patti Smith)",
+          "image_url": "/images/music/patti-smith-horses-1975.jpg"
+        },
+        {
+          "id": "the-strokes-is-this-it-2001",
+          "label": "Is This It (The Strokes)",
+          "image_url": "/images/music/the-strokes-is-this-it-2001.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-1",
+    "type": "question",
+    "title": "Tell us about your very first favorite album. Be honest!",
+    "required": true,
+    "properties": {
+      "placeholder": "What was the first album you truly loved..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "cultural-q-2",
+    "type": "question",
+    "title": "What was your favorite album when you were a teen? Why?",
+    "required": true,
+    "properties": {
+      "placeholder": "Tell us about the album that defined your teenage years..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "cultural-q-3",
+    "type": "question",
+    "title": "Tell us about your favorite album right now.",
+    "required": true,
+    "properties": {
+      "placeholder": "What album are you loving most at this moment..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-value-friends",
+    "type": "question",
+    "title": "What quality you most value in your friends?",
+    "required": true,
+    "properties": {
+      "placeholder": "What qualities matter most to you in friendship?..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-art-culture-opinion",
+    "type": "question",
+    "title": "What is your opinion on the current state of art & culture?",
+    "required": true,
+    "properties": {
+      "placeholder": "Share your thoughts on where art and culture are headed..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-213",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "wall-e-2008-andrew-stanton",
+          "label": "WALL-E (Andrew Stanton)",
+          "image_url": "/images/movies/wall-e-2008-andrew-stanton.jpg",
+          "description": ""
+        },
+        {
+          "id": "platoon-1986-oliver-stone",
+          "label": "Platoon (Oliver Stone)",
+          "image_url": "/images/movies/platoon-1986-oliver-stone.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-12",
+    "type": "question",
+    "title": "What kind of art do you make?",
+    "required": true,
+    "properties": {
+      "placeholder": "Tell us about your creative practice..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-218",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "breathless-1960-jean-luc-godard",
+          "label": "Breathless (Jean-Luc Godard)",
+          "image_url": "/images/movies/breathless-1960-jean-luc-godard.jpg",
+          "description": ""
+        },
+        {
+          "id": "heat-1995-michael-mann",
+          "label": "Heat (Michael Mann)",
+          "image_url": "/images/movies/heat-1995-michael-mann.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-occasions-you-lie",
+    "type": "question",
+    "title": "On what occasion do you lie?",
+    "required": true,
+    "properties": {
+      "placeholder": "White lies to spare feelings, avoiding conflict, protecting privacy..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-208",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "a-monster-calls-2016-ja-bayona",
+          "label": "A Monster Calls (J.A. Bayona)",
+          "image_url": "/images/movies/a-monster-calls-2016-ja-bayona.jpg",
+          "description": ""
+        },
+        {
+          "id": "blade-runner-1982-ridley-scott",
+          "label": "Blade Runner (Ridley Scott)",
+          "image_url": "/images/movies/blade-runner-1982-ridley-scott.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "book-rainy-day-entertainment",
+    "type": "question",
+    "title": "It's raining. What are you reading? Or listening to? Or watching?",
+    "required": true,
+    "properties": {
+      "placeholder": "Your perfect rainy day activity..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "movies-rating-3",
+    "type": "question",
+    "title": "Rate \"Get Out\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "get-out-2017-jordan-peele",
+          "label": "Get Out",
+          "image_url": "/images/movies/get-out-2017-jordan-peele.jpg",
+          "description": "2017"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-235",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-sting-1973-george-roy-hill",
+          "label": "The Sting (George Roy Hill)",
+          "image_url": "/images/movies/the-sting-1973-george-roy-hill.jpg"
+        },
+        {
+          "id": "the-big-short-2015-adam-mckay",
+          "label": "The Big Short (Adam McKay)",
+          "image_url": "/images/movies/the-big-short-2015-adam-mckay.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-greatest-achievement",
+    "type": "question",
+    "title": "What do you consider your greatest achievement?",
+    "required": true,
+    "properties": {
+      "placeholder": "What accomplishment are you most proud of?..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-238",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "derek-and-the-dominos-layla-and-other-assorted-love-songs-1970",
+          "label": "Layla (Derek and the Dominos)",
+          "image_url": "/images/music/derek-and-the-dominos-layla-and-other-assorted-love-songs-1970.jpg",
+          "description": ""
+        },
+        {
+          "id": "burial-untrue-2007",
+          "label": "Untrue (Burial)",
+          "image_url": "/images/music/burial-untrue-2007.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-15",
+    "type": "question",
+    "title": "What is the quality you most desire in a man?",
+    "required": true,
+    "properties": {
+      "placeholder": "Tell us about what you value in men..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "cultural-q-16",
+    "type": "question",
+    "title": "What is the quality you most desire in a woman?",
+    "required": true,
+    "properties": {
+      "placeholder": "Tell us about what you value in women..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "cultural-q-5",
+    "type": "question",
+    "title": "Tell us about a book you were forced to read in school and then really loved?",
+    "required": true,
+    "properties": {
+      "placeholder": "A book that surprised you..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-best-sandwich",
+    "type": "question",
+    "title": "Best sandwich?",
+    "required": true,
+    "properties": {
+      "placeholder": "Grilled cheese, BLT, Italian sub... 🥪"
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "books-rating-2",
+    "type": "question",
+    "title": "Rate \"Fifty Shades of Grey\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "fifty-shades-of-grey-by-el-james-2011",
+          "label": "Fifty Shades of Grey - E.L. James",
+          "image_url": "/images/books/fifty-shades-of-grey-by-el-james-2011.jpg",
+          "description": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-3",
+    "type": "question",
+    "title": "Rate \"Invisible Man\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "invisible-man-by-ralph-ellison-1952",
+          "label": "Invisible Man - Ralph Ellison",
+          "image_url": "/images/books/invisible-man-by-ralph-ellison-1952.jpg",
+          "description": "1952"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-226",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "janet-jackson-control-1986",
+          "label": "Control (Janet Jackson)",
+          "image_url": "/images/music/janet-jackson-control-1986.jpg",
+          "description": ""
+        },
+        {
+          "id": "new-order-power-corruption-lies-1983",
+          "label": "Power, Corruption & Lies (New Order)",
+          "image_url": "/images/music/new-order-power-corruption-lies-1983.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-8",
+    "type": "question",
+    "title": "Your best friend just got dumped. What work of art do you recommend to them?",
+    "required": true,
+    "properties": {
+      "placeholder": "What would help them heal..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-245",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "pixies-surfer-rosa-1988",
+          "label": "Surfer Rosa (Pixies)",
+          "image_url": "/images/music/pixies-surfer-rosa-1988.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-roots-things-fall-apart-1999",
+          "label": "Things Fall Apart (The Roots)",
+          "image_url": "/images/music/the-roots-things-fall-apart-1999.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-time-machine",
+    "type": "question",
+    "title": "You have a time machine, but you can only use it to go back in time (and return) three times. Each stay is a single day. Where and when do you visit?",
+    "required": true,
+    "properties": {
+      "placeholder": "Describe your three time travel destinations..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "movie-tt-8",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-godfather-1972-francis-ford-coppola",
+          "label": "The Godfather (Francis Ford Coppola)",
+          "image_url": "/images/movies/the-godfather-1972-francis-ford-coppola.jpg"
+        },
+        {
+          "id": "annie-hall-1977-woody-allen",
+          "label": "Annie Hall (Woody Allen)",
+          "image_url": "/images/movies/annie-hall-1977-woody-allen.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "tt-214",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "inside-out-2015-pete-docter",
+          "label": "Inside Out (Pete Docter)",
+          "image_url": "/images/movies/inside-out-2015-pete-docter.jpg",
+          "description": ""
+        },
+        {
+          "id": "full-metal-jacket-1987-stanley-kubrick",
+          "label": "Full Metal Jacket (Stanley Kubrick)",
+          "image_url": "/images/movies/full-metal-jacket-1987-stanley-kubrick.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-favorite-hero",
+    "type": "question",
+    "title": "Who is your favorite hero of fiction?",
+    "required": true,
+    "properties": {
+      "placeholder": "Harry Potter, Elizabeth Bennet, Batman..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "art-rating-7",
+    "type": "question",
+    "title": "Rate \"Sky Mirror\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "038_Anish_Kapoor_Sky_Mirror",
+          "label": "Sky Mirror - Anish Kapoor",
+          "image_url": "/images/art/038_Anish_Kapoor_Sky_Mirror.jpg",
+          "description": "2006"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-228",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "etta-james-at-last-1960",
+          "label": "At Last! (Etta James)",
+          "image_url": "/images/music/etta-james-at-last-1960.jpg",
+          "description": ""
+        },
+        {
+          "id": "kanye-west-my-beautiful-dark-twisted-fantasy-2010",
+          "label": "My Beautiful Dark Twisted Fantasy (Kanye West)",
+          "image_url": "/images/music/kanye-west-my-beautiful-dark-twisted-fantasy-2010.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-overrated-virtue",
+    "type": "question",
+    "title": "What do you consider the most overrated virtue?",
+    "required": true,
+    "properties": {
+      "placeholder": "Perfectionism, blind optimism, total honesty..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-209",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-spirit-of-the-beehive-1973-victor-erice",
+          "label": "The Spirit of the Beehive (Víctor Erice)",
+          "image_url": "/images/movies/the-spirit-of-the-beehive-1973-victor-erice.jpg",
+          "description": ""
+        },
+        {
+          "id": "ex-machina-2014-alex-garland",
+          "label": "Ex Machina (Alex Garland)",
+          "image_url": "/images/movies/ex-machina-2014-alex-garland.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "general-lesson-hard-way",
+    "type": "question",
+    "title": "What is a lesson you learned the hard way?",
+    "required": true,
+    "properties": {
+      "placeholder": "Share a difficult experience that taught you something important..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "movies-rating-6",
+    "type": "question",
+    "title": "Rate \"The 400 Blows\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "the-400-blows-1959-francois-truffaut",
+          "label": "The 400 Blows",
+          "image_url": "/images/movies/the-400-blows-1959-francois-truffaut.jpg",
+          "description": "1959"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-17",
+    "type": "question",
+    "title": "What do you want for a gift on your 100th birthday?",
+    "required": true,
+    "properties": {
+      "placeholder": "Imagine your centennial celebration..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "general-greatest-extravagance",
+    "type": "question",
+    "title": "What is your greatest extravagance?",
+    "required": true,
+    "properties": {
+      "placeholder": "What do you splurge on or indulge in?..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "music-ultimate-art-form",
+    "type": "question",
+    "title": "What do you think is the ultimate art form?",
+    "required": true,
+    "properties": {
+      "placeholder": "Music, film, literature, painting..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-203",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "sly-the-family-stone-theres-a-riot-goin-on-1971",
+          "label": "There's a Riot Goin' On (Sly & The Family Stone)",
+          "image_url": "/images/music/sly-the-family-stone-theres-a-riot-goin-on-1971.jpg",
+          "description": ""
+        },
+        {
+          "id": "interpol-turn-on-the-bright-lights-2002",
+          "label": "Turn On the Bright Lights (Interpol)",
+          "image_url": "/images/music/interpol-turn-on-the-bright-lights-2002.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-perfect-happiness",
+    "type": "question",
+    "title": "What is your idea of perfect happiness?",
+    "required": true,
+    "properties": {
+      "placeholder": "Describe what perfect happiness means to you..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "books-rating-7",
+    "type": "question",
+    "title": "Rate \"The Hobbit\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "the-hobbit-by-jrr-tolkien-1937",
+          "label": "The Hobbit - J.R.R. Tolkien",
+          "image_url": "/images/books/the-hobbit-by-jrr-tolkien-1937.jpg",
+          "description": "1937"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-8",
+    "type": "question",
+    "title": "Rate \"Water Lilies\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "213_Claude_Monet_Water_Lilies",
+          "label": "Water Lilies - Claude Monet",
+          "image_url": "/images/art/213_Claude_Monet_Water_Lilies.jpg",
+          "description": "1919"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-11",
+    "type": "question",
+    "title": "Aliens will destroy Earth unless we can prove our worth with a song. Who is singing and what is the song?",
+    "required": true,
+    "properties": {
+      "placeholder": "Save humanity with music..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "music-tt-7",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-clash-london-calling-1979",
+          "label": "London Calling (The Clash)",
+          "image_url": "/images/music/the-clash-london-calling-1979.jpg"
+        },
+        {
+          "id": "wu-tang-clan-enter-the-wu-tang-36-chambers-1993",
+          "label": "Enter the Wu-Tang (36 Chambers) (Wu-Tang Clan)",
+          "image_url": "/images/music/wu-tang-clan-enter-the-wu-tang-36-chambers-1993.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-road-trip-music",
+    "type": "question",
+    "title": "You're on a road trip with two kids under 10. What music are you playing?",
+    "required": true,
+    "properties": {
+      "placeholder": "Disney soundtracks, Taylor Swift, The Beatles..."
+    },
+    "questionType": "short_text"
+  },
+  {
+    "id": "movies-rating-1",
+    "type": "question",
+    "title": "Rate \"Do the Right Thing\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "do-the-right-thing-1989-spike-lee",
+          "label": "Do the Right Thing",
+          "image_url": "/images/movies/do-the-right-thing-1989-spike-lee.jpg",
+          "description": "1989"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-204",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "alphaville-1965-jean-luc-godard",
+          "label": "Alphaville (Jean-Luc Godard)",
+          "image_url": "/images/movies/alphaville-1965-jean-luc-godard.jpg",
+          "description": ""
+        },
+        {
+          "id": "no-country-for-old-men-2007-coen-brothers",
+          "label": "No Country for Old Men (Coen Brothers)",
+          "image_url": "/images/movies/no-country-for-old-men-2007-coen-brothers.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rk-1-2",
+    "type": "question",
+    "title": "Rank these albums",
+    "required": true,
+    "questionType": "ranking",
+    "description": "Order from favorite to least favorite.",
+    "properties": {
+      "choices": [
+        {
+          "id": "david-bowie-ziggy-stardust-1972",
+          "label": "Ziggy Stardust (David Bowie)",
+          "image_url": "/images/music/david-bowie-ziggy-stardust-1972.jpg"
+        },
+        {
+          "id": "the-velvet-underground-the-velvet-underground-nico-1967",
+          "label": "The Velvet Underground & Nico (The Velvet Underground)",
+          "image_url": "/images/music/the-velvet-underground-the-velvet-underground-nico-1967.jpg"
+        },
+        {
+          "id": "my-bloody-valentine-loveless-1991",
+          "label": "Loveless (My Bloody Valentine)",
+          "image_url": "/images/music/my-bloody-valentine-loveless-1991.jpg"
+        },
+        {
+          "id": "joy-division-unknown-pleasures-1979",
+          "label": "Unknown Pleasures (Joy Division)",
+          "image_url": "/images/music/joy-division-unknown-pleasures-1979.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-205",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "lost-in-translation-2003-sofia-coppola",
+          "label": "Lost in Translation (Sofia Coppola)",
+          "image_url": "/images/movies/lost-in-translation-2003-sofia-coppola.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-social-network-2010-david-fincher",
+          "label": "The Social Network (David Fincher)",
+          "image_url": "/images/movies/the-social-network-2010-david-fincher.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "cultural-q-10",
+    "type": "question",
+    "title": "Best source material for comedy: Religion, Sex or Politics? Why?",
+    "required": true,
+    "properties": {
+      "placeholder": "What makes the best comedy..."
+    },
+    "questionType": "long_text"
+  },
+  {
+    "id": "tt-212",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "neil-young-after-the-gold-rush-1970",
+          "label": "After the Gold Rush (Neil Young)",
+          "image_url": "/images/music/neil-young-after-the-gold-rush-1970.jpg",
+          "description": ""
+        },
+        {
+          "id": "disclosure-settle-2013",
+          "label": "Settle (Disclosure)",
+          "image_url": "/images/music/disclosure-settle-2013.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movies-rating-8",
+    "type": "question",
+    "title": "Rate \"Spider-Man: Into the Spider-Verse\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman",
+          "label": "Spider-Man: Into the Spider-Verse",
+          "image_url": "/images/movies/spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman.jpg",
+          "description": "2018"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-231",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-beatles-revolver-1966",
+          "label": "Revolver (The Beatles)",
+          "image_url": "/images/music/the-beatles-revolver-1966.jpg",
+          "description": ""
+        },
+        {
+          "id": "television-marquee-moon-1977",
+          "label": "Marquee Moon (Television)",
+          "image_url": "/images/music/television-marquee-moon-1977.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-6",
+    "type": "question",
+    "title": "Rate \"Like a Virgin\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "madonna-like-a-virgin-1984",
+          "label": "Like a Virgin - Madonna",
+          "image_url": "/images/music/madonna-like-a-virgin-1984.jpg",
+          "description": "1984"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-202",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "curtis-mayfield-superfly-1972",
+          "label": "Superfly (Curtis Mayfield)",
+          "image_url": "/images/music/curtis-mayfield-superfly-1972.jpg",
+          "description": ""
+        },
+        {
+          "id": "animal-collective-merriweather-post-pavilion-2009",
+          "label": "Merriweather Post Pavilion (Animal Collective)",
+          "image_url": "/images/music/animal-collective-merriweather-post-pavilion-2009.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-1",
+    "type": "question",
+    "title": "Rate \"Head Hunters\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "herbie-hancock-head-hunters-1973",
+          "label": "Head Hunters - Herbie Hancock",
+          "image_url": "/images/music/herbie-hancock-head-hunters-1973.jpg",
+          "description": "1973"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-210",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "alicia-keys-songs-in-a-minor-2001",
+          "label": "Songs in A Minor (Alicia Keys)",
+          "image_url": "/images/music/alicia-keys-songs-in-a-minor-2001.jpg",
+          "description": ""
+        },
+        {
+          "id": "justice-cross-2007",
+          "label": "Cross (Justice)",
+          "image_url": "/images/music/justice-cross-2007.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-227",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "bruce-springsteen-born-in-the-usa-1984",
+          "label": "Born in the U.S.A. (Bruce Springsteen)",
+          "image_url": "/images/music/bruce-springsteen-born-in-the-usa-1984.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-cure-seventeen-seconds-1980",
+          "label": "Seventeen Seconds (The Cure)",
+          "image_url": "/images/music/the-cure-seventeen-seconds-1980.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-217",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "stalker-1979-andrei-tarkovsky",
+          "label": "Stalker (Andrei Tarkovsky)",
+          "image_url": "/images/movies/stalker-1979-andrei-tarkovsky.jpg",
+          "description": ""
+        },
+        {
+          "id": "inception-2010-christopher-nolan",
+          "label": "Inception (Christopher Nolan)",
+          "image_url": "/images/movies/inception-2010-christopher-nolan.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-10",
+    "type": "question",
+    "title": "Rate \"A Burial at Ornans\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "225_Gustave_Courbet_A_Burial_at_Ornans",
+          "label": "A Burial at Ornans - Gustave Courbet",
+          "image_url": "/images/art/225_Gustave_Courbet_A_Burial_at_Ornans.jpg",
+          "description": "1850"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-244",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-stone-roses-the-stone-roses-1989",
+          "label": "The Stone Roses (The Stone Roses)",
+          "image_url": "/images/music/the-stone-roses-the-stone-roses-1989.jpg",
+          "description": ""
+        },
+        {
+          "id": "mos-def-black-on-both-sides-1999",
+          "label": "Black on Both Sides (Mos Def)",
+          "image_url": "/images/music/mos-def-black-on-both-sides-1999.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-tt-1",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "fleetwood-mac-rumours-1977",
+          "label": "Rumours (Fleetwood Mac)",
+          "image_url": "/images/music/fleetwood-mac-rumours-1977.jpg"
+        },
+        {
+          "id": "frank-ocean-channel-orange-2012",
+          "label": "Channel Orange (Frank Ocean)",
+          "image_url": "/images/music/frank-ocean-channel-orange-2012.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-5",
+    "type": "question",
+    "title": "Rate \"Pumpkin\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "078_Yayoi_Kusama_Pumpkin",
+          "label": "Pumpkin - Yayoi Kusama",
+          "image_url": "/images/art/078_Yayoi_Kusama_Pumpkin.jpg",
+          "description": "Various"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-2",
+    "type": "question",
+    "title": "Rate \"Coat of Many Colors\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "dolly-parton-coat-of-many-colors-1971",
+          "label": "Coat of Many Colors - Dolly Parton",
+          "image_url": "/images/music/dolly-parton-coat-of-many-colors-1971.jpg",
+          "description": "1971"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-9",
+    "type": "question",
+    "title": "Rate \"The Birth of Venus\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "203_Sandro_Botticelli_The_Birth_of_Venus",
+          "label": "The Birth of Venus - Sandro Botticelli",
+          "image_url": "/images/art/203_Sandro_Botticelli_The_Birth_of_Venus.jpg",
+          "description": "1485"
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-1",
+    "type": "question",
+    "title": "Rate \"Beloved\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "beloved-by-toni-morrison-1987",
+          "label": "Beloved - Toni Morrison",
+          "image_url": "/images/books/beloved-by-toni-morrison-1987.jpg",
+          "description": "1987"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-215",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "coco-2017-lee-unkrich",
+          "label": "Coco (Lee Unkrich)",
+          "image_url": "/images/movies/coco-2017-lee-unkrich.jpg",
+          "description": ""
+        },
+        {
+          "id": "saving-private-ryan-1998-steven-spielberg",
+          "label": "Saving Private Ryan (Steven Spielberg)",
+          "image_url": "/images/movies/saving-private-ryan-1998-steven-spielberg.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-207",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "district-9-2009-neill-blomkamp",
+          "label": "District 9 (Neill Blomkamp)",
+          "image_url": "/images/movies/district-9-2009-neill-blomkamp.jpg"
+        },
+        {
+          "id": "interstellar-2014-christopher-nolan",
+          "label": "Interstellar (Christopher Nolan)",
+          "image_url": "/images/movies/interstellar-2014-christopher-nolan.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ],
+      "why_followup": {
+        "enabled": true,
+        "question": "What drew you to this particular choice?",
+        "placeholder": "Tell us more about what influenced your selection..."
+      }
+    }
+  },
+  {
+    "id": "music-tt-8-2",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "jimi-hendrix-are-you-experienced-1967",
+          "label": "Are You Experienced (Jimi Hendrix)",
+          "image_url": "/images/music/jimi-hendrix-are-you-experienced-1967.jpg"
+        },
+        {
+          "id": "kendrick-lamar-to-pimp-a-butterfly-2015",
+          "label": "To Pimp a Butterfly (Kendrick Lamar)",
+          "image_url": "/images/music/kendrick-lamar-to-pimp-a-butterfly-2015.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-tt-6",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "bruce-springsteen-born-to-run-1975",
+          "label": "Born to Run (Bruce Springsteen)",
+          "image_url": "/images/music/bruce-springsteen-born-to-run-1975.jpg"
+        },
+        {
+          "id": "kendrick-lamar-good-kid-maad-city-2012",
+          "label": "good kid, m.A.A.d city (Kendrick Lamar)",
+          "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-255",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "bob-dylan-blood-on-the-tracks-1975",
+          "label": "Blood on the Tracks (Bob Dylan)",
+          "image_url": "/images/music/bob-dylan-blood-on-the-tracks-1975.jpg",
+          "description": ""
+        },
+        {
+          "id": "run-the-jewels-run-the-jewels-2-2014",
+          "label": "Run the Jewels 2 (Run the Jewels)",
+          "image_url": "/images/music/run-the-jewels-run-the-jewels-2-2014.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-8",
+    "type": "question",
+    "title": "Rate \"The Scarlet Letter\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "the-scarlet-letter-by-nathaniel-hawthorne-1850",
+          "label": "The Scarlet Letter - Nathaniel Hawthorne",
+          "image_url": "/images/books/the-scarlet-letter-by-nathaniel-hawthorne-1850.jpg",
+          "description": "1850"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-201",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "stevie-wonder-songs-in-the-key-of-life-1976",
+          "label": "Songs in the Key of Life (Stevie Wonder)",
+          "image_url": "/images/music/stevie-wonder-songs-in-the-key-of-life-1976.jpg",
+          "description": ""
+        },
+        {
+          "id": "arcade-fire-funeral-2004",
+          "label": "Funeral (Arcade Fire)",
+          "image_url": "/images/music/arcade-fire-funeral-2004.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-229",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-who-tommy-1969",
+          "label": "Tommy (The Who)",
+          "image_url": "/images/music/the-who-tommy-1969.jpg",
+          "description": ""
+        },
+        {
+          "id": "jay-z-4-44-2017",
+          "label": "4:44 (Jay-Z)",
+          "image_url": "/images/music/jay-z-4-44-2017.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-5",
+    "type": "question",
+    "title": "Rate \"The Bell Jar\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "the-bell-jar-by-sylvia-plath-1963",
+          "label": "The Bell Jar - Sylvia Plath",
+          "image_url": "/images/books/the-bell-jar-by-sylvia-plath-1963.jpg",
+          "description": "1963"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-206",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-handmaiden-2016-park-chan-wook",
+          "label": "The Handmaiden (Park Chan-wook)",
+          "image_url": "/images/movies/the-handmaiden-2016-park-chan-wook.jpg",
+          "description": ""
+        },
+        {
+          "id": "zodiac-2007-david-fincher",
+          "label": "Zodiac (David Fincher)",
+          "image_url": "/images/movies/zodiac-2007-david-fincher.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-7",
+    "type": "question",
+    "title": "Rate \"Only Built 4 Cuban Linx\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "raekwon-only-built-4-cuban-linx-1995",
+          "label": "Only Built 4 Cuban Linx - Raekwon",
+          "image_url": "/images/music/raekwon-only-built-4-cuban-linx-1995.jpg",
+          "description": "1995"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-tt-4",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "robyn-by-robyn-2005.jpeg",
+          "label": "Robyn (Robyn)",
+          "image_url": "/images/music/robyn-by-robyn-2005.jpeg"
+        },
+        {
+          "id": "daft-punk-discovery-2001",
+          "label": "Discovery (Daft Punk)",
+          "image_url": "/images/music/daft-punk-discovery-2001.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movies-rating-2",
+    "type": "question",
+    "title": "Rate \"Taxi Driver\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "taxi-driver-1976-martin-scorsese",
+          "label": "Taxi Driver",
+          "image_url": "/images/movies/taxi-driver-1976-martin-scorsese.jpg",
+          "description": "1976"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-4",
+    "type": "question",
+    "title": "Rate \"Dropping a Han Dynasty Urn\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn",
+          "label": "Dropping a Han Dynasty Urn - Ai Weiwei",
+          "image_url": "/images/art/233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn.jpg",
+          "description": "1995"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-234",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-big-lebowski-1998-coen-brothers",
+          "label": "The Big Lebowski (Coen Brothers)",
+          "image_url": "/images/movies/the-big-lebowski-1998-coen-brothers.jpg"
+        },
+        {
+          "id": "the-usual-suspects-1995-bryan-singer",
+          "label": "The Usual Suspects (Bryan Singer)",
+          "image_url": "/images/movies/the-usual-suspects-1995-bryan-singer.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-233",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "black-swan-2010-darren-aronofsky",
+          "label": "Black Swan (Darren Aronofsky)",
+          "image_url": "/images/movies/black-swan-2010-darren-aronofsky.jpg",
+          "description": ""
+        },
+        {
+          "id": "moneyball-2011-bennett-miller",
+          "label": "Moneyball (Bennett Miller)",
+          "image_url": "/images/movies/moneyball-2011-bennett-miller.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movie-tt-4-2",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "grave-of-the-fireflies-1988-isao-takahata",
+          "label": "Grave of the Fireflies (Isao Takahata)",
+          "image_url": "/images/movies/grave-of-the-fireflies-1988-isao-takahata.jpg"
+        },
+        {
+          "id": "the-good-the-bad-and-the-ugly-1966-sergio-leone",
+          "label": "The Good, the Bad, and the Ugly (Sergio Leone)",
+          "image_url": "/images/movies/the-good-the-bad-and-the-ugly-1966-sergio-leone.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-3",
+    "type": "question",
+    "title": "Rate \"For the Love of God\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "068_Damien_Hirst_For_the_Love_of_God",
+          "label": "For the Love of God - Damien Hirst",
+          "image_url": "/images/art/068_Damien_Hirst_For_the_Love_of_God.jpg",
+          "description": "2007"
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-9",
+    "type": "question",
+    "title": "Rate \"White Teeth\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "white-teeth-by-zadie-smith-2000",
+          "label": "White Teeth - Zadie Smith",
+          "image_url": "/images/books/white-teeth-by-zadie-smith-2000.jpg",
+          "description": "2000"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-8",
+    "type": "question",
+    "title": "Rate \"Abbey Road\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "the-beatles-abbey-road-1969",
+          "label": "Abbey Road - The Beatles",
+          "image_url": "/images/music/the-beatles-abbey-road-1969.jpg",
+          "description": "1969"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-243",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "siouxsie-and-the-banshees-juju-1981",
+          "label": "Juju (Siouxsie and the Banshees)",
+          "image_url": "/images/music/siouxsie-and-the-banshees-juju-1981.jpg",
+          "description": ""
+        },
+        {
+          "id": "fugees-the-score-1996",
+          "label": "The Score (Fugees)",
+          "image_url": "/images/music/fugees-the-score-1996.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-rating-5",
+    "type": "question",
+    "title": "Rate \"Zombie\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this album",
+    "properties": {
+      "items": [
+        {
+          "id": "fela-kuti-africa-70-zombie-1971",
+          "label": "Zombie - Fela Kuti & Africa 70",
+          "image_url": "/images/music/fela-kuti-africa-70-zombie-1971.jpg",
+          "description": "1971"
+        }
+      ]
+    }
+  },
+  {
+    "id": "movie-tt-7-2",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-shawshank-redemption-1994-frank-darabont",
+          "label": "The Shawshank Redemption (Frank Darabont)",
+          "image_url": "/images/movies/the-shawshank-redemption-1994-frank-darabont.jpg"
+        },
+        {
+          "id": "the-godfather-part-ii-1974-francis-ford-coppola",
+          "label": "The Godfather: Part II (Francis Ford Coppola)",
+          "image_url": "/images/movies/the-godfather-part-ii-1974-francis-ford-coppola.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-4",
+    "type": "question",
+    "title": "Rate \"Percy Jackson & The Olympians: The Lightning Thief\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005",
+          "label": "Percy Jackson & The Olympians: The Lightning Thief - Rick Riordan",
+          "image_url": "/images/books/percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005.jpg",
+          "description": "2005"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-6",
+    "type": "question",
+    "title": "Rate \"Orange and Yellow\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "045_Mark_Rothko_Orange_and_Yellow",
+          "label": "Orange and Yellow - Mark Rothko",
+          "image_url": "/images/art/045_Mark_Rothko_Orange_and_Yellow.jpg",
+          "description": "1956"
+        }
+      ]
+    }
+  },
+  {
+    "id": "art-rating-2",
+    "type": "question",
+    "title": "Rate \"Spiral Jetty\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this artwork",
+    "properties": {
+      "items": [
+        {
+          "id": "013_Robert_Smithson_Spiral_Jetty",
+          "label": "Spiral Jetty - Robert Smithson",
+          "image_url": "/images/art/013_Robert_Smithson_Spiral_Jetty.jpg",
+          "description": "1970"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-232",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "charles-mingus-mingus-ah-um-1959",
+          "label": "Mingus Ah Um (Charles Mingus)",
+          "image_url": "/images/music/charles-mingus-mingus-ah-um-1959.jpg",
+          "description": ""
+        },
+        {
+          "id": "ramones-ramones-1976",
+          "label": "Ramones (Ramones)",
+          "image_url": "/images/music/ramones-ramones-1976.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movies-rating-4",
+    "type": "question",
+    "title": "Rate \"The Empire Strikes Back\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "the-empire-strikes-back-1980-irvin-kershner",
+          "label": "The Empire Strikes Back",
+          "image_url": "/images/movies/the-empire-strikes-back-1980-irvin-kershner.jpg",
+          "description": "1980"
+        }
+      ]
+    }
+  },
+  {
+    "id": "music-tt-10",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "steely-dan-aja-1977",
+          "label": "Aja (Steely Dan)",
+          "image_url": "/images/music/steely-dan-aja-1977.jpg"
+        },
+        {
+          "id": "a-tribe-called-quest-the-low-end-theory-1991",
+          "label": "The Low End Theory (A Tribe Called Quest)",
+          "image_url": "/images/music/a-tribe-called-quest-the-low-end-theory-1991.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movies-rating-7",
+    "type": "question",
+    "title": "Rate \"Bridesmaids\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "bridesmaids-2011-paul-feig",
+          "label": "Bridesmaids",
+          "image_url": "/images/movies/bridesmaids-2011-paul-feig.jpg",
+          "description": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-230",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "curtis-mayfield-roots-1971",
+          "label": "Roots (Curtis Mayfield)",
+          "image_url": "/images/music/curtis-mayfield-roots-1971.jpg",
+          "description": ""
+        },
+        {
+          "id": "pavement-slanted-and-enchanted-1992",
+          "label": "Slanted and Enchanted (Pavement)",
+          "image_url": "/images/music/pavement-slanted-and-enchanted-1992.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "books-rating-6",
+    "type": "question",
+    "title": "Rate \"The Help\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this book",
+    "properties": {
+      "items": [
+        {
+          "id": "the-help-by-kathryn-stockett-2009",
+          "label": "The Help - Kathryn Stockett",
+          "image_url": "/images/books/the-help-by-kathryn-stockett-2009.jpg",
+          "description": "2009"
+        }
+      ]
+    }
+  },
+  {
+    "id": "movie-tt-2",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "12-years-a-slave-2013-steve-mcqueen",
+          "label": "12 Years a Slave (Steve McQueen)",
+          "image_url": "/images/movies/12-years-a-slave-2013-steve-mcqueen.jpg"
+        },
+        {
+          "id": "eternal-sunshine-of-the-spotless-mind-2004-michel-gondry",
+          "label": "Eternal Sunshine of the Spotless Mind (Michel Gondry)",
+          "image_url": "/images/movies/eternal-sunshine-of-the-spotless-mind-2004-michel-gondry.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-216",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "812-1963-federico-fellini",
+          "label": "8½ (Federico Fellini)",
+          "image_url": "/images/movies/812-1963-federico-fellini.jpg",
+          "description": ""
+        },
+        {
+          "id": "the-dark-knight-2008-christopher-nolan",
+          "label": "The Dark Knight (Christopher Nolan)",
+          "image_url": "/images/movies/the-dark-knight-2008-christopher-nolan.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movies-rating-5",
+    "type": "question",
+    "title": "Rate \"Top Gun\"",
+    "required": true,
+    "questionType": "rating",
+    "description": "Rate this film",
+    "properties": {
+      "items": [
+        {
+          "id": "top-gun-1986-tony-scott",
+          "label": "Top Gun",
+          "image_url": "/images/movies/top-gun-1986-tony-scott.jpg",
+          "description": "1986"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tt-239",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "the-who-whos-next-1971",
+          "label": "Who's Next (The Who)",
+          "image_url": "/images/music/the-who-whos-next-1971.jpg",
+          "description": ""
+        },
+        {
+          "id": "shabazz-palaces-black-up-2011",
+          "label": "Black Up (Shabazz Palaces)",
+          "image_url": "/images/music/shabazz-palaces-black-up-2011.jpg",
+          "description": ""
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "movie-tt-3",
+    "type": "question",
+    "title": "Which do you prefer?",
+    "required": true,
+    "questionType": "this_or_that_with_alternates",
+    "description": "Choose your favorite - refresh for more options!",
+    "properties": {
+      "choices": [
+        {
+          "id": "there-will-be-blood-2007-paul-thomas-anderson",
+          "label": "There Will Be Blood (Paul Thomas Anderson)",
+          "image_url": "/images/movies/there-will-be-blood-2007-paul-thomas-anderson.jpg"
+        },
+        {
+          "id": "lawrence-of-arabia-1962-david-lean",
+          "label": "Lawrence of Arabia (David Lean)",
+          "image_url": "/images/movies/lawrence-of-arabia-1962-david-lean.jpg"
+        },
+        {
+          "id": "dont-know",
+          "label": "I Don't Know These",
+          "image_url": "",
+          "description": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "complete-clerks-assessment",
+    "type": "statement",
+    "title": "Application Complete",
+    "properties": {
+      "button_text": "Review"
+    },
+    "description": "Thanks for sharing."
+  }
+]
