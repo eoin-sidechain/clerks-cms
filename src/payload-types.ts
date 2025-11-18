@@ -341,6 +341,8 @@ export interface Book {
   createdAt: string;
 }
 /**
+ * Steps are always kept as drafts. Publish from the Application level to publish all content.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "steps".
  */
@@ -515,8 +517,11 @@ export interface Step {
   };
   updatedAt: string;
   createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
+ * Sections are always kept as drafts. Publish from the Application level to publish all content.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "sections".
  */
@@ -542,8 +547,11 @@ export interface Section {
     | null;
   updatedAt: string;
   createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
+ * Publishing an Application will automatically publish all related Sections and Steps. This ensures version consistency across the entire content hierarchy.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "applications".
  */
@@ -875,6 +883,7 @@ export interface StepsSelect<T extends boolean = true> {
       };
   updatedAt?: T;
   createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -892,6 +901,7 @@ export interface SectionsSelect<T extends boolean = true> {
       };
   updatedAt?: T;
   createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

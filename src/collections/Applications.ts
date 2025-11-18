@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { cascadePublishApplication } from '../hooks/cascadePublish'
 
 export const Applications: CollectionConfig = {
   slug: 'applications',
@@ -6,12 +7,17 @@ export const Applications: CollectionConfig = {
     useAsTitle: 'title',
     group: 'Applications',
     defaultColumns: ['title', 'published', 'updatedAt'],
+    description:
+      'Publishing an Application will automatically publish all related Sections and Steps. This ensures version consistency across the entire content hierarchy.',
   },
   access: {
     read: () => true, // Public API access
   },
   versions: {
     drafts: true,
+  },
+  hooks: {
+    beforeChange: [cascadePublishApplication],
   },
   fields: [
     {

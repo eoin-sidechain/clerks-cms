@@ -3,7 +3,8 @@ import * as migration_20251111_050900_add_search_indexes from './20251111_050900
 import * as migration_20251111_102222_add_art_search_indexes from './20251111_102222_add_art_search_indexes';
 import * as migration_20251112_224319 from './20251112_224319';
 import * as migration_20251114_001817 from './20251114_001817';
-import * as migration_20251118_031355 from './20251118_031355';
+import * as migration_20251118_031355_applications_main_followup_sections from './20251118_031355_applications_main_followup_sections';
+import * as migration_20251118_032946 from './20251118_032946';
 
 export const migrations = [
   {
@@ -32,8 +33,13 @@ export const migrations = [
     name: '20251114_001817',
   },
   {
-    up: migration_20251118_031355.up,
-    down: migration_20251118_031355.down,
-    name: '20251118_031355'
+    up: migration_20251118_031355_applications_main_followup_sections.up,
+    down: migration_20251118_031355_applications_main_followup_sections.down,
+    name: '20251118_031355_applications_main_followup_sections',
+  },
+  {
+    up: migration_20251118_032946.up,
+    down: migration_20251118_032946.down,
+    name: '20251118_032946'
   },
 ];

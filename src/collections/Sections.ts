@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { authenticatedOrPublished } from '../access/authenticatedOrPublished'
 
 export const Sections: CollectionConfig = {
   slug: 'sections',
@@ -6,9 +7,16 @@ export const Sections: CollectionConfig = {
     useAsTitle: 'title',
     group: 'Applications',
     defaultColumns: ['title', 'order', 'updatedAt'],
+    description:
+      'Sections are always kept as drafts. Publish from the Application level to publish all content.',
   },
   access: {
-    read: () => true, // Public API access
+    read: authenticatedOrPublished,
+  },
+  versions: {
+    drafts: {
+      autosave: false,
+    },
   },
   fields: [
     {

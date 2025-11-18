@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { authenticatedOrPublished } from '../access/authenticatedOrPublished'
 
 export const Steps: CollectionConfig = {
   slug: 'steps',
@@ -6,9 +7,16 @@ export const Steps: CollectionConfig = {
     useAsTitle: 'title',
     group: 'Applications',
     defaultColumns: ['title', 'stepType', 'questionType', 'updatedAt'],
+    description:
+      'Steps are always kept as drafts. Publish from the Application level to publish all content.',
   },
   access: {
-    read: () => true, // Public API access
+    read: authenticatedOrPublished,
+  },
+  versions: {
+    drafts: {
+      autosave: false,
+    },
   },
   hooks: {
     beforeChange: [
