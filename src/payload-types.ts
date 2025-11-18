@@ -353,6 +353,14 @@ export interface Step {
    */
   title: string;
   /**
+   * Optional subtitle text that appears below the title
+   */
+  subtitle?: string | null;
+  /**
+   * Placeholder text for text input fields
+   */
+  placeholder?: string | null;
+  /**
    * Type of step: Question or Statement
    */
   stepType: 'question' | 'statement';
@@ -845,6 +853,8 @@ export interface BooksSelect<T extends boolean = true> {
  */
 export interface StepsSelect<T extends boolean = true> {
   title?: T;
+  subtitle?: T;
+  placeholder?: T;
   stepType?: T;
   questionType?: T;
   options?:

@@ -2,6 +2,7 @@ import { getPayload as getPayloadInstance } from 'payload'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import readline from 'readline'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -53,6 +54,51 @@ function getMimeType(filename: string): string {
 }
 
 /**
+ * Display database connection info and prompt for confirmation
+ */
+export async function confirmDatabaseConnection(
+  operation: string = 'operation',
+  skipConfirm: boolean = false,
+): Promise<void> {
+  const dbUrl = process.env.DATABASE_URL || ''
+  const s3Bucket = process.env.S3_BUCKET || 'Not set'
+  const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL || 'Not set'
+
+  // Mask password in database URL for display
+  const maskedDbUrl = dbUrl.replace(/:[^@]*@/, ':****@')
+
+  console.log('⚠️  DATABASE CONNECTION CHECK')
+  console.log('━'.repeat(60))
+  console.log(`Database: ${maskedDbUrl}`)
+  console.log(`S3 Bucket: ${s3Bucket}`)
+  console.log(`Server URL: ${serverUrl}`)
+  console.log('━'.repeat(60))
+
+  if (!skipConfirm) {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    })
+
+    const confirmed = await new Promise<boolean>((resolve) => {
+      rl.question(
+        `\n⚠️  Proceed with ${operation} on this database? (y/N): `,
+        (answer) => {
+          rl.close()
+          resolve(answer.toLowerCase() === 'y' || answer.toLowerCase() === 'yes')
+        },
+      )
+    })
+
+    if (!confirmed) {
+      console.log('❌ Operation cancelled')
+      process.exit(0)
+    }
+  }
+  console.log('')
+}
+
+/**
  * Upload an image file to Payload Media collection
  */
 export async function uploadImage(
@@ -69,6 +115,23 @@ export async function uploadImage(
     }
 
     const filename = path.basename(imagePath)
+
+    // Check if media with this filename already exists
+    const existing = await payload.find({
+      collection: 'media',
+      where: {
+        filename: {
+          equals: filename,
+        },
+      },
+      limit: 1,
+    })
+
+    // If media already exists, return existing ID instead of re-uploading
+    if (existing.docs && existing.docs.length > 0) {
+      return existing.docs[0].id
+    }
+
     const fileBuffer = fs.readFileSync(imagePath)
 
     // Create media document

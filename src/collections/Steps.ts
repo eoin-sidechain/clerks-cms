@@ -81,6 +81,23 @@ export const Steps: CollectionConfig = {
       },
     },
     {
+      name: 'subtitle',
+      type: 'text',
+      admin: {
+        description: 'Optional subtitle text that appears below the title',
+      },
+    },
+    {
+      name: 'placeholder',
+      type: 'text',
+      admin: {
+        condition: (_, siblingData) =>
+          siblingData.stepType === 'question' &&
+          (siblingData.questionType === 'short_text' || siblingData.questionType === 'long_text'),
+        description: 'Placeholder text for text input fields',
+      },
+    },
+    {
       name: 'stepType',
       type: 'select',
       required: true,
