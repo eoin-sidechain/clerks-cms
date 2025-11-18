@@ -563,9 +563,13 @@ export interface Application {
    */
   published?: boolean | null;
   /**
-   * Sections that make up this application
+   * Main application sections (e.g., Clerks Application Quiz)
    */
-  sections: (number | Section)[];
+  mainSections: (number | Section)[];
+  /**
+   * Follow-up sections (e.g., Book, Music, Movie, Art values quizzes)
+   */
+  followUpSections?: (number | Section)[] | null;
   updatedAt: string;
   createdAt: string;
   _status?: ('draft' | 'published') | null;
@@ -898,7 +902,8 @@ export interface ApplicationsSelect<T extends boolean = true> {
   slug?: T;
   description?: T;
   published?: T;
-  sections?: T;
+  mainSections?: T;
+  followUpSections?: T;
   updatedAt?: T;
   createdAt?: T;
   _status?: T;

@@ -44,15 +44,25 @@ export const Applications: CollectionConfig = {
         description: 'Whether this application is published and available',
       },
     },
-    // Sections (relationship to Sections collection)
+    // Main sections (typically the application quiz itself)
     {
-      name: 'sections',
+      name: 'mainSections',
       type: 'relationship',
       relationTo: 'sections',
       hasMany: true,
       required: true,
       admin: {
-        description: 'Sections that make up this application',
+        description: 'Main application sections (e.g., Clerks Application Quiz)',
+      },
+    },
+    // Follow-up sections (domain-specific value quizzes)
+    {
+      name: 'followUpSections',
+      type: 'relationship',
+      relationTo: 'sections',
+      hasMany: true,
+      admin: {
+        description: 'Follow-up sections (e.g., Book, Music, Movie, Art values quizzes)',
       },
     },
   ],
