@@ -192,6 +192,11 @@ async function importRatingSteps(payload: any): Promise<ImportStats> {
           },
         }
 
+        // Add description if present
+        if (question.description) {
+          stepData.description = question.description
+        }
+
         // Only add rating labels if they exist in the source data (optional field)
         if (question.properties?.ratingLabels && question.properties.ratingLabels.length > 0) {
           stepData.ratingLabels = question.properties.ratingLabels
@@ -301,22 +306,29 @@ async function importThisOrThatSteps(payload: any): Promise<ImportStats> {
         const mediaType = mediaA.collection || 'albums'
 
         // Create step document
+        const thisOrThatData: any = {
+          title: question.title,
+          stepType: 'question',
+          questionType: 'this_or_that',
+          mediaType: mediaType,
+          optionA: {
+            relationTo: mediaA.collection,
+            value: Number(mediaA.id),
+          },
+          optionB: {
+            relationTo: mediaB.collection,
+            value: Number(mediaB.id),
+          },
+        }
+
+        // Add description if present
+        if (question.description) {
+          thisOrThatData.description = question.description
+        }
+
         await payload.create({
           collection: 'steps',
-          data: {
-            title: question.title,
-            stepType: 'question',
-            questionType: 'this_or_that',
-            mediaType: mediaType,
-            optionA: {
-              relationTo: mediaA.collection,
-              value: Number(mediaA.id),
-            },
-            optionB: {
-              relationTo: mediaB.collection,
-              value: Number(mediaB.id),
-            },
-          },
+          data: thisOrThatData,
         })
 
         stats.successful++
@@ -419,20 +431,27 @@ async function importRankingSteps(payload: any): Promise<ImportStats> {
         const mediaType = mediaItems[0].collection || 'albums'
 
         // Create step document
+        const rankingData: any = {
+          title: question.title,
+          stepType: 'question',
+          questionType: 'ranking',
+          mediaType: mediaType,
+          rankingOptions: mediaItems.map((media) => ({
+            item: {
+              relationTo: media.collection,
+              value: Number(media.id),
+            },
+          })),
+        }
+
+        // Add description if present
+        if (question.description) {
+          rankingData.description = question.description
+        }
+
         await payload.create({
           collection: 'steps',
-          data: {
-            title: question.title,
-            stepType: 'question',
-            questionType: 'ranking',
-            mediaType: mediaType,
-            rankingOptions: mediaItems.map((media) => ({
-              item: {
-                relationTo: media.collection,
-                value: Number(media.id),
-              },
-            })),
-          },
+          data: rankingData,
         })
 
         stats.successful++

@@ -116,6 +116,11 @@ async function importStatementSteps(payload: any): Promise<ImportStats> {
           statementType: statementType,
         }
 
+        // Add description if present
+        if (question.description) {
+          stepData.description = question.description
+        }
+
         // Add CTA if button text is provided
         if (question.properties?.button_text) {
           stepData.cta = {

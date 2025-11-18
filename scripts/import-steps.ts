@@ -130,6 +130,11 @@ async function importSteps(payload: any, questionTypes: string[]): Promise<Impor
           stepData.placeholder = question.properties.placeholder
         }
 
+        // Add description if present
+        if (question.description) {
+          stepData.description = question.description
+        }
+
         // Handle multiple_choice: map choices to options
         if (question.questionType === 'multiple_choice' && question.properties?.choices) {
           stepData.options = question.properties.choices.map((choice) => ({

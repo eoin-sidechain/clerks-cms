@@ -361,6 +361,10 @@ export interface Step {
    */
   placeholder?: string | null;
   /**
+   * Helper text or description that provides context for this step
+   */
+  description?: string | null;
+  /**
    * Type of step: Question or Statement
    */
   stepType: 'question' | 'statement';
@@ -855,6 +859,7 @@ export interface StepsSelect<T extends boolean = true> {
   title?: T;
   subtitle?: T;
   placeholder?: T;
+  description?: T;
   stepType?: T;
   questionType?: T;
   options?:

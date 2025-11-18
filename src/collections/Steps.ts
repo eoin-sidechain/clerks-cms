@@ -98,6 +98,13 @@ export const Steps: CollectionConfig = {
       },
     },
     {
+      name: 'description',
+      type: 'textarea',
+      admin: {
+        description: 'Helper text or description that provides context for this step',
+      },
+    },
+    {
       name: 'stepType',
       type: 'select',
       required: true,
