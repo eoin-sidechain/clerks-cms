@@ -26,9 +26,9 @@ console.log(`  S3_BUCKET: ${process.env.S3_BUCKET ? '✅ Set' : '❌ Missing'}`)
 console.log('')
 
 // Paths to source data
-const WEB_DIR = path.resolve('../web')
-const CMS_DATA_DIR = path.join(WEB_DIR, 'src/data/cms_data')
-const IMAGES_DIR = path.join(WEB_DIR, 'public/images')
+const SEED_DATA_DIR = path.resolve(__dirname, '../seed_data')
+const CMS_DATA_DIR = path.join(SEED_DATA_DIR, 'assets')
+const IMAGES_DIR = path.join(SEED_DATA_DIR, 'images')
 
 // Types for source data
 interface ArtData {
@@ -37,8 +37,8 @@ interface ArtData {
   year: string
   region: string | null
   description: string | null
-  cover_filename: string
-  cover_filename_slug: string
+  cover_cms_filename: string
+  cms_slug: string
 }
 
 interface BookData {
@@ -47,8 +47,8 @@ interface BookData {
   year: string
   region: string | null
   description: string | null
-  cover_filename: string
-  cover_filename_slug: string
+  cover_cms_filename: string
+  cms_slug: string
 }
 
 interface FilmData {
@@ -57,18 +57,16 @@ interface FilmData {
   year: string
   country: string | null
   description: string | null
-  poster_filename: string
-  poster_filename_slug: string
+  cover_cms_filename: string
+  cms_slug: string
 }
 
 interface AlbumData {
   artist: string
   album: string
   year: string
-  album_cover_filename: string
-  album_cover_filename_slug: string
-  artist_image_filename: string
-  artist_image_filename_slug: string
+  cover_cms_filename: string
+  cms_slug: string
 }
 
 // Import statistics
@@ -107,8 +105,8 @@ async function importArt(payload: any): Promise<ImportStats> {
 
     for (const item of artData) {
       try {
-        // Upload cover image using cover_filename (original format)
-        const imagePath = path.join(IMAGES_DIR, 'art', item.cover_filename)
+        // Upload cover image using cover_cms_filename (normalized format)
+        const imagePath = path.join(IMAGES_DIR, 'art', item.cover_cms_filename)
         const coverImageId = await uploadImage(
           payload,
           imagePath,
@@ -122,18 +120,74 @@ async function importArt(payload: any): Promise<ImportStats> {
           continue
         }
 
-        // Create art document
-        await payload.create({
+        // Check if art already exists
+        const existing = await payload.find({
           collection: 'art',
-          data: {
-            title: item.title,
-            slug: slugify(item.title),
-            artist: item.author,
-            coverImage: coverImageId,
-            year: parseYear(item.year),
-            description: item.description || '',
+          where: {
+            slug: {
+              equals: item.cms_slug,
+            },
           },
+          limit: 1,
         })
+
+        const artData = {
+          title: item.title,
+          slug: item.cms_slug,
+          artist: item.author,
+          coverImage: coverImageId,
+          year: parseYear(item.year),
+          description: item.description || '',
+        }
+
+        // Update or create
+        if (existing.docs && existing.docs.length > 0) {
+          console.log(`\n  🔄 Updating existing: ${item.title} (slug: ${item.cms_slug})`)
+          await payload.update({
+            collection: 'art',
+            id: existing.docs[0].id,
+            data: artData,
+          })
+        } else {
+          try {
+            console.log(`\n  ✨ Creating new: ${item.title} (slug: ${item.cms_slug})`)
+            await payload.create({
+              collection: 'art',
+              data: artData,
+            })
+          } catch (createError: any) {
+            console.log(`\n  ⚠️  Create failed for ${item.title}, attempting retry...`)
+            console.log(`     Error: ${createError.message}`)
+            console.log(`     Error data:`, JSON.stringify(createError.data, null, 2))
+            console.log(`     Slug length: ${item.cms_slug.length} characters`)
+
+            // If create fails, try to find and update (likely duplicate slug)
+            const retry = await payload.find({
+              collection: 'art',
+              where: {
+                slug: {
+                  equals: item.cms_slug,
+                },
+              },
+              limit: 1,
+            })
+
+            console.log(`     Retry found ${retry.docs?.length || 0} docs`)
+
+            if (retry.docs && retry.docs.length > 0) {
+              console.log(`     Updating via retry: ID ${retry.docs[0].id}`)
+              await payload.update({
+                collection: 'art',
+                id: retry.docs[0].id,
+                data: artData,
+              })
+            } else {
+              // If we still can't find it, throw the original error
+              console.log(`     Could not find record, re-throwing error`)
+              throw createError
+            }
+          }
+        }
 
         stats.successful++
       } catch (error) {
@@ -177,8 +231,8 @@ async function importBooks(payload: any): Promise<ImportStats> {
 
     for (const item of bookData) {
       try {
-        // Upload cover image
-        const imagePath = path.join(IMAGES_DIR, 'books', item.cover_filename_slug)
+        // Upload cover image using cover_cms_filename (normalized format)
+        const imagePath = path.join(IMAGES_DIR, 'books', item.cover_cms_filename)
         const coverImageId = await uploadImage(
           payload,
           imagePath,
@@ -192,18 +246,62 @@ async function importBooks(payload: any): Promise<ImportStats> {
           continue
         }
 
-        // Create book document
-        await payload.create({
+        // Check if book already exists
+        const existing = await payload.find({
           collection: 'books',
-          data: {
-            title: item.title,
-            slug: slugify(item.title),
-            author: item.author,
-            coverImage: coverImageId,
-            year: parseYear(item.year),
-            description: item.description || '',
+          where: {
+            slug: {
+              equals: item.cms_slug,
+            },
           },
+          limit: 1,
         })
+
+        const bookData = {
+          title: item.title,
+          slug: item.cms_slug,
+          author: item.author,
+          coverImage: coverImageId,
+          year: parseYear(item.year),
+          description: item.description || '',
+        }
+
+        // Update or create
+        if (existing.docs && existing.docs.length > 0) {
+          await payload.update({
+            collection: 'books',
+            id: existing.docs[0].id,
+            data: bookData,
+          })
+        } else {
+          try {
+            await payload.create({
+              collection: 'books',
+              data: bookData,
+            })
+          } catch (createError: any) {
+            // If create fails, try to find and update (likely duplicate slug)
+            const retry = await payload.find({
+              collection: 'books',
+              where: {
+                slug: {
+                  equals: item.cms_slug,
+                },
+              },
+              limit: 1,
+            })
+            if (retry.docs && retry.docs.length > 0) {
+              await payload.update({
+                collection: 'books',
+                id: retry.docs[0].id,
+                data: bookData,
+              })
+            } else {
+              // If we still can't find it, throw the original error
+              throw createError
+            }
+          }
+        }
 
         stats.successful++
       } catch (error) {
@@ -247,8 +345,8 @@ async function importFilms(payload: any): Promise<ImportStats> {
 
     for (const item of filmData) {
       try {
-        // Upload poster image
-        const imagePath = path.join(IMAGES_DIR, 'movies', item.poster_filename_slug)
+        // Upload poster image using cover_cms_filename (normalized format)
+        const imagePath = path.join(IMAGES_DIR, 'movies', item.cover_cms_filename)
         const coverImageId = await uploadImage(
           payload,
           imagePath,
@@ -262,18 +360,62 @@ async function importFilms(payload: any): Promise<ImportStats> {
           continue
         }
 
-        // Create film document
-        await payload.create({
+        // Check if film already exists
+        const existing = await payload.find({
           collection: 'films',
-          data: {
-            title: item.title,
-            slug: slugify(item.title),
-            director: item.director,
-            coverImage: coverImageId,
-            year: parseYear(item.year),
-            description: item.description || '',
+          where: {
+            slug: {
+              equals: item.cms_slug,
+            },
           },
+          limit: 1,
         })
+
+        const filmData = {
+          title: item.title,
+          slug: item.cms_slug,
+          director: item.director,
+          coverImage: coverImageId,
+          year: parseYear(item.year),
+          description: item.description || '',
+        }
+
+        // Update or create
+        if (existing.docs && existing.docs.length > 0) {
+          await payload.update({
+            collection: 'films',
+            id: existing.docs[0].id,
+            data: filmData,
+          })
+        } else {
+          try {
+            await payload.create({
+              collection: 'films',
+              data: filmData,
+            })
+          } catch (createError: any) {
+            // If create fails, try to find and update (likely duplicate slug)
+            const retry = await payload.find({
+              collection: 'films',
+              where: {
+                slug: {
+                  equals: item.cms_slug,
+                },
+              },
+              limit: 1,
+            })
+            if (retry.docs && retry.docs.length > 0) {
+              await payload.update({
+                collection: 'films',
+                id: retry.docs[0].id,
+                data: filmData,
+              })
+            } else {
+              // If we still can't find it, throw the original error
+              throw createError
+            }
+          }
+        }
 
         stats.successful++
       } catch (error) {
@@ -317,8 +459,8 @@ async function importAlbums(payload: any): Promise<ImportStats> {
 
     for (const item of albumData) {
       try {
-        // Upload album cover image
-        const imagePath = path.join(IMAGES_DIR, 'music', item.album_cover_filename_slug)
+        // Upload album cover image using cover_cms_filename (normalized format)
+        const imagePath = path.join(IMAGES_DIR, 'music', item.cover_cms_filename)
         const coverImageId = await uploadImage(
           payload,
           imagePath,
@@ -332,18 +474,62 @@ async function importAlbums(payload: any): Promise<ImportStats> {
           continue
         }
 
-        // Create album document
-        await payload.create({
+        // Check if album already exists
+        const existing = await payload.find({
           collection: 'albums',
-          data: {
-            title: item.album,
-            slug: slugify(item.album),
-            artist: item.artist,
-            coverImage: coverImageId,
-            year: parseYear(item.year),
-            description: '',
+          where: {
+            slug: {
+              equals: item.cms_slug,
+            },
           },
+          limit: 1,
         })
+
+        const albumData = {
+          title: item.album,
+          slug: item.cms_slug,
+          artist: item.artist,
+          coverImage: coverImageId,
+          year: parseYear(item.year),
+          description: '',
+        }
+
+        // Update or create
+        if (existing.docs && existing.docs.length > 0) {
+          await payload.update({
+            collection: 'albums',
+            id: existing.docs[0].id,
+            data: albumData,
+          })
+        } else {
+          try {
+            await payload.create({
+              collection: 'albums',
+              data: albumData,
+            })
+          } catch (createError: any) {
+            // If create fails, try to find and update (likely duplicate slug)
+            const retry = await payload.find({
+              collection: 'albums',
+              where: {
+                slug: {
+                  equals: item.cms_slug,
+                },
+              },
+              limit: 1,
+            })
+            if (retry.docs && retry.docs.length > 0) {
+              await payload.update({
+                collection: 'albums',
+                id: retry.docs[0].id,
+                data: albumData,
+              })
+            } else {
+              // If we still can't find it, throw the original error
+              throw createError
+            }
+          }
+        }
 
         stats.successful++
       } catch (error) {
@@ -377,8 +563,8 @@ function printSummary(collectionName: string, stats: ImportStats) {
  */
 async function runImport() {
   console.log('📦 Payload CMS Import Script\n')
-  console.log('Source: /web/src/data/cms_data/')
-  console.log('Images: /web/public/images/\n')
+  console.log('Source: seed_data/assets/')
+  console.log('Images: seed_data/images/\n')
 
   // Parse command line arguments
   const args = process.argv.slice(2)

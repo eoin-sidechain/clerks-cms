@@ -25,8 +25,8 @@ console.log(`  DATABASE_URL: ${process.env.DATABASE_URL ? '✅ Set' : '❌ Missi
 console.log('')
 
 // Paths to source data
-const WEB_DIR = path.resolve('../web')
-const QUIZ_DATA_DIR = path.join(WEB_DIR, 'src/data/quiz-templates-json')
+const SEED_DATA_DIR = path.resolve(__dirname, '../seed_data')
+const QUIZ_DATA_DIR = path.join(SEED_DATA_DIR, 'quizzes')
 
 interface QuizQuestion {
   id: string

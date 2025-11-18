@@ -25,7 +25,7 @@ console.log(`  DATABASE_URL: ${process.env.DATABASE_URL ? '✅ Set' : '❌ Missi
 console.log('')
 
 // Data paths
-const QUIZ_DATA_DIR = path.join(__dirname, '../../web/src/data/quiz-templates-json')
+const QUIZ_DATA_DIR = path.join(__dirname, '../seed_data/quizzes')
 
 // Quiz files to import (in order)
 const QUIZ_FILES = [

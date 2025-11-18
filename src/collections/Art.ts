@@ -14,7 +14,8 @@ export const Art: CollectionConfig = {
   hooks: {
     beforeChange: [
       ({ data }) => {
-        if (data.title && data.artist) {
+        // Only generate slug if not already provided (e.g., during import)
+        if (data.title && data.artist && !data.slug) {
           data.slug = generateSlug({
             title: data.title,
             creator: data.artist,

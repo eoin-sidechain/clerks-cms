@@ -26,7 +26,16 @@ console.log(`  DATABASE_URL: ${process.env.DATABASE_URL ? '✅ Set' : '❌ Missi
 console.log(`  S3_BUCKET: ${process.env.S3_BUCKET ? '✅ Set' : '❌ Missing'}`)
 console.log('')
 
-const COLLECTIONS = ['art', 'books', 'films', 'albums', 'media'] as const
+const COLLECTIONS = [
+  'art',
+  'books',
+  'films',
+  'albums',
+  'media',
+  'applications',
+  'sections',
+  'steps',
+] as const
 
 async function promptConfirmation(message: string): Promise<boolean> {
   const rl = readline.createInterface({
@@ -45,8 +54,31 @@ async function promptConfirmation(message: string): Promise<boolean> {
 async function clearCollections() {
   console.log('🗑️  Payload CMS Clear Script\n')
 
-  // Check for --force flag
-  const force = process.argv.includes('--force')
+  // Parse command-line arguments
+  const args = process.argv.slice(2)
+  const force = args.includes('--force')
+
+  // Get collection names from args (filter out flags)
+  const requestedCollections = args.filter(arg => !arg.startsWith('--'))
+
+  // Determine which collections to clear
+  let collectionsToClear: readonly string[]
+  if (requestedCollections.length > 0) {
+    // Validate requested collections
+    const invalidCollections = requestedCollections.filter(
+      col => !COLLECTIONS.includes(col as any)
+    )
+    if (invalidCollections.length > 0) {
+      console.log(`❌ Invalid collection(s): ${invalidCollections.join(', ')}`)
+      console.log(`Valid collections: ${COLLECTIONS.join(', ')}`)
+      process.exit(1)
+    }
+    collectionsToClear = requestedCollections
+    console.log(`Targeting collections: ${collectionsToClear.join(', ')}\n`)
+  } else {
+    collectionsToClear = COLLECTIONS
+    console.log('Targeting all collections\n')
+  }
 
   try {
     // Initialize Payload
@@ -58,7 +90,7 @@ async function clearCollections() {
     console.log('Fetching collection counts...')
     const counts: Record<string, number> = {}
 
-    for (const collection of COLLECTIONS) {
+    for (const collection of collectionsToClear) {
       try {
         const result = await payload.count({ collection })
         counts[collection] = result.totalDocs
@@ -98,7 +130,7 @@ async function clearCollections() {
     // Delete from each collection
     let deletedCount = 0
 
-    for (const collection of COLLECTIONS) {
+    for (const collection of collectionsToClear) {
       if (counts[collection] === 0) {
         console.log(`  ⏭️  Skipping ${collection} (already empty)`)
         continue

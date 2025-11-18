@@ -25,14 +25,15 @@ console.log(`  DATABASE_URL: ${process.env.DATABASE_URL ? '✅ Set' : '❌ Missi
 console.log('')
 
 // Paths to source data
-const WEB_DIR = path.resolve('../web')
-const QUIZ_DATA_DIR = path.join(WEB_DIR, 'src/data/quiz-templates-json')
+const SEED_DATA_DIR = path.resolve(__dirname, '../seed_data')
+const QUIZ_DATA_DIR = path.join(SEED_DATA_DIR, 'quizzes')
 
 // Types for source quiz data
 interface QuizItem {
   id: string
   label: string
   image_url: string
+  cms_slug?: string
   description?: string
 }
 
@@ -40,6 +41,7 @@ interface QuizChoice {
   id: string
   label: string
   image_url: string
+  cms_slug?: string
   description?: string
 }
 
@@ -68,101 +70,20 @@ interface ImportStats {
 }
 
 /**
- * Normalize text for matching (remove accents, lowercase)
- */
-function normalizeText(text: string): string {
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
-    .replace(/[^\w\s-]/g, '') // Remove special chars except dash and space
-    .trim()
-}
-
-/**
- * Parse slug formats - returns multiple possible interpretations
- * - title-year-creator (e.g., "the-help-2009-kathryn-stockett")
- * - title-creator-year (e.g., "the-help-kathryn-stockett-2009")
- * - creator-title-year (e.g., "metallica-master-of-puppets-1986")
- */
-function parseSlug(
-  slug: string,
-): Array<{ title?: string; creator?: string; year?: number }> {
-  const parts = slug.split('-')
-  const results: Array<{ title?: string; creator?: string; year?: number }> = []
-
-  // Look for year (4 consecutive digits)
-  const yearIndex = parts.findIndex((part) => /^\d{4}$/.test(part))
-  const year = yearIndex !== -1 ? parseInt(parts[yearIndex], 10) : undefined
-
-  if (yearIndex !== -1) {
-    // Year found - try different interpretations
-    const beforeYear = parts.slice(0, yearIndex).join(' ')
-    const afterYear = parts.slice(yearIndex + 1).join(' ')
-
-    // Interpretation 1: title-year-creator
-    if (beforeYear && afterYear) {
-      results.push({ title: beforeYear, creator: afterYear, year })
-      // Also try swapped (creator-year-title)
-      results.push({ title: afterYear, creator: beforeYear, year })
-    } else if (beforeYear) {
-      results.push({ title: beforeYear, year })
-    } else if (afterYear) {
-      results.push({ title: afterYear, year })
-    }
-
-    // Interpretation 2: try splitting before-year into title and creator
-    if (beforeYear) {
-      const beforeParts = beforeYear.split(' ')
-      for (let split = 1; split < beforeParts.length; split++) {
-        const titlePart = beforeParts.slice(0, split).join(' ')
-        const creatorPart = beforeParts.slice(split).join(' ')
-        results.push({ title: titlePart, creator: creatorPart, year })
-        // Also try swapped
-        results.push({ title: creatorPart, creator: titlePart, year })
-      }
-    }
-
-    // Interpretation 3: try splitting after-year into title and creator
-    if (afterYear) {
-      const afterParts = afterYear.split(' ')
-      for (let split = 1; split < afterParts.length; split++) {
-        const titlePart = afterParts.slice(0, split).join(' ')
-        const creatorPart = afterParts.slice(split).join(' ')
-        results.push({ title: titlePart, creator: creatorPart, year })
-        // Also try swapped
-        results.push({ title: creatorPart, creator: titlePart, year })
-      }
-    }
-  } else {
-    // No year - try different split points
-    for (let split = 1; split < parts.length; split++) {
-      const firstPart = parts.slice(0, split).join(' ')
-      const secondPart = parts.slice(split).join(' ')
-      results.push({ title: firstPart, creator: secondPart })
-      // Also try swapped
-      results.push({ title: secondPart, creator: firstPart })
-    }
-  }
-
-  return results
-}
-
-/**
- * Find media item by slug with three-tier matching strategy:
- * 1. Exact slug match
- * 2. Match without year (removes -YYYY- from both sides)
- * 3. Fuzzy title matching
+ * Find media item by cms_slug
+ * Simple exact match using the cms_slug field from quiz data
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function findMediaBySlug(
   payload: any,
-  slug: string,
-  label?: string,
+  item: QuizItem | QuizChoice,
 ): Promise<any> {
   const collections = ['albums', 'books', 'films', 'art']
 
-  // STRATEGY 1: Try exact slug match
+  // Use cms_slug if available, otherwise fall back to id
+  const slug = item.cms_slug || item.id
+
+  // Try exact slug match across all collections
   for (const collection of collections) {
     try {
       const result = await payload.find({
@@ -176,7 +97,6 @@ async function findMediaBySlug(
       })
 
       if (result.docs && result.docs.length > 0) {
-        console.log(`  ✓ Found by exact slug: ${slug}`)
         return {
           id: result.docs[0].id,
           collection,
@@ -187,125 +107,7 @@ async function findMediaBySlug(
     }
   }
 
-  // STRATEGY 1b: Try slug with underscores converted to dashes (for art filenames)
-  if (slug.includes('_')) {
-    const slugWithDashes = slug.replace(/_/g, '-')
-    console.log(`  🔍 Trying with dashes: "${slug}" → "${slugWithDashes}"`)
-
-    for (const collection of collections) {
-      try {
-        const result = await payload.find({
-          collection,
-          where: {
-            slug: {
-              equals: slugWithDashes,
-            },
-          },
-          limit: 1,
-        })
-
-        if (result.docs && result.docs.length > 0) {
-          console.log(`  ✓ Found by slug with dashes: ${slugWithDashes}`)
-          return {
-            id: result.docs[0].id,
-            collection,
-          }
-        }
-      } catch (error) {
-        continue
-      }
-    }
-  }
-
-  // STRATEGY 2: Try matching without year on both sides
-  // Remove year pattern (YYYY with optional surrounding dashes/underscores)
-  const slugWithoutYear = slug
-    .replace(/[-_]?\d{4}[-_]?/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .replace(/--+/g, '-')
-
-  if (slugWithoutYear !== slug) {
-    console.log(`  🔍 Trying without year: "${slug}" → "${slugWithoutYear}"`)
-
-    for (const collection of collections) {
-      try {
-        const result = await payload.find({
-          collection,
-          where: {
-            slug: {
-              equals: slugWithoutYear,
-            },
-          },
-          limit: 1,
-        })
-
-        if (result.docs && result.docs.length > 0) {
-          console.log(`  ✓ Found by slug without year: ${slugWithoutYear}`)
-          return {
-            id: result.docs[0].id,
-            collection,
-          }
-        }
-      } catch (error) {
-        continue
-      }
-    }
-  }
-
-  // STRATEGY 3: Fuzzy matching on title
-  // Extract search terms from slug (use label if available, otherwise parse slug)
-  let searchTerms: string[] = []
-
-  if (label) {
-    // Parse label format: "Title (Creator)" or "Title - Creator"
-    const titleMatch = label.match(/^(.+?)\s*[\(\-]/)
-    if (titleMatch) {
-      searchTerms.push(normalizeText(titleMatch[1].trim()))
-    } else {
-      searchTerms.push(normalizeText(label))
-    }
-  }
-
-  // Also try extracting from slug
-  const slugParts = slugWithoutYear.split('-').filter((p) => p.length > 0)
-
-  // Try different word counts: start from longer (more specific) to shorter
-  for (let wordCount = Math.min(5, slugParts.length); wordCount >= 2; wordCount--) {
-    const term = normalizeText(slugParts.slice(0, wordCount).join(' '))
-    if (term.length >= 5 && !searchTerms.includes(term)) {
-      searchTerms.push(term)
-    }
-  }
-
-  console.log(`  🔍 Trying fuzzy matches: ${searchTerms.join(', ')}`)
-
-  for (const searchTerm of searchTerms) {
-    for (const collection of collections) {
-      try {
-        const result = await payload.find({
-          collection,
-          where: {
-            title: {
-              contains: searchTerm,
-            },
-          },
-          limit: 1,
-        })
-
-        if (result.docs && result.docs.length > 0) {
-          console.log(`  ✓ Found by fuzzy match: "${searchTerm}" in ${collection}`)
-          return {
-            id: result.docs[0].id,
-            collection,
-          }
-        }
-      } catch (error) {
-        continue
-      }
-    }
-  }
-
-  console.log(`  ✗ Not found: ${slug}`)
+  console.log(`  ⚠️  Not found: ${slug} (${item.label})`)
   return null
 }
 
@@ -364,19 +166,13 @@ async function importRatingSteps(payload: any): Promise<ImportStats> {
         }
 
         // Find the media item in the database
-        const mediaItem = await findMediaBySlug(payload, item.id, item.label)
+        const mediaItem = await findMediaBySlug(payload, item)
         if (!mediaItem || !mediaItem.id) {
-          console.log(`\n  ⚠️  Media not found for: ${item.id} (${item.label})`)
           stats.notFound++
           stats.skipped++
           progress.increment()
           continue
         }
-
-        // Debug: log what we found
-        console.log(
-          `  Found media: ${mediaItem.collection} ID=${mediaItem.id} (type: ${typeof mediaItem.id})`,
-        )
 
         // Build step data
         // For polymorphic relationships, need to specify both relationTo and value
@@ -398,32 +194,11 @@ async function importRatingSteps(payload: any): Promise<ImportStats> {
           stepData.ratingLabels = question.properties.ratingLabels
         }
 
-        // Debug: verify the book exists
-        try {
-          const verifyBook = await payload.findByID({
-            collection: mediaItem.collection,
-            id: mediaItem.id,
-          })
-          console.log(
-            `  ✓ Verified ${mediaItem.collection} exists: "${verifyBook.title}" (ID: ${verifyBook.id})`,
-          )
-        } catch (verifyError) {
-          console.error(`  ❌ Could not verify ${mediaItem.collection} ID ${mediaItem.id}:`, verifyError)
-        }
-
-        // Debug: log the full data being sent
-        console.log('  📦 Creating step with data:', JSON.stringify(stepData, null, 2))
-
         // Create step document
-        const createdStep = await payload.create({
+        await payload.create({
           collection: 'steps',
           data: stepData,
         })
-
-        // Debug: log what was actually saved
-        console.log('  ✅ Created step ID:', createdStep.id)
-        console.log('  📊 Saved ratingItem:', JSON.stringify(createdStep.ratingItem, null, 2))
-        console.log('  📊 Saved mediaType:', createdStep.mediaType)
 
         stats.successful++
       } catch (error: any) {
@@ -503,12 +278,10 @@ async function importThisOrThatSteps(payload: any): Promise<ImportStats> {
         }
 
         // Find both media items
-        const mediaA = await findMediaBySlug(payload, choices[0].id, choices[0].label)
-        const mediaB = await findMediaBySlug(payload, choices[1].id, choices[1].label)
+        const mediaA = await findMediaBySlug(payload, choices[0])
+        const mediaB = await findMediaBySlug(payload, choices[1])
 
         if (!mediaA || !mediaB || !mediaA.id || !mediaB.id) {
-          const missing = !mediaA ? choices[0] : choices[1]
-          console.log(`\n  ⚠️  Media not found for: ${missing.id} (${missing.label})`)
           stats.notFound++
           stats.skipped++
           progress.increment()
@@ -614,9 +387,8 @@ async function importRankingSteps(payload: any): Promise<ImportStats> {
         let allFound = true
 
         for (const item of items) {
-          const media = await findMediaBySlug(payload, item.id, item.label)
+          const media = await findMediaBySlug(payload, item)
           if (!media || !media.id) {
-            console.log(`\n  ⚠️  Media not found for: ${item.id} (${item.label})`)
             stats.notFound++
             allFound = false
             break
@@ -682,7 +454,7 @@ function printSummary(questionType: string, stats: ImportStats) {
  */
 async function runImport() {
   console.log('📦 Payload CMS Advanced Steps Import Script\n')
-  console.log('Source: /web/src/data/quiz-templates-json/\n')
+  console.log('Source: seed_data/quizzes/\n')
 
   // Parse command line arguments
   const args = process.argv.slice(2)

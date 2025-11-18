@@ -25,8 +25,8 @@ console.log(`  DATABASE_URL: ${process.env.DATABASE_URL ? '✅ Set' : '❌ Missi
 console.log('')
 
 // Paths to source data
-const WEB_DIR = path.resolve('../web')
-const QUIZ_DATA_DIR = path.join(WEB_DIR, 'src/data/quiz-templates-json')
+const SEED_DATA_DIR = path.resolve(__dirname, '../seed_data')
+const QUIZ_DATA_DIR = path.join(SEED_DATA_DIR, 'quizzes')
 
 // Types for source quiz data
 interface QuizChoice {
@@ -158,7 +158,7 @@ function printSummary(stats: ImportStats) {
  */
 async function runImport() {
   console.log('📦 Payload CMS Steps Import Script\n')
-  console.log('Source: /web/src/data/quiz-templates-json/\n')
+  console.log('Source: seed_data/quizzes/\n')
 
   // Parse command line arguments
   const args = process.argv.slice(2)
