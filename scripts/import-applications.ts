@@ -233,8 +233,12 @@ async function run() {
   console.log('📦 Payload CMS - Import Clerks Application\n')
 
   try {
+    // Check for --yes or -y flag to skip confirmation
+    const args = process.argv.slice(2)
+    const skipConfirm = args.includes('--yes') || args.includes('-y')
+
     // Database connection safety check
-    await confirmDatabaseConnection('IMPORT APPLICATIONS')
+    await confirmDatabaseConnection('IMPORT APPLICATIONS', skipConfirm)
 
     // Initialize Payload
     console.log('Initializing Payload...')

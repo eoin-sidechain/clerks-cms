@@ -41,6 +41,13 @@ export default buildConfig({
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URL || '',
+      // Environment-aware pool settings
+      // Serverless (Vercel): max 1-2 connections per function
+      // Local development: more connections for import scripts
+      max: process.env.VERCEL ? 1 : 10,
+      min: process.env.VERCEL ? 0 : 2,
+      idleTimeoutMillis: process.env.VERCEL ? 30000 : 60000,
+      connectionTimeoutMillis: 30000,
     },
     schemaName: 'payload_cms',
     push: false,
