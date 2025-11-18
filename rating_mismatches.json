@@ -1,0 +1,578 @@
+[
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-3",
+    "questionIndex": 3,
+    "questionTitle": "Rate \"The Scream\"",
+    "expectedTitle": "Rate \"The Scream - Edvard Munch\"",
+    "itemLabel": "The Scream - Edvard Munch",
+    "itemCmsSlug": "the-scream-edvard-munch-1893"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-5",
+    "questionIndex": 4,
+    "questionTitle": "Rate \"American Gothic\"",
+    "expectedTitle": "Rate \"American Gothic - Grant Wood\"",
+    "itemLabel": "American Gothic - Grant Wood",
+    "itemCmsSlug": "american-gothic-grant-wood-1930"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-7",
+    "questionIndex": 6,
+    "questionTitle": "Rate \"Nighthawks\"",
+    "expectedTitle": "Rate \"Nighthawks - Edward Hopper\"",
+    "itemLabel": "Nighthawks - Edward Hopper",
+    "itemCmsSlug": "nighthawks-edward-hopper-1942"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-8",
+    "questionIndex": 7,
+    "questionTitle": "Rate \"Campbell's Soup Cans\"",
+    "expectedTitle": "Rate \"Campbell's Soup Cans - Andy Warhol\"",
+    "itemLabel": "Campbell's Soup Cans - Andy Warhol",
+    "itemCmsSlug": "campbell-s-soup-cans-andy-warhol-1962"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-10",
+    "questionIndex": 9,
+    "questionTitle": "Rate \"Girl with Balloon\"",
+    "expectedTitle": "Rate \"Girl with Balloon - Banksy\"",
+    "itemLabel": "Girl with Balloon - Banksy",
+    "itemCmsSlug": "girl-with-balloon-banksy-2002"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-11",
+    "questionIndex": 10,
+    "questionTitle": "Rate \"Puppy\"",
+    "expectedTitle": "Rate \"Puppy - Jeff Koons\"",
+    "itemLabel": "Puppy - Jeff Koons",
+    "itemCmsSlug": "puppy-jeff-koons-1992"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-12",
+    "questionIndex": 12,
+    "questionTitle": "Rate \"Angel of the North\"",
+    "expectedTitle": "Rate \"Angel of the North - Antony Gormley\"",
+    "itemLabel": "Angel of the North - Antony Gormley",
+    "itemCmsSlug": "angel-of-the-north-antony-gormley-1998"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-13",
+    "questionIndex": 13,
+    "questionTitle": "Rate \"Whaam!\"",
+    "expectedTitle": "Rate \"Whaam! - Roy Lichtenstein\"",
+    "itemLabel": "Whaam! - Roy Lichtenstein",
+    "itemCmsSlug": "whaam-roy-lichtenstein-1963"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-14",
+    "questionIndex": 14,
+    "questionTitle": "Rate \"The Last Supper\"",
+    "expectedTitle": "Rate \"The Last Supper - Leonardo da Vinci\"",
+    "itemLabel": "The Last Supper - Leonardo da Vinci",
+    "itemCmsSlug": "the-last-supper-leonardo-da-vinci"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-15",
+    "questionIndex": 16,
+    "questionTitle": "Rate \"The Creation of Adam\"",
+    "expectedTitle": "Rate \"The Creation of Adam - Michelangelo\"",
+    "itemLabel": "The Creation of Adam - Michelangelo",
+    "itemCmsSlug": "the-creation-of-adam-michelangelo-1512"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-16",
+    "questionIndex": 17,
+    "questionTitle": "Rate \"Sunflowers\"",
+    "expectedTitle": "Rate \"Sunflowers - Vincent van Gogh\"",
+    "itemLabel": "Sunflowers - Vincent van Gogh",
+    "itemCmsSlug": "sunflowers-vincent-van-gogh-1888"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-17",
+    "questionIndex": 18,
+    "questionTitle": "Rate \"Maman\"",
+    "expectedTitle": "Rate \"Maman - Louise Bourgeois\"",
+    "itemLabel": "Maman - Louise Bourgeois",
+    "itemCmsSlug": "mama-louise-bourgeois-1999"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-18",
+    "questionIndex": 19,
+    "questionTitle": "Rate \"Marilyn Diptych\"",
+    "expectedTitle": "Rate \"Marilyn Diptych - Andy Warhol\"",
+    "itemLabel": "Marilyn Diptych - Andy Warhol",
+    "itemCmsSlug": "marilyn-diptych-andy-warhol-1962"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-19",
+    "questionIndex": 20,
+    "questionTitle": "Rate \"Drowning Girl\"",
+    "expectedTitle": "Rate \"Drowning Girl - Roy Lichtenstein\"",
+    "itemLabel": "Drowning Girl - Roy Lichtenstein",
+    "itemCmsSlug": "drowning-girl-roy-lichtenstein-1963"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-20",
+    "questionIndex": 21,
+    "questionTitle": "Rate \"Ophelia\"",
+    "expectedTitle": "Rate \"Ophelia - John Everett Millais\"",
+    "itemLabel": "Ophelia - John Everett Millais",
+    "itemCmsSlug": "ophelia-john-everett-millais"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-21",
+    "questionIndex": 22,
+    "questionTitle": "Rate \"Les Demoiselles d'Avignon\"",
+    "expectedTitle": "Rate \"Les Demoiselles d'Avignon - Pablo Picasso\"",
+    "itemLabel": "Les Demoiselles d'Avignon - Pablo Picasso",
+    "itemCmsSlug": "les-demoiselles-d-avignon-pablo-picasso-1907"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-22",
+    "questionIndex": 23,
+    "questionTitle": "Rate \"The Bedroom\"",
+    "expectedTitle": "Rate \"The Bedroom - Vincent van Gogh\"",
+    "itemLabel": "The Bedroom - Vincent van Gogh",
+    "itemCmsSlug": "the-bedroom-vincent-van-gogh-1888"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-23",
+    "questionIndex": 24,
+    "questionTitle": "Rate \"A Sunday Afternoon on La Grande Jatte\"",
+    "expectedTitle": "Rate \"A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat\"",
+    "itemLabel": "A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat",
+    "itemCmsSlug": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-24",
+    "questionIndex": 25,
+    "questionTitle": "Rate \"The Thinker\"",
+    "expectedTitle": "Rate \"The Thinker - Auguste Rodin\"",
+    "itemLabel": "The Thinker - Auguste Rodin",
+    "itemCmsSlug": "the-thinker-auguste-rodin-1902"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-25",
+    "questionIndex": 26,
+    "questionTitle": "Rate \"Saturn Devouring His Son\"",
+    "expectedTitle": "Rate \"Saturn Devouring His Son - Francisco Goya\"",
+    "itemLabel": "Saturn Devouring His Son - Francisco Goya",
+    "itemCmsSlug": "saturn-devouring-his-son-francisco-goya"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-26",
+    "questionIndex": 27,
+    "questionTitle": "Rate \"Irises\"",
+    "expectedTitle": "Rate \"Irises - Vincent van Gogh\"",
+    "itemLabel": "Irises - Vincent van Gogh",
+    "itemCmsSlug": "irises-vincent-van-gogh-1889"
+  },
+  {
+    "file": "art-values-quiz-v4.json",
+    "questionId": "rating-27",
+    "questionIndex": 28,
+    "questionTitle": "Rate \"The School of Athens\"",
+    "expectedTitle": "Rate \"The School of Athens - Raphael\"",
+    "itemLabel": "The School of Athens - Raphael",
+    "itemCmsSlug": "the-school-of-athens-raphael"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-20",
+    "questionIndex": 6,
+    "questionTitle": "Rate \"Lincoln in the Bardo\"",
+    "expectedTitle": "Rate \"Lincoln in the Bardo - George Saunders\"",
+    "itemLabel": "Lincoln in the Bardo - George Saunders",
+    "itemCmsSlug": "lincoln-in-the-bardo-george-saunders-2017"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-16",
+    "questionIndex": 11,
+    "questionTitle": "Rate \"The Thursday Murder Club\"",
+    "expectedTitle": "Rate \"The Thursday Murder Club - Richard Osman\"",
+    "itemLabel": "The Thursday Murder Club - Richard Osman",
+    "itemCmsSlug": "the-thursday-murder-club-richard-osman-2020"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-11",
+    "questionIndex": 25,
+    "questionTitle": "Rate \"Me Before You\"",
+    "expectedTitle": "Rate \"Exit West\"",
+    "itemLabel": "Exit West (Mohsin Hamid)",
+    "itemCmsSlug": "exit-west-mohsin-hamid-2017"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-6",
+    "questionIndex": 34,
+    "questionTitle": "Rate \"Big Little Lies\"",
+    "expectedTitle": "Rate \"Doctor Zhivago\"",
+    "itemLabel": "Doctor Zhivago (Boris Pasternak)",
+    "itemCmsSlug": "doctor-zhivago-boris-pasternak-1957"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-17",
+    "questionIndex": 39,
+    "questionTitle": "Rate \"Mexican Gothic\"",
+    "expectedTitle": "Rate \"Mexican Gothic - Silvia Moreno-Garcia\"",
+    "itemLabel": "Mexican Gothic - Silvia Moreno-Garcia",
+    "itemCmsSlug": "mexican-gothic-silvia-moreno-garcia-2020"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-14",
+    "questionIndex": 40,
+    "questionTitle": "Rate \"Circe\"",
+    "expectedTitle": "Rate \"Terms and Conditions\"",
+    "itemLabel": "Terms and Conditions (Lauren Asher)",
+    "itemCmsSlug": "terms-and-conditions-lauren-asher-2022"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-18",
+    "questionIndex": 58,
+    "questionTitle": "Rate \"Daisy Jones & The Six\"",
+    "expectedTitle": "Rate \"The Adventures of Huckleberry Finn\"",
+    "itemLabel": "The Adventures of Huckleberry Finn (Mark Twain)",
+    "itemCmsSlug": "the-adventures-of-huckleberry-finn-mark-twain-1884"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-9",
+    "questionIndex": 59,
+    "questionTitle": "Rate \"The Girl with the Dragon Tattoo\"",
+    "expectedTitle": "Rate \"Room\"",
+    "itemLabel": "Room (Emma Donoghue)",
+    "itemCmsSlug": "room-emma-donoghue-2010"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-15",
+    "questionIndex": 60,
+    "questionTitle": "Rate \"Such a Pretty Girl\"",
+    "expectedTitle": "Rate \"Such a Pretty Girl - Laura Wiess\"",
+    "itemLabel": "Such a Pretty Girl - Laura Wiess",
+    "itemCmsSlug": "such-a-pretty-girl-laura-wiess-2007"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-10",
+    "questionIndex": 61,
+    "questionTitle": "Rate \"Water for Elephants\"",
+    "expectedTitle": "Rate \"Water for Elephants - Sara Gruen\"",
+    "itemLabel": "Water for Elephants - Sara Gruen",
+    "itemCmsSlug": "water-for-elephants-sara-gruen-2006"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-7",
+    "questionIndex": 77,
+    "questionTitle": "Rate \"The Shadow of the Wind\"",
+    "expectedTitle": "Rate \"One of Us Is Lying\"",
+    "itemLabel": "One of Us Is Lying (Karen M. McManus)",
+    "itemCmsSlug": "one-of-us-is-lying-karen-m-mcmanus-2017"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-19",
+    "questionIndex": 83,
+    "questionTitle": "Rate \"Pachinko\"",
+    "expectedTitle": "Rate \"Pachinko - Min Jin Lee\"",
+    "itemLabel": "Pachinko - Min Jin Lee",
+    "itemCmsSlug": "pachinko-min-jin-lee-2017"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-12",
+    "questionIndex": 88,
+    "questionTitle": "Rate \"Gone Girl\"",
+    "expectedTitle": "Rate \"The Picture of Dorian Gray\"",
+    "itemLabel": "The Picture of Dorian Gray (Oscar Wilde)",
+    "itemCmsSlug": "the-picture-of-dorian-gray-oscar-wilde-1890"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-8",
+    "questionIndex": 89,
+    "questionTitle": "Rate \"1984\"",
+    "expectedTitle": "Rate \"1984 - George Orwell\"",
+    "itemLabel": "1984 - George Orwell",
+    "itemCmsSlug": "1984-george-orwell-1949"
+  },
+  {
+    "file": "book-values-quiz-v4.json",
+    "questionId": "rating-13",
+    "questionIndex": 98,
+    "questionTitle": "Rate \"The Girl on the Train\"",
+    "expectedTitle": "Rate \"Effi Briest\"",
+    "itemLabel": "Effi Briest (Theodor Fontane)",
+    "itemCmsSlug": "effi-briest-theodor-fontane-1895"
+  },
+  {
+    "file": "movie-values-quiz-v4.json",
+    "questionId": "rating-1",
+    "questionIndex": 11,
+    "questionTitle": "Rate \"City of God\"",
+    "expectedTitle": "Rate \"Dodgeball\"",
+    "itemLabel": "Dodgeball (Rawson Marshall Thurber)",
+    "itemCmsSlug": "dodgeball-rawson-marshall-thurber-2004"
+  },
+  {
+    "file": "movie-values-quiz-v4.json",
+    "questionId": "rating-18",
+    "questionIndex": 13,
+    "questionTitle": "Rate \"The Social Network\"",
+    "expectedTitle": "Rate \"A Ghost Story\"",
+    "itemLabel": "A Ghost Story (David Lowery)",
+    "itemCmsSlug": "a-ghost-story-david-lowery-2017"
+  },
+  {
+    "file": "movie-values-quiz-v4.json",
+    "questionId": "rating-10",
+    "questionIndex": 23,
+    "questionTitle": "Rate \"No Country for Old Men\"",
+    "expectedTitle": "Rate \"Captain Marvel\"",
+    "itemLabel": "Captain Marvel (Boden & Fleck)",
+    "itemCmsSlug": "captain-marvel-boden-fleck-2019"
+  },
+  {
+    "file": "movie-values-quiz-v4.json",
+    "questionId": "rating-20",
+    "questionIndex": 55,
+    "questionTitle": "Rate \"The Tree of Life\"",
+    "expectedTitle": "Rate \"Alien\"",
+    "itemLabel": "Alien (Ridley Scott)",
+    "itemCmsSlug": "alien-ridley-scott-1979"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-11",
+    "questionIndex": 22,
+    "questionTitle": "Rate \"St. Vincent\"",
+    "expectedTitle": "Rate \"St. Vincent - St. Vincent\"",
+    "itemLabel": "St. Vincent - St. Vincent",
+    "itemCmsSlug": "st-vincent-st-vincent-2014"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-13",
+    "questionIndex": 23,
+    "questionTitle": "Rate \"Oil of Every Pearl's Un-Insides\"",
+    "expectedTitle": "Rate \"Oil of Every Pearl's Un-Insides - SOPHIE\"",
+    "itemLabel": "Oil of Every Pearl's Un-Insides - SOPHIE",
+    "itemCmsSlug": "oil-of-every-pearl-s-un-insides-sophie-2018"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-17",
+    "questionIndex": 31,
+    "questionTitle": "Rate \"Days Are Gone\"",
+    "expectedTitle": "Rate \"Days Are Gone - HAIM\"",
+    "itemLabel": "Days Are Gone - HAIM",
+    "itemCmsSlug": "days-are-gone-haim-2013"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-12",
+    "questionIndex": 36,
+    "questionTitle": "Rate \"The Epic\"",
+    "expectedTitle": "Rate \"The Epic - Kamasi Washington\"",
+    "itemLabel": "The Epic - Kamasi Washington",
+    "itemCmsSlug": "the-epic-kamasi-washington-2015"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-20",
+    "questionIndex": 38,
+    "questionTitle": "Rate \"kick i\"",
+    "expectedTitle": "Rate \"Destiny\"",
+    "itemLabel": "Destiny (DJ Sabrina the Teenage DJ)",
+    "itemCmsSlug": "destiny-dj-sabrina-the-teenage-dj-2023"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-18",
+    "questionIndex": 39,
+    "questionTitle": "Rate \"Negro Swan\"",
+    "expectedTitle": "Rate \"Boy in da Corner\"",
+    "itemLabel": "Boy in da Corner (Dizzee Rascal)",
+    "itemCmsSlug": "boy-in-da-corner-dizzee-rascal-2003"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-16",
+    "questionIndex": 48,
+    "questionTitle": "Rate \"RTJ2\"",
+    "expectedTitle": "Rate \"Absence\"",
+    "itemLabel": "Absence (Dalek)",
+    "itemCmsSlug": "absence-dalek-2005"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-15",
+    "questionIndex": 49,
+    "questionTitle": "Rate \"Body Talk\"",
+    "expectedTitle": "Rate \"Body Talk - Robyn\"",
+    "itemLabel": "Body Talk - Robyn",
+    "itemCmsSlug": "body-talk-robyn-2010"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-19",
+    "questionIndex": 58,
+    "questionTitle": "Rate \"1000 gecs\"",
+    "expectedTitle": "Rate \"1000 gecs - 100 gecs\"",
+    "itemLabel": "1000 gecs - 100 gecs",
+    "itemCmsSlug": "1000-gecs-100-gecs-2019"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-14",
+    "questionIndex": 67,
+    "questionTitle": "Rate \"A Deeper Understanding\"",
+    "expectedTitle": "Rate \"A Deeper Understanding - The War on Drugs\"",
+    "itemLabel": "A Deeper Understanding - The War on Drugs",
+    "itemCmsSlug": "a-deeper-understanding-the-war-on-drugs-2017"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-21",
+    "questionIndex": 102,
+    "questionTitle": "Rate \"Stardust\"",
+    "expectedTitle": "Rate \"Stardust - Willie Nelson\"",
+    "itemLabel": "Stardust - Willie Nelson",
+    "itemCmsSlug": "stardust-willie-nelson-1978"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-22",
+    "questionIndex": 103,
+    "questionTitle": "Rate \"Traveller\"",
+    "expectedTitle": "Rate \"Traveller - Chris Stapleton\"",
+    "itemLabel": "Traveller - Chris Stapleton",
+    "itemCmsSlug": "traveller-chris-stapleton-2015"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-23",
+    "questionIndex": 104,
+    "questionTitle": "Rate \"Car Wheels on a Gravel Road\"",
+    "expectedTitle": "Rate \"Car Wheels on a Gravel Road - Lucinda Williams\"",
+    "itemLabel": "Car Wheels on a Gravel Road - Lucinda Williams",
+    "itemCmsSlug": "car-wheels-on-a-gravel-road-lucinda-williams-1998"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-24",
+    "questionIndex": 105,
+    "questionTitle": "Rate \"In Rainbows\"",
+    "expectedTitle": "Rate \"In Rainbows - Radiohead\"",
+    "itemLabel": "In Rainbows - Radiohead",
+    "itemCmsSlug": "in-rainbows-radiohead-2007"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-25",
+    "questionIndex": 106,
+    "questionTitle": "Rate \"Hissing of Summer Lawns\"",
+    "expectedTitle": "Rate \"The Hissing of Summer Lawns - Joni Mitchell\"",
+    "itemLabel": "The Hissing of Summer Lawns - Joni Mitchell",
+    "itemCmsSlug": "the-hissing-of-summer-lawns-joni-mitchell-1975"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-26",
+    "questionIndex": 107,
+    "questionTitle": "Rate \"Heavy Weather\"",
+    "expectedTitle": "Rate \"Heavy Weather - Weather Report\"",
+    "itemLabel": "Heavy Weather - Weather Report",
+    "itemCmsSlug": "heavy-weather-weather-report-1977"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-27",
+    "questionIndex": 108,
+    "questionTitle": "Rate \"Gaucho\"",
+    "expectedTitle": "Rate \"Gaucho - Steely Dan\"",
+    "itemLabel": "Gaucho - Steely Dan",
+    "itemCmsSlug": "gaucho-steely-dan-1980"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-28",
+    "questionIndex": 109,
+    "questionTitle": "Rate \"KIWANUKA\"",
+    "expectedTitle": "Rate \"KIWANUKA - Michael Kiwanuka\"",
+    "itemLabel": "KIWANUKA - Michael Kiwanuka",
+    "itemCmsSlug": "kiwanuka-michael-kiwanuka-2019"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-29",
+    "questionIndex": 110,
+    "questionTitle": "Rate \"Heartbreaker\"",
+    "expectedTitle": "Rate \"Heartbreaker - Ryan Adams\"",
+    "itemLabel": "Heartbreaker - Ryan Adams",
+    "itemCmsSlug": "heartbreaker-ryan-adams-2000"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-32",
+    "questionIndex": 111,
+    "questionTitle": "Rate \"In Colour\"",
+    "expectedTitle": "Rate \"In Colour - Jamie xx\"",
+    "itemLabel": "In Colour - Jamie xx",
+    "itemCmsSlug": "in-colour-jamie-xx-2015"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-33",
+    "questionIndex": 112,
+    "questionTitle": "Rate \"Skinty Fia\"",
+    "expectedTitle": "Rate \"Skinty Fia - Fontaines D.C.\"",
+    "itemLabel": "Skinty Fia - Fontaines D.C.",
+    "itemCmsSlug": "skinty-fia-fontaines-d-c-2022"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-34",
+    "questionIndex": 113,
+    "questionTitle": "Rate \"Afrique Victime\"",
+    "expectedTitle": "Rate \"Afrique Victime - Mdou Moctar\"",
+    "itemLabel": "Afrique Victime - Mdou Moctar",
+    "itemCmsSlug": "afrique-victime-mdou-moctar-2021"
+  },
+  {
+    "file": "music-values-quiz-v4.json",
+    "questionId": "rating-35",
+    "questionIndex": 114,
+    "questionTitle": "Rate \"Heard It In A Past Life\"",
+    "expectedTitle": "Rate \"Heard It In A Past Life - Maggie Rogers\"",
+    "itemLabel": "Heard It In A Past Life - Maggie Rogers",
+    "itemCmsSlug": "heard-it-in-a-past-life-maggie-rogers-2019"
+  }
+]

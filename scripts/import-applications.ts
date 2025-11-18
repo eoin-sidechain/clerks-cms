@@ -30,6 +30,10 @@ const QUIZ_DATA_DIR = path.join(__dirname, '../seed_data/quizzes')
 // Quiz files to import (in order)
 const QUIZ_FILES = [
   'clerks-application-quiz.json',
+  'book-values-quiz-v4.json',
+  'music-values-quiz-v4.json',
+  'movie-values-quiz-v4.json',
+  'art-values-quiz-v4.json',
 ]
 
 interface QuizQuestion {
@@ -93,25 +97,91 @@ async function importApplication(
       const question = quizData[i]
 
       try {
-        // Try to find the step by title (since we imported by title)
-        const result = await payload.find({
-          collection: 'steps',
-          where: {
-            title: {
-              equals: question.title,
-            },
-          },
-          limit: 1,
-        })
+        let result
 
-        if (result.docs && result.docs.length > 0) {
+        // For rating questions, match by the item being rated (not question title)
+        if (question.questionType === 'rating' && question.properties?.items?.[0]) {
+          const ratingItem = question.properties.items[0]
+          const itemCmsSlug = ratingItem.cms_slug
+
+          if (itemCmsSlug) {
+            // Find media item by cms_slug
+            const categoryMap: { [key: string]: string } = {
+              art: 'art',
+              books: 'books',
+              movies: 'films',
+              music: 'albums',
+            }
+
+            // Determine category from image_url
+            const urlMatch = ratingItem.image_url?.match(
+              /^\/images\/(art|books|movies|music)\//,
+            )
+            const category = urlMatch ? categoryMap[urlMatch[1]] : null
+
+            if (category) {
+              // Find the media item
+              const mediaResult = await payload.find({
+                collection: category,
+                where: {
+                  slug: {
+                    equals: itemCmsSlug,
+                  },
+                },
+                limit: 1,
+              })
+
+              if (mediaResult.docs && mediaResult.docs.length > 0) {
+                const mediaId = mediaResult.docs[0].id
+                const mediaTitle = mediaResult.docs[0].title
+
+                // Find rating step by ratingItem relationship
+                const stepResult = await payload.find({
+                  collection: 'steps',
+                  where: {
+                    and: [
+                      {
+                        questionType: {
+                          equals: 'rating',
+                        },
+                      },
+                      {
+                        title: {
+                          equals: `Rate "${mediaTitle}"`,
+                        },
+                      },
+                    ],
+                  },
+                  limit: 1,
+                })
+
+                result = stepResult
+              }
+            }
+          }
+        } else {
+          // For non-rating questions, find by title
+          result = await payload.find({
+            collection: 'steps',
+            where: {
+              title: {
+                equals: question.title,
+              },
+            },
+            limit: 1,
+          })
+        }
+
+        if (result && result.docs && result.docs.length > 0) {
           stepReferences.push({
             step: result.docs[0].id,
             order: i + 1,
           })
           stats.successful++
         } else {
-          console.log(`  ⚠️  Step not found: "${question.title}" (${question.id})`)
+          console.log(
+            `  ⚠️  Step not found: "${question.title}" (${question.id})`,
+          )
           notFound++
           stats.skipped++
         }
@@ -126,9 +196,7 @@ async function importApplication(
       return { success: false, stats }
     }
 
-    console.log(
-      `  Found ${stepReferences.length}/${stats.total} steps (${notFound} not found)`,
-    )
+    console.log(`  Found ${stepReferences.length}/${stats.total} steps (${notFound} not found)`)
 
     // Create the section
     console.log(`  Creating section...`)

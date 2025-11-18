@@ -722,7 +722,7 @@
   {
     "id": "rating-11",
     "type": "question",
-    "title": "Rate \"St. Vincent\"",
+    "title": "Rate \"St. Vincent - St. Vincent\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -742,7 +742,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"Oil of Every Pearl's Un-Insides\"",
+    "title": "Rate \"Oil of Every Pearl's Un-Insides - SOPHIE\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1031,7 +1031,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"Days Are Gone\"",
+    "title": "Rate \"Days Are Gone - HAIM\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1185,7 +1185,7 @@
   {
     "id": "rating-12",
     "type": "question",
-    "title": "Rate \"The Epic\"",
+    "title": "Rate \"The Epic - Kamasi Washington\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1245,7 +1245,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"kick i\"",
+    "title": "Rate \"Destiny\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1265,7 +1265,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"Negro Swan\"",
+    "title": "Rate \"Boy in da Corner\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1553,7 +1553,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"RTJ2\"",
+    "title": "Rate \"Absence\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1573,7 +1573,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"Body Talk\"",
+    "title": "Rate \"Body Talk - Robyn\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1860,7 +1860,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"1000 gecs\"",
+    "title": "Rate \"1000 gecs - 100 gecs\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -2148,7 +2148,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"A Deeper Understanding\"",
+    "title": "Rate \"A Deeper Understanding - The War on Drugs\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3344,7 +3344,7 @@
   {
     "id": "rating-21",
     "type": "question",
-    "title": "Rate \"Stardust\"",
+    "title": "Rate \"Stardust - Willie Nelson\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3364,7 +3364,7 @@
   {
     "id": "rating-22",
     "type": "question",
-    "title": "Rate \"Traveller\"",
+    "title": "Rate \"Traveller - Chris Stapleton\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3384,7 +3384,7 @@
   {
     "id": "rating-23",
     "type": "question",
-    "title": "Rate \"Car Wheels on a Gravel Road\"",
+    "title": "Rate \"Car Wheels on a Gravel Road - Lucinda Williams\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3404,7 +3404,7 @@
   {
     "id": "rating-24",
     "type": "question",
-    "title": "Rate \"In Rainbows\"",
+    "title": "Rate \"In Rainbows - Radiohead\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3424,7 +3424,7 @@
   {
     "id": "rating-25",
     "type": "question",
-    "title": "Rate \"Hissing of Summer Lawns\"",
+    "title": "Rate \"The Hissing of Summer Lawns - Joni Mitchell\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3444,7 +3444,7 @@
   {
     "id": "rating-26",
     "type": "question",
-    "title": "Rate \"Heavy Weather\"",
+    "title": "Rate \"Heavy Weather - Weather Report\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3464,7 +3464,7 @@
   {
     "id": "rating-27",
     "type": "question",
-    "title": "Rate \"Gaucho\"",
+    "title": "Rate \"Gaucho - Steely Dan\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3484,7 +3484,7 @@
   {
     "id": "rating-28",
     "type": "question",
-    "title": "Rate \"KIWANUKA\"",
+    "title": "Rate \"KIWANUKA - Michael Kiwanuka\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3504,7 +3504,7 @@
   {
     "id": "rating-29",
     "type": "question",
-    "title": "Rate \"Heartbreaker\"",
+    "title": "Rate \"Heartbreaker - Ryan Adams\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3524,7 +3524,7 @@
   {
     "id": "rating-32",
     "type": "question",
-    "title": "Rate \"In Colour\"",
+    "title": "Rate \"In Colour - Jamie xx\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3544,7 +3544,7 @@
   {
     "id": "rating-33",
     "type": "question",
-    "title": "Rate \"Skinty Fia\"",
+    "title": "Rate \"Skinty Fia - Fontaines D.C.\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3564,7 +3564,7 @@
   {
     "id": "rating-34",
     "type": "question",
-    "title": "Rate \"Afrique Victime\"",
+    "title": "Rate \"Afrique Victime - Mdou Moctar\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3584,7 +3584,7 @@
   {
     "id": "rating-35",
     "type": "question",
-    "title": "Rate \"Heard It In A Past Life\"",
+    "title": "Rate \"Heard It In A Past Life - Maggie Rogers\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",

@@ -76,6 +76,10 @@ async function importSteps(payload: any, questionTypes: string[]): Promise<Impor
   // Quiz files to import
   const quizFiles = [
     'clerks-application-quiz.json',
+    'book-values-quiz-v4.json',
+    'music-values-quiz-v4.json',
+    'movie-values-quiz-v4.json',
+    'art-values-quiz-v4.json',
   ]
 
   try {

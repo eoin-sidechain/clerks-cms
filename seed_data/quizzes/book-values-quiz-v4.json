@@ -185,7 +185,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"Lincoln in the Bardo\"",
+    "title": "Rate \"Lincoln in the Bardo - George Saunders\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -339,7 +339,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"The Thursday Murder Club\"",
+    "title": "Rate \"The Thursday Murder Club - Richard Osman\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -801,7 +801,7 @@
   {
     "id": "rating-11",
     "type": "question",
-    "title": "Rate \"Me Before You\"",
+    "title": "Rate \"Exit West\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1089,7 +1089,7 @@
   {
     "id": "rating-6",
     "type": "question",
-    "title": "Rate \"Big Little Lies\"",
+    "title": "Rate \"Doctor Zhivago\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1263,7 +1263,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"Mexican Gothic\"",
+    "title": "Rate \"Mexican Gothic - Silvia Moreno-Garcia\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1283,7 +1283,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"Circe\"",
+    "title": "Rate \"Terms and Conditions\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1899,7 +1899,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"Daisy Jones & The Six\"",
+    "title": "Rate \"The Adventures of Huckleberry Finn\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1919,7 +1919,7 @@
   {
     "id": "rating-9",
     "type": "question",
-    "title": "Rate \"The Girl with the Dragon Tattoo\"",
+    "title": "Rate \"Room\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1939,7 +1939,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"Such a Pretty Girl\"",
+    "title": "Rate \"Such a Pretty Girl - Laura Wiess\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1959,7 +1959,7 @@
   {
     "id": "rating-10",
     "type": "question",
-    "title": "Rate \"Water for Elephants\"",
+    "title": "Rate \"Water for Elephants - Sara Gruen\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2480,7 +2480,7 @@
   {
     "id": "rating-7",
     "type": "question",
-    "title": "Rate \"The Shadow of the Wind\"",
+    "title": "Rate \"One of Us Is Lying\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2693,7 +2693,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"Pachinko\"",
+    "title": "Rate \"Pachinko - Min Jin Lee\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2847,7 +2847,7 @@
   {
     "id": "rating-12",
     "type": "question",
-    "title": "Rate \"Gone Girl\"",
+    "title": "Rate \"The Picture of Dorian Gray\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2867,7 +2867,7 @@
   {
     "id": "rating-8",
     "type": "question",
-    "title": "Rate \"1984\"",
+    "title": "Rate \"1984 - George Orwell\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -3175,7 +3175,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"The Girl on the Train\"",
+    "title": "Rate \"Effi Briest\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",

@@ -80,7 +80,7 @@
   {
     "id": "rating-3",
     "type": "question",
-    "title": "Rate \"The Scream\"",
+    "title": "Rate \"The Scream - Edvard Munch\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -100,7 +100,7 @@
   {
     "id": "rating-5",
     "type": "question",
-    "title": "Rate \"American Gothic\"",
+    "title": "Rate \"American Gothic - Grant Wood\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -157,7 +157,7 @@
   {
     "id": "rating-7",
     "type": "question",
-    "title": "Rate \"Nighthawks\"",
+    "title": "Rate \"Nighthawks - Edward Hopper\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -177,7 +177,7 @@
   {
     "id": "rating-8",
     "type": "question",
-    "title": "Rate \"Campbell's Soup Cans\"",
+    "title": "Rate \"Campbell's Soup Cans - Andy Warhol\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -229,7 +229,7 @@
   {
     "id": "rating-10",
     "type": "question",
-    "title": "Rate \"Girl with Balloon\"",
+    "title": "Rate \"Girl with Balloon - Banksy\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -249,7 +249,7 @@
   {
     "id": "rating-11",
     "type": "question",
-    "title": "Rate \"Puppy\"",
+    "title": "Rate \"Puppy - Jeff Koons\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -306,7 +306,7 @@
   {
     "id": "rating-12",
     "type": "question",
-    "title": "Rate \"Angel of the North\"",
+    "title": "Rate \"Angel of the North - Antony Gormley\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -326,7 +326,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"Whaam!\"",
+    "title": "Rate \"Whaam! - Roy Lichtenstein\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -346,7 +346,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"The Last Supper\"",
+    "title": "Rate \"The Last Supper - Leonardo da Vinci\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -398,7 +398,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"The Creation of Adam\"",
+    "title": "Rate \"The Creation of Adam - Michelangelo\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -418,7 +418,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"Sunflowers\"",
+    "title": "Rate \"Sunflowers - Vincent van Gogh\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -438,7 +438,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"Maman\"",
+    "title": "Rate \"Maman - Louise Bourgeois\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -458,7 +458,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"Marilyn Diptych\"",
+    "title": "Rate \"Marilyn Diptych - Andy Warhol\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -478,7 +478,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"Drowning Girl\"",
+    "title": "Rate \"Drowning Girl - Roy Lichtenstein\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -498,7 +498,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"Ophelia\"",
+    "title": "Rate \"Ophelia - John Everett Millais\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -518,7 +518,7 @@
   {
     "id": "rating-21",
     "type": "question",
-    "title": "Rate \"Les Demoiselles d'Avignon\"",
+    "title": "Rate \"Les Demoiselles d'Avignon - Pablo Picasso\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -538,7 +538,7 @@
   {
     "id": "rating-22",
     "type": "question",
-    "title": "Rate \"The Bedroom\"",
+    "title": "Rate \"The Bedroom - Vincent van Gogh\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -558,7 +558,7 @@
   {
     "id": "rating-23",
     "type": "question",
-    "title": "Rate \"A Sunday Afternoon on La Grande Jatte\"",
+    "title": "Rate \"A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -578,7 +578,7 @@
   {
     "id": "rating-24",
     "type": "question",
-    "title": "Rate \"The Thinker\"",
+    "title": "Rate \"The Thinker - Auguste Rodin\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -598,7 +598,7 @@
   {
     "id": "rating-25",
     "type": "question",
-    "title": "Rate \"Saturn Devouring His Son\"",
+    "title": "Rate \"Saturn Devouring His Son - Francisco Goya\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -618,7 +618,7 @@
   {
     "id": "rating-26",
     "type": "question",
-    "title": "Rate \"Irises\"",
+    "title": "Rate \"Irises - Vincent van Gogh\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -638,7 +638,7 @@
   {
     "id": "rating-27",
     "type": "question",
-    "title": "Rate \"The School of Athens\"",
+    "title": "Rate \"The School of Athens - Raphael\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",

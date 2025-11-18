@@ -74,10 +74,7 @@ interface ImportStats {
  * Simple exact match using the cms_slug field from quiz data
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-async function findMediaBySlug(
-  payload: any,
-  item: QuizItem | QuizChoice,
-): Promise<any> {
+async function findMediaBySlug(payload: any, item: QuizItem | QuizChoice): Promise<any> {
   const collections = ['albums', 'books', 'films', 'art']
 
   // Use cms_slug if available, otherwise fall back to id
@@ -127,7 +124,13 @@ async function importRatingSteps(payload: any): Promise<ImportStats> {
   }
 
   // Quiz files to import
-  const quizFiles = ['clerks-application-quiz.json']
+  const quizFiles = [
+    'clerks-application-quiz.json',
+    'book-values-quiz-v4.json',
+    'music-values-quiz-v4.json',
+    'movie-values-quiz-v4.json',
+    'art-values-quiz-v4.json',
+  ]
 
   try {
     // Load all quiz questions
@@ -236,7 +239,13 @@ async function importThisOrThatSteps(payload: any): Promise<ImportStats> {
   }
 
   // Quiz files to import
-  const quizFiles = ['clerks-application-quiz.json']
+  const quizFiles = [
+    'clerks-application-quiz.json',
+    'book-values-quiz-v4.json',
+    'music-values-quiz-v4.json',
+    'movie-values-quiz-v4.json',
+    'art-values-quiz-v4.json',
+  ]
 
   try {
     // Load all quiz questions
@@ -341,7 +350,13 @@ async function importRankingSteps(payload: any): Promise<ImportStats> {
   }
 
   // Quiz files to import
-  const quizFiles = ['clerks-application-quiz.json']
+  const quizFiles = [
+    'clerks-application-quiz.json',
+    'book-values-quiz-v4.json',
+    'music-values-quiz-v4.json',
+    'movie-values-quiz-v4.json',
+    'art-values-quiz-v4.json',
+  ]
 
   try {
     // Load all quiz questions
@@ -374,9 +389,7 @@ async function importRankingSteps(payload: any): Promise<ImportStats> {
         const items = question.properties?.choices || []
 
         if (items.length === 0 || items.length > 4) {
-          console.log(
-            `\n  ⚠️  Skipping "${question.id}" - needs 1-4 items (has ${items.length})`,
-          )
+          console.log(`\n  ⚠️  Skipping "${question.id}" - needs 1-4 items (has ${items.length})`)
           stats.skipped++
           progress.increment()
           continue

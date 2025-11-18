@@ -357,7 +357,7 @@
   {
     "id": "rating-1",
     "type": "question",
-    "title": "Rate \"City of God\"",
+    "title": "Rate \"Dodgeball\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -397,7 +397,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"The Social Network\"",
+    "title": "Rate \"A Ghost Story\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -724,7 +724,7 @@
   {
     "id": "rating-10",
     "type": "question",
-    "title": "Rate \"No Country for Old Men\"",
+    "title": "Rate \"Captain Marvel\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1762,7 +1762,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"The Tree of Life\"",
+    "title": "Rate \"Alien\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
