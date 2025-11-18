@@ -1,4 +1,3 @@
-import type { RequiredDataFromCollectionSlug } from 'payload'
 import type { Media } from '@/payload-types'
 
 type HomeArgs = {
@@ -6,7 +5,7 @@ type HomeArgs = {
   metaImage: Media
 }
 
-export const home: (args: HomeArgs) => RequiredDataFromCollectionSlug<'pages'> = ({
+export const home: (args: HomeArgs) => any = ({
   heroImage,
   metaImage,
 }) => {

@@ -36,7 +36,7 @@ const TitleField: React.FC<TitleFieldProps> = ({ path, required }) => {
         path={path}
         value={value}
         onChange={setValue}
-        disabled={isRatingQuestion}
+        readOnly={isRatingQuestion}
         placeholder={isRatingQuestion ? 'Will be auto-generated...' : 'Enter title'}
       />
     </div>

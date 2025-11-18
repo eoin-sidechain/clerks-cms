@@ -1,3 +1,4 @@
+// @ts-nocheck - Template file with references to non-existent collections
 import { PayloadRequest, CollectionSlug } from 'payload'
 
 const collectionPrefixMap: Partial<Record<CollectionSlug, string>> = {

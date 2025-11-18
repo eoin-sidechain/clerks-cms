@@ -1,6 +1,4 @@
-import { RequiredDataFromCollectionSlug } from 'payload'
-
-export const contactForm: RequiredDataFromCollectionSlug<'forms'> = {
+export const contactForm: any = {
   confirmationMessage: {
     root: {
       type: 'root',

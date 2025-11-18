@@ -63,23 +63,23 @@ export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
   	"order" numeric NOT NULL
   );
   
-  ALTER TABLE "payload_cms"."questions_options" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."questions_rating_labels" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."questions_ranking_options" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."questions" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."questions_rels" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."sections_questions" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."sections_statements" DISABLE ROW LEVEL SECURITY;
-  DROP TABLE "payload_cms"."questions_options" CASCADE;
-  DROP TABLE "payload_cms"."questions_rating_labels" CASCADE;
-  DROP TABLE "payload_cms"."questions_ranking_options" CASCADE;
-  DROP TABLE "payload_cms"."questions" CASCADE;
-  DROP TABLE "payload_cms"."questions_rels" CASCADE;
-  DROP TABLE "payload_cms"."sections_questions" CASCADE;
-  DROP TABLE "payload_cms"."sections_statements" CASCADE;
-  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP CONSTRAINT "payload_locked_documents_rels_questions_fk";
-  
-  DROP INDEX "payload_cms"."payload_locked_documents_rels_questions_id_idx";
+  ALTER TABLE IF EXISTS "payload_cms"."questions_options" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."questions_rating_labels" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."questions_ranking_options" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."questions" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."questions_rels" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."sections_questions" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."sections_statements" DISABLE ROW LEVEL SECURITY;
+  DROP TABLE IF EXISTS "payload_cms"."questions_options" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."questions_rating_labels" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."questions_ranking_options" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."questions" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."questions_rels" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."sections_questions" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."sections_statements" CASCADE;
+  ALTER TABLE IF EXISTS "payload_cms"."payload_locked_documents_rels" DROP CONSTRAINT IF EXISTS "payload_locked_documents_rels_questions_fk";
+
+  DROP INDEX IF EXISTS "payload_cms"."payload_locked_documents_rels_questions_id_idx";
   ALTER TABLE "payload_cms"."payload_locked_documents_rels" ADD COLUMN "steps_id" integer;
   ALTER TABLE "payload_cms"."steps_options" ADD CONSTRAINT "steps_options_parent_id_fk" FOREIGN KEY ("_parent_id") REFERENCES "payload_cms"."steps"("id") ON DELETE cascade ON UPDATE no action;
   ALTER TABLE "payload_cms"."steps_rating_labels" ADD CONSTRAINT "steps_rating_labels_parent_id_fk" FOREIGN KEY ("_parent_id") REFERENCES "payload_cms"."steps"("id") ON DELETE cascade ON UPDATE no action;
@@ -115,10 +115,10 @@ export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
   CREATE INDEX "sections_steps_step_idx" ON "payload_cms"."sections_steps" USING btree ("step_id");
   ALTER TABLE "payload_cms"."payload_locked_documents_rels" ADD CONSTRAINT "payload_locked_documents_rels_steps_fk" FOREIGN KEY ("steps_id") REFERENCES "payload_cms"."steps"("id") ON DELETE cascade ON UPDATE no action;
   CREATE INDEX "payload_locked_documents_rels_steps_id_idx" ON "payload_cms"."payload_locked_documents_rels" USING btree ("steps_id");
-  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP COLUMN "questions_id";
-  DROP TYPE "payload_cms"."enum_questions_question_type";
-  DROP TYPE "payload_cms"."enum_questions_category";
-  DROP TYPE "payload_cms"."enum_sections_statements_statement_type";`)
+  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP COLUMN IF EXISTS "questions_id";
+  DROP TYPE IF EXISTS "payload_cms"."enum_questions_question_type";
+  DROP TYPE IF EXISTS "payload_cms"."enum_questions_category";
+  DROP TYPE IF EXISTS "payload_cms"."enum_sections_statements_statement_type";`)
 }
 
 export async function down({ db, payload, req }: MigrateDownArgs): Promise<void> {
@@ -190,21 +190,21 @@ export async function down({ db, payload, req }: MigrateDownArgs): Promise<void>
   	"cta_url" varchar
   );
   
-  ALTER TABLE "payload_cms"."steps_options" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."steps_rating_labels" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."steps_ranking_options" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."steps" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."steps_rels" DISABLE ROW LEVEL SECURITY;
-  ALTER TABLE "payload_cms"."sections_steps" DISABLE ROW LEVEL SECURITY;
-  DROP TABLE "payload_cms"."steps_options" CASCADE;
-  DROP TABLE "payload_cms"."steps_rating_labels" CASCADE;
-  DROP TABLE "payload_cms"."steps_ranking_options" CASCADE;
-  DROP TABLE "payload_cms"."steps" CASCADE;
-  DROP TABLE "payload_cms"."steps_rels" CASCADE;
-  DROP TABLE "payload_cms"."sections_steps" CASCADE;
-  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP CONSTRAINT "payload_locked_documents_rels_steps_fk";
-  
-  DROP INDEX "payload_cms"."payload_locked_documents_rels_steps_id_idx";
+  ALTER TABLE IF EXISTS "payload_cms"."steps_options" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."steps_rating_labels" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."steps_ranking_options" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."steps" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."steps_rels" DISABLE ROW LEVEL SECURITY;
+  ALTER TABLE IF EXISTS "payload_cms"."sections_steps" DISABLE ROW LEVEL SECURITY;
+  DROP TABLE IF EXISTS "payload_cms"."steps_options" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."steps_rating_labels" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."steps_ranking_options" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."steps" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."steps_rels" CASCADE;
+  DROP TABLE IF EXISTS "payload_cms"."sections_steps" CASCADE;
+  ALTER TABLE IF EXISTS "payload_cms"."payload_locked_documents_rels" DROP CONSTRAINT IF EXISTS "payload_locked_documents_rels_steps_fk";
+
+  DROP INDEX IF EXISTS "payload_cms"."payload_locked_documents_rels_steps_id_idx";
   ALTER TABLE "payload_cms"."payload_locked_documents_rels" ADD COLUMN "questions_id" integer;
   ALTER TABLE "payload_cms"."questions_options" ADD CONSTRAINT "questions_options_parent_id_fk" FOREIGN KEY ("_parent_id") REFERENCES "payload_cms"."questions"("id") ON DELETE cascade ON UPDATE no action;
   ALTER TABLE "payload_cms"."questions_rating_labels" ADD CONSTRAINT "questions_rating_labels_parent_id_fk" FOREIGN KEY ("_parent_id") REFERENCES "payload_cms"."questions"("id") ON DELETE cascade ON UPDATE no action;
@@ -243,9 +243,9 @@ export async function down({ db, payload, req }: MigrateDownArgs): Promise<void>
   CREATE INDEX "sections_statements_media_file_idx" ON "payload_cms"."sections_statements" USING btree ("media_file_id");
   ALTER TABLE "payload_cms"."payload_locked_documents_rels" ADD CONSTRAINT "payload_locked_documents_rels_questions_fk" FOREIGN KEY ("questions_id") REFERENCES "payload_cms"."questions"("id") ON DELETE cascade ON UPDATE no action;
   CREATE INDEX "payload_locked_documents_rels_questions_id_idx" ON "payload_cms"."payload_locked_documents_rels" USING btree ("questions_id");
-  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP COLUMN "steps_id";
-  DROP TYPE "payload_cms"."enum_steps_step_type";
-  DROP TYPE "payload_cms"."enum_steps_question_type";
-  DROP TYPE "payload_cms"."enum_steps_category";
-  DROP TYPE "payload_cms"."enum_steps_statement_type";`)
+  ALTER TABLE "payload_cms"."payload_locked_documents_rels" DROP COLUMN IF EXISTS "steps_id";
+  DROP TYPE IF EXISTS "payload_cms"."enum_steps_step_type";
+  DROP TYPE IF EXISTS "payload_cms"."enum_steps_question_type";
+  DROP TYPE IF EXISTS "payload_cms"."enum_steps_category";
+  DROP TYPE IF EXISTS "payload_cms"."enum_steps_statement_type";`)
 }

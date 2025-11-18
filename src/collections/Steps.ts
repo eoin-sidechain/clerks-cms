@@ -48,7 +48,7 @@ export const Steps: CollectionConfig = {
             // Fetch the related item to get its title
             if (itemId && collection) {
               const relatedItem = await req.payload.findByID({
-                collection,
+                collection: collection as 'albums' | 'books' | 'films' | 'art',
                 id: itemId,
               })
 

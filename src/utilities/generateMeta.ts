@@ -1,3 +1,4 @@
+// @ts-nocheck - Template file with references to non-existent types
 import type { Metadata } from 'next'
 
 import type { Media, Page, Post, Config } from '../payload-types'

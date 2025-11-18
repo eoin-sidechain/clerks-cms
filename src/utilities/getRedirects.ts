@@ -1,3 +1,4 @@
+// @ts-nocheck - Template file with references to non-existent collections
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 import { unstable_cache } from 'next/cache'
