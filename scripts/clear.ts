@@ -37,6 +37,8 @@ const COLLECTIONS = [
   'steps',
 ] as const
 
+type CollectionName = (typeof COLLECTIONS)[number]
+
 async function promptConfirmation(message: string): Promise<boolean> {
   const rl = readline.createInterface({
     input: process.stdin,
@@ -63,18 +65,18 @@ async function clearCollections() {
   const requestedCollections = args.filter(arg => !arg.startsWith('--'))
 
   // Determine which collections to clear
-  let collectionsToClear: readonly string[]
+  let collectionsToClear: readonly CollectionName[]
   if (requestedCollections.length > 0) {
     // Validate requested collections
     const invalidCollections = requestedCollections.filter(
-      col => !COLLECTIONS.includes(col as any)
+      col => !COLLECTIONS.includes(col as CollectionName)
     )
     if (invalidCollections.length > 0) {
       console.log(`❌ Invalid collection(s): ${invalidCollections.join(', ')}`)
       console.log(`Valid collections: ${COLLECTIONS.join(', ')}`)
       process.exit(1)
     }
-    collectionsToClear = requestedCollections
+    collectionsToClear = requestedCollections as CollectionName[]
     console.log(`Targeting collections: ${collectionsToClear.join(', ')}\n`)
   } else {
     collectionsToClear = COLLECTIONS
@@ -119,7 +121,7 @@ async function clearCollections() {
 
     for (const collection of collectionsToClear) {
       try {
-        const result = await payload.count({ collection })
+        const result = await payload.count({ collection: collection as any })
         counts[collection] = result.totalDocs
       } catch (error) {
         counts[collection] = 0
@@ -168,7 +170,7 @@ async function clearCollections() {
 
         // Get all IDs
         const docs = await payload.find({
-          collection,
+          collection: collection as any,
           limit: 10000,
           pagination: false,
         })
@@ -176,7 +178,7 @@ async function clearCollections() {
         // Delete each document
         for (const doc of docs.docs) {
           await payload.delete({
-            collection,
+            collection: collection as any,
             id: doc.id,
           })
           deletedCount++
