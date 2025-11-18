@@ -117,6 +117,19 @@ async function importSteps(payload: any, questionTypes: string[]): Promise<Impor
           questionType: question.questionType,
         }
 
+        // Add subtitle if present
+        if (question.subtitle) {
+          stepData.subtitle = question.subtitle
+        }
+
+        // Add placeholder for text questions
+        if (
+          (question.questionType === 'short_text' || question.questionType === 'long_text') &&
+          question.properties?.placeholder
+        ) {
+          stepData.placeholder = question.properties.placeholder
+        }
+
         // Handle multiple_choice: map choices to options
         if (question.questionType === 'multiple_choice' && question.properties?.choices) {
           stepData.options = question.properties.choices.map((choice) => ({

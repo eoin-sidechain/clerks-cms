@@ -2,7 +2,7 @@ import { config } from 'dotenv'
 import path from 'path'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
-import { getPayload } from './utils'
+import { getPayload, confirmDatabaseConnection } from './utils'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -233,6 +233,9 @@ async function run() {
   console.log('📦 Payload CMS - Import Clerks Application\n')
 
   try {
+    // Database connection safety check
+    await confirmDatabaseConnection('IMPORT APPLICATIONS')
+
     // Initialize Payload
     console.log('Initializing Payload...')
     const payload = await getPayload()

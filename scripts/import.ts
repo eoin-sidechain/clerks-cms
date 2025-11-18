@@ -1,5 +1,5 @@
 import { config } from 'dotenv'
-import { getPayload, slugify, parseYear, uploadImage, ProgressBar } from './utils'
+import { getPayload, slugify, parseYear, uploadImage, ProgressBar, confirmDatabaseConnection } from './utils'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -575,6 +575,10 @@ async function runImport() {
   const importAlbumsFlag = importAll || args.includes('--albums')
 
   try {
+    // Database connection safety check
+    const skipConfirm = args.includes('--yes') || args.includes('-y')
+    await confirmDatabaseConnection('IMPORT', skipConfirm)
+
     // Initialize Payload
     console.log('Initializing Payload...')
     const payload = await getPayload()

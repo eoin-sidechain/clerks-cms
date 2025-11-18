@@ -57,6 +57,7 @@ async function clearCollections() {
   // Parse command-line arguments
   const args = process.argv.slice(2)
   const force = args.includes('--force')
+  const skipConfirm = args.includes('--yes') || args.includes('-y')
 
   // Get collection names from args (filter out flags)
   const requestedCollections = args.filter(arg => !arg.startsWith('--'))
@@ -79,6 +80,32 @@ async function clearCollections() {
     collectionsToClear = COLLECTIONS
     console.log('Targeting all collections\n')
   }
+
+  // Database connection safety check
+  const dbUrl = process.env.DATABASE_URL || ''
+  const s3Bucket = process.env.S3_BUCKET || 'Not set'
+  const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL || 'Not set'
+
+  // Mask password in database URL for display
+  const maskedDbUrl = dbUrl.replace(/:[^@]*@/, ':****@')
+
+  console.log('⚠️  DATABASE CONNECTION CHECK')
+  console.log('━'.repeat(60))
+  console.log(`Database: ${maskedDbUrl}`)
+  console.log(`S3 Bucket: ${s3Bucket}`)
+  console.log(`Server URL: ${serverUrl}`)
+  console.log('━'.repeat(60))
+
+  if (!skipConfirm && !force) {
+    const confirmed = await promptConfirmation(
+      '\n⚠️  Are you sure you want to CLEAR data from this database? (y/N): '
+    )
+    if (!confirmed) {
+      console.log('❌ Operation cancelled')
+      process.exit(0)
+    }
+  }
+  console.log('')
 
   try {
     // Initialize Payload
