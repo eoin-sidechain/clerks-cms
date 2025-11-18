@@ -42,12 +42,13 @@ export default buildConfig({
     pool: {
       connectionString: process.env.DATABASE_URL || '',
       // Environment-aware pool settings
-      // Serverless (Vercel): max 1-2 connections per function
+      // Serverless (Vercel): Relaxed settings for cold starts
       // Local development: more connections for import scripts
-      max: process.env.VERCEL ? 1 : 10,
-      min: process.env.VERCEL ? 0 : 2,
-      idleTimeoutMillis: process.env.VERCEL ? 30000 : 60000,
-      connectionTimeoutMillis: 30000,
+      max: process.env.VERCEL_ENV ? 3 : 10,
+      min: 0, // Always 0 for serverless to avoid idle connections
+      idleTimeoutMillis: 20000, // Close idle connections quickly
+      connectionTimeoutMillis: 60000, // 60s timeout for cold starts
+      allowExitOnIdle: true, // Allow pool to close when idle
     },
     schemaName: 'payload_cms',
     push: false,
