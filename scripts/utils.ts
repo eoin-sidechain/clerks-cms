@@ -165,8 +165,6 @@ export async function getPayload() {
 
   const payload = await getPayloadInstance({
     config,
-    // Ensure environment variables are available
-    secret: process.env.PAYLOAD_SECRET,
   })
   return payload
 }
