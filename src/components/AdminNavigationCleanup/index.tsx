@@ -49,20 +49,14 @@ export default function AdminNavigationCleanup() {
       // Check if there's an active modal
       const modalContainers = document.querySelectorAll('.payload__modal-container')
 
-      let hasActiveModal = false
-      let activeContainer: HTMLElement | null = null
-
-      modalContainers.forEach((container) => {
-        const isActive = container.classList.contains('payload__modal-container--enterDone') ||
-                        container.classList.contains('payload__modal-container--appearDone')
-        if (isActive) {
-          hasActiveModal = true
-          activeContainer = container as HTMLElement
-        }
-      })
+      // Find the active modal container
+      const activeContainer = Array.from(modalContainers).find((container) => {
+        return container.classList.contains('payload__modal-container--enterDone') ||
+               container.classList.contains('payload__modal-container--appearDone')
+      }) as HTMLElement | undefined
 
       // If there's an active modal, close it instead of navigating
-      if (hasActiveModal && activeContainer) {
+      if (activeContainer) {
         // Find and click the backdrop or close button to close the modal properly
         const backdrop = activeContainer.querySelector('[class*="modal-overlay"]') as HTMLElement
         const closeButton = activeContainer.querySelector('button[aria-label="Close"]') as HTMLElement
