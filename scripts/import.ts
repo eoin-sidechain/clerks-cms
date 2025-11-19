@@ -1,8 +1,18 @@
 import { config } from 'dotenv'
-import { getPayload, slugify, parseYear, uploadImage, ProgressBar, confirmDatabaseConnection } from './utils'
+import {
+  getPayload,
+  slugify,
+  parseYear,
+  uploadImage,
+  ProgressBar,
+  confirmDatabaseConnection,
+  preloadExistingMedia,
+  preloadExistingSlugs,
+} from './utils'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import pLimit from 'p-limit'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -79,11 +89,40 @@ interface ImportStats {
 }
 
 /**
- * Import Art collection
+ * Upload image using pre-loaded media map for fast lookups
+ * Falls back to regular upload if not in map
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function uploadImageOptimized(
+  payload: any,
+  mediaMap: Map<string, string>,
+  imagePath: string,
+  alt: string = '',
+): Promise<string | null> {
+  const filename = path.basename(imagePath)
+
+  // Check in-memory map first (fast)
+  if (mediaMap.has(filename)) {
+    return mediaMap.get(filename)!
+  }
+
+  // Not in map, upload new image
+  const mediaId = await uploadImage(payload, imagePath, alt)
+
+  // Add to map for future lookups
+  if (mediaId) {
+    mediaMap.set(filename, mediaId)
+  }
+
+  return mediaId
+}
+
+/**
+ * Import Art collection (Optimized with parallel processing)
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function importArt(payload: any): Promise<ImportStats> {
-  console.log('\n🎨 Importing Art Collection...')
+  console.log('\n🎨 Importing Art Collection (Optimized)...')
 
   const stats: ImportStats = {
     total: 0,
@@ -100,103 +139,99 @@ async function importArt(payload: any): Promise<ImportStats> {
 
     stats.total = artData.length
     console.log(`  Found ${stats.total} art items`)
+    console.log(`  Pre-loading existing records...`)
+
+    // Pre-load existing data (single query each)
+    const mediaMap = await preloadExistingMedia(payload)
+    const slugMap = await preloadExistingSlugs(payload, 'art')
+
+    console.log(`  Found ${mediaMap.size} existing media, ${slugMap.size} existing art items`)
+    console.log(`  Processing with 5x concurrency...\n`)
 
     const progress = new ProgressBar(stats.total)
+    const limit = pLimit(5) // Process 5 items concurrently
 
-    for (const item of artData) {
-      try {
-        // Upload cover image using cover_cms_filename (normalized format)
-        const imagePath = path.join(IMAGES_DIR, 'art', item.cover_cms_filename)
-        const coverImageId = await uploadImage(
-          payload,
-          imagePath,
-          `${item.title} by ${item.author}`,
-        )
+    // Process all items in parallel with controlled concurrency
+    const promises = artData.map((item) =>
+      limit(async () => {
+        try {
+          // Upload cover image using optimized function
+          const imagePath = path.join(IMAGES_DIR, 'art', item.cover_cms_filename)
+          const coverImageId = await uploadImageOptimized(
+            payload,
+            mediaMap,
+            imagePath,
+            `${item.title} by ${item.author}`,
+          )
 
-        if (!coverImageId) {
-          stats.missingImages++
-          stats.skipped++
-          progress.increment()
-          continue
-        }
+          if (!coverImageId) {
+            stats.missingImages++
+            stats.skipped++
+            progress.increment()
+            return
+          }
 
-        // Check if art already exists
-        const existing = await payload.find({
-          collection: 'art',
-          where: {
-            slug: {
-              equals: item.cms_slug,
-            },
-          },
-          limit: 1,
-        })
+          const artDataToSave = {
+            title: item.title,
+            slug: item.cms_slug,
+            artist: item.author,
+            coverImage: coverImageId,
+            year: parseYear(item.year),
+            description: item.description || '',
+          }
 
-        const artData = {
-          title: item.title,
-          slug: item.cms_slug,
-          artist: item.author,
-          coverImage: coverImageId,
-          year: parseYear(item.year),
-          description: item.description || '',
-        }
+          // Check slug map (in-memory, fast)
+          const existingId = slugMap.get(item.cms_slug)
 
-        // Update or create
-        if (existing.docs && existing.docs.length > 0) {
-          console.log(`\n  🔄 Updating existing: ${item.title} (slug: ${item.cms_slug})`)
-          await payload.update({
-            collection: 'art',
-            id: existing.docs[0].id,
-            data: artData,
-          })
-        } else {
-          try {
-            console.log(`\n  ✨ Creating new: ${item.title} (slug: ${item.cms_slug})`)
-            await payload.create({
+          if (existingId) {
+            // Direct update without find query
+            await payload.update({
               collection: 'art',
-              data: artData,
+              id: existingId,
+              data: artDataToSave,
             })
-          } catch (createError: any) {
-            console.log(`\n  ⚠️  Create failed for ${item.title}, attempting retry...`)
-            console.log(`     Error: ${createError.message}`)
-            console.log(`     Error data:`, JSON.stringify(createError.data, null, 2))
-            console.log(`     Slug length: ${item.cms_slug.length} characters`)
-
-            // If create fails, try to find and update (likely duplicate slug)
-            const retry = await payload.find({
-              collection: 'art',
-              where: {
-                slug: {
-                  equals: item.cms_slug,
-                },
-              },
-              limit: 1,
-            })
-
-            console.log(`     Retry found ${retry.docs?.length || 0} docs`)
-
-            if (retry.docs && retry.docs.length > 0) {
-              console.log(`     Updating via retry: ID ${retry.docs[0].id}`)
-              await payload.update({
+          } else {
+            // Create new
+            try {
+              const created = await payload.create({
                 collection: 'art',
-                id: retry.docs[0].id,
-                data: artData,
+                data: artDataToSave,
               })
-            } else {
-              // If we still can't find it, throw the original error
-              console.log(`     Could not find record, re-throwing error`)
-              throw createError
+              // Add to map for future lookups
+              slugMap.set(item.cms_slug, created.id)
+            } catch (createError: any) {
+              // Retry logic - check if it was created by parallel process
+              const retry = await payload.find({
+                collection: 'art',
+                where: { slug: { equals: item.cms_slug } },
+                limit: 1,
+              })
+
+              if (retry.docs && retry.docs.length > 0) {
+                await payload.update({
+                  collection: 'art',
+                  id: retry.docs[0].id,
+                  data: artDataToSave,
+                })
+                slugMap.set(item.cms_slug, retry.docs[0].id)
+              } else {
+                throw createError
+              }
             }
           }
+
+          stats.successful++
+        } catch (error) {
+          console.error(`\n  ❌ Failed to import "${item.title}":`, error)
+          stats.failed++
+        } finally {
+          progress.increment()
         }
+      }),
+    )
 
-        stats.successful++
-      } catch (error) {
-        console.error(`\n  ❌ Failed to import "${item.title}":`, error)
-        stats.failed++
-      }
-
-      progress.increment()
-    }
+    // Wait for all items to complete
+    await Promise.allSettled(promises)
   } catch (error) {
     console.error('  ❌ Error reading art.json:', error)
   }
@@ -205,11 +240,11 @@ async function importArt(payload: any): Promise<ImportStats> {
 }
 
 /**
- * Import Books collection
+ * Import Books collection (Optimized with parallel processing)
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function importBooks(payload: any): Promise<ImportStats> {
-  console.log('\n📚 Importing Books Collection...')
+  console.log('\n📚 Importing Books Collection (Optimized)...')
 
   const stats: ImportStats = {
     total: 0,
@@ -226,91 +261,90 @@ async function importBooks(payload: any): Promise<ImportStats> {
 
     stats.total = bookData.length
     console.log(`  Found ${stats.total} books`)
+    console.log(`  Pre-loading existing records...`)
+
+    // Pre-load existing data (single query each)
+    const mediaMap = await preloadExistingMedia(payload)
+    const slugMap = await preloadExistingSlugs(payload, 'books')
+
+    console.log(`  Found ${mediaMap.size} existing media, ${slugMap.size} existing books`)
+    console.log(`  Processing with 5x concurrency...\n`)
 
     const progress = new ProgressBar(stats.total)
+    const limit = pLimit(5)
 
-    for (const item of bookData) {
-      try {
-        // Upload cover image using cover_cms_filename (normalized format)
-        const imagePath = path.join(IMAGES_DIR, 'books', item.cover_cms_filename)
-        const coverImageId = await uploadImage(
-          payload,
-          imagePath,
-          `${item.title} by ${item.author}`,
-        )
+    const promises = bookData.map((item) =>
+      limit(async () => {
+        try {
+          const imagePath = path.join(IMAGES_DIR, 'books', item.cover_cms_filename)
+          const coverImageId = await uploadImageOptimized(
+            payload,
+            mediaMap,
+            imagePath,
+            `${item.title} by ${item.author}`,
+          )
 
-        if (!coverImageId) {
-          stats.missingImages++
-          stats.skipped++
-          progress.increment()
-          continue
-        }
+          if (!coverImageId) {
+            stats.missingImages++
+            stats.skipped++
+            progress.increment()
+            return
+          }
 
-        // Check if book already exists
-        const existing = await payload.find({
-          collection: 'books',
-          where: {
-            slug: {
-              equals: item.cms_slug,
-            },
-          },
-          limit: 1,
-        })
+          const bookDataToSave = {
+            title: item.title,
+            slug: item.cms_slug,
+            author: item.author,
+            coverImage: coverImageId,
+            year: parseYear(item.year),
+            description: item.description || '',
+          }
 
-        const bookData = {
-          title: item.title,
-          slug: item.cms_slug,
-          author: item.author,
-          coverImage: coverImageId,
-          year: parseYear(item.year),
-          description: item.description || '',
-        }
+          const existingId = slugMap.get(item.cms_slug)
 
-        // Update or create
-        if (existing.docs && existing.docs.length > 0) {
-          await payload.update({
-            collection: 'books',
-            id: existing.docs[0].id,
-            data: bookData,
-          })
-        } else {
-          try {
-            await payload.create({
+          if (existingId) {
+            await payload.update({
               collection: 'books',
-              data: bookData,
+              id: existingId,
+              data: bookDataToSave,
             })
-          } catch (createError: any) {
-            // If create fails, try to find and update (likely duplicate slug)
-            const retry = await payload.find({
-              collection: 'books',
-              where: {
-                slug: {
-                  equals: item.cms_slug,
-                },
-              },
-              limit: 1,
-            })
-            if (retry.docs && retry.docs.length > 0) {
-              await payload.update({
+          } else {
+            try {
+              const created = await payload.create({
                 collection: 'books',
-                id: retry.docs[0].id,
-                data: bookData,
+                data: bookDataToSave,
               })
-            } else {
-              // If we still can't find it, throw the original error
-              throw createError
+              slugMap.set(item.cms_slug, created.id)
+            } catch (createError: any) {
+              const retry = await payload.find({
+                collection: 'books',
+                where: { slug: { equals: item.cms_slug } },
+                limit: 1,
+              })
+              if (retry.docs && retry.docs.length > 0) {
+                await payload.update({
+                  collection: 'books',
+                  id: retry.docs[0].id,
+                  data: bookDataToSave,
+                })
+                slugMap.set(item.cms_slug, retry.docs[0].id)
+              } else {
+                throw createError
+              }
             }
           }
+
+          stats.successful++
+        } catch (error) {
+          console.error(`\n  ❌ Failed to import "${item.title}":`, error)
+          stats.failed++
+        } finally {
+          progress.increment()
         }
+      }),
+    )
 
-        stats.successful++
-      } catch (error) {
-        console.error(`\n  ❌ Failed to import "${item.title}":`, error)
-        stats.failed++
-      }
-
-      progress.increment()
-    }
+    await Promise.allSettled(promises)
   } catch (error) {
     console.error('  ❌ Error reading literature.json:', error)
   }
@@ -319,11 +353,11 @@ async function importBooks(payload: any): Promise<ImportStats> {
 }
 
 /**
- * Import Films collection
+ * Import Films collection (Optimized with parallel processing)
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function importFilms(payload: any): Promise<ImportStats> {
-  console.log('\n🎬 Importing Films Collection...')
+  console.log('\n🎬 Importing Films Collection (Optimized)...')
 
   const stats: ImportStats = {
     total: 0,
@@ -340,91 +374,89 @@ async function importFilms(payload: any): Promise<ImportStats> {
 
     stats.total = filmData.length
     console.log(`  Found ${stats.total} films`)
+    console.log(`  Pre-loading existing records...`)
+
+    const mediaMap = await preloadExistingMedia(payload)
+    const slugMap = await preloadExistingSlugs(payload, 'films')
+
+    console.log(`  Found ${mediaMap.size} existing media, ${slugMap.size} existing films`)
+    console.log(`  Processing with 5x concurrency...\n`)
 
     const progress = new ProgressBar(stats.total)
+    const limit = pLimit(5)
 
-    for (const item of filmData) {
-      try {
-        // Upload poster image using cover_cms_filename (normalized format)
-        const imagePath = path.join(IMAGES_DIR, 'movies', item.cover_cms_filename)
-        const coverImageId = await uploadImage(
-          payload,
-          imagePath,
-          `${item.title} directed by ${item.director}`,
-        )
+    const promises = filmData.map((item) =>
+      limit(async () => {
+        try {
+          const imagePath = path.join(IMAGES_DIR, 'movies', item.cover_cms_filename)
+          const coverImageId = await uploadImageOptimized(
+            payload,
+            mediaMap,
+            imagePath,
+            `${item.title} directed by ${item.director}`,
+          )
 
-        if (!coverImageId) {
-          stats.missingImages++
-          stats.skipped++
-          progress.increment()
-          continue
-        }
+          if (!coverImageId) {
+            stats.missingImages++
+            stats.skipped++
+            progress.increment()
+            return
+          }
 
-        // Check if film already exists
-        const existing = await payload.find({
-          collection: 'films',
-          where: {
-            slug: {
-              equals: item.cms_slug,
-            },
-          },
-          limit: 1,
-        })
+          const filmDataToSave = {
+            title: item.title,
+            slug: item.cms_slug,
+            director: item.director,
+            coverImage: coverImageId,
+            year: parseYear(item.year),
+            description: item.description || '',
+          }
 
-        const filmData = {
-          title: item.title,
-          slug: item.cms_slug,
-          director: item.director,
-          coverImage: coverImageId,
-          year: parseYear(item.year),
-          description: item.description || '',
-        }
+          const existingId = slugMap.get(item.cms_slug)
 
-        // Update or create
-        if (existing.docs && existing.docs.length > 0) {
-          await payload.update({
-            collection: 'films',
-            id: existing.docs[0].id,
-            data: filmData,
-          })
-        } else {
-          try {
-            await payload.create({
+          if (existingId) {
+            await payload.update({
               collection: 'films',
-              data: filmData,
+              id: existingId,
+              data: filmDataToSave,
             })
-          } catch (createError: any) {
-            // If create fails, try to find and update (likely duplicate slug)
-            const retry = await payload.find({
-              collection: 'films',
-              where: {
-                slug: {
-                  equals: item.cms_slug,
-                },
-              },
-              limit: 1,
-            })
-            if (retry.docs && retry.docs.length > 0) {
-              await payload.update({
+          } else {
+            try {
+              const created = await payload.create({
                 collection: 'films',
-                id: retry.docs[0].id,
-                data: filmData,
+                data: filmDataToSave,
               })
-            } else {
-              // If we still can't find it, throw the original error
-              throw createError
+              slugMap.set(item.cms_slug, created.id)
+            } catch (createError: any) {
+              const retry = await payload.find({
+                collection: 'films',
+                where: { slug: { equals: item.cms_slug } },
+                limit: 1,
+              })
+              if (retry.docs && retry.docs.length > 0) {
+                await payload.update({
+                  collection: 'films',
+                  id: retry.docs[0].id,
+                  data: filmDataToSave,
+                })
+                slugMap.set(item.cms_slug, retry.docs[0].id)
+              } else {
+                throw createError
+              }
             }
           }
+
+          stats.successful++
+        } catch (error) {
+          console.error(`\n  ❌ Failed to import "${item.title}":`, error)
+          stats.failed++
+        } finally {
+          progress.increment()
         }
+      }),
+    )
 
-        stats.successful++
-      } catch (error) {
-        console.error(`\n  ❌ Failed to import "${item.title}":`, error)
-        stats.failed++
-      }
-
-      progress.increment()
-    }
+    await Promise.allSettled(promises)
   } catch (error) {
     console.error('  ❌ Error reading films.json:', error)
   }
@@ -433,11 +465,11 @@ async function importFilms(payload: any): Promise<ImportStats> {
 }
 
 /**
- * Import Albums collection
+ * Import Albums collection (Optimized with parallel processing)
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function importAlbums(payload: any): Promise<ImportStats> {
-  console.log('\n🎵 Importing Albums Collection...')
+  console.log('\n🎵 Importing Albums Collection (Optimized)...')
 
   const stats: ImportStats = {
     total: 0,
@@ -454,91 +486,89 @@ async function importAlbums(payload: any): Promise<ImportStats> {
 
     stats.total = albumData.length
     console.log(`  Found ${stats.total} albums`)
+    console.log(`  Pre-loading existing records...`)
+
+    const mediaMap = await preloadExistingMedia(payload)
+    const slugMap = await preloadExistingSlugs(payload, 'albums')
+
+    console.log(`  Found ${mediaMap.size} existing media, ${slugMap.size} existing albums`)
+    console.log(`  Processing with 5x concurrency...\n`)
 
     const progress = new ProgressBar(stats.total)
+    const limit = pLimit(5)
 
-    for (const item of albumData) {
-      try {
-        // Upload album cover image using cover_cms_filename (normalized format)
-        const imagePath = path.join(IMAGES_DIR, 'music', item.cover_cms_filename)
-        const coverImageId = await uploadImage(
-          payload,
-          imagePath,
-          `${item.album} by ${item.artist}`,
-        )
+    const promises = albumData.map((item) =>
+      limit(async () => {
+        try {
+          const imagePath = path.join(IMAGES_DIR, 'music', item.cover_cms_filename)
+          const coverImageId = await uploadImageOptimized(
+            payload,
+            mediaMap,
+            imagePath,
+            `${item.album} by ${item.artist}`,
+          )
 
-        if (!coverImageId) {
-          stats.missingImages++
-          stats.skipped++
-          progress.increment()
-          continue
-        }
+          if (!coverImageId) {
+            stats.missingImages++
+            stats.skipped++
+            progress.increment()
+            return
+          }
 
-        // Check if album already exists
-        const existing = await payload.find({
-          collection: 'albums',
-          where: {
-            slug: {
-              equals: item.cms_slug,
-            },
-          },
-          limit: 1,
-        })
+          const albumDataToSave = {
+            title: item.album,
+            slug: item.cms_slug,
+            artist: item.artist,
+            coverImage: coverImageId,
+            year: parseYear(item.year),
+            description: '',
+          }
 
-        const albumData = {
-          title: item.album,
-          slug: item.cms_slug,
-          artist: item.artist,
-          coverImage: coverImageId,
-          year: parseYear(item.year),
-          description: '',
-        }
+          const existingId = slugMap.get(item.cms_slug)
 
-        // Update or create
-        if (existing.docs && existing.docs.length > 0) {
-          await payload.update({
-            collection: 'albums',
-            id: existing.docs[0].id,
-            data: albumData,
-          })
-        } else {
-          try {
-            await payload.create({
+          if (existingId) {
+            await payload.update({
               collection: 'albums',
-              data: albumData,
+              id: existingId,
+              data: albumDataToSave,
             })
-          } catch (createError: any) {
-            // If create fails, try to find and update (likely duplicate slug)
-            const retry = await payload.find({
-              collection: 'albums',
-              where: {
-                slug: {
-                  equals: item.cms_slug,
-                },
-              },
-              limit: 1,
-            })
-            if (retry.docs && retry.docs.length > 0) {
-              await payload.update({
+          } else {
+            try {
+              const created = await payload.create({
                 collection: 'albums',
-                id: retry.docs[0].id,
-                data: albumData,
+                data: albumDataToSave,
               })
-            } else {
-              // If we still can't find it, throw the original error
-              throw createError
+              slugMap.set(item.cms_slug, created.id)
+            } catch (createError: any) {
+              const retry = await payload.find({
+                collection: 'albums',
+                where: { slug: { equals: item.cms_slug } },
+                limit: 1,
+              })
+              if (retry.docs && retry.docs.length > 0) {
+                await payload.update({
+                  collection: 'albums',
+                  id: retry.docs[0].id,
+                  data: albumDataToSave,
+                })
+                slugMap.set(item.cms_slug, retry.docs[0].id)
+              } else {
+                throw createError
+              }
             }
           }
+
+          stats.successful++
+        } catch (error) {
+          console.error(`\n  ❌ Failed to import "${item.album}":`, error)
+          stats.failed++
+        } finally {
+          progress.increment()
         }
+      }),
+    )
 
-        stats.successful++
-      } catch (error) {
-        console.error(`\n  ❌ Failed to import "${item.album}":`, error)
-        stats.failed++
-      }
-
-      progress.increment()
-    }
+    await Promise.allSettled(promises)
   } catch (error) {
     console.error('  ❌ Error reading music.json:', error)
   }

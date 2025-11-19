@@ -170,6 +170,57 @@ export async function getPayload() {
 }
 
 /**
+ * Pre-load all existing media filenames into a Map for fast lookups
+ * Returns Map<filename, mediaId>
+ */
+export async function preloadExistingMedia(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  payload: any,
+): Promise<Map<string, string>> {
+  const allMedia = await payload.find({
+    collection: 'media',
+    limit: 10000, // Adjust if you have more media items
+    select: {
+      filename: true,
+      id: true,
+    },
+  })
+
+  const mediaMap = new Map<string, string>()
+  for (const media of allMedia.docs) {
+    mediaMap.set(media.filename, media.id)
+  }
+
+  return mediaMap
+}
+
+/**
+ * Pre-load all existing asset slugs into a Map for fast lookups
+ * Returns Map<slug, assetId>
+ */
+export async function preloadExistingSlugs(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  payload: any,
+  collection: 'art' | 'books' | 'films' | 'albums',
+): Promise<Map<string, string>> {
+  const allAssets = await payload.find({
+    collection,
+    limit: 10000, // Adjust if needed
+    select: {
+      slug: true,
+      id: true,
+    },
+  })
+
+  const slugMap = new Map<string, string>()
+  for (const asset of allAssets.docs) {
+    slugMap.set(asset.slug, asset.id)
+  }
+
+  return slugMap
+}
+
+/**
  * Progress bar utility
  */
 export class ProgressBar {

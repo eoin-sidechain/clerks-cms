@@ -42,9 +42,9 @@ export default buildConfig({
     pool: {
       connectionString: process.env.DATABASE_URL || '',
       // Environment-aware pool settings
-      // Serverless (Vercel): Relaxed settings for cold starts
-      // Local development: more connections for import scripts
-      max: process.env.VERCEL_ENV ? 3 : 10,
+      // Serverless (Vercel): Minimal connections for cold starts
+      // Local development: Higher connections for parallel import scripts
+      max: process.env.VERCEL_ENV ? 3 : 20, // Increased from 10 to 20 for 5x concurrency
       min: 0, // Always 0 for serverless to avoid idle connections
       idleTimeoutMillis: 20000, // Close idle connections quickly
       connectionTimeoutMillis: 60000, // 60s timeout for cold starts
