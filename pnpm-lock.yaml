@@ -22,7 +22,7 @@ importers:
         version: 3.59.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@payloadcms/db-postgres':
         specifier: 3.59.1
-        version: 3.59.1(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))
+        version: 3.59.1(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(postgres@3.4.7)
       '@payloadcms/live-preview-react':
         specifier: 3.59.1
         version: 3.59.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -101,6 +101,9 @@ importers:
       payload:
         specifier: 3.59.1
         version: 3.59.1(graphql@16.12.0)(typescript@5.7.3)
+      postgres:
+        specifier: ^3.4.7
+        version: 3.4.7
       prism-react-renderer:
         specifier: ^2.3.1
         version: 2.4.1(react@19.1.0)
@@ -4628,6 +4631,10 @@ packages:
   postgres-range@1.1.4:
     resolution: {integrity: sha512-i/hbxIE9803Alj/6ytL7UHQxRvZkI9O4Sy+J3HGc4F4oo/2eQAjTSNJ0bfxyse3bH0nuVesCk+3IRLaMtG3H6w==}
 
+  postgres@3.4.7:
+    resolution: {integrity: sha512-Jtc2612XINuBjIl/QTWsV5UvE8UHuNblcO3vVADSrKsrc6RqGX6lOW1cEo3CM2v0XG4Nat8nI+YM7/f26VxXLw==}
+    engines: {node: '>=12'}
+
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -7218,13 +7225,13 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
-  '@payloadcms/db-postgres@3.59.1(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))':
+  '@payloadcms/db-postgres@3.59.1(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(postgres@3.4.7)':
     dependencies:
-      '@payloadcms/drizzle': 3.59.1(@types/pg@8.10.2)(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(pg@8.16.3)
+      '@payloadcms/drizzle': 3.59.1(@types/pg@8.10.2)(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(pg@8.16.3)(postgres@3.4.7)
       '@types/pg': 8.10.2
       console-table-printer: 2.12.1
       drizzle-kit: 0.31.4
-      drizzle-orm: 0.44.2(@types/pg@8.10.2)(pg@8.16.3)
+      drizzle-orm: 0.44.2(@types/pg@8.10.2)(pg@8.16.3)(postgres@3.4.7)
       payload: 3.59.1(graphql@16.12.0)(typescript@5.7.3)
       pg: 8.16.3
       prompts: 2.4.2
@@ -7261,11 +7268,11 @@ snapshots:
       - sqlite3
       - supports-color
 
-  '@payloadcms/drizzle@3.59.1(@types/pg@8.10.2)(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(pg@8.16.3)':
+  '@payloadcms/drizzle@3.59.1(@types/pg@8.10.2)(payload@3.59.1(graphql@16.12.0)(typescript@5.7.3))(pg@8.16.3)(postgres@3.4.7)':
     dependencies:
       console-table-printer: 2.12.1
       dequal: 2.0.3
-      drizzle-orm: 0.44.2(@types/pg@8.10.2)(pg@8.16.3)
+      drizzle-orm: 0.44.2(@types/pg@8.10.2)(pg@8.16.3)(postgres@3.4.7)
       payload: 3.59.1(graphql@16.12.0)(typescript@5.7.3)
       prompts: 2.4.2
       to-snake-case: 1.0.0
@@ -9044,10 +9051,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.44.2(@types/pg@8.10.2)(pg@8.16.3):
+  drizzle-orm@0.44.2(@types/pg@8.10.2)(pg@8.16.3)(postgres@3.4.7):
     optionalDependencies:
       '@types/pg': 8.10.2
       pg: 8.16.3
+      postgres: 3.4.7
 
   dunder-proto@1.0.1:
     dependencies:
@@ -10796,6 +10804,8 @@ snapshots:
   postgres-interval@3.0.0: {}
 
   postgres-range@1.1.4: {}
+
+  postgres@3.4.7: {}
 
   prelude-ls@1.2.1: {}
 

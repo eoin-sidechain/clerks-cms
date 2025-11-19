@@ -42,9 +42,36 @@ export const cascadePublishApplication: CollectionBeforeChangeHook = async ({
       sectionIds.push(...followUpIds)
     }
 
-    // Publish all related Sections (and their Steps)
+    // First, collect all unique step IDs across all sections to avoid duplicates
+    const allStepIds = new Set<number>()
+
     for (const sectionId of sectionIds) {
-      await cascadePublishSection(req, sectionId)
+      const section = await req.payload.findByID({
+        collection: 'sections',
+        id: sectionId,
+        depth: 1,
+      })
+
+      if (section.steps && Array.isArray(section.steps)) {
+        for (const stepEntry of section.steps) {
+          const stepId = typeof stepEntry.step === 'object' ? stepEntry.step.id : stepEntry.step
+          if (stepId) {
+            allStepIds.add(stepId)
+          }
+        }
+      }
+    }
+
+    // Publish all unique steps first
+    req.payload.logger.info(`Publishing ${allStepIds.size} unique steps`)
+    for (const stepId of allStepIds) {
+      await cascadePublishStep(req, stepId)
+    }
+
+    // Then publish all sections
+    req.payload.logger.info(`Publishing ${sectionIds.length} sections`)
+    for (const sectionId of sectionIds) {
+      await cascadePublishSectionOnly(req, sectionId)
     }
 
     req.payload.logger.info(`Cascade publish complete for Application`)
@@ -57,15 +84,16 @@ export const cascadePublishApplication: CollectionBeforeChangeHook = async ({
 }
 
 /**
- * Helper function to publish a Section and all its Steps
+ * Helper function to publish a Section only (without its steps)
+ * Steps should be published separately to avoid duplicates
  */
-async function cascadePublishSection(req: any, sectionId: number): Promise<void> {
+async function cascadePublishSectionOnly(req: any, sectionId: number): Promise<void> {
   try {
-    // Fetch the section with its steps
+    // Fetch the section to check its status
     const section = await req.payload.findByID({
       collection: 'sections',
       id: sectionId,
-      depth: 1,
+      depth: 0,
     })
 
     // If section is already published, skip
@@ -76,18 +104,7 @@ async function cascadePublishSection(req: any, sectionId: number): Promise<void>
 
     req.payload.logger.info(`Publishing Section ${sectionId}`)
 
-    // Publish all Steps in this Section first
-    if (section.steps && Array.isArray(section.steps)) {
-      for (const stepEntry of section.steps) {
-        const stepId = typeof stepEntry.step === 'object' ? stepEntry.step.id : stepEntry.step
-
-        if (stepId) {
-          await cascadePublishStep(req, stepId)
-        }
-      }
-    }
-
-    // Now publish the Section itself
+    // Publish the Section
     await req.payload.update({
       collection: 'sections',
       id: sectionId,

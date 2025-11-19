@@ -1,6 +1,7 @@
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { NextRequest, NextResponse } from 'next/server'
+import { getServerSideURL } from '@/utilities/getURL'
 
 /**
  * GET /api/sections/:id/quiz-format
@@ -12,6 +13,7 @@ export async function GET(
 ): Promise<NextResponse> {
   const { id } = await params
   const payload = await getPayload({ config })
+  const serverUrl = getServerSideURL()
 
   try {
     // Fetch the section with all steps populated
@@ -26,7 +28,7 @@ export async function GET(
     }
 
     // Transform section to quiz format
-    const quizSteps = await transformSectionToQuizFormat(section, payload)
+    const quizSteps = await transformSectionToQuizFormat(section, payload, serverUrl)
 
     return NextResponse.json(quizSteps)
   } catch (error) {
@@ -38,7 +40,7 @@ export async function GET(
 /**
  * Transform a PayloadCMS Section to quiz file format
  */
-async function transformSectionToQuizFormat(section: any, payload: any): Promise<any[]> {
+async function transformSectionToQuizFormat(section: any, payload: any, serverUrl: string): Promise<any[]> {
   const quizSteps: any[] = []
 
   if (!section.steps || !Array.isArray(section.steps)) {
@@ -53,7 +55,7 @@ async function transformSectionToQuizFormat(section: any, payload: any): Promise
 
     if (!step) continue
 
-    const quizStep = await transformStepToQuizFormat(step, payload)
+    const quizStep = await transformStepToQuizFormat(step, payload, serverUrl)
     if (quizStep) {
       quizSteps.push(quizStep)
     }
@@ -65,7 +67,7 @@ async function transformSectionToQuizFormat(section: any, payload: any): Promise
 /**
  * Transform a single Step to quiz format
  */
-async function transformStepToQuizFormat(step: any, payload: any): Promise<any | null> {
+async function transformStepToQuizFormat(step: any, payload: any, serverUrl: string): Promise<any | null> {
   const baseStep: any = {
     id: `step-${step.id}`,
     type: step.stepType,
@@ -107,7 +109,7 @@ async function transformStepToQuizFormat(step: any, payload: any): Promise<any |
 
       case 'rating':
         if (step.ratingItem) {
-          const item = await getMediaItem(step.ratingItem, step.mediaType, payload)
+          const item = await getMediaItem(step.ratingItem, step.mediaType, payload, serverUrl)
           if (item) {
             baseStep.properties = {
               items: [item],
@@ -128,8 +130,8 @@ async function transformStepToQuizFormat(step: any, payload: any): Promise<any |
         break
 
       case 'this_or_that':
-        const optionA = await getMediaItem(step.optionA, step.mediaType, payload)
-        const optionB = await getMediaItem(step.optionB, step.mediaType, payload)
+        const optionA = await getMediaItem(step.optionA, step.mediaType, payload, serverUrl)
+        const optionB = await getMediaItem(step.optionB, step.mediaType, payload, serverUrl)
 
         baseStep.properties = {
           choices: [optionA, optionB].filter(Boolean),
@@ -144,7 +146,7 @@ async function transformStepToQuizFormat(step: any, payload: any): Promise<any |
         const rankingItems: any[] = []
         if (step.rankingOptions && Array.isArray(step.rankingOptions)) {
           for (const option of step.rankingOptions) {
-            const item = await getMediaItem(option.item, step.mediaType, payload)
+            const item = await getMediaItem(option.item, step.mediaType, payload, serverUrl)
             if (item) {
               rankingItems.push(item)
             }
@@ -203,6 +205,7 @@ async function getMediaItem(
   itemRef: any,
   mediaType: string,
   payload: any,
+  serverUrl: string,
 ): Promise<any | null> {
   if (!itemRef) return null
 
@@ -216,7 +219,7 @@ async function getMediaItem(
       itemId = typeof itemRef.value === 'object' ? itemRef.value?.id : itemRef.value
     } else if (typeof itemRef === 'object' && 'id' in itemRef) {
       // Already populated
-      return formatMediaItem(itemRef, collection)
+      return formatMediaItem(itemRef, collection, serverUrl)
     } else if (typeof itemRef === 'number') {
       itemId = itemRef
     }
@@ -230,7 +233,7 @@ async function getMediaItem(
       depth: 1,
     })
 
-    return formatMediaItem(item, collection)
+    return formatMediaItem(item, collection, serverUrl)
   } catch (error) {
     console.error('Error fetching media item:', error)
     return null
@@ -240,7 +243,7 @@ async function getMediaItem(
 /**
  * Format a media item (album, book, film, art) to quiz format
  */
-function formatMediaItem(item: any, collection: string): any {
+function formatMediaItem(item: any, collection: string, serverUrl: string): any {
   if (!item) return null
 
   const formatted: any = {
@@ -257,13 +260,15 @@ function formatMediaItem(item: any, collection: string): any {
     formatted.label = `${item.title} - ${item.director}`
   }
 
-  // Add image
+  // Add image as fully qualified URL
   if (item.coverImage && typeof item.coverImage === 'object') {
-    formatted.image_url = item.coverImage.url || `/media/${item.coverImage.filename}`
-    formatted.cms_image_url = item.coverImage.filename
+    formatted.image_url = item.coverImage.filename
+      ? `${serverUrl}/api/media/file/${item.coverImage.filename}`
+      : ''
   } else if (item.image && typeof item.image === 'object') {
-    formatted.image_url = item.image.url || `/media/${item.image.filename}`
-    formatted.cms_image_url = item.image.filename
+    formatted.image_url = item.image.filename
+      ? `${serverUrl}/api/media/file/${item.image.filename}`
+      : ''
   }
 
   // Add year/description

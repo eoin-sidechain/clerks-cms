@@ -202,6 +202,20 @@ const RelationshipGridField: React.FC<RelationshipGridFieldProps> = (props) => {
     setSelectedItem(null)
   }, [setValue])
 
+  // Handle ESC key to close modal
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isOpen) {
+        setIsOpen(false)
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleEscape)
+      return () => document.removeEventListener('keydown', handleEscape)
+    }
+  }, [isOpen])
+
   // Get display text for an item
   const getItemDisplay = (item: MediaItem) => {
     const creator = item.artist || item.author || item.director
@@ -262,8 +276,14 @@ const RelationshipGridField: React.FC<RelationshipGridFieldProps> = (props) => {
       )}
 
       {isOpen && (
-        <div className="relationship-grid-field__modal">
-          <div className="relationship-grid-field__modal-content">
+        <div
+          className="relationship-grid-field__modal"
+          onClick={() => setIsOpen(false)}
+        >
+          <div
+            className="relationship-grid-field__modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="relationship-grid-field__modal-header">
               <h3>Select {label || 'Item'}</h3>
               <button

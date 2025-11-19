@@ -16,7 +16,6 @@ import { default as default_fd68a2a825968c4933c15c7956ca341e } from '@/component
 import { default as default_c51f7d6ed5f859c496fc1ed298c50669 } from '@/components/BooksGridView'
 import { default as default_1d60323615fee92acdb4e56ba77f61e4 } from '@/fields/TitleField'
 import { default as default_47732b5cb2afdd544ea06983357d8bfb } from '@/fields/RelationshipGridField'
-import { default as default_1a7510af427896d367a49dbf838d2de6 } from '@/components/BeforeDashboard'
 import { default as default_8a7ab0eb7ab5c511aba12e68480bfe5e } from '@/components/BeforeLogin'
 import { S3ClientUploadHandler as S3ClientUploadHandler_f97aa6c64367fa259c5bc0567239ef24 } from '@payloadcms/storage-s3/client'
 
@@ -39,7 +38,6 @@ export const importMap = {
   "@/components/BooksGridView#default": default_c51f7d6ed5f859c496fc1ed298c50669,
   "@/fields/TitleField#default": default_1d60323615fee92acdb4e56ba77f61e4,
   "@/fields/RelationshipGridField#default": default_47732b5cb2afdd544ea06983357d8bfb,
-  "@/components/BeforeDashboard#default": default_1a7510af427896d367a49dbf838d2de6,
   "@/components/BeforeLogin#default": default_8a7ab0eb7ab5c511aba12e68480bfe5e,
   "@payloadcms/storage-s3/client#S3ClientUploadHandler": S3ClientUploadHandler_f97aa6c64367fa259c5bc0567239ef24
 }
