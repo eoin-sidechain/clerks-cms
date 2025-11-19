@@ -54,7 +54,7 @@ export async function GET(request: NextRequest) {
 
       // Map PayloadCMS step to quiz format
       const quizStep: any = {
-        id: step.slug || `step-${step.id}`,
+        id: `step-${step.id}`,
         type: stepTypeValue,
         title: step.title,
         required: true,
@@ -81,7 +81,7 @@ export async function GET(request: NextRequest) {
       }
 
       // This or That - uses optionA and optionB relationships
-      if (step.questionType === 'this_or_that') {
+      if (step.questionType === 'this_or_that' && step.mediaType) {
         const choices: any[] = []
 
         // Fetch and format optionA
@@ -102,7 +102,7 @@ export async function GET(request: NextRequest) {
       }
 
       // Rating - uses ratingItem relationship and ratingLabels array
-      if (step.questionType === 'rating' && step.ratingItem) {
+      if (step.questionType === 'rating' && step.ratingItem && step.mediaType) {
         const item = await fetchMediaItem(step.ratingItem, step.mediaType, payload, serverUrl)
         if (item) {
           quizStep.properties.items = [item]
@@ -118,7 +118,7 @@ export async function GET(request: NextRequest) {
       }
 
       // Ranking - uses rankingOptions array with item relationships
-      if (step.questionType === 'ranking' && step.rankingOptions) {
+      if (step.questionType === 'ranking' && step.rankingOptions && step.mediaType) {
         const rankingChoices: any[] = []
         for (const option of step.rankingOptions) {
           const item = await fetchMediaItem(option.item, step.mediaType, payload, serverUrl)
@@ -129,7 +129,7 @@ export async function GET(request: NextRequest) {
         quizStep.properties.choices = rankingChoices
       }
 
-      if (['short_text', 'long_text'].includes(step.questionType) && step.placeholder) {
+      if (step.questionType && ['short_text', 'long_text'].includes(step.questionType) && step.placeholder) {
         quizStep.properties.placeholder = step.placeholder
       }
 
