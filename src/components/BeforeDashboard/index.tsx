@@ -1,7 +1,6 @@
-import { Banner } from '@payloadcms/ui/elements/Banner'
 import React from 'react'
+import Link from 'next/link'
 
-import { SeedButton } from './SeedButton'
 import './index.scss'
 
 const baseClass = 'before-dashboard'
@@ -37,7 +36,7 @@ const BeforeDashboard: React.FC = () => {
               Deploy your application sections to production quiz templates
             </p>
           </div>
-          <a
+          <Link
             href="/admin/push-live"
             className="push-live-button"
             style={{
@@ -53,7 +52,7 @@ const BeforeDashboard: React.FC = () => {
             }}
           >
             Go to Push Live →
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ export const Steps: CollectionConfig = {
   },
   hooks: {
     beforeChange: [
-      async ({ data, req, operation }) => {
+      async ({ data, req, operation: _operation }) => {
         // Auto-generate title for rating questions
         if (
           data.stepType === 'question' &&

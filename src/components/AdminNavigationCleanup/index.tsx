@@ -45,7 +45,7 @@ export default function AdminNavigationCleanup() {
     })
 
     // Handle back button
-    const handlePopState = (e: PopStateEvent) => {
+    const handlePopState = () => {
       // Check if there's an active modal
       const modalContainers = document.querySelectorAll('.payload__modal-container')
 
