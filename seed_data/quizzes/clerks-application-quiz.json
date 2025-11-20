@@ -239,7 +239,7 @@
   {
     "id": "tt-225",
     "type": "question",
-    "title": "Albums: Beastie Boys vs Duran Duran",
+    "title": "Albums: Paul's Boutique vs Rio",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -293,7 +293,7 @@
   {
     "id": "tt-211",
     "type": "question",
-    "title": "Albums: Cat Stevens vs Jamie xx",
+    "title": "Albums: Tea for the Tillerman vs In Colour",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -347,7 +347,7 @@
   {
     "id": "music-tt-5",
     "type": "question",
-    "title": "Albums: Van Morrison vs OutKast",
+    "title": "Albums: Astral Weeks vs Stankonia",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -407,7 +407,7 @@
       "items": [
         {
           "id": "metallica-master-of-puppets-1986",
-          "label": "Master of Puppets - Metallica",
+          "label": "Master of Puppets (Metallica)",
           "image_url": "/images/music/metallica-master-of-puppets-1986.jpg",
           "description": "1986",
           "cms_slug": "master-of-puppets-metallica-1986",
@@ -419,7 +419,7 @@
   {
     "id": "music-tt-3-3",
     "type": "question",
-    "title": "Albums: R.E.M. vs Kanye West",
+    "title": "Albums: Automatic for the People vs Yeezus",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -489,7 +489,7 @@
       "items": [
         {
           "id": "isaac-hayes-hot-buttered-soul-1969",
-          "label": "Hot Buttered Soul - Isaac Hayes",
+          "label": "Hot Buttered Soul (Isaac Hayes)",
           "image_url": "/images/music/isaac-hayes-hot-buttered-soul-1969.jpg",
           "description": "1969",
           "cms_slug": "hot-buttered-soul-isaac-hayes-1969",
@@ -509,7 +509,7 @@
       "items": [
         {
           "id": "218_Marcel_Duchamp_Fountain",
-          "label": "Fountain - Marcel Duchamp",
+          "label": "Fountain (Marcel Duchamp)",
           "image_url": "/images/art/218_Marcel_Duchamp_Fountain.jpg",
           "description": "1917",
           "cms_slug": "fountain-marcel-duchamp-1917",
@@ -521,7 +521,7 @@
   {
     "id": "music-rk-2-2",
     "type": "question",
-    "title": "Albums: Talking Heads, Synchronicity, Patti Smith, The Strokes",
+    "title": "Albums: Remain in Light, Synchronicity, Horses, Is This It",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -536,7 +536,7 @@
         },
         {
           "id": "the-police-synchronicity-1983",
-          "label": "The Police (Synchronicity)",
+          "label": "Synchronicity (The Police)",
           "image_url": "/images/music/the-police-synchronicity-1983.jpg",
           "cms_slug": "synchronicity-the-police-1983",
           "cms_image_url": "synchronicity-the-police-1983.jpg"
@@ -611,7 +611,7 @@
   {
     "id": "tt-213",
     "type": "question",
-    "title": "Films: Andrew Stanton vs Oliver Stone",
+    "title": "Films: WALL-E vs Platoon",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -655,7 +655,7 @@
   {
     "id": "tt-218",
     "type": "question",
-    "title": "Films: Jean-Luc Godard vs Michael Mann",
+    "title": "Films: Breathless vs Heat",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -699,7 +699,7 @@
   {
     "id": "tt-208",
     "type": "question",
-    "title": "Films: J.A. Bayona vs Ridley Scott",
+    "title": "Films: A Monster Calls vs Blade Runner",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -756,7 +756,7 @@
       "items": [
         {
           "id": "get-out-2017-jordan-peele",
-          "label": "Get Out",
+          "label": "Get Out (Jordan Peele)",
           "image_url": "/images/movies/get-out-2017-jordan-peele.jpg",
           "description": "2017",
           "cms_slug": "get-out-jordan-peele-2017",
@@ -768,7 +768,7 @@
   {
     "id": "tt-235",
     "type": "question",
-    "title": "Films: George Roy Hill vs Adam McKay",
+    "title": "Films: The Sting vs The Big Short",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -811,7 +811,7 @@
   {
     "id": "tt-238",
     "type": "question",
-    "title": "Albums: Derek and the Dominos vs Burial",
+    "title": "Albums: Layla and Other Assorted Love Songs vs Untrue",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -819,7 +819,7 @@
       "choices": [
         {
           "id": "derek-and-the-dominos-layla-and-other-assorted-love-songs-1970",
-          "label": "Layla (Derek and the Dominos)",
+          "label": "Layla and Other Assorted Love Songs (Derek and the Dominos)",
           "image_url": "/images/music/derek-and-the-dominos-layla-and-other-assorted-love-songs-1970.jpg",
           "description": "",
           "cms_slug": "layla-and-other-assorted-love-songs-derek-and-the-dominos-1970",
@@ -893,7 +893,7 @@
       "items": [
         {
           "id": "fifty-shades-of-grey-by-el-james-2011",
-          "label": "Fifty Shades of Grey - E.L. James",
+          "label": "Fifty Shades of Grey (E.L. James)",
           "image_url": "/images/books/fifty-shades-of-grey-by-el-james-2011.jpg",
           "description": "2011",
           "cms_slug": "fifty-shades-of-grey-e-l-james-2011",
@@ -913,7 +913,7 @@
       "items": [
         {
           "id": "invisible-man-by-ralph-ellison-1952",
-          "label": "Invisible Man - Ralph Ellison",
+          "label": "Invisible Man (Ralph Ellison)",
           "image_url": "/images/books/invisible-man-by-ralph-ellison-1952.jpg",
           "description": "1952",
           "cms_slug": "invisible-man-ralph-ellison-1952",
@@ -925,7 +925,7 @@
   {
     "id": "tt-226",
     "type": "question",
-    "title": "Albums: Janet Jackson vs New Order",
+    "title": "Albums: Control vs Power Corruption & Lies",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -941,7 +941,7 @@
         },
         {
           "id": "new-order-power-corruption-lies-1983",
-          "label": "Power, Corruption & Lies (New Order)",
+          "label": "Power Corruption & Lies (New Order)",
           "image_url": "/images/music/new-order-power-corruption-lies-1983.jpg",
           "description": "",
           "cms_slug": "power-corruption-lies-new-order-1983",
@@ -969,7 +969,7 @@
   {
     "id": "tt-245",
     "type": "question",
-    "title": "Albums: Pixies vs The Roots",
+    "title": "Albums: Surfer Rosa vs Things Fall Apart",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1013,7 +1013,7 @@
   {
     "id": "movie-tt-8",
     "type": "question",
-    "title": "Films: Francis Ford Coppola vs Woody Allen",
+    "title": "Films: The Godfather vs Annie Hall",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1050,7 +1050,7 @@
   {
     "id": "tt-214",
     "type": "question",
-    "title": "Films: Pete Docter vs Stanley Kubrick",
+    "title": "Films: Inside Out vs Full Metal Jacket",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1102,7 +1102,7 @@
       "items": [
         {
           "id": "038_Anish_Kapoor_Sky_Mirror",
-          "label": "Sky Mirror - Anish Kapoor",
+          "label": "Sky Mirror (Anish Kapoor)",
           "image_url": "/images/art/038_Anish_Kapoor_Sky_Mirror.jpg",
           "description": "2006",
           "cms_slug": "sky-mirror-anish-kapoor-2006",
@@ -1114,7 +1114,7 @@
   {
     "id": "tt-228",
     "type": "question",
-    "title": "Albums: Etta James vs Kanye West",
+    "title": "Albums: At Last! vs My Beautiful Dark Twisted Fantasy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1158,7 +1158,7 @@
   {
     "id": "tt-209",
     "type": "question",
-    "title": "Films: Víctor Erice vs Alex Garland",
+    "title": "Films: The Spirit of the Beehive vs Ex Machina",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1215,7 +1215,7 @@
       "items": [
         {
           "id": "the-400-blows-1959-francois-truffaut",
-          "label": "The 400 Blows",
+          "label": "The 400 Blows (François Truffaut)",
           "image_url": "/images/movies/the-400-blows-1959-francois-truffaut.jpg",
           "description": "1959",
           "cms_slug": "the-400-blows-fran-ois-truffaut-1959",
@@ -1257,7 +1257,7 @@
   {
     "id": "tt-203",
     "type": "question",
-    "title": "Albums: Sly & The Family Stone vs Interpol",
+    "title": "Albums: There's a Riot Goin' On vs Turn On the Bright Lights",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1309,7 +1309,7 @@
       "items": [
         {
           "id": "the-hobbit-by-jrr-tolkien-1937",
-          "label": "The Hobbit - J.R.R. Tolkien",
+          "label": "The Hobbit (J.R.R. Tolkien)",
           "image_url": "/images/books/the-hobbit-by-jrr-tolkien-1937.jpg",
           "description": "1937",
           "cms_slug": "the-hobbit-j-r-r-tolkien-1937",
@@ -1329,7 +1329,7 @@
       "items": [
         {
           "id": "213_Claude_Monet_Water_Lilies",
-          "label": "Water Lilies - Claude Monet",
+          "label": "Water Lilies (Claude Monet)",
           "image_url": "/images/art/213_Claude_Monet_Water_Lilies.jpg",
           "description": "1919",
           "cms_slug": "water-lilies-claude-monet-1919",
@@ -1351,7 +1351,7 @@
   {
     "id": "music-tt-7",
     "type": "question",
-    "title": "Albums: The Clash vs 36 Chambers",
+    "title": "Albums: London Calling vs Enter the Wu-Tang (36 Chambers)",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1401,7 +1401,7 @@
       "items": [
         {
           "id": "do-the-right-thing-1989-spike-lee",
-          "label": "Do the Right Thing",
+          "label": "Do the Right Thing (Spike Lee)",
           "image_url": "/images/movies/do-the-right-thing-1989-spike-lee.jpg",
           "description": "1989",
           "cms_slug": "do-the-right-thing-spike-lee-1989",
@@ -1413,7 +1413,7 @@
   {
     "id": "tt-204",
     "type": "question",
-    "title": "Films: Jean-Luc Godard vs Coen Brothers",
+    "title": "Films: Alphaville vs No Country for Old Men",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1447,7 +1447,7 @@
   {
     "id": "music-rk-1-2",
     "type": "question",
-    "title": "Albums: David Bowie, The Velvet Underground, My Bloody Valentine, Joy Division",
+    "title": "Albums: Ziggy Stardust, The Velvet Underground & Nico, Loveless, Unknown Pleasures",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -1487,7 +1487,7 @@
   {
     "id": "tt-205",
     "type": "question",
-    "title": "Films: Sofia Coppola vs David Fincher",
+    "title": "Films: Lost in Translation vs The Social Network",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1531,7 +1531,7 @@
   {
     "id": "tt-212",
     "type": "question",
-    "title": "Albums: Neil Young vs Disclosure",
+    "title": "Albums: After the Gold Rush vs Settle",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1573,7 +1573,7 @@
       "items": [
         {
           "id": "spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman",
-          "label": "Spider-Man: Into the Spider-Verse",
+          "label": "Spider-Man: Into the Spider-Verse (Persichetti Ramsey & Rothman)",
           "image_url": "/images/movies/spider-man-into-the-spider-verse-2018-persichetti-ramsey-rothman.jpg",
           "description": "2018",
           "cms_slug": "spider-man-into-the-spider-verse-persichetti-ramsey-rothman-2018",
@@ -1585,7 +1585,7 @@
   {
     "id": "tt-231",
     "type": "question",
-    "title": "Albums: The Beatles vs Television",
+    "title": "Albums: Revolver vs Marquee Moon",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1627,7 +1627,7 @@
       "items": [
         {
           "id": "madonna-like-a-virgin-1984",
-          "label": "Like a Virgin - Madonna",
+          "label": "Like a Virgin (Madonna)",
           "image_url": "/images/music/madonna-like-a-virgin-1984.jpg",
           "description": "1984",
           "cms_slug": "like-a-virgin-madonna-1984",
@@ -1639,7 +1639,7 @@
   {
     "id": "tt-202",
     "type": "question",
-    "title": "Albums: Curtis Mayfield vs Animal Collective",
+    "title": "Albums: Superfly vs Merriweather Post Pavilion",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1681,7 +1681,7 @@
       "items": [
         {
           "id": "herbie-hancock-head-hunters-1973",
-          "label": "Head Hunters - Herbie Hancock",
+          "label": "Head Hunters (Herbie Hancock)",
           "image_url": "/images/music/herbie-hancock-head-hunters-1973.jpg",
           "description": "1973",
           "cms_slug": "head-hunters-herbie-hancock-1973",
@@ -1693,7 +1693,7 @@
   {
     "id": "tt-210",
     "type": "question",
-    "title": "Albums: Alicia Keys vs Justice",
+    "title": "Albums: Songs in A Minor vs Cross",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1727,7 +1727,7 @@
   {
     "id": "tt-227",
     "type": "question",
-    "title": "Albums: Bruce Springsteen vs The Cure",
+    "title": "Albums: Born in the U.S.A. vs Seventeen Seconds",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1761,7 +1761,7 @@
   {
     "id": "tt-217",
     "type": "question",
-    "title": "Films: Andrei Tarkovsky vs Christopher Nolan",
+    "title": "Films: Stalker vs Inception",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1803,7 +1803,7 @@
       "items": [
         {
           "id": "225_Gustave_Courbet_A_Burial_at_Ornans",
-          "label": "A Burial at Ornans - Gustave Courbet",
+          "label": "A Burial at Ornans (Gustave Courbet)",
           "image_url": "/images/art/225_Gustave_Courbet_A_Burial_at_Ornans.jpg",
           "description": "1850",
           "cms_slug": "a-burial-at-ornans-gustave-courbet-1850",
@@ -1815,7 +1815,7 @@
   {
     "id": "tt-244",
     "type": "question",
-    "title": "Albums: The Stone Roses vs Mos Def",
+    "title": "Albums: The Stone Roses vs Black on Both Sides",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1849,7 +1849,7 @@
   {
     "id": "music-tt-1",
     "type": "question",
-    "title": "Albums: Fleetwood Mac vs Frank Ocean",
+    "title": "Albums: Rumours vs Channel Orange",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1889,7 +1889,7 @@
       "items": [
         {
           "id": "078_Yayoi_Kusama_Pumpkin",
-          "label": "Pumpkin - Yayoi Kusama",
+          "label": "Pumpkin (Yayoi Kusama)",
           "image_url": "/images/art/078_Yayoi_Kusama_Pumpkin.jpg",
           "description": "Various",
           "cms_slug": "pumpkin-yayoi-kusama",
@@ -1909,7 +1909,7 @@
       "items": [
         {
           "id": "dolly-parton-coat-of-many-colors-1971",
-          "label": "Coat of Many Colors - Dolly Parton",
+          "label": "Coat of Many Colors (Dolly Parton)",
           "image_url": "/images/music/dolly-parton-coat-of-many-colors-1971.jpg",
           "description": "1971",
           "cms_slug": "coat-of-many-colors-dolly-parton-1971",
@@ -1929,7 +1929,7 @@
       "items": [
         {
           "id": "203_Sandro_Botticelli_The_Birth_of_Venus",
-          "label": "The Birth of Venus - Sandro Botticelli",
+          "label": "The Birth of Venus (Sandro Botticelli)",
           "image_url": "/images/art/203_Sandro_Botticelli_The_Birth_of_Venus.jpg",
           "description": "1485",
           "cms_slug": "the-birth-of-venus-sandro-botticelli-1485",
@@ -1949,7 +1949,7 @@
       "items": [
         {
           "id": "beloved-by-toni-morrison-1987",
-          "label": "Beloved - Toni Morrison",
+          "label": "Beloved (Toni Morrison)",
           "image_url": "/images/books/beloved-by-toni-morrison-1987.jpg",
           "description": "1987",
           "cms_slug": "beloved-toni-morrison-1987",
@@ -1961,7 +1961,7 @@
   {
     "id": "tt-215",
     "type": "question",
-    "title": "Films: Lee Unkrich vs Steven Spielberg",
+    "title": "Films: Coco vs Saving Private Ryan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1995,7 +1995,7 @@
   {
     "id": "tt-207",
     "type": "question",
-    "title": "Films: Neill Blomkamp vs Christopher Nolan",
+    "title": "Films: District 9 vs Interstellar",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2033,7 +2033,7 @@
   {
     "id": "music-tt-8-2",
     "type": "question",
-    "title": "Albums: Jimi Hendrix vs Kendrick Lamar",
+    "title": "Albums: Are You Experienced vs To Pimp a Butterfly",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2065,7 +2065,7 @@
   {
     "id": "music-tt-6",
     "type": "question",
-    "title": "Albums: Bruce Springsteen vs Kendrick Lamar",
+    "title": "Albums: Born to Run vs good kid m.A.A.d city",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2080,7 +2080,7 @@
         },
         {
           "id": "kendrick-lamar-good-kid-maad-city-2012",
-          "label": "good kid, m.A.A.d city (Kendrick Lamar)",
+          "label": "good kid m.A.A.d city (Kendrick Lamar)",
           "image_url": "/images/music/kendrick-lamar-good-kid-maad-city-2012.jpg",
           "cms_slug": "good-kid-m-a-a-d-city-kendrick-lamar-2012",
           "cms_image_url": "good-kid-m-a-a-d-city-kendrick-lamar-2012.jpg"
@@ -2097,7 +2097,7 @@
   {
     "id": "tt-255",
     "type": "question",
-    "title": "Albums: Bob Dylan vs Run the Jewels",
+    "title": "Albums: Blood on the Tracks vs Run the Jewels 2",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2139,7 +2139,7 @@
       "items": [
         {
           "id": "the-scarlet-letter-by-nathaniel-hawthorne-1850",
-          "label": "The Scarlet Letter - Nathaniel Hawthorne",
+          "label": "The Scarlet Letter (Nathaniel Hawthorne)",
           "image_url": "/images/books/the-scarlet-letter-by-nathaniel-hawthorne-1850.jpg",
           "description": "1850",
           "cms_slug": "the-scarlet-letter-nathaniel-hawthorne-1850",
@@ -2151,7 +2151,7 @@
   {
     "id": "tt-201",
     "type": "question",
-    "title": "Albums: Stevie Wonder vs Arcade Fire",
+    "title": "Albums: Songs in the Key of Life vs Funeral",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2185,7 +2185,7 @@
   {
     "id": "tt-229",
     "type": "question",
-    "title": "Albums: The Who vs Jay-Z",
+    "title": "Albums: Tommy vs 4:44",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2227,7 +2227,7 @@
       "items": [
         {
           "id": "the-bell-jar-by-sylvia-plath-1963",
-          "label": "The Bell Jar - Sylvia Plath",
+          "label": "The Bell Jar (Sylvia Plath)",
           "image_url": "/images/books/the-bell-jar-by-sylvia-plath-1963.jpg",
           "description": "1963",
           "cms_slug": "the-bell-jar-sylvia-plath-1963",
@@ -2239,7 +2239,7 @@
   {
     "id": "tt-206",
     "type": "question",
-    "title": "Films: Park Chan-wook vs David Fincher",
+    "title": "Films: The Handmaiden vs Zodiac",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2281,7 +2281,7 @@
       "items": [
         {
           "id": "raekwon-only-built-4-cuban-linx-1995",
-          "label": "Only Built 4 Cuban Linx - Raekwon",
+          "label": "Only Built 4 Cuban Linx (Raekwon)",
           "image_url": "/images/music/raekwon-only-built-4-cuban-linx-1995.jpg",
           "description": "1995",
           "cms_slug": "only-built-4-cuban-linx-raekwon-1995",
@@ -2293,7 +2293,7 @@
   {
     "id": "music-tt-4",
     "type": "question",
-    "title": "Albums: Robyn vs Daft Punk",
+    "title": "Albums: Robyn vs Discovery",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2333,7 +2333,7 @@
       "items": [
         {
           "id": "taxi-driver-1976-martin-scorsese",
-          "label": "Taxi Driver",
+          "label": "Taxi Driver (Martin Scorsese)",
           "image_url": "/images/movies/taxi-driver-1976-martin-scorsese.jpg",
           "description": "1976",
           "cms_slug": "taxi-driver-martin-scorsese-1976",
@@ -2353,7 +2353,7 @@
       "items": [
         {
           "id": "233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn",
-          "label": "Dropping a Han Dynasty Urn - Ai Weiwei",
+          "label": "Dropping a Han Dynasty Urn (Ai Weiwei)",
           "image_url": "/images/art/233_Ai_Weiwei_Dropping_a_Han_Dynasty_Urn.jpg",
           "description": "1995",
           "cms_slug": "dropping-a-han-dynasty-urn-ai-weiwei-1995",
@@ -2365,7 +2365,7 @@
   {
     "id": "tt-234",
     "type": "question",
-    "title": "Films: Coen Brothers vs Bryan Singer",
+    "title": "Films: The Big Lebowski vs The Usual Suspects",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2397,7 +2397,7 @@
   {
     "id": "tt-233",
     "type": "question",
-    "title": "Films: Darren Aronofsky vs Bennett Miller",
+    "title": "Films: Black Swan vs Moneyball",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2431,7 +2431,7 @@
   {
     "id": "movie-tt-4-2",
     "type": "question",
-    "title": "Films: Isao Takahata vs Sergio Leone",
+    "title": "Films: Grave Of The Fireflies vs The Good the Bad and the Ugly",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2439,14 +2439,14 @@
       "choices": [
         {
           "id": "grave-of-the-fireflies-1988-isao-takahata",
-          "label": "Grave of the Fireflies (Isao Takahata)",
+          "label": "Grave Of The Fireflies (Isao Takahata)",
           "image_url": "/images/movies/grave-of-the-fireflies-1988-isao-takahata.jpg",
           "cms_slug": "grave-of-the-fireflies-isao-takahata-1988",
           "cms_image_url": "grave-of-the-fireflies-isao-takahata-1988.jpg"
         },
         {
           "id": "the-good-the-bad-and-the-ugly-1966-sergio-leone",
-          "label": "The Good, the Bad, and the Ugly (Sergio Leone)",
+          "label": "The Good the Bad and the Ugly (Sergio Leone)",
           "image_url": "/images/movies/the-good-the-bad-and-the-ugly-1966-sergio-leone.jpg",
           "cms_slug": "the-good-the-bad-and-the-ugly-sergio-leone-1966",
           "cms_image_url": "the-good-the-bad-and-the-ugly-sergio-leone-1966.jpg"
@@ -2471,7 +2471,7 @@
       "items": [
         {
           "id": "068_Damien_Hirst_For_the_Love_of_God",
-          "label": "For the Love of God - Damien Hirst",
+          "label": "For the Love of God (Damien Hirst)",
           "image_url": "/images/art/068_Damien_Hirst_For_the_Love_of_God.jpg",
           "description": "2007",
           "cms_slug": "for-the-love-of-god-damien-hirst-2007",
@@ -2491,7 +2491,7 @@
       "items": [
         {
           "id": "white-teeth-by-zadie-smith-2000",
-          "label": "White Teeth - Zadie Smith",
+          "label": "White Teeth (Zadie Smith)",
           "image_url": "/images/books/white-teeth-by-zadie-smith-2000.jpg",
           "description": "2000",
           "cms_slug": "white-teeth-zadie-smith-2000",
@@ -2511,7 +2511,7 @@
       "items": [
         {
           "id": "the-beatles-abbey-road-1969",
-          "label": "Abbey Road - The Beatles",
+          "label": "Abbey Road (The Beatles)",
           "image_url": "/images/music/the-beatles-abbey-road-1969.jpg",
           "description": "1969",
           "cms_slug": "abbey-road-the-beatles-1969",
@@ -2523,7 +2523,7 @@
   {
     "id": "tt-243",
     "type": "question",
-    "title": "Albums: Siouxsie and the Banshees vs Fugees",
+    "title": "Albums: Juju vs The Score",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2565,7 +2565,7 @@
       "items": [
         {
           "id": "fela-kuti-africa-70-zombie-1971",
-          "label": "Zombie - Fela Kuti & Africa 70",
+          "label": "Zombie (Fela Kuti & Africa 70)",
           "image_url": "/images/music/fela-kuti-africa-70-zombie-1971.jpg",
           "description": "1971",
           "cms_slug": "zombie-fela-kuti-africa-70-1971",
@@ -2577,7 +2577,7 @@
   {
     "id": "movie-tt-7-2",
     "type": "question",
-    "title": "Films: Frank Darabont vs Francis Ford Coppola",
+    "title": "Films: The Shawshank Redemption vs The Godfather Part Ii",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2592,7 +2592,7 @@
         },
         {
           "id": "the-godfather-part-ii-1974-francis-ford-coppola",
-          "label": "The Godfather: Part II (Francis Ford Coppola)",
+          "label": "The Godfather Part Ii (Francis Ford Coppola)",
           "image_url": "/images/movies/the-godfather-part-ii-1974-francis-ford-coppola.jpg",
           "cms_slug": "the-godfather-part-ii-francis-ford-coppola-1974",
           "cms_image_url": "the-godfather-part-ii-francis-ford-coppola-1974.jpg"
@@ -2617,7 +2617,7 @@
       "items": [
         {
           "id": "percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005",
-          "label": "Percy Jackson & The Olympians: The Lightning Thief - Rick Riordan",
+          "label": "Percy Jackson & The Olympians: The Lightning Thief (Rick Riordan)",
           "image_url": "/images/books/percy-jackson-the-olympians-the-lightning-thief-by-rick-riordan-2005.jpg",
           "description": "2005",
           "cms_slug": "percy-jackson-the-olympians-the-lightning-thief-rick-riordan-2005",
@@ -2637,7 +2637,7 @@
       "items": [
         {
           "id": "045_Mark_Rothko_Orange_and_Yellow",
-          "label": "Orange and Yellow - Mark Rothko",
+          "label": "Orange and Yellow (Mark Rothko)",
           "image_url": "/images/art/045_Mark_Rothko_Orange_and_Yellow.jpg",
           "description": "1956",
           "cms_slug": "orange-and-yellow-mark-rothko-1956",
@@ -2657,7 +2657,7 @@
       "items": [
         {
           "id": "013_Robert_Smithson_Spiral_Jetty",
-          "label": "Spiral Jetty - Robert Smithson",
+          "label": "Spiral Jetty (Robert Smithson)",
           "image_url": "/images/art/013_Robert_Smithson_Spiral_Jetty.jpg",
           "description": "1970",
           "cms_slug": "spiral-jetty-robert-smithson-1970",
@@ -2669,7 +2669,7 @@
   {
     "id": "tt-232",
     "type": "question",
-    "title": "Albums: Charles Mingus vs Ramones",
+    "title": "Albums: Mingus Ah Um vs Ramones",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2711,7 +2711,7 @@
       "items": [
         {
           "id": "the-empire-strikes-back-1980-irvin-kershner",
-          "label": "The Empire Strikes Back",
+          "label": "The Empire Strikes Back (Irvin Kershner)",
           "image_url": "/images/movies/the-empire-strikes-back-1980-irvin-kershner.jpg",
           "description": "1980",
           "cms_slug": "the-empire-strikes-back-irvin-kershner-1980",
@@ -2723,7 +2723,7 @@
   {
     "id": "music-tt-10",
     "type": "question",
-    "title": "Albums: Steely Dan vs A Tribe Called Quest",
+    "title": "Albums: Aja vs The Low End Theory",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2763,7 +2763,7 @@
       "items": [
         {
           "id": "bridesmaids-2011-paul-feig",
-          "label": "Bridesmaids",
+          "label": "Bridesmaids (Paul Feig)",
           "image_url": "/images/movies/bridesmaids-2011-paul-feig.jpg",
           "description": "2011",
           "cms_slug": "bridesmaids-paul-feig-2011",
@@ -2775,7 +2775,7 @@
   {
     "id": "tt-230",
     "type": "question",
-    "title": "Albums: Curtis Mayfield vs Pavement",
+    "title": "Albums: Roots vs Slanted and Enchanted",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2817,7 +2817,7 @@
       "items": [
         {
           "id": "the-help-by-kathryn-stockett-2009",
-          "label": "The Help - Kathryn Stockett",
+          "label": "The Help (Kathryn Stockett)",
           "image_url": "/images/books/the-help-by-kathryn-stockett-2009.jpg",
           "description": "2009",
           "cms_slug": "the-help-kathryn-stockett-2009",
@@ -2829,7 +2829,7 @@
   {
     "id": "movie-tt-2",
     "type": "question",
-    "title": "Films: Steve McQueen vs Michel Gondry",
+    "title": "Films: 12 Years A Slave vs Eternal Sunshine of the Spotless Mind",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2837,7 +2837,7 @@
       "choices": [
         {
           "id": "12-years-a-slave-2013-steve-mcqueen",
-          "label": "12 Years a Slave (Steve McQueen)",
+          "label": "12 Years A Slave (Steve Mcqueen)",
           "image_url": "/images/movies/12-years-a-slave-2013-steve-mcqueen.jpg",
           "cms_slug": "12-years-a-slave-steve-mcqueen-2013",
           "cms_image_url": "12-years-a-slave-steve-mcqueen-2013.jpg"
@@ -2861,7 +2861,7 @@
   {
     "id": "tt-216",
     "type": "question",
-    "title": "Films: Federico Fellini vs Christopher Nolan",
+    "title": "Films: 8½ vs The Dark Knight",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2903,7 +2903,7 @@
       "items": [
         {
           "id": "top-gun-1986-tony-scott",
-          "label": "Top Gun",
+          "label": "Top Gun (Tony Scott)",
           "image_url": "/images/movies/top-gun-1986-tony-scott.jpg",
           "description": "1986",
           "cms_slug": "top-gun-tony-scott-1986",
@@ -2915,7 +2915,7 @@
   {
     "id": "tt-239",
     "type": "question",
-    "title": "Albums: The Who vs Shabazz Palaces",
+    "title": "Albums: Who's Next vs Black Up",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2949,7 +2949,7 @@
   {
     "id": "movie-tt-3",
     "type": "question",
-    "title": "Films: Paul Thomas Anderson vs David Lean",
+    "title": "Films: There Will Be Blood vs Lawrence of Arabia",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",

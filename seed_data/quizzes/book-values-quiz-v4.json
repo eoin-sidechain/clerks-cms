@@ -11,7 +11,7 @@
   {
     "id": "tt-7",
     "type": "question",
-    "title": "Books: Joseph Conrad vs Aldous Huxley",
+    "title": "Books: Nostromo vs Island",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -43,7 +43,7 @@
   {
     "id": "tt-380",
     "type": "question",
-    "title": "Books: Sarah J. Maas vs Colleen Hoover",
+    "title": "Books: A Court of Thorns and Roses vs It Ends with Us",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -77,7 +77,7 @@
   {
     "id": "tt-381",
     "type": "question",
-    "title": "Books: Naomi Alderman vs Donna Tartt",
+    "title": "Books: The Power vs The Secret History",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -111,7 +111,7 @@
   {
     "id": "tt-382",
     "type": "question",
-    "title": "Books: Emily St. John Mandel vs Alex Michaelides",
+    "title": "Books: Station Eleven vs The Silent Patient",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -145,7 +145,7 @@
   {
     "id": "rk-1",
     "type": "question",
-    "title": "Books: Sally Rooney, J.R.R. Tolkien, Joseph Conrad, Ngũgĩ wa Thiong'o",
+    "title": "Books: Normal People, The Lord of the Rings, Lord Jim, A Grain of Wheat",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -193,7 +193,7 @@
       "items": [
         {
           "id": "lincoln-in-the-bardo-by-george-saunders",
-          "label": "Lincoln in the Bardo - George Saunders",
+          "label": "Lincoln in the Bardo (George Saunders)",
           "image_url": "/images/books/lincoln-in-the-bardo-by-george-saunders-2017.jpg",
           "description": "2017",
           "cms_slug": "lincoln-in-the-bardo-george-saunders-2017",
@@ -205,7 +205,7 @@
   {
     "id": "tt-18",
     "type": "question",
-    "title": "Books: Richard Hooker vs Ovid",
+    "title": "Books: Mash vs Metamorphoses",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -213,7 +213,7 @@
       "choices": [
         {
           "id": "mash-richard-hooker",
-          "label": "MASH (Richard Hooker)",
+          "label": "Mash (Richard Hooker)",
           "image_url": "/images/books/mash-by-richard-hooker-1968.jpg",
           "cms_slug": "mash-richard-hooker",
           "cms_image_url": "mash-richard-hooker.jpg"
@@ -237,7 +237,7 @@
   {
     "id": "tt-383",
     "type": "question",
-    "title": "Books: Richard Wright vs James Redfield",
+    "title": "Books: Native Son vs The Celestine Prophecy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -271,7 +271,7 @@
   {
     "id": "tt-384",
     "type": "question",
-    "title": "Books: James Baldwin vs Nina de Gramont",
+    "title": "Books: Go Tell It on the Mountain vs The Christie Affair",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -305,7 +305,7 @@
   {
     "id": "tt-385",
     "type": "question",
-    "title": "Books: Ali Hazelwood vs Cheryl Strayed",
+    "title": "Books: Love on the Brain vs Wild",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -347,7 +347,7 @@
       "items": [
         {
           "id": "the-thursday-murder-club-by-richard-osman",
-          "label": "The Thursday Murder Club - Richard Osman",
+          "label": "The Thursday Murder Club (Richard Osman)",
           "image_url": "/images/books/the-thursday-murder-club-by-richard-osman-2020.jpg",
           "description": "2020",
           "cms_slug": "the-thursday-murder-club-richard-osman-2020",
@@ -359,7 +359,7 @@
   {
     "id": "tt-23",
     "type": "question",
-    "title": "Books: B.A. Paris vs Kevin Kwan",
+    "title": "Books: Behind Closed Doors vs Crazy Rich Asians",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -391,7 +391,7 @@
   {
     "id": "tt-386",
     "type": "question",
-    "title": "Books: Albert Camus vs Lauren Weisberger",
+    "title": "Books: The Plague vs The Devil Wears Prada",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -425,7 +425,7 @@
   {
     "id": "tt-387",
     "type": "question",
-    "title": "Books: Jean-Paul Sartre vs Helen Fielding",
+    "title": "Books: Nausea vs Bridget Jones's Diary",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -459,7 +459,7 @@
   {
     "id": "tt-388",
     "type": "question",
-    "title": "Books: Franz Kafka vs Jasmine Guillory",
+    "title": "Books: The Trial vs The Proposal",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -493,7 +493,7 @@
   {
     "id": "tt-21",
     "type": "question",
-    "title": "Books: Markus Zusak vs John Green",
+    "title": "Books: The Book Thief vs The Fault in Our Stars",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -525,7 +525,7 @@
   {
     "id": "tt-389",
     "type": "question",
-    "title": "Books: George Eliot vs John Green",
+    "title": "Books: Daniel Deronda vs Looking for Alaska",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -559,7 +559,7 @@
   {
     "id": "tt-390",
     "type": "question",
-    "title": "Books: Charles Dickens vs Sylvia Plath",
+    "title": "Books: Bleak House vs The Collected Poems",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -593,7 +593,7 @@
   {
     "id": "tt-391",
     "type": "question",
-    "title": "Books: William Makepeace Thackeray vs Morgan Matson",
+    "title": "Books: Vanity Fair vs Since You've Been Gone",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -627,7 +627,7 @@
   {
     "id": "rk-4",
     "type": "question",
-    "title": "Books: Ken Kesey, Emily Henry, Leigh Bardugo, Colleen Hoover",
+    "title": "Books: One Flew Over the Cuckoo's Nest, People We Meet on Vacation, Ninth House, Verity",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -667,7 +667,7 @@
   {
     "id": "tt-19",
     "type": "question",
-    "title": "Books: Emily Brontë vs Oscar Wilde",
+    "title": "Books: Wuthering Heights vs De Profundis",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -699,7 +699,7 @@
   {
     "id": "tt-392",
     "type": "question",
-    "title": "Books: Khaled Hosseini vs Holly Black",
+    "title": "Books: A Thousand Splendid Suns vs The Cruel Prince",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -733,7 +733,7 @@
   {
     "id": "tt-393",
     "type": "question",
-    "title": "Books: George Eliot vs Casey McRiston",
+    "title": "Books: Middlemarch vs Red White & Royal Blue",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -767,7 +767,7 @@
   {
     "id": "tt-394",
     "type": "question",
-    "title": "Books: Thomas Hardy vs Colleen Hoover",
+    "title": "Books: Tess of the d'Urbervilles vs Reminders of Him",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -821,7 +821,7 @@
   {
     "id": "tt-6",
     "type": "question",
-    "title": "Books: George Orwell vs Haruki Murakami",
+    "title": "Books: 1984 vs The Wind-Up Bird Chronicle",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -853,7 +853,7 @@
   {
     "id": "tt-395",
     "type": "question",
-    "title": "Books: Emily Henry vs Kazuo Ishiguro",
+    "title": "Books: Happy Place vs Never Let Me Go",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -887,7 +887,7 @@
   {
     "id": "tt-396",
     "type": "question",
-    "title": "Books: Ray Bradbury vs Carlos Ruiz Zafón",
+    "title": "Books: Fahrenheit 451 vs The Shadow of the Wind",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -921,7 +921,7 @@
   {
     "id": "tt-397",
     "type": "question",
-    "title": "Books: Margaret Atwood vs David Mitchell",
+    "title": "Books: The Handmaid's Tale vs Cloud Atlas",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -955,7 +955,7 @@
   {
     "id": "tt-11",
     "type": "question",
-    "title": "Books: David Foster Wallace vs Suzanne Collins",
+    "title": "Books: Infinite Jest vs The Hunger Games",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -987,7 +987,7 @@
   {
     "id": "tt-398",
     "type": "question",
-    "title": "Books: Andy Weir vs Veronica Roth",
+    "title": "Books: Project Hail Mary vs Divergent",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1021,7 +1021,7 @@
   {
     "id": "tt-399",
     "type": "question",
-    "title": "Books: Don DeLillo vs James Dashner",
+    "title": "Books: White Noise vs The Maze Runner",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1055,7 +1055,7 @@
   {
     "id": "tt-400",
     "type": "question",
-    "title": "Books: Thomas Pynchon vs Holly Jackson",
+    "title": "Books: Gravity's Rainbow vs A Good Girl's Guide to Murder",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1109,7 +1109,7 @@
   {
     "id": "tt-8",
     "type": "question",
-    "title": "Books: Mary Shelley vs Terry Pratchett & Neil Gaiman",
+    "title": "Books: Frankenstein vs Good Omens",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1146,7 +1146,7 @@
   {
     "id": "tt-401",
     "type": "question",
-    "title": "Books: John Knowles vs Chimamanda Ngozi Adichie",
+    "title": "Books: A Separate Peace vs Americanah",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1185,7 +1185,7 @@
   {
     "id": "tt-402",
     "type": "question",
-    "title": "Books: S.E. Hinton vs Junot Díaz",
+    "title": "Books: The Outsiders vs The Brief Wondrous Life of Oscar Wao",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1224,7 +1224,7 @@
   {
     "id": "tt-403",
     "type": "question",
-    "title": "Books: Stephen Chbosky vs Celeste Ng",
+    "title": "Books: The Perks of Being a Wallflower vs Everything I Never Told You",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1271,7 +1271,7 @@
       "items": [
         {
           "id": "mexican-gothic-by-silvia-moreno-garcia",
-          "label": "Mexican Gothic - Silvia Moreno-Garcia",
+          "label": "Mexican Gothic (Silvia Moreno-Garcia)",
           "image_url": "/images/books/mexican-gothic-by-silvia-moreno-garcia-2020.jpg",
           "description": "2020",
           "cms_slug": "mexican-gothic-silvia-moreno-garcia-2020",
@@ -1303,7 +1303,7 @@
   {
     "id": "tt-14",
     "type": "question",
-    "title": "Books: Virginia Woolf vs Joseph Conrad",
+    "title": "Books: Mrs. Dalloway vs Heart of Darkness",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1335,7 +1335,7 @@
   {
     "id": "tt-404",
     "type": "question",
-    "title": "Books: Virginia Woolf vs Chimamanda Ngozi Adichie",
+    "title": "Books: To the Lighthouse vs Half of a Yellow Sun",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1369,7 +1369,7 @@
   {
     "id": "tt-405",
     "type": "question",
-    "title": "Books: Virginia Woolf vs William Faulkner",
+    "title": "Books: Orlando vs Light in August",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1403,7 +1403,7 @@
   {
     "id": "tt-406",
     "type": "question",
-    "title": "Books: Virginia Woolf vs Pierce Brown",
+    "title": "Books: A Room of One's Own vs Red Rising",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1437,7 +1437,7 @@
   {
     "id": "tt-22",
     "type": "question",
-    "title": "Books: Oscar Wilde vs Tara Westover",
+    "title": "Books: Lady Windermere's Fan vs Educated",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1469,7 +1469,7 @@
   {
     "id": "tt-407",
     "type": "question",
-    "title": "Books: Jack Kerouac vs Michelle Obama",
+    "title": "Books: The Dharma Bums vs Becoming",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1503,7 +1503,7 @@
   {
     "id": "tt-408",
     "type": "question",
-    "title": "Books: William S. Burroughs vs Walt Whitman",
+    "title": "Books: Naked Lunch vs Song of Myself",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1537,7 +1537,7 @@
   {
     "id": "tt-409",
     "type": "question",
-    "title": "Books: Hunter S. Thompson vs Jeannette Walls",
+    "title": "Books: Fear and Loathing in Las Vegas vs The Glass Castle",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1571,7 +1571,7 @@
   {
     "id": "tt-20",
     "type": "question",
-    "title": "Books: Leigh Bardugo vs Bram Stoker",
+    "title": "Books: Shadow and Bone vs Dracula",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1608,7 +1608,7 @@
   {
     "id": "tt-410",
     "type": "question",
-    "title": "Books: R.F. Kuang vs Gillian Flynn",
+    "title": "Books: Babel vs Gone Girl",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1647,7 +1647,7 @@
   {
     "id": "tt-411",
     "type": "question",
-    "title": "Books: Tahereh Mafi vs Jesmyn Ward",
+    "title": "Books: Shatter Me vs Sing Unburied Sing",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1686,7 +1686,7 @@
   {
     "id": "tt-412",
     "type": "question",
-    "title": "Books: Nikolai Gogol vs Rebecca Ross",
+    "title": "Books: Dead Souls vs Divine Rivals",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1725,7 +1725,7 @@
   {
     "id": "tt-24",
     "type": "question",
-    "title": "Books: John Steinbeck vs Yasunari Kawabata",
+    "title": "Books: East of Eden vs Snow Country",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1757,7 +1757,7 @@
   {
     "id": "tt-413",
     "type": "question",
-    "title": "Books: John Steinbeck vs Taylor Jenkins Reid",
+    "title": "Books: The Grapes of Wrath vs Daisy Jones & The Six",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1791,7 +1791,7 @@
   {
     "id": "tt-414",
     "type": "question",
-    "title": "Books: Jonathan Swift vs V.E. Schwab",
+    "title": "Books: Gulliver's Travels vs The Invisible Life of Addie LaRue",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1825,7 +1825,7 @@
   {
     "id": "tt-415",
     "type": "question",
-    "title": "Books: John Steinbeck vs Madeline Miller",
+    "title": "Books: Cannery Row vs Circe",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1859,7 +1859,7 @@
   {
     "id": "rk-5",
     "type": "question",
-    "title": "Books: Louise Erdrich, Sarah J. Maas, John Milton, Amor Towles",
+    "title": "Books: Love Medicine, Throne of Glass, Paradise Lost, The Lincoln Highway",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -1947,7 +1947,7 @@
       "items": [
         {
           "id": "such-a-pretty-girl-by-laura-wiess",
-          "label": "Such a Pretty Girl - Laura Wiess",
+          "label": "Such a Pretty Girl (Laura Wiess)",
           "image_url": "/images/books/such-a-pretty-girl-by-laura-wiess-2007.jpg",
           "description": "2007",
           "cms_slug": "such-a-pretty-girl-laura-wiess-2007",
@@ -1967,7 +1967,7 @@
       "items": [
         {
           "id": "water-for-elephants-by-sara-gruen",
-          "label": "Water for Elephants - Sara Gruen",
+          "label": "Water for Elephants (Sara Gruen)",
           "image_url": "/images/books/water-for-elephants-by-sara-gruen-2006.jpg",
           "description": "2006",
           "cms_slug": "water-for-elephants-sara-gruen-2006",
@@ -1979,7 +1979,7 @@
   {
     "id": "tt-13",
     "type": "question",
-    "title": "Books: Gabriel García Márquez vs J.K. Rowling",
+    "title": "Books: One Hundred Years of Solitude vs Harry Potter and the Sorcerer's Stone",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2011,7 +2011,7 @@
   {
     "id": "tt-417",
     "type": "question",
-    "title": "Books: Isabel Allende vs John Steinbeck",
+    "title": "Books: The House of the Spirits vs East of Eden",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2044,7 +2044,7 @@
   {
     "id": "tt-418",
     "type": "question",
-    "title": "Books: Laura Esquivel vs Philip Pullman",
+    "title": "Books: Like Water for Chocolate vs The Golden Compass",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2078,7 +2078,7 @@
   {
     "id": "tt-15",
     "type": "question",
-    "title": "Books: Fyodor Dostoevsky vs Liane Moriarty",
+    "title": "Books: Crime and Punishment vs Big Little Lies",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2110,7 +2110,7 @@
   {
     "id": "tt-419",
     "type": "question",
-    "title": "Books: Fyodor Dostoevsky vs Paula Hawkins",
+    "title": "Books: The Brothers Karamazov vs The Girl on the Train",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2144,7 +2144,7 @@
   {
     "id": "tt-420",
     "type": "question",
-    "title": "Books: Sylvia Plath vs Jennifer Niven",
+    "title": "Books: Ariel vs All the Bright Places",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2178,7 +2178,7 @@
   {
     "id": "tt-421",
     "type": "question",
-    "title": "Books: Leo Tolstoy vs A.J. Finn",
+    "title": "Books: War and Peace vs The Woman in the Window",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2212,7 +2212,7 @@
   {
     "id": "tt-17",
     "type": "question",
-    "title": "Books: Kazuo Ishiguro vs Gail Honeyman",
+    "title": "Books: Klara and the Sun vs Eleanor Oliphant Is Completely Fine",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2244,7 +2244,7 @@
   {
     "id": "tt-422",
     "type": "question",
-    "title": "Books: Anna Burns vs Aldous Huxley",
+    "title": "Books: Milkman vs Point Counter Point",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2278,7 +2278,7 @@
   {
     "id": "tt-423",
     "type": "question",
-    "title": "Books: Ernest Hemingway vs Taylor Jenkins Reid",
+    "title": "Books: For Whom the Bell Tolls vs The Seven Husbands of Evelyn Hugo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2312,7 +2312,7 @@
   {
     "id": "tt-424",
     "type": "question",
-    "title": "Books: Ernest Hemingway vs Fredrik Backman",
+    "title": "Books: The Old Man and the Sea vs Anxious People",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2346,7 +2346,7 @@
   {
     "id": "tt-25",
     "type": "question",
-    "title": "Books: Vladimir Nabokov vs Nicholas Sparks",
+    "title": "Books: Lolita vs The Notebook",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2378,7 +2378,7 @@
   {
     "id": "tt-425",
     "type": "question",
-    "title": "Books: Vladimir Nabokov vs Nicholas Sparks",
+    "title": "Books: Pale Fire vs A Walk to Remember",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2412,7 +2412,7 @@
   {
     "id": "tt-426",
     "type": "question",
-    "title": "Books: Vladimir Nabokov vs Nicola Yoon",
+    "title": "Books: Ada or Ardor vs Everything Everything",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2446,7 +2446,7 @@
   {
     "id": "tt-427",
     "type": "question",
-    "title": "Books: Vladimir Nabokov vs Audrey Niffenegger",
+    "title": "Books: Pnin vs The Time Traveler's Wife",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2500,7 +2500,7 @@
   {
     "id": "rk-3",
     "type": "question",
-    "title": "Books: Miguel de Cervantes, Matt Haig, Truman Capote, Emily Henry",
+    "title": "Books: Don Quixote, The Midnight Library, In Cold Blood, Beach Read",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -2540,7 +2540,7 @@
   {
     "id": "tt-12",
     "type": "question",
-    "title": "Books: Herman Melville vs Dan Brown",
+    "title": "Books: Moby-Dick vs The Da Vinci Code",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2577,7 +2577,7 @@
   {
     "id": "tt-428",
     "type": "question",
-    "title": "Books: Erin Morgenstern vs Dan Brown",
+    "title": "Books: The Night Circus vs Angels & Demons",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2615,7 +2615,7 @@
   {
     "id": "tt-429",
     "type": "question",
-    "title": "Books: Henry David Thoreau vs Stieg Larsson",
+    "title": "Books: Walden vs The Girl with the Dragon Tattoo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2654,7 +2654,7 @@
   {
     "id": "tt-430",
     "type": "question",
-    "title": "Books: Walt Whitman vs Leo Tolstoy",
+    "title": "Books: Leaves of Grass vs Resurrection",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2701,7 +2701,7 @@
       "items": [
         {
           "id": "pachinko-by-min-jin-lee",
-          "label": "Pachinko - Min Jin Lee",
+          "label": "Pachinko (Min Jin Lee)",
           "image_url": "/images/books/pachinko-by-min-jin-lee-2017.jpg",
           "description": "2017",
           "cms_slug": "pachinko-min-jin-lee-2017",
@@ -2713,7 +2713,7 @@
   {
     "id": "tt-10",
     "type": "question",
-    "title": "Books: Christina Lauren vs Victoria Aveyard",
+    "title": "Books: Dating You / Hating You vs Red Queen",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2745,7 +2745,7 @@
   {
     "id": "tt-431",
     "type": "question",
-    "title": "Books: William Faulkner vs Helena Hunting",
+    "title": "Books: Absalom Absalom! vs Pucked",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2779,7 +2779,7 @@
   {
     "id": "tt-432",
     "type": "question",
-    "title": "Books: Max Brooks vs Michael Ondaatje",
+    "title": "Books: World War Z vs The English Patient",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2813,7 +2813,7 @@
   {
     "id": "tt-433",
     "type": "question",
-    "title": "Books: Justin Cronin vs Amor Towles",
+    "title": "Books: The Passage vs A Gentleman in Moscow",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2875,7 +2875,7 @@
       "items": [
         {
           "id": "1984-by-george-orwell-1949",
-          "label": "1984 - George Orwell",
+          "label": "1984 (George Orwell)",
           "image_url": "/images/books/1984-by-george-orwell-1949.jpg",
           "description": "1949",
           "cms_slug": "1984-george-orwell-1949",
@@ -2887,7 +2887,7 @@
   {
     "id": "tt-9",
     "type": "question",
-    "title": "Books: Lauren Roberts vs Ian McEwan",
+    "title": "Books: Powerless vs Atonement",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2919,7 +2919,7 @@
   {
     "id": "tt-434",
     "type": "question",
-    "title": "Books: Michael Chabon vs Stephanie Garber",
+    "title": "Books: The Amazing Adventures of Kavalier & Clay vs Once Upon a Broken Heart",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2953,7 +2953,7 @@
   {
     "id": "tt-435",
     "type": "question",
-    "title": "Books: Jeffrey Eugenides vs Kazuo Ishiguro",
+    "title": "Books: Middlesex vs The Remains of the Day",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2987,7 +2987,7 @@
   {
     "id": "tt-436",
     "type": "question",
-    "title": "Books: Jonathan Franzen vs Emily Henry",
+    "title": "Books: The Corrections vs Book Lovers",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3021,7 +3021,7 @@
   {
     "id": "tt-16",
     "type": "question",
-    "title": "Books: James Joyce vs Frank Herbert",
+    "title": "Books: Ulysses vs Dune",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3058,7 +3058,7 @@
   {
     "id": "tt-437",
     "type": "question",
-    "title": "Books: James Joyce vs Stephenie Meyer",
+    "title": "Books: Finnegans Wake vs Twilight",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3097,7 +3097,7 @@
   {
     "id": "tt-438",
     "type": "question",
-    "title": "Books: William Faulkner vs Diana Gabaldon",
+    "title": "Books: The Sound and the Fury vs Outlander",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3136,7 +3136,7 @@
   {
     "id": "tt-439",
     "type": "question",
-    "title": "Books: Gustave Flaubert vs Jojo Moyes",
+    "title": "Books: Sentimental Education vs Me Before You",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",

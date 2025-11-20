@@ -11,7 +11,7 @@
   {
     "id": "tt-1",
     "type": "question",
-    "title": "Art: Vincent van Gogh vs Leonardo da Vinci",
+    "title": "Art: Starry Night vs Mona Lisa",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -48,7 +48,7 @@
   {
     "id": "tt-2",
     "type": "question",
-    "title": "Art: Andy Warhol vs Mondrian",
+    "title": "Art: Campbell's Soup Cans vs Composition with Red, Blue, and Yellow",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -63,7 +63,7 @@
         },
         {
           "id": "composition-red-blue-yellow-mondrian",
-          "label": "Composition with Red, Blue, and Yellow (Mondrian)",
+          "label": "Composition with Red, Blue, and Yellow (Piet Mondrian)",
           "image_url": "/images/art/007_Piet_Mondrian_Composition_with_Red_Blue_and_Yellow.jpg",
           "cms_slug": "composition-with-red-blue-and-yellow-piet-mondrian-1930",
           "cms_image_url": "composition-with-red-blue-and-yellow-piet-mondrian-1930.jpg"
@@ -88,7 +88,7 @@
       "items": [
         {
           "id": "the-scream-munch",
-          "label": "The Scream - Edvard Munch",
+          "label": "The Scream (Edvard Munch)",
           "image_url": "/images/art/205_Edvard_Munch_The_Scream.jpg",
           "description": "1893",
           "cms_slug": "the-scream-edvard-munch-1893",
@@ -108,7 +108,7 @@
       "items": [
         {
           "id": "american-gothic-wood",
-          "label": "American Gothic - Grant Wood",
+          "label": "American Gothic (Grant Wood)",
           "image_url": "/images/art/207_Grant_Wood_American_Gothic.jpg",
           "description": "1930",
           "cms_slug": "american-gothic-grant-wood-1930",
@@ -120,7 +120,7 @@
   {
     "id": "tt-3",
     "type": "question",
-    "title": "Art: Rust and Blue vs Keith Haring",
+    "title": "Art: No. 61 (Rust and Blue) vs Crack is Wack",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -165,7 +165,7 @@
       "items": [
         {
           "id": "nighthawks-hopper",
-          "label": "Nighthawks - Edward Hopper",
+          "label": "Nighthawks (Edward Hopper)",
           "image_url": "/images/art/210_Edward_Hopper_Nighthawks.jpg",
           "description": "1942",
           "cms_slug": "nighthawks-edward-hopper-1942",
@@ -185,7 +185,7 @@
       "items": [
         {
           "id": "003_Andy_Warhol_Campbells_Soup_Cans",
-          "label": "Campbell's Soup Cans - Andy Warhol",
+          "label": "Campbell's Soup Cans (Andy Warhol)",
           "image_url": "/images/art/003_Andy_Warhol_Campbells_Soup_Cans.jpg",
           "description": "1962",
           "cms_slug": "campbell-s-soup-cans-andy-warhol-1962",
@@ -197,7 +197,7 @@
   {
     "id": "tt-4",
     "type": "question",
-    "title": "Art: Christo and Jeanne-Claude vs Ai Weiwei",
+    "title": "Art: Floating Piers vs Sunflower Seeds",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -237,7 +237,7 @@
       "items": [
         {
           "id": "girl-with-balloon-banksy",
-          "label": "Girl with Balloon - Banksy",
+          "label": "Girl with Balloon (Banksy)",
           "image_url": "/images/art/006_Banksy_Girl_with_Balloon.jpg",
           "description": "2002",
           "cms_slug": "girl-with-balloon-banksy-2002",
@@ -257,7 +257,7 @@
       "items": [
         {
           "id": "puppy-koons",
-          "label": "Puppy - Jeff Koons",
+          "label": "Puppy (Jeff Koons)",
           "image_url": "/images/art/010_Jeff_Koons_Puppy.jpg",
           "description": "1992",
           "cms_slug": "puppy-jeff-koons-1992",
@@ -269,7 +269,7 @@
   {
     "id": "tt-5",
     "type": "question",
-    "title": "Art: Hieronymus Bosch vs Claude Monet",
+    "title": "Art: The Garden of Earthly Delights vs Impression, Sunrise",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -314,7 +314,7 @@
       "items": [
         {
           "id": "angel-of-the-north-gormley",
-          "label": "Angel of the North - Antony Gormley",
+          "label": "Angel of the North (Antony Gormley)",
           "image_url": "/images/art/011_Antony_Gormley_Angel_of_the_North.jpg",
           "description": "1998",
           "cms_slug": "angel-of-the-north-antony-gormley-1998",
@@ -334,7 +334,7 @@
       "items": [
         {
           "id": "004_Roy_Lichtenstein_Whaam",
-          "label": "Whaam! - Roy Lichtenstein",
+          "label": "Whaam! (Roy Lichtenstein)",
           "image_url": "/images/art/004_Roy_Lichtenstein_Whaam.jpg",
           "description": "1963",
           "cms_slug": "whaam-roy-lichtenstein-1963",
@@ -354,7 +354,7 @@
       "items": [
         {
           "id": "last-supper-da-vinci",
-          "label": "The Last Supper - Leonardo da Vinci",
+          "label": "The Last Supper (Leonardo da Vinci)",
           "image_url": "/images/art/211_Leonardo_da_Vinci_The_Last_Supper.jpg",
           "description": "1495-1498",
           "cms_slug": "the-last-supper-leonardo-da-vinci",
@@ -366,7 +366,7 @@
   {
     "id": "tt-6",
     "type": "question",
-    "title": "Art: Cindy Sherman vs Marina Abramović",
+    "title": "Art: Untitled #96 vs Rhythm 0",
     "required": true,
     "questionType": "this_or_that",
     "description": "Choose your favorite!",
@@ -406,7 +406,7 @@
       "items": [
         {
           "id": "creation-of-adam-michelangelo",
-          "label": "The Creation of Adam - Michelangelo",
+          "label": "The Creation of Adam (Michelangelo)",
           "image_url": "/images/art/212_Michelangelo_The_Creation_of_Adam.jpg",
           "description": "1512 (Sistine Chapel)",
           "cms_slug": "the-creation-of-adam-michelangelo-1512",
@@ -426,7 +426,7 @@
       "items": [
         {
           "id": "sunflowers-van-gogh",
-          "label": "Sunflowers - Vincent van Gogh",
+          "label": "Sunflowers (Vincent van Gogh)",
           "image_url": "/images/art/215_Vincent_van_Gogh_Sunflowers.jpg",
           "description": "1888",
           "cms_slug": "sunflowers-vincent-van-gogh-1888",
@@ -438,7 +438,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Art: Rate \"Maman\"",
+    "title": "Art: Rate \"Mama\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -446,7 +446,7 @@
       "items": [
         {
           "id": "mama-bourgeois",
-          "label": "Maman - Louise Bourgeois",
+          "label": "Mama (Louise Bourgeois)",
           "image_url": "/images/art/054_Louise_Bourgeois_Mama.jpg",
           "description": "1999 spider sculpture",
           "cms_slug": "mama-louise-bourgeois-1999",
@@ -466,7 +466,7 @@
       "items": [
         {
           "id": "marilyn-diptych-warhol",
-          "label": "Marilyn Diptych - Andy Warhol",
+          "label": "Marilyn Diptych (Andy Warhol)",
           "image_url": "/images/art/032_Andy_Warhol_Marilyn_Diptych.jpg",
           "description": "1962",
           "cms_slug": "marilyn-diptych-andy-warhol-1962",
@@ -486,7 +486,7 @@
       "items": [
         {
           "id": "drowning-girl-lichtenstein",
-          "label": "Drowning Girl - Roy Lichtenstein",
+          "label": "Drowning Girl (Roy Lichtenstein)",
           "image_url": "/images/art/031_Roy_Lichtenstein_Drowning_Girl.jpg",
           "description": "1963",
           "cms_slug": "drowning-girl-roy-lichtenstein-1963",
@@ -506,7 +506,7 @@
       "items": [
         {
           "id": "ophelia-millais",
-          "label": "Ophelia - John Everett Millais",
+          "label": "Ophelia (John Everett Millais)",
           "image_url": "/images/art/313_John_Everett_Millais_Ophelia.jpg",
           "description": "1851-1852",
           "cms_slug": "ophelia-john-everett-millais",
@@ -526,7 +526,7 @@
       "items": [
         {
           "id": "221_Pablo_Picasso_Les_Demoiselles_dAvignon",
-          "label": "Les Demoiselles d'Avignon - Pablo Picasso",
+          "label": "Les Demoiselles d'Avignon (Pablo Picasso)",
           "image_url": "/images/art/221_Pablo_Picasso_Les_Demoiselles_dAvignon.jpg",
           "description": "1907",
           "cms_slug": "les-demoiselles-d-avignon-pablo-picasso-1907",
@@ -546,7 +546,7 @@
       "items": [
         {
           "id": "the-bedroom-van-gogh",
-          "label": "The Bedroom - Vincent van Gogh",
+          "label": "The Bedroom (Vincent van Gogh)",
           "image_url": "/images/art/322_Vincent_van_Gogh_The_Bedroom.jpg",
           "description": "1888",
           "cms_slug": "the-bedroom-vincent-van-gogh-1888",
@@ -566,7 +566,7 @@
       "items": [
         {
           "id": "sunday-afternoon-seurat",
-          "label": "A Sunday Afternoon on the Island of La Grande Jatte - Georges Seurat",
+          "label": "A Sunday Afternoon on the Island of La Grande Jatte (Georges Seurat)",
           "image_url": "/images/art/216_Georges_Seurat_A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte.jpg",
           "description": "1884-1886 (Pointillism)",
           "cms_slug": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat",
@@ -586,7 +586,7 @@
       "items": [
         {
           "id": "the-thinker-rodin",
-          "label": "The Thinker - Auguste Rodin",
+          "label": "The Thinker (Auguste Rodin)",
           "image_url": "/images/art/331_Auguste_Rodin_The_Thinker.jpg",
           "description": "1904",
           "cms_slug": "the-thinker-auguste-rodin-1902",
@@ -606,7 +606,7 @@
       "items": [
         {
           "id": "saturn-devouring-son-goya",
-          "label": "Saturn Devouring His Son - Francisco Goya",
+          "label": "Saturn Devouring His Son (Francisco Goya)",
           "image_url": "/images/art/305_Francisco_Goya_Saturn_Devouring_His_Son.jpg",
           "description": "1819-1823",
           "cms_slug": "saturn-devouring-his-son-francisco-goya",
@@ -626,7 +626,7 @@
       "items": [
         {
           "id": "irises-van-gogh",
-          "label": "Irises - Vincent van Gogh",
+          "label": "Irises (Vincent van Gogh)",
           "image_url": "/images/art/323_Vincent_van_Gogh_Irises.jpg",
           "description": "1889",
           "cms_slug": "irises-vincent-van-gogh-1889",
@@ -646,7 +646,7 @@
       "items": [
         {
           "id": "school-of-athens-raphael",
-          "label": "The School of Athens - Raphael",
+          "label": "The School of Athens (Raphael)",
           "image_url": "/images/art/339_Raphael_The_School_of_Athens.jpg",
           "description": "1509-1511",
           "cms_slug": "the-school-of-athens-raphael",

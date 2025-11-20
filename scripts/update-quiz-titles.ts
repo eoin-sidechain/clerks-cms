@@ -60,27 +60,11 @@ function getMediaTypeFromImageUrl(imageUrl?: string): string {
 }
 
 /**
- * Extract creator name from label
- * Handles formats:
- * - "Title (Artist Name)"
- * - "Title - Artist Name"
- * - "Artist Name - Title" (fallback)
+ * Extract item title from label (for this-or-that and ranking)
+ * Same as extractTitleFromLabel but with consistent naming
  */
-function extractCreatorFromLabel(label: string): string {
-  // Try format: "Title (Artist Name)"
-  const parenthesesMatch = label.match(/\(([^)]+)\)/)
-  if (parenthesesMatch) {
-    return parenthesesMatch[1].trim()
-  }
-
-  // Try format: "Title - Artist Name"
-  const dashMatch = label.match(/\s+-\s+(.+)$/)
-  if (dashMatch) {
-    return dashMatch[1].trim()
-  }
-
-  // Fallback: return the whole label
-  return label.trim()
+function extractItemTitle(label: string): string {
+  return extractTitleFromLabel(label)
 }
 
 /**
@@ -151,9 +135,9 @@ function updateQuizTitles(filePath: string, fileName: string): void {
       )
 
       if (validChoices.length >= 2) {
-        const creatorA = extractCreatorFromLabel(validChoices[0].label)
-        const creatorB = extractCreatorFromLabel(validChoices[1].label)
-        const newTitle = `${mediaType}: ${creatorA} vs ${creatorB}`
+        const titleA = extractItemTitle(validChoices[0].label)
+        const titleB = extractItemTitle(validChoices[1].label)
+        const newTitle = `${mediaType}: ${titleA} vs ${titleB}`
 
         if (question.title !== newTitle) {
           console.log(`  [THIS OR THAT] ${question.title} -> ${newTitle}`)
@@ -165,10 +149,10 @@ function updateQuizTitles(filePath: string, fileName: string): void {
 
     // Handle Ranking questions
     if (question.questionType === 'ranking' && question.properties?.choices) {
-      const creators = question.properties.choices.map((choice) =>
-        extractCreatorFromLabel(choice.label)
+      const itemTitles = question.properties.choices.map((choice) =>
+        extractItemTitle(choice.label)
       )
-      const newTitle = `${mediaType}: ${creators.join(', ')}`
+      const newTitle = `${mediaType}: ${itemTitles.join(', ')}`
 
       if (question.title !== newTitle) {
         console.log(`  [RANKING] ${question.title} -> ${newTitle}`)

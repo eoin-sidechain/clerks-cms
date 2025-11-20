@@ -149,6 +149,7 @@ async function importSection(
                 const mediaTypeLabel = mediaTypeLabels[category]
 
                 // Find rating step by ratingItem relationship
+                const expectedTitle = `${mediaTypeLabel}: Rate "${mediaTitle}"`
                 const stepResult = await payload.find({
                   collection: 'steps',
                   where: {
@@ -160,7 +161,7 @@ async function importSection(
                       },
                       {
                         title: {
-                          equals: `${mediaTypeLabel}: Rate "${mediaTitle}"`,
+                          equals: expectedTitle,
                         },
                       },
                     ],

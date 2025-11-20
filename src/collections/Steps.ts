@@ -42,12 +42,9 @@ export const Steps: CollectionConfig = {
           return {}
         }
 
-        // Helper function to get creator name based on collection type
-        const getCreatorName = (item: any): string => {
-          if (item.artist) return item.artist
-          if (item.author) return item.author
-          if (item.director) return item.director
-          return 'Unknown'
+        // Helper function to get item title
+        const getItemTitle = (item: any): string => {
+          return item.title || item.album || 'Unknown'
         }
 
         // Helper function to get capitalized media type label
@@ -116,10 +113,10 @@ export const Steps: CollectionConfig = {
               ])
 
               if (itemA && itemB && data.mediaType) {
-                const creatorA = getCreatorName(itemA)
-                const creatorB = getCreatorName(itemB)
+                const titleA = getItemTitle(itemA)
+                const titleB = getItemTitle(itemB)
                 const mediaTypeLabel = getMediaTypeLabel(data.mediaType)
-                data.title = `${mediaTypeLabel}: ${creatorA} vs ${creatorB}`
+                data.title = `${mediaTypeLabel}: ${titleA} vs ${titleB}`
               }
             }
           } catch (error) {
@@ -136,7 +133,7 @@ export const Steps: CollectionConfig = {
           data.rankingOptions.length > 0
         ) {
           try {
-            const creatorNames: string[] = []
+            const itemTitles: string[] = []
 
             for (const option of data.rankingOptions) {
               if (option.item) {
@@ -149,15 +146,15 @@ export const Steps: CollectionConfig = {
                   })
 
                   if (item) {
-                    creatorNames.push(getCreatorName(item))
+                    itemTitles.push(getItemTitle(item))
                   }
                 }
               }
             }
 
-            if (creatorNames.length > 0 && data.mediaType) {
+            if (itemTitles.length > 0 && data.mediaType) {
               const mediaTypeLabel = getMediaTypeLabel(data.mediaType)
-              data.title = `${mediaTypeLabel}: ${creatorNames.join(', ')}`
+              data.title = `${mediaTypeLabel}: ${itemTitles.join(', ')}`
             }
           } catch (error) {
             console.error('Error generating title for ranking question:', error)
