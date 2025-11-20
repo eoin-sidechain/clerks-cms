@@ -239,7 +239,7 @@
   {
     "id": "tt-225",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Beastie Boys vs Duran Duran",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -293,7 +293,7 @@
   {
     "id": "tt-211",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Cat Stevens vs Jamie xx",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -347,7 +347,7 @@
   {
     "id": "music-tt-5",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Van Morrison vs OutKast",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -399,7 +399,7 @@
   {
     "id": "music-rating-3",
     "type": "question",
-    "title": "Rate \"Master of Puppets\"",
+    "title": "Albums: Rate \"Master of Puppets\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -419,7 +419,7 @@
   {
     "id": "music-tt-3-3",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: R.E.M. vs Kanye West",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -481,7 +481,7 @@
   {
     "id": "music-rating-4",
     "type": "question",
-    "title": "Rate \"Hot Buttered Soul\"",
+    "title": "Albums: Rate \"Hot Buttered Soul\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -501,7 +501,7 @@
   {
     "id": "art-rating-1",
     "type": "question",
-    "title": "Rate \"Fountain\"",
+    "title": "Art: Rate \"Fountain\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -521,7 +521,7 @@
   {
     "id": "music-rk-2-2",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Talking Heads, Synchronicity, Patti Smith, The Strokes",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -611,7 +611,7 @@
   {
     "id": "tt-213",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrew Stanton vs Oliver Stone",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -655,7 +655,7 @@
   {
     "id": "tt-218",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Jean-Luc Godard vs Michael Mann",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -699,7 +699,7 @@
   {
     "id": "tt-208",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: J.A. Bayona vs Ridley Scott",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -748,7 +748,7 @@
   {
     "id": "movies-rating-3",
     "type": "question",
-    "title": "Rate \"Get Out\"",
+    "title": "Films: Rate \"Get Out\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -768,7 +768,7 @@
   {
     "id": "tt-235",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: George Roy Hill vs Adam McKay",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -811,7 +811,7 @@
   {
     "id": "tt-238",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Derek and the Dominos vs Burial",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -885,7 +885,7 @@
   {
     "id": "books-rating-2",
     "type": "question",
-    "title": "Rate \"Fifty Shades of Grey\"",
+    "title": "Books: Rate \"Fifty Shades of Grey\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -905,7 +905,7 @@
   {
     "id": "books-rating-3",
     "type": "question",
-    "title": "Rate \"Invisible Man\"",
+    "title": "Books: Rate \"Invisible Man\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -925,7 +925,7 @@
   {
     "id": "tt-226",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Janet Jackson vs New Order",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -969,7 +969,7 @@
   {
     "id": "tt-245",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Pixies vs The Roots",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1013,7 +1013,7 @@
   {
     "id": "movie-tt-8",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Francis Ford Coppola vs Woody Allen",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1050,7 +1050,7 @@
   {
     "id": "tt-214",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Pete Docter vs Stanley Kubrick",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1094,7 +1094,7 @@
   {
     "id": "art-rating-7",
     "type": "question",
-    "title": "Rate \"Sky Mirror\"",
+    "title": "Art: Rate \"Sky Mirror\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -1114,7 +1114,7 @@
   {
     "id": "tt-228",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Etta James vs Kanye West",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1158,7 +1158,7 @@
   {
     "id": "tt-209",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Víctor Erice vs Alex Garland",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1207,7 +1207,7 @@
   {
     "id": "movies-rating-6",
     "type": "question",
-    "title": "Rate \"The 400 Blows\"",
+    "title": "Films: Rate \"The 400 Blows\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1257,7 +1257,7 @@
   {
     "id": "tt-203",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Sly & The Family Stone vs Interpol",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1301,7 +1301,7 @@
   {
     "id": "books-rating-7",
     "type": "question",
-    "title": "Rate \"The Hobbit\"",
+    "title": "Books: Rate \"The Hobbit\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1321,7 +1321,7 @@
   {
     "id": "art-rating-8",
     "type": "question",
-    "title": "Rate \"Water Lilies\"",
+    "title": "Art: Rate \"Water Lilies\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -1351,7 +1351,7 @@
   {
     "id": "music-tt-7",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Clash vs 36 Chambers",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1393,7 +1393,7 @@
   {
     "id": "movies-rating-1",
     "type": "question",
-    "title": "Rate \"Do the Right Thing\"",
+    "title": "Films: Rate \"Do the Right Thing\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1413,7 +1413,7 @@
   {
     "id": "tt-204",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Jean-Luc Godard vs Coen Brothers",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1447,7 +1447,7 @@
   {
     "id": "music-rk-1-2",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: David Bowie, The Velvet Underground, My Bloody Valentine, Joy Division",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -1487,7 +1487,7 @@
   {
     "id": "tt-205",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Sofia Coppola vs David Fincher",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1531,7 +1531,7 @@
   {
     "id": "tt-212",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Neil Young vs Disclosure",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1565,7 +1565,7 @@
   {
     "id": "movies-rating-8",
     "type": "question",
-    "title": "Rate \"Spider-Man: Into the Spider-Verse\"",
+    "title": "Films: Rate \"Spider-Man: Into the Spider-Verse\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1585,7 +1585,7 @@
   {
     "id": "tt-231",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Beatles vs Television",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1619,7 +1619,7 @@
   {
     "id": "music-rating-6",
     "type": "question",
-    "title": "Rate \"Like a Virgin\"",
+    "title": "Albums: Rate \"Like a Virgin\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1639,7 +1639,7 @@
   {
     "id": "tt-202",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Curtis Mayfield vs Animal Collective",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1673,7 +1673,7 @@
   {
     "id": "music-rating-1",
     "type": "question",
-    "title": "Rate \"Head Hunters\"",
+    "title": "Albums: Rate \"Head Hunters\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1693,7 +1693,7 @@
   {
     "id": "tt-210",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Alicia Keys vs Justice",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1727,7 +1727,7 @@
   {
     "id": "tt-227",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bruce Springsteen vs The Cure",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1761,7 +1761,7 @@
   {
     "id": "tt-217",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrei Tarkovsky vs Christopher Nolan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1795,7 +1795,7 @@
   {
     "id": "art-rating-10",
     "type": "question",
-    "title": "Rate \"A Burial at Ornans\"",
+    "title": "Art: Rate \"A Burial at Ornans\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -1815,7 +1815,7 @@
   {
     "id": "tt-244",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Stone Roses vs Mos Def",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1849,7 +1849,7 @@
   {
     "id": "music-tt-1",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Fleetwood Mac vs Frank Ocean",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1881,7 +1881,7 @@
   {
     "id": "art-rating-5",
     "type": "question",
-    "title": "Rate \"Pumpkin\"",
+    "title": "Art: Rate \"Pumpkin\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -1901,7 +1901,7 @@
   {
     "id": "music-rating-2",
     "type": "question",
-    "title": "Rate \"Coat of Many Colors\"",
+    "title": "Albums: Rate \"Coat of Many Colors\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1921,7 +1921,7 @@
   {
     "id": "art-rating-9",
     "type": "question",
-    "title": "Rate \"The Birth of Venus\"",
+    "title": "Art: Rate \"The Birth of Venus\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -1941,7 +1941,7 @@
   {
     "id": "books-rating-1",
     "type": "question",
-    "title": "Rate \"Beloved\"",
+    "title": "Books: Rate \"Beloved\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1961,7 +1961,7 @@
   {
     "id": "tt-215",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Lee Unkrich vs Steven Spielberg",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1995,7 +1995,7 @@
   {
     "id": "tt-207",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Neill Blomkamp vs Christopher Nolan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2033,7 +2033,7 @@
   {
     "id": "music-tt-8-2",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Jimi Hendrix vs Kendrick Lamar",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2065,7 +2065,7 @@
   {
     "id": "music-tt-6",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bruce Springsteen vs Kendrick Lamar",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2097,7 +2097,7 @@
   {
     "id": "tt-255",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bob Dylan vs Run the Jewels",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2131,7 +2131,7 @@
   {
     "id": "books-rating-8",
     "type": "question",
-    "title": "Rate \"The Scarlet Letter\"",
+    "title": "Books: Rate \"The Scarlet Letter\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2151,7 +2151,7 @@
   {
     "id": "tt-201",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Stevie Wonder vs Arcade Fire",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2185,7 +2185,7 @@
   {
     "id": "tt-229",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Who vs Jay-Z",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2219,7 +2219,7 @@
   {
     "id": "books-rating-5",
     "type": "question",
-    "title": "Rate \"The Bell Jar\"",
+    "title": "Books: Rate \"The Bell Jar\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2239,7 +2239,7 @@
   {
     "id": "tt-206",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Park Chan-wook vs David Fincher",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2273,7 +2273,7 @@
   {
     "id": "music-rating-7",
     "type": "question",
-    "title": "Rate \"Only Built 4 Cuban Linx\"",
+    "title": "Albums: Rate \"Only Built 4 Cuban Linx\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -2293,7 +2293,7 @@
   {
     "id": "music-tt-4",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Robyn vs Daft Punk",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2325,7 +2325,7 @@
   {
     "id": "movies-rating-2",
     "type": "question",
-    "title": "Rate \"Taxi Driver\"",
+    "title": "Films: Rate \"Taxi Driver\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -2345,7 +2345,7 @@
   {
     "id": "art-rating-4",
     "type": "question",
-    "title": "Rate \"Dropping a Han Dynasty Urn\"",
+    "title": "Art: Rate \"Dropping a Han Dynasty Urn\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -2365,7 +2365,7 @@
   {
     "id": "tt-234",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Coen Brothers vs Bryan Singer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2397,7 +2397,7 @@
   {
     "id": "tt-233",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Darren Aronofsky vs Bennett Miller",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2431,7 +2431,7 @@
   {
     "id": "movie-tt-4-2",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Isao Takahata vs Sergio Leone",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2463,7 +2463,7 @@
   {
     "id": "art-rating-3",
     "type": "question",
-    "title": "Rate \"For the Love of God\"",
+    "title": "Art: Rate \"For the Love of God\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -2483,7 +2483,7 @@
   {
     "id": "books-rating-9",
     "type": "question",
-    "title": "Rate \"White Teeth\"",
+    "title": "Books: Rate \"White Teeth\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2503,7 +2503,7 @@
   {
     "id": "music-rating-8",
     "type": "question",
-    "title": "Rate \"Abbey Road\"",
+    "title": "Albums: Rate \"Abbey Road\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -2523,7 +2523,7 @@
   {
     "id": "tt-243",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Siouxsie and the Banshees vs Fugees",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2557,7 +2557,7 @@
   {
     "id": "music-rating-5",
     "type": "question",
-    "title": "Rate \"Zombie\"",
+    "title": "Albums: Rate \"Zombie\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -2577,7 +2577,7 @@
   {
     "id": "movie-tt-7-2",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Frank Darabont vs Francis Ford Coppola",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2609,7 +2609,7 @@
   {
     "id": "books-rating-4",
     "type": "question",
-    "title": "Rate \"Percy Jackson & The Olympians: The Lightning Thief\"",
+    "title": "Books: Rate \"Percy Jackson & The Olympians: The Lightning Thief\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2629,7 +2629,7 @@
   {
     "id": "art-rating-6",
     "type": "question",
-    "title": "Rate \"Orange and Yellow\"",
+    "title": "Art: Rate \"Orange and Yellow\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -2649,7 +2649,7 @@
   {
     "id": "art-rating-2",
     "type": "question",
-    "title": "Rate \"Spiral Jetty\"",
+    "title": "Art: Rate \"Spiral Jetty\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this artwork",
@@ -2669,7 +2669,7 @@
   {
     "id": "tt-232",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Charles Mingus vs Ramones",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2703,7 +2703,7 @@
   {
     "id": "movies-rating-4",
     "type": "question",
-    "title": "Rate \"The Empire Strikes Back\"",
+    "title": "Films: Rate \"The Empire Strikes Back\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -2723,7 +2723,7 @@
   {
     "id": "music-tt-10",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Steely Dan vs A Tribe Called Quest",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2755,7 +2755,7 @@
   {
     "id": "movies-rating-7",
     "type": "question",
-    "title": "Rate \"Bridesmaids\"",
+    "title": "Films: Rate \"Bridesmaids\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -2775,7 +2775,7 @@
   {
     "id": "tt-230",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Curtis Mayfield vs Pavement",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2809,7 +2809,7 @@
   {
     "id": "books-rating-6",
     "type": "question",
-    "title": "Rate \"The Help\"",
+    "title": "Books: Rate \"The Help\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2829,7 +2829,7 @@
   {
     "id": "movie-tt-2",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Steve McQueen vs Michel Gondry",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2861,7 +2861,7 @@
   {
     "id": "tt-216",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Federico Fellini vs Christopher Nolan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2895,7 +2895,7 @@
   {
     "id": "movies-rating-5",
     "type": "question",
-    "title": "Rate \"Top Gun\"",
+    "title": "Films: Rate \"Top Gun\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -2915,7 +2915,7 @@
   {
     "id": "tt-239",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Who vs Shabazz Palaces",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2949,7 +2949,7 @@
   {
     "id": "movie-tt-3",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Paul Thomas Anderson vs David Lean",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",

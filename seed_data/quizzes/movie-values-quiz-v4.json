@@ -11,7 +11,7 @@
   {
     "id": "tt-25",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Alejandro G. Iñárritu vs Phil Lord & Christopher Miller",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -43,7 +43,7 @@
   {
     "id": "tt-335",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Vittorio De Sica vs Chris McKay",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -77,7 +77,7 @@
   {
     "id": "tt-336",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Damien Chazelle vs Daniels",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -109,7 +109,7 @@
   {
     "id": "tt-337",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Richard Linklater vs Phil Lord & Christopher Miller",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -143,7 +143,7 @@
   {
     "id": "tt-17",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Joshua Oppenheimer vs Kinji Fukasaku",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -175,7 +175,7 @@
   {
     "id": "tt-338",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Claude Lanzmann vs Taika Waititi",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -209,7 +209,7 @@
   {
     "id": "tt-339",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Alain Resnais vs Tim Miller",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -243,7 +243,7 @@
   {
     "id": "tt-340",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Joshua Oppenheimer vs James Gunn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -277,7 +277,7 @@
   {
     "id": "rk-5",
     "type": "question",
-    "title": "Rank these films",
+    "title": "Films: Alfonso Cuarón, Judd Apatow, Elem Klimov, Andrei Tarkovsky",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -317,7 +317,7 @@
   {
     "id": "rk-3",
     "type": "question",
-    "title": "Rank these films",
+    "title": "Films: Stanley Kubrick, Brian De Palma, Denis Villeneuve, Martin Campbell",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -357,7 +357,7 @@
   {
     "id": "rating-1",
     "type": "question",
-    "title": "Rate \"Dodgeball\"",
+    "title": "Films: Rate \"Dodgeball\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -377,7 +377,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"Moon\"",
+    "title": "Films: Rate \"Moon\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -397,7 +397,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"A Ghost Story\"",
+    "title": "Films: Rate \"A Ghost Story\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -417,7 +417,7 @@
   {
     "id": "tt-16",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Alain Resnais vs Steven Spielberg",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -454,7 +454,7 @@
   {
     "id": "tt-341",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Tony Scott vs Peter Jackson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -492,7 +492,7 @@
   {
     "id": "tt-342",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Agnès Varda vs Gareth Edwards",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -531,7 +531,7 @@
   {
     "id": "tt-343",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Jean-Pierre Jeunet vs Steven Spielberg",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -570,7 +570,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"The White Ribbon\"",
+    "title": "Films: Rate \"The White Ribbon\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -590,7 +590,7 @@
   {
     "id": "tt-10",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Akira Kurosawa vs Mark Waters",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -622,7 +622,7 @@
   {
     "id": "tt-344",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Akira Kurosawa vs Amy Heckerling",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -656,7 +656,7 @@
   {
     "id": "tt-345",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Kenji Mizoguchi vs Robert Luketic",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -690,7 +690,7 @@
   {
     "id": "tt-346",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Masaki Kobayashi vs Will Gluck",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -724,7 +724,7 @@
   {
     "id": "rating-10",
     "type": "question",
-    "title": "Rate \"Captain Marvel\"",
+    "title": "Films: Rate \"Captain Marvel\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -744,7 +744,7 @@
   {
     "id": "tt-19",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Michael Haneke vs Justin Lin",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -776,7 +776,7 @@
   {
     "id": "tt-347",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrew Haigh vs Stanley Kubrick",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -810,7 +810,7 @@
   {
     "id": "tt-348",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Asghar Farhadi vs Nicolas Winding Refn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -844,7 +844,7 @@
   {
     "id": "tt-349",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Richard Glatzer & Wash Westmoreland vs Ron Howard",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -878,7 +878,7 @@
   {
     "id": "tt-12",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Ingmar Bergman vs Sam Raimi",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -915,7 +915,7 @@
   {
     "id": "tt-350",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Adam McKay vs Christopher Nolan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -954,7 +954,7 @@
   {
     "id": "tt-351",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrei Tarkovsky vs Bryan Singer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -993,7 +993,7 @@
   {
     "id": "tt-352",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Robert Zemeckis vs Richard Donner",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1032,7 +1032,7 @@
   {
     "id": "tt-14",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Denis Villeneuve vs Steven Soderbergh",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1064,7 +1064,7 @@
   {
     "id": "tt-353",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Russo Brothers vs Peter Cattaneo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1098,7 +1098,7 @@
   {
     "id": "tt-354",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Edgar Wright vs Lorene Scafaria",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1132,7 +1132,7 @@
   {
     "id": "tt-355",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: James Cameron vs Paul Thomas Anderson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1166,7 +1166,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"The Hurt Locker\"",
+    "title": "Films: Rate \"The Hurt Locker\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1186,7 +1186,7 @@
   {
     "id": "tt-22",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Christian Petzold vs Jon M. Chu",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1218,7 +1218,7 @@
   {
     "id": "tt-356",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: László Nemes vs Anne Fletcher",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1252,7 +1252,7 @@
   {
     "id": "tt-357",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Paweł Pawlikowski vs Richard Curtis",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1286,7 +1286,7 @@
   {
     "id": "tt-358",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Jonathan Glazer vs Michael Showalter",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1320,7 +1320,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"The Secret in Their Eyes\"",
+    "title": "Films: Rate \"The Secret in Their Eyes\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1340,7 +1340,7 @@
   {
     "id": "tt-18",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Sam Mendes vs Nick Cassavetes",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1372,7 +1372,7 @@
   {
     "id": "tt-359",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Park Chan-wook vs Michael Sucsy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1406,7 +1406,7 @@
   {
     "id": "tt-360",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Joe Johnston vs Lasse Hallström",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1440,7 +1440,7 @@
   {
     "id": "tt-361",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Yorgos Lanthimos vs Paweł Pawlikowski",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1474,7 +1474,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"Winter's Bone\"",
+    "title": "Films: Rate \"Winter's Bone\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1494,7 +1494,7 @@
   {
     "id": "tt-15",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Jon Favreau vs Andrew Adamson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1526,7 +1526,7 @@
   {
     "id": "tt-362",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Larisa Shepitko vs John Lasseter",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1560,7 +1560,7 @@
   {
     "id": "tt-363",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrei Tarkovsky vs Brad Bird",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1594,7 +1594,7 @@
   {
     "id": "tt-364",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Mikhail Kalatozov vs Andrew Stanton",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1628,7 +1628,7 @@
   {
     "id": "tt-23",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Abbas Kiarostami vs Ruben Fleischer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1660,7 +1660,7 @@
   {
     "id": "tt-365",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Ang Lee vs Edgar Wright",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1694,7 +1694,7 @@
   {
     "id": "tt-366",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Nuri Bilge Ceylan vs Jonathan Levine",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1728,7 +1728,7 @@
   {
     "id": "tt-367",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Abbas Kiarostami vs Marc Forster",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1762,7 +1762,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"Alien\"",
+    "title": "Films: Rate \"Alien\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -1782,7 +1782,7 @@
   {
     "id": "tt-24",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Nuri Bilge Ceylan vs Richard LaGravenese",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1814,7 +1814,7 @@
   {
     "id": "tt-368",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Cristi Puiu vs Matthew Vaughn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1848,7 +1848,7 @@
   {
     "id": "tt-369",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Cristian Mungiu vs Shane Black",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1882,7 +1882,7 @@
   {
     "id": "tt-370",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Andrey Zvyagintsev vs Shawn Levy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1916,7 +1916,7 @@
   {
     "id": "tt-11",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Terrence Malick vs Greg Mottola",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1948,7 +1948,7 @@
   {
     "id": "tt-371",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Mohsen Makhmalbaf vs Paul Weitz",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1982,7 +1982,7 @@
   {
     "id": "tt-372",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Michael Cimino vs Judd Apatow",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2016,7 +2016,7 @@
   {
     "id": "tt-373",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Nadine Labaki vs Adam McKay",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2050,7 +2050,7 @@
   {
     "id": "tt-9",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Edward Yang vs Joss Whedon",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2082,7 +2082,7 @@
   {
     "id": "tt-374",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Hirokazu Kore-eda vs Jon Favreau",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2116,7 +2116,7 @@
   {
     "id": "tt-375",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Yasujirō Ozu vs James Gunn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2150,7 +2150,7 @@
   {
     "id": "tt-376",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Fernando Meirelles vs Ryan Coogler",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2184,7 +2184,7 @@
   {
     "id": "rk-4",
     "type": "question",
-    "title": "Rank these films",
+    "title": "Films: Cathy Yan, Bryan Singer, Bradley Cooper, Rob Reiner, Larry Charles, Abbas Kiarostami, Billy Wilder, Gary Ross",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -2252,7 +2252,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"Eastern Promises\"",
+    "title": "Films: Rate \"Eastern Promises\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this film",
@@ -2272,7 +2272,7 @@
   {
     "id": "tt-20",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Damien Chazelle vs Wes Anderson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2309,7 +2309,7 @@
   {
     "id": "tt-377",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Neil Burger vs Jason Moore",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2348,7 +2348,7 @@
   {
     "id": "tt-378",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Ingmar Bergman vs Malcolm D. Lee",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2387,7 +2387,7 @@
   {
     "id": "tt-379",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Films: Terrence Malick vs Olivia Wilde",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",

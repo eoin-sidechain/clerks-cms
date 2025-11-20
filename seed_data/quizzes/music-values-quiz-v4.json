@@ -26,7 +26,7 @@
   {
     "id": "tt-22",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: R.E.M. vs Death Grips",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -58,7 +58,7 @@
   {
     "id": "tt-273",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Air vs Kanye West",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -92,7 +92,7 @@
   {
     "id": "tt-274",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Beastie Boys vs Armand Hammer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -126,7 +126,7 @@
   {
     "id": "rk-4",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Patti Smith, Guns N' Roses, Antony and the Johnsons, Kate Bush",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -166,7 +166,7 @@
   {
     "id": "rk-5",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: 070 Shake, Lauryn Hill, The Cure, De La Soul",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -206,7 +206,7 @@
   {
     "id": "tt-21",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Iggy Pop vs Kendrick Lamar",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -243,7 +243,7 @@
   {
     "id": "tt-275",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Arthur Russell vs Baby Keem",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -282,7 +282,7 @@
   {
     "id": "tt-276",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Brian Eno vs Drake",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -321,7 +321,7 @@
   {
     "id": "tt-18",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Carole King vs The Notorious B.I.G.",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -353,7 +353,7 @@
   {
     "id": "tt-277",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bill Withers vs Brent Faiyaz",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -387,7 +387,7 @@
   {
     "id": "tt-278",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Can vs Jay-Z",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -421,7 +421,7 @@
   {
     "id": "tt-279",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Simon & Garfunkel vs Big Boi",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -455,7 +455,7 @@
   {
     "id": "tt-16",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: boygenius vs Madvillain",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -487,7 +487,7 @@
   {
     "id": "tt-280",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Leonard Cohen vs MF DOOM",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -521,7 +521,7 @@
   {
     "id": "tt-281",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: We Are Family vs D'Angelo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -554,7 +554,7 @@
   {
     "id": "tt-282",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Eagles vs El-P",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -588,7 +588,7 @@
   {
     "id": "tt-20",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bob Dylan vs D'Angelo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -620,7 +620,7 @@
   {
     "id": "tt-283",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bob Dylan vs claire rousay",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -654,7 +654,7 @@
   {
     "id": "tt-284",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Broadcast vs Blood Orange",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -688,7 +688,7 @@
   {
     "id": "tt-285",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Arooj Aftab vs Childish Gambino",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -722,7 +722,7 @@
   {
     "id": "rating-11",
     "type": "question",
-    "title": "Rate \"St. Vincent - St. Vincent\"",
+    "title": "Albums: Rate \"St. Vincent\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -742,7 +742,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"Oil of Every Pearl's Un-Insides - SOPHIE\"",
+    "title": "Albums: Rate \"Oil of Every Pearl's Un-Insides\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -762,7 +762,7 @@
   {
     "id": "tt-13",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Erykah Badu vs King Crimson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -799,7 +799,7 @@
   {
     "id": "tt-286",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Adele vs Yes",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -838,7 +838,7 @@
   {
     "id": "tt-287",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Florence + The Machine vs Yes",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -877,7 +877,7 @@
   {
     "id": "tt-288",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Lady Gaga vs Jethro Tull",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -916,7 +916,7 @@
   {
     "id": "tt-17",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Pink Floyd vs Kanye West",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -953,7 +953,7 @@
   {
     "id": "tt-289",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bicep vs Coil",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -992,7 +992,7 @@
   {
     "id": "tt-290",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Rolling Stones vs 50 Cent",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1031,7 +1031,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"Days Are Gone - HAIM\"",
+    "title": "Albums: Rate \"Days Are Gone\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1051,7 +1051,7 @@
   {
     "id": "tt-12",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Frank Ocean vs Fiona Apple",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1083,7 +1083,7 @@
   {
     "id": "tt-291",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: SZA vs Portishead",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1117,7 +1117,7 @@
   {
     "id": "tt-292",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Rihanna vs Kate Bush",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1151,7 +1151,7 @@
   {
     "id": "tt-293",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Chance the Rapper vs Bat for Lashes",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1185,7 +1185,7 @@
   {
     "id": "rating-12",
     "type": "question",
-    "title": "Rate \"The Epic - Kamasi Washington\"",
+    "title": "Albums: Rate \"The Epic\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1205,7 +1205,7 @@
   {
     "id": "rk-3",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Radiohead, OutKast, Fear of Music, Pixies",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -1245,7 +1245,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"Destiny\"",
+    "title": "Albums: Rate \"Destiny\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1265,7 +1265,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"Boy in da Corner\"",
+    "title": "Albums: Rate \"Boy in da Corner\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1285,7 +1285,7 @@
   {
     "id": "tt-23",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: D’Angelo vs Nas",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1317,7 +1317,7 @@
   {
     "id": "tt-294",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Charli XCX vs Mobb Deep",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1351,7 +1351,7 @@
   {
     "id": "tt-295",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Massive Attack vs Clairo",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1385,7 +1385,7 @@
   {
     "id": "tt-296",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Madonna vs Public Enemy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1419,7 +1419,7 @@
   {
     "id": "tt-25",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Alice Coltrane vs The Weeknd",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1451,7 +1451,7 @@
   {
     "id": "tt-297",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Aretha Franklin vs Future",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1485,7 +1485,7 @@
   {
     "id": "tt-298",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Arlo Parks vs Beyoncé",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1519,7 +1519,7 @@
   {
     "id": "tt-299",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Stevie Wonder vs Frank Ocean",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1553,7 +1553,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"Absence\"",
+    "title": "Albums: Rate \"Absence\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1573,7 +1573,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"Body Talk - Robyn\"",
+    "title": "Albums: Rate \"Body Talk\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1593,7 +1593,7 @@
   {
     "id": "tt-14",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Cocteau Twins vs Slint",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1625,7 +1625,7 @@
   {
     "id": "tt-300",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Afrika Bambaataa & Soulsonic Force vs The Jesus Lizard",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1659,7 +1659,7 @@
   {
     "id": "tt-301",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Michael Jackson vs Chic",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1693,7 +1693,7 @@
   {
     "id": "tt-302",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: George Michael vs Aphex Twin",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1727,7 +1727,7 @@
   {
     "id": "tt-24",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Radiohead vs Beyoncé",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1759,7 +1759,7 @@
   {
     "id": "tt-303",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Sigur Rós vs Black Sabbath",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1793,7 +1793,7 @@
   {
     "id": "tt-304",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Chuck Berry vs Brothers in Arms",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1826,7 +1826,7 @@
   {
     "id": "tt-305",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Daft Punk vs Black Sabbath",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1860,7 +1860,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"1000 gecs - 100 gecs\"",
+    "title": "Albums: Rate \"1000 gecs\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -1880,7 +1880,7 @@
   {
     "id": "tt-11",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: A Tribe Called Quest vs Gil Scott",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1912,7 +1912,7 @@
   {
     "id": "tt-306",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: David Bowie vs Amaarae",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1946,7 +1946,7 @@
   {
     "id": "tt-307",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Brian Eno vs Bone Thugs",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1980,7 +1980,7 @@
   {
     "id": "tt-308",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Jean-Michel Jarre vs Marvin Gaye",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2014,7 +2014,7 @@
   {
     "id": "tt-15",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Boogie Down Productions vs Gang of Four",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2046,7 +2046,7 @@
   {
     "id": "tt-309",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Snoop Dogg vs Blondie",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2080,7 +2080,7 @@
   {
     "id": "tt-310",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: 2Pac vs Company Flow",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2114,7 +2114,7 @@
   {
     "id": "tt-311",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: 36 Chambers vs The Smiths",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2148,7 +2148,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"A Deeper Understanding - The War on Drugs\"",
+    "title": "Albums: Rate \"A Deeper Understanding\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -2168,7 +2168,7 @@
   {
     "id": "tt-19",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Steely Dan vs J Dilla",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2200,7 +2200,7 @@
   {
     "id": "tt-312",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Al Green vs DJ Shadow",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2234,7 +2234,7 @@
   {
     "id": "tt-313",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Can vs MF DOOM",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2268,7 +2268,7 @@
   {
     "id": "tt-314",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Big Thief vs The Avalanches",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2302,7 +2302,7 @@
   {
     "id": "tt-26",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Johnny Cash vs Modern Vampires of the City",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2334,7 +2334,7 @@
   {
     "id": "tt-315",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Willie Nelson vs Tyler, The Creator",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2368,7 +2368,7 @@
   {
     "id": "tt-316",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Marty Robbins vs Little Simz",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2402,7 +2402,7 @@
   {
     "id": "tt-27",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: A Hard Day’s Night vs Curtis Mayfield",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2439,7 +2439,7 @@
   {
     "id": "tt-317",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: George Harrison vs Otis Redding",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2478,7 +2478,7 @@
   {
     "id": "tt-318",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Traveling Wilburys vs Marvin Gaye",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2517,7 +2517,7 @@
   {
     "id": "tt-28",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Paul Simon vs Van Morrison",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2549,7 +2549,7 @@
   {
     "id": "tt-319",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Simon & Garfunkel vs Van Morrison",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2583,7 +2583,7 @@
   {
     "id": "tt-320",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Paul Simon vs Van Morrison",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2617,7 +2617,7 @@
   {
     "id": "tt-29",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Grateful Dead vs Exile on Main St.",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2649,7 +2649,7 @@
   {
     "id": "tt-321",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Grateful Dead vs Machine Head",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2682,7 +2682,7 @@
   {
     "id": "tt-322",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Tom Petty vs The Who",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2716,7 +2716,7 @@
   {
     "id": "tt-30",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Jimi Hendrix Experience vs Arcade Fire",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2753,7 +2753,7 @@
   {
     "id": "tt-323",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Led Zeppelin vs Arcade Fire",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2792,7 +2792,7 @@
   {
     "id": "tt-324",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Led Zeppelin vs Arcade Fire",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2831,7 +2831,7 @@
   {
     "id": "tt-31",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Siamese Dream vs Closer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2863,7 +2863,7 @@
   {
     "id": "tt-325",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Smiths vs In the Aeroplane Over the Sea",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2896,7 +2896,7 @@
   {
     "id": "tt-326",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Kinks vs Wilco",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2930,7 +2930,7 @@
   {
     "id": "tt-32",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Frank Sinatra vs Dolly Parton",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2962,7 +2962,7 @@
   {
     "id": "tt-327",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Frank Sinatra vs Loretta Lynn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2996,7 +2996,7 @@
   {
     "id": "tt-328",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Stan Getz & João Gilberto vs Tammy Wynette",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3030,7 +3030,7 @@
   {
     "id": "tt-33",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Pharcyde vs Dr. Dre",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3067,7 +3067,7 @@
   {
     "id": "tt-329",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Chronic vs Eminem",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3105,7 +3105,7 @@
   {
     "id": "tt-330",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: The Notorious B.I.G. vs The D.O.C.",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3144,7 +3144,7 @@
   {
     "id": "tt-34",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Isley Brothers vs Built To Spill",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3176,7 +3176,7 @@
   {
     "id": "tt-331",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Earth, Wind & Fire vs Pixies",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3210,7 +3210,7 @@
   {
     "id": "tt-332",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Harold Melvin & The Blue Notes vs Luna",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3244,7 +3244,7 @@
   {
     "id": "tt-35",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Prince vs The Rolling Stones",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3276,7 +3276,7 @@
   {
     "id": "tt-333",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Bob Marley & The Wailers vs AC/DC",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3310,7 +3310,7 @@
   {
     "id": "tt-334",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Albums: Fela Kuti vs Van Halen",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3344,7 +3344,7 @@
   {
     "id": "rating-21",
     "type": "question",
-    "title": "Rate \"Stardust - Willie Nelson\"",
+    "title": "Albums: Rate \"Stardust\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3364,7 +3364,7 @@
   {
     "id": "rating-22",
     "type": "question",
-    "title": "Rate \"Traveller - Chris Stapleton\"",
+    "title": "Albums: Rate \"Traveller\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3384,7 +3384,7 @@
   {
     "id": "rating-23",
     "type": "question",
-    "title": "Rate \"Car Wheels on a Gravel Road - Lucinda Williams\"",
+    "title": "Albums: Rate \"Car Wheels on a Gravel Road\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3404,7 +3404,7 @@
   {
     "id": "rating-24",
     "type": "question",
-    "title": "Rate \"In Rainbows - Radiohead\"",
+    "title": "Albums: Rate \"In Rainbows\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3424,7 +3424,7 @@
   {
     "id": "rating-25",
     "type": "question",
-    "title": "Rate \"The Hissing of Summer Lawns - Joni Mitchell\"",
+    "title": "Albums: Rate \"The Hissing of Summer Lawns\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3444,7 +3444,7 @@
   {
     "id": "rating-26",
     "type": "question",
-    "title": "Rate \"Heavy Weather - Weather Report\"",
+    "title": "Albums: Rate \"Heavy Weather\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3464,7 +3464,7 @@
   {
     "id": "rating-27",
     "type": "question",
-    "title": "Rate \"Gaucho - Steely Dan\"",
+    "title": "Albums: Rate \"Gaucho\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3484,7 +3484,7 @@
   {
     "id": "rating-28",
     "type": "question",
-    "title": "Rate \"KIWANUKA - Michael Kiwanuka\"",
+    "title": "Albums: Rate \"KIWANUKA\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3504,7 +3504,7 @@
   {
     "id": "rating-29",
     "type": "question",
-    "title": "Rate \"Heartbreaker - Ryan Adams\"",
+    "title": "Albums: Rate \"Heartbreaker\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3524,7 +3524,7 @@
   {
     "id": "rating-32",
     "type": "question",
-    "title": "Rate \"In Colour - Jamie xx\"",
+    "title": "Albums: Rate \"In Colour\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3544,7 +3544,7 @@
   {
     "id": "rating-33",
     "type": "question",
-    "title": "Rate \"Skinty Fia - Fontaines D.C.\"",
+    "title": "Albums: Rate \"Skinty Fia\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3564,7 +3564,7 @@
   {
     "id": "rating-34",
     "type": "question",
-    "title": "Rate \"Afrique Victime - Mdou Moctar\"",
+    "title": "Albums: Rate \"Afrique Victime\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3584,7 +3584,7 @@
   {
     "id": "rating-35",
     "type": "question",
-    "title": "Rate \"Heard It In A Past Life - Maggie Rogers\"",
+    "title": "Albums: Rate \"Heard It In A Past Life\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this album",
@@ -3604,7 +3604,7 @@
   {
     "id": "rk-6",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: John Prine, Waylon Jennings, Ray Charles, Yola",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -3644,7 +3644,7 @@
   {
     "id": "rk-7",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Pat Metheny Group, Pat Metheny, Herbie Hancock, Bee Gees",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -3684,7 +3684,7 @@
   {
     "id": "rk-8",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Queens Of The Stone Age, Turnstile, Cindy Lee, Simon & Garfunkel",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -3724,7 +3724,7 @@
   {
     "id": "rk-9",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Johnny Cash, Gary Stewart, Isley Brothers, Steely Dan",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -3764,7 +3764,7 @@
   {
     "id": "rk-10",
     "type": "question",
-    "title": "Rank these albums",
+    "title": "Albums: Frank Sinatra, Talking, Van Morrison, Sade",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",

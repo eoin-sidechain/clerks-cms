@@ -50,6 +50,17 @@ export const Steps: CollectionConfig = {
           return 'Unknown'
         }
 
+        // Helper function to get capitalized media type label
+        const getMediaTypeLabel = (mediaType: string): string => {
+          const labels: Record<string, string> = {
+            art: 'Art',
+            films: 'Films',
+            albums: 'Albums',
+            books: 'Books',
+          }
+          return labels[mediaType] || mediaType
+        }
+
         // Auto-generate title for rating questions
         if (
           data.stepType === 'question' &&
@@ -65,8 +76,9 @@ export const Steps: CollectionConfig = {
                 id: itemId,
               })
 
-              if (relatedItem?.title) {
-                data.title = `Rate "${relatedItem.title}"`
+              if (relatedItem?.title && data.mediaType) {
+                const mediaTypeLabel = getMediaTypeLabel(data.mediaType)
+                data.title = `${mediaTypeLabel}: Rate "${relatedItem.title}"`
               }
             }
           } catch (error) {
@@ -74,10 +86,10 @@ export const Steps: CollectionConfig = {
           }
         }
 
-        // Auto-generate title for this_or_that questions
+        // Auto-generate title for this_or_that and this_or_that_with_alternates questions
         if (
           data.stepType === 'question' &&
-          data.questionType === 'this_or_that' &&
+          (data.questionType === 'this_or_that' || data.questionType === 'this_or_that_with_alternates') &&
           data.optionA &&
           data.optionB
         ) {
@@ -103,10 +115,11 @@ export const Steps: CollectionConfig = {
                 }),
               ])
 
-              if (itemA && itemB) {
+              if (itemA && itemB && data.mediaType) {
                 const creatorA = getCreatorName(itemA)
                 const creatorB = getCreatorName(itemB)
-                data.title = `${creatorA} vs ${creatorB}`
+                const mediaTypeLabel = getMediaTypeLabel(data.mediaType)
+                data.title = `${mediaTypeLabel}: ${creatorA} vs ${creatorB}`
               }
             }
           } catch (error) {
@@ -142,8 +155,9 @@ export const Steps: CollectionConfig = {
               }
             }
 
-            if (creatorNames.length > 0) {
-              data.title = creatorNames.join(', ')
+            if (creatorNames.length > 0 && data.mediaType) {
+              const mediaTypeLabel = getMediaTypeLabel(data.mediaType)
+              data.title = `${mediaTypeLabel}: ${creatorNames.join(', ')}`
             }
           } catch (error) {
             console.error('Error generating title for ranking question:', error)
@@ -161,7 +175,7 @@ export const Steps: CollectionConfig = {
       required: true,
       admin: {
         description:
-          'Question text or statement title (auto-generated for rating questions)',
+          'Question text or statement title (auto-generated for rating, this or that, and ranking questions)',
         components: {
           Field: {
             path: '@/fields/TitleField',
@@ -219,6 +233,7 @@ export const Steps: CollectionConfig = {
         { label: 'Long Text', value: 'long_text' },
         { label: 'Multiple Choice', value: 'multiple_choice' },
         { label: 'This or That', value: 'this_or_that' },
+        { label: 'This or That (with alternates)', value: 'this_or_that_with_alternates' },
         { label: 'Rating', value: 'rating' },
         { label: 'Ranking', value: 'ranking' },
       ],
@@ -254,6 +269,7 @@ export const Steps: CollectionConfig = {
         condition: (_, siblingData) =>
           siblingData.stepType === 'question' &&
           (siblingData.questionType === 'this_or_that' ||
+            siblingData.questionType === 'this_or_that_with_alternates' ||
             siblingData.questionType === 'rating' ||
             siblingData.questionType === 'ranking'),
         description: 'Select which type of media to use for this question',
@@ -273,7 +289,8 @@ export const Steps: CollectionConfig = {
       relationTo: ['art', 'films', 'albums', 'books'],
       admin: {
         condition: (_, siblingData) =>
-          siblingData.stepType === 'question' && siblingData.questionType === 'this_or_that',
+          siblingData.stepType === 'question' &&
+          (siblingData.questionType === 'this_or_that' || siblingData.questionType === 'this_or_that_with_alternates'),
         description: 'First option (A)',
         components: {
           Field: {
@@ -288,7 +305,8 @@ export const Steps: CollectionConfig = {
       relationTo: ['art', 'films', 'albums', 'books'],
       admin: {
         condition: (_, siblingData) =>
-          siblingData.stepType === 'question' && siblingData.questionType === 'this_or_that',
+          siblingData.stepType === 'question' &&
+          (siblingData.questionType === 'this_or_that' || siblingData.questionType === 'this_or_that_with_alternates'),
         description: 'Second option (B)',
         components: {
           Field: {

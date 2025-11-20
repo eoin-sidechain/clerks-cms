@@ -11,7 +11,7 @@
   {
     "id": "tt-7",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Joseph Conrad vs Aldous Huxley",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -43,7 +43,7 @@
   {
     "id": "tt-380",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Sarah J. Maas vs Colleen Hoover",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -77,7 +77,7 @@
   {
     "id": "tt-381",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Naomi Alderman vs Donna Tartt",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -111,7 +111,7 @@
   {
     "id": "tt-382",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Emily St. John Mandel vs Alex Michaelides",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -145,7 +145,7 @@
   {
     "id": "rk-1",
     "type": "question",
-    "title": "Rank these books",
+    "title": "Books: Sally Rooney, J.R.R. Tolkien, Joseph Conrad, Ngũgĩ wa Thiong'o",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -185,7 +185,7 @@
   {
     "id": "rating-20",
     "type": "question",
-    "title": "Rate \"Lincoln in the Bardo - George Saunders\"",
+    "title": "Books: Rate \"Lincoln in the Bardo\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -205,7 +205,7 @@
   {
     "id": "tt-18",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Richard Hooker vs Ovid",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -237,7 +237,7 @@
   {
     "id": "tt-383",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Richard Wright vs James Redfield",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -271,7 +271,7 @@
   {
     "id": "tt-384",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: James Baldwin vs Nina de Gramont",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -305,7 +305,7 @@
   {
     "id": "tt-385",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Ali Hazelwood vs Cheryl Strayed",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -339,7 +339,7 @@
   {
     "id": "rating-16",
     "type": "question",
-    "title": "Rate \"The Thursday Murder Club - Richard Osman\"",
+    "title": "Books: Rate \"The Thursday Murder Club\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -359,7 +359,7 @@
   {
     "id": "tt-23",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: B.A. Paris vs Kevin Kwan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -391,7 +391,7 @@
   {
     "id": "tt-386",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Albert Camus vs Lauren Weisberger",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -425,7 +425,7 @@
   {
     "id": "tt-387",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Jean-Paul Sartre vs Helen Fielding",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -459,7 +459,7 @@
   {
     "id": "tt-388",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Franz Kafka vs Jasmine Guillory",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -493,7 +493,7 @@
   {
     "id": "tt-21",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Markus Zusak vs John Green",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -525,7 +525,7 @@
   {
     "id": "tt-389",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: George Eliot vs John Green",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -559,7 +559,7 @@
   {
     "id": "tt-390",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Charles Dickens vs Sylvia Plath",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -593,7 +593,7 @@
   {
     "id": "tt-391",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: William Makepeace Thackeray vs Morgan Matson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -627,7 +627,7 @@
   {
     "id": "rk-4",
     "type": "question",
-    "title": "Rank these books",
+    "title": "Books: Ken Kesey, Emily Henry, Leigh Bardugo, Colleen Hoover",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -667,7 +667,7 @@
   {
     "id": "tt-19",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Emily Brontë vs Oscar Wilde",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -699,7 +699,7 @@
   {
     "id": "tt-392",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Khaled Hosseini vs Holly Black",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -733,7 +733,7 @@
   {
     "id": "tt-393",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: George Eliot vs Casey McRiston",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -767,7 +767,7 @@
   {
     "id": "tt-394",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Thomas Hardy vs Colleen Hoover",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -801,7 +801,7 @@
   {
     "id": "rating-11",
     "type": "question",
-    "title": "Rate \"Exit West\"",
+    "title": "Books: Rate \"Exit West\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -821,7 +821,7 @@
   {
     "id": "tt-6",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: George Orwell vs Haruki Murakami",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -853,7 +853,7 @@
   {
     "id": "tt-395",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Emily Henry vs Kazuo Ishiguro",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -887,7 +887,7 @@
   {
     "id": "tt-396",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Ray Bradbury vs Carlos Ruiz Zafón",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -921,7 +921,7 @@
   {
     "id": "tt-397",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Margaret Atwood vs David Mitchell",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -955,7 +955,7 @@
   {
     "id": "tt-11",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: David Foster Wallace vs Suzanne Collins",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -987,7 +987,7 @@
   {
     "id": "tt-398",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Andy Weir vs Veronica Roth",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1021,7 +1021,7 @@
   {
     "id": "tt-399",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Don DeLillo vs James Dashner",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1055,7 +1055,7 @@
   {
     "id": "tt-400",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Thomas Pynchon vs Holly Jackson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1089,7 +1089,7 @@
   {
     "id": "rating-6",
     "type": "question",
-    "title": "Rate \"Doctor Zhivago\"",
+    "title": "Books: Rate \"Doctor Zhivago\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1109,7 +1109,7 @@
   {
     "id": "tt-8",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Mary Shelley vs Terry Pratchett & Neil Gaiman",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1146,7 +1146,7 @@
   {
     "id": "tt-401",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: John Knowles vs Chimamanda Ngozi Adichie",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1185,7 +1185,7 @@
   {
     "id": "tt-402",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: S.E. Hinton vs Junot Díaz",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1224,7 +1224,7 @@
   {
     "id": "tt-403",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Stephen Chbosky vs Celeste Ng",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1263,7 +1263,7 @@
   {
     "id": "rating-17",
     "type": "question",
-    "title": "Rate \"Mexican Gothic - Silvia Moreno-Garcia\"",
+    "title": "Books: Rate \"Mexican Gothic\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1283,7 +1283,7 @@
   {
     "id": "rating-14",
     "type": "question",
-    "title": "Rate \"Terms and Conditions\"",
+    "title": "Books: Rate \"Terms and Conditions\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1303,7 +1303,7 @@
   {
     "id": "tt-14",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Virginia Woolf vs Joseph Conrad",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1335,7 +1335,7 @@
   {
     "id": "tt-404",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Virginia Woolf vs Chimamanda Ngozi Adichie",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1369,7 +1369,7 @@
   {
     "id": "tt-405",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Virginia Woolf vs William Faulkner",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1403,7 +1403,7 @@
   {
     "id": "tt-406",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Virginia Woolf vs Pierce Brown",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1437,7 +1437,7 @@
   {
     "id": "tt-22",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Oscar Wilde vs Tara Westover",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1469,7 +1469,7 @@
   {
     "id": "tt-407",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Jack Kerouac vs Michelle Obama",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1503,7 +1503,7 @@
   {
     "id": "tt-408",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: William S. Burroughs vs Walt Whitman",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1537,7 +1537,7 @@
   {
     "id": "tt-409",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Hunter S. Thompson vs Jeannette Walls",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1571,7 +1571,7 @@
   {
     "id": "tt-20",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Leigh Bardugo vs Bram Stoker",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1608,7 +1608,7 @@
   {
     "id": "tt-410",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: R.F. Kuang vs Gillian Flynn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1647,7 +1647,7 @@
   {
     "id": "tt-411",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Tahereh Mafi vs Jesmyn Ward",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1686,7 +1686,7 @@
   {
     "id": "tt-412",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Nikolai Gogol vs Rebecca Ross",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1725,7 +1725,7 @@
   {
     "id": "tt-24",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: John Steinbeck vs Yasunari Kawabata",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1757,7 +1757,7 @@
   {
     "id": "tt-413",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: John Steinbeck vs Taylor Jenkins Reid",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1791,7 +1791,7 @@
   {
     "id": "tt-414",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Jonathan Swift vs V.E. Schwab",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1825,7 +1825,7 @@
   {
     "id": "tt-415",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: John Steinbeck vs Madeline Miller",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -1859,7 +1859,7 @@
   {
     "id": "rk-5",
     "type": "question",
-    "title": "Rank these books",
+    "title": "Books: Louise Erdrich, Sarah J. Maas, John Milton, Amor Towles",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -1899,7 +1899,7 @@
   {
     "id": "rating-18",
     "type": "question",
-    "title": "Rate \"The Adventures of Huckleberry Finn\"",
+    "title": "Books: Rate \"The Adventures of Huckleberry Finn\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1919,7 +1919,7 @@
   {
     "id": "rating-9",
     "type": "question",
-    "title": "Rate \"Room\"",
+    "title": "Books: Rate \"Room\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1939,7 +1939,7 @@
   {
     "id": "rating-15",
     "type": "question",
-    "title": "Rate \"Such a Pretty Girl - Laura Wiess\"",
+    "title": "Books: Rate \"Such a Pretty Girl\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1959,7 +1959,7 @@
   {
     "id": "rating-10",
     "type": "question",
-    "title": "Rate \"Water for Elephants - Sara Gruen\"",
+    "title": "Books: Rate \"Water for Elephants\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -1979,7 +1979,7 @@
   {
     "id": "tt-13",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Gabriel García Márquez vs J.K. Rowling",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2011,7 +2011,7 @@
   {
     "id": "tt-417",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Isabel Allende vs John Steinbeck",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2044,7 +2044,7 @@
   {
     "id": "tt-418",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Laura Esquivel vs Philip Pullman",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2078,7 +2078,7 @@
   {
     "id": "tt-15",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Fyodor Dostoevsky vs Liane Moriarty",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2110,7 +2110,7 @@
   {
     "id": "tt-419",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Fyodor Dostoevsky vs Paula Hawkins",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2144,7 +2144,7 @@
   {
     "id": "tt-420",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Sylvia Plath vs Jennifer Niven",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2178,7 +2178,7 @@
   {
     "id": "tt-421",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Leo Tolstoy vs A.J. Finn",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2212,7 +2212,7 @@
   {
     "id": "tt-17",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Kazuo Ishiguro vs Gail Honeyman",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2244,7 +2244,7 @@
   {
     "id": "tt-422",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Anna Burns vs Aldous Huxley",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2278,7 +2278,7 @@
   {
     "id": "tt-423",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Ernest Hemingway vs Taylor Jenkins Reid",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2312,7 +2312,7 @@
   {
     "id": "tt-424",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Ernest Hemingway vs Fredrik Backman",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2346,7 +2346,7 @@
   {
     "id": "tt-25",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Vladimir Nabokov vs Nicholas Sparks",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2378,7 +2378,7 @@
   {
     "id": "tt-425",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Vladimir Nabokov vs Nicholas Sparks",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2412,7 +2412,7 @@
   {
     "id": "tt-426",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Vladimir Nabokov vs Nicola Yoon",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2446,7 +2446,7 @@
   {
     "id": "tt-427",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Vladimir Nabokov vs Audrey Niffenegger",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2480,7 +2480,7 @@
   {
     "id": "rating-7",
     "type": "question",
-    "title": "Rate \"One of Us Is Lying\"",
+    "title": "Books: Rate \"One of Us Is Lying\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2500,7 +2500,7 @@
   {
     "id": "rk-3",
     "type": "question",
-    "title": "Rank these books",
+    "title": "Books: Miguel de Cervantes, Matt Haig, Truman Capote, Emily Henry",
     "required": true,
     "questionType": "ranking",
     "description": "Order from favorite to least favorite.",
@@ -2540,7 +2540,7 @@
   {
     "id": "tt-12",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Herman Melville vs Dan Brown",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2577,7 +2577,7 @@
   {
     "id": "tt-428",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Erin Morgenstern vs Dan Brown",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2615,7 +2615,7 @@
   {
     "id": "tt-429",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Henry David Thoreau vs Stieg Larsson",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2654,7 +2654,7 @@
   {
     "id": "tt-430",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Walt Whitman vs Leo Tolstoy",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2693,7 +2693,7 @@
   {
     "id": "rating-19",
     "type": "question",
-    "title": "Rate \"Pachinko - Min Jin Lee\"",
+    "title": "Books: Rate \"Pachinko\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2713,7 +2713,7 @@
   {
     "id": "tt-10",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Christina Lauren vs Victoria Aveyard",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2745,7 +2745,7 @@
   {
     "id": "tt-431",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: William Faulkner vs Helena Hunting",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2779,7 +2779,7 @@
   {
     "id": "tt-432",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Max Brooks vs Michael Ondaatje",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2813,7 +2813,7 @@
   {
     "id": "tt-433",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Justin Cronin vs Amor Towles",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2847,7 +2847,7 @@
   {
     "id": "rating-12",
     "type": "question",
-    "title": "Rate \"The Picture of Dorian Gray\"",
+    "title": "Books: Rate \"The Picture of Dorian Gray\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2867,7 +2867,7 @@
   {
     "id": "rating-8",
     "type": "question",
-    "title": "Rate \"1984 - George Orwell\"",
+    "title": "Books: Rate \"1984\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",
@@ -2887,7 +2887,7 @@
   {
     "id": "tt-9",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Lauren Roberts vs Ian McEwan",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2919,7 +2919,7 @@
   {
     "id": "tt-434",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Michael Chabon vs Stephanie Garber",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2953,7 +2953,7 @@
   {
     "id": "tt-435",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Jeffrey Eugenides vs Kazuo Ishiguro",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -2987,7 +2987,7 @@
   {
     "id": "tt-436",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Jonathan Franzen vs Emily Henry",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3021,7 +3021,7 @@
   {
     "id": "tt-16",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: James Joyce vs Frank Herbert",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3058,7 +3058,7 @@
   {
     "id": "tt-437",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: James Joyce vs Stephenie Meyer",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3097,7 +3097,7 @@
   {
     "id": "tt-438",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: William Faulkner vs Diana Gabaldon",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3136,7 +3136,7 @@
   {
     "id": "tt-439",
     "type": "question",
-    "title": "Which do you prefer?",
+    "title": "Books: Gustave Flaubert vs Jojo Moyes",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
@@ -3175,7 +3175,7 @@
   {
     "id": "rating-13",
     "type": "question",
-    "title": "Rate \"Effi Briest\"",
+    "title": "Books: Rate \"Effi Briest\"",
     "required": true,
     "questionType": "rating",
     "description": "Rate this book",

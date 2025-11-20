@@ -12,7 +12,13 @@ export default function AdminNavigationCleanup() {
     // Track if we've pushed a history state for the modal
     let modalHistoryPushed = false
 
-    // Watch for modals opening
+    // Helper function to check if a dialog is actually open
+    const isDialogOpen = (dialog: Element): boolean => {
+      if (!(dialog instanceof HTMLDialogElement)) return false
+      return dialog.open || dialog.hasAttribute('open')
+    }
+
+    // Watch for modals opening and closing
     const observer = new MutationObserver(() => {
       const modalContainers = document.querySelectorAll('.payload__modal-container')
 
@@ -20,8 +26,19 @@ export default function AdminNavigationCleanup() {
       modalContainers.forEach((container) => {
         const isActive = container.classList.contains('payload__modal-container--enterDone') ||
                         container.classList.contains('payload__modal-container--appearDone')
+
         if (isActive) {
-          hasActiveModal = true
+          // Check if there are any actually open dialogs inside this container
+          const dialogs = container.querySelectorAll('dialog')
+          const hasOpenDialog = Array.from(dialogs).some(isDialogOpen)
+
+          if (hasOpenDialog) {
+            hasActiveModal = true
+          } else {
+            // No open dialogs but container has active classes - clean it up
+            container.classList.remove('payload__modal-container--enterDone')
+            container.classList.remove('payload__modal-container--appearDone')
+          }
         }
       })
 
@@ -36,12 +53,12 @@ export default function AdminNavigationCleanup() {
       }
     })
 
-    // Observe the body for modal class changes
+    // Observe the body for modal class and dialog state changes
     observer.observe(document.body, {
       childList: true,
       subtree: true,
       attributes: true,
-      attributeFilter: ['class']
+      attributeFilter: ['class', 'open'] // Watch for both modal container classes and dialog open state
     })
 
     // Handle back button

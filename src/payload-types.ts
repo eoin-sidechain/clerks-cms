@@ -349,7 +349,7 @@ export interface Book {
 export interface Step {
   id: number;
   /**
-   * Question text or statement title (auto-generated for rating questions)
+   * Question text or statement title (auto-generated for rating, this or that, and ranking questions)
    */
   title: string;
   /**
@@ -371,7 +371,17 @@ export interface Step {
   /**
    * Type of question
    */
-  questionType?: ('short_text' | 'long_text' | 'multiple_choice' | 'this_or_that' | 'rating' | 'ranking') | null;
+  questionType?:
+    | (
+        | 'short_text'
+        | 'long_text'
+        | 'multiple_choice'
+        | 'this_or_that'
+        | 'this_or_that_with_alternates'
+        | 'rating'
+        | 'ranking'
+      )
+    | null;
   /**
    * Options for multiple choice questions
    */

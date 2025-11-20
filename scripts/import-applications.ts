@@ -139,6 +139,15 @@ async function importSection(
                 const mediaId = mediaResult.docs[0].id
                 const mediaTitle = mediaResult.docs[0].title
 
+                // Map collection to media type label
+                const mediaTypeLabels: { [key: string]: string } = {
+                  art: 'Art',
+                  books: 'Books',
+                  films: 'Films',
+                  albums: 'Albums',
+                }
+                const mediaTypeLabel = mediaTypeLabels[category]
+
                 // Find rating step by ratingItem relationship
                 const stepResult = await payload.find({
                   collection: 'steps',
@@ -151,7 +160,7 @@ async function importSection(
                       },
                       {
                         title: {
-                          equals: `Rate "${mediaTitle}"`,
+                          equals: `${mediaTypeLabel}: Rate "${mediaTitle}"`,
                         },
                       },
                     ],
