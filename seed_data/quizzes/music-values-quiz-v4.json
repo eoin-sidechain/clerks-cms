@@ -539,8 +539,8 @@
           "label": "Voodoo (D'Angelo)",
           "image_url": "/images/music/dangelo-voodoo-2000.jpg",
           "description": "",
-          "cms_slug": "dangelo-voodoo-2000",
-          "cms_image_url": "dangelo-voodoo-2000.jpg"
+          "cms_slug": "voodoo-d-angelo-2000",
+          "cms_image_url": "voodoo-d-angelo-2000.jpg"
         },
         {
           "id": "dont-know",
@@ -2114,7 +2114,7 @@
   {
     "id": "tt-311",
     "type": "question",
-    "title": "Enter the Wu-Tang (36 Chambers) vs The Smiths",
+    "title": "Albums: Enter the Wu-Tang (36 Chambers) vs The Smiths",
     "required": true,
     "questionType": "this_or_that_with_alternates",
     "description": "Choose your favorite - refresh for more options!",
