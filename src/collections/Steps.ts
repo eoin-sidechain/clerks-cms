@@ -21,6 +21,35 @@ export const Steps: CollectionConfig = {
   hooks: {
     beforeChange: [
       async ({ data, req, operation: _operation }) => {
+        // Helper function to extract item ID and collection from polymorphic relationship
+        const extractItemRef = (
+          itemRef: any,
+          mediaType?: string,
+        ): { itemId?: number; collection?: string } => {
+          if (typeof itemRef === 'object' && 'value' in itemRef) {
+            // Polymorphic format: { relationTo, value }
+            return {
+              collection: itemRef.relationTo,
+              itemId:
+                typeof itemRef.value === 'object' ? itemRef.value?.id : itemRef.value,
+            }
+          } else if (typeof itemRef === 'number') {
+            return {
+              itemId: itemRef,
+              collection: mediaType,
+            }
+          }
+          return {}
+        }
+
+        // Helper function to get creator name based on collection type
+        const getCreatorName = (item: any): string => {
+          if (item.artist) return item.artist
+          if (item.author) return item.author
+          if (item.director) return item.director
+          return 'Unknown'
+        }
+
         // Auto-generate title for rating questions
         if (
           data.stepType === 'question' &&
@@ -28,24 +57,8 @@ export const Steps: CollectionConfig = {
           data.ratingItem
         ) {
           try {
-            // Extract the item ID and collection from polymorphic relationship
-            let itemId: number | undefined
-            let collection: string | undefined
+            const { itemId, collection } = extractItemRef(data.ratingItem, data.mediaType)
 
-            if (typeof data.ratingItem === 'object' && 'value' in data.ratingItem) {
-              // Polymorphic format: { relationTo, value }
-              collection = data.ratingItem.relationTo
-              itemId =
-                typeof data.ratingItem.value === 'object'
-                  ? data.ratingItem.value?.id
-                  : data.ratingItem.value
-            } else if (typeof data.ratingItem === 'number') {
-              // Simple number format
-              itemId = data.ratingItem
-              collection = data.mediaType
-            }
-
-            // Fetch the related item to get its title
             if (itemId && collection) {
               const relatedItem = await req.payload.findByID({
                 collection: collection as 'albums' | 'books' | 'films' | 'art',
@@ -58,6 +71,82 @@ export const Steps: CollectionConfig = {
             }
           } catch (error) {
             console.error('Error generating title for rating question:', error)
+          }
+        }
+
+        // Auto-generate title for this_or_that questions
+        if (
+          data.stepType === 'question' &&
+          data.questionType === 'this_or_that' &&
+          data.optionA &&
+          data.optionB
+        ) {
+          try {
+            const { itemId: itemIdA, collection: collectionA } = extractItemRef(
+              data.optionA,
+              data.mediaType,
+            )
+            const { itemId: itemIdB, collection: collectionB } = extractItemRef(
+              data.optionB,
+              data.mediaType,
+            )
+
+            if (itemIdA && collectionA && itemIdB && collectionB) {
+              const [itemA, itemB] = await Promise.all([
+                req.payload.findByID({
+                  collection: collectionA as 'albums' | 'books' | 'films' | 'art',
+                  id: itemIdA,
+                }),
+                req.payload.findByID({
+                  collection: collectionB as 'albums' | 'books' | 'films' | 'art',
+                  id: itemIdB,
+                }),
+              ])
+
+              if (itemA && itemB) {
+                const creatorA = getCreatorName(itemA)
+                const creatorB = getCreatorName(itemB)
+                data.title = `${creatorA} vs ${creatorB}`
+              }
+            }
+          } catch (error) {
+            console.error('Error generating title for this_or_that question:', error)
+          }
+        }
+
+        // Auto-generate title for ranking questions
+        if (
+          data.stepType === 'question' &&
+          data.questionType === 'ranking' &&
+          data.rankingOptions &&
+          Array.isArray(data.rankingOptions) &&
+          data.rankingOptions.length > 0
+        ) {
+          try {
+            const creatorNames: string[] = []
+
+            for (const option of data.rankingOptions) {
+              if (option.item) {
+                const { itemId, collection } = extractItemRef(option.item, data.mediaType)
+
+                if (itemId && collection) {
+                  const item = await req.payload.findByID({
+                    collection: collection as 'albums' | 'books' | 'films' | 'art',
+                    id: itemId,
+                  })
+
+                  if (item) {
+                    creatorNames.push(getCreatorName(item))
+                  }
+                }
+              }
+            }
+
+            if (creatorNames.length > 0) {
+              data.title = creatorNames.join(', ')
+            }
+          } catch (error) {
+            console.error('Error generating title for ranking question:', error)
           }
         }
 
